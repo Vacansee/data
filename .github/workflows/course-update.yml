@@ -1,0 +1,13 @@
+name: "Course Updater"
+on:
+  schedule:
+    - cron: '55 4 * * 0-5'    # Weekdays @ EOD (11:55 PM PST) + Sundays for weekend drops/adds
+
+jobs:
+  get-courses:
+    runs-on: ubuntu-latest
+    steps:
+    - name: wget
+      uses: wei/wget@v1
+      with:
+        args: https://raw.githubusercontent.com/quacs/quacs-data/master/semester_data/202301/courses.json
