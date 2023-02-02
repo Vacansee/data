@@ -7,7 +7,7 @@ roomsToSkip = [
   'Off-Campus',
   'Online',
   'TBA',
-  '',
+  ''
 ]
 
 days = {
@@ -24,7 +24,7 @@ abbrev = {
   'Low Center for Industrial Inn.': 'Low',
   'Voorhees Computing Center': 'VCC',
   'Alumni Sports and Rec Center': 'Armory',
-  'Amos Eaton Hall': 'Amos Eaton',
+  'Amos Eaton Hall': 'Amos_Eaton',
   'Greene Building': 'Greene',
   'Carnegie Building': 'Carnegie',
   'Pittsburgh Building': 'Pittsburgh',
@@ -42,7 +42,7 @@ abbrev = {
   'West Hall': 'West',
   'Nuclear Eng. And Sci. Bldg': 'NES',
   'Biotechnology and Interdis Bld': 'CBIS',
-  'Materials Research Center': 'MRC',
+  'Materials Research Center': 'MRC'
 }
 
 with open("in.json", "r") as f:
