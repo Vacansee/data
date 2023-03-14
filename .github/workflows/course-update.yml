@@ -8,7 +8,10 @@ jobs:
   course-updater:
     runs-on: ubuntu-latest
     steps:
-    - name: "Fetch courses.json"
+    - name: Clone repo
+      uses: actions/checkout@v3
+      
+    - name: Fetch courses.json
       uses: wei/wget@v1
       with:
         args: https://raw.githubusercontent.com/quacs/quacs-data/master/semester_data/202301/courses.json
@@ -16,8 +19,7 @@ jobs:
     - name: "Setup Python"
       uses: actions/setup-python@v4
       with:
-        python-version: "3.x" 
-    - run: python convert.py
+        python-version: "3.x"
     - run: |
         dir
         mv courses.json in.json
