@@ -4,10 +4,22 @@ on:
     - cron: '55 4 * * 0-5'    # Weekdays @ EOD (11:55 PM PST) + Sundays for weekend drops/adds
 
 jobs:
-  get-courses:
+  course-updater:
     runs-on: ubuntu-latest
     steps:
-    - name: wget
+    - name: "Fetch courses.json"
       uses: wei/wget@v1
       with:
         args: https://raw.githubusercontent.com/quacs/quacs-data/master/semester_data/202301/courses.json
+        
+    - name: "Setup Python"
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x" 
+    - run: python convert.py
+    - run: |
+        dir
+        mv courses.json in.json
+        dir
+        python convert.py
+        dir
