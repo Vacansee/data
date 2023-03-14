@@ -1,5 +1,6 @@
 name: "Course Updater"
 on:
+  workflow_dispatch:
   schedule:
     - cron: '55 4 * * 0-5'    # Weekdays @ EOD (11:55 PM PST) + Sundays for weekend drops/adds
 
