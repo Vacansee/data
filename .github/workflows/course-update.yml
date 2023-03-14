@@ -1,4 +1,4 @@
-name: "Course Updater"
+name: Update rooms.json
 on:
   workflow_dispatch:
   schedule:
@@ -10,19 +10,27 @@ jobs:
     steps:
     - name: Clone repo
       uses: actions/checkout@v3
-      
-    - name: Fetch courses.json
-      uses: wei/wget@v1
-      with:
-        args: https://raw.githubusercontent.com/quacs/quacs-data/master/semester_data/202301/courses.json
-        
-    - name: "Setup Python"
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.x"
     - run: |
         dir
-        mv courses.json in.json
-        dir
-        python convert.py
-        dir
+        
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+        cache-dependency-path: modules.txt
+    - run: pip install -r modules.txt
+
+    - name: Run convert.py
+      run: |
+        python convert.py && dir
+        rm courses.json && dir
+
+    - name: Push updates
+      run: |
+        git add -A
+        git config user.name "Vacansee"
+        git config user.email "rpi.vacansee@gmail.com"
+        git commit -m "Updated on $(TZ=EST5EDT date)"
+        git push origin main
+      env:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

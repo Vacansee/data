@@ -1,4 +1,5 @@
 from collections import defaultdict
+from requests import get
 import json
 
 input = None
@@ -45,7 +46,19 @@ abbrev = {
   'Materials Research Center': 'MRC'
 }
 
-with open("in.json", "r") as f:
+URL = "https://api.github.com/repos/quacs/quacs-data/contents/semester_data"
+
+data = get(URL).json()
+recent = data[-1]["url"]
+content = get(recent).json()
+
+courses = get(content[1]["download_url"]).json()
+
+with open('courses.json', 'w') as file:
+    json.dump(courses, file)
+
+
+with open("courses.json", "r") as f:
   input = json.load(f)
   # print(input)
 
@@ -76,5 +89,5 @@ for building, rooms in data.items():
   for room, times in rooms.items():
     data[building][room] = dict(sorted(times.items(), key=lambda x: x[0]))
 
-with open("out.json", "w") as output:
+with open("rooms.json", "w") as output:
   json.dump(data, output)
