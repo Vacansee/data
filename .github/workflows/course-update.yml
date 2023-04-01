@@ -10,8 +10,7 @@ jobs:
     steps:
     - name: Clone repo
       uses: actions/checkout@v3
-    - run: |
-        dir
+    - run: dir
         
     - name: Setup Python
       uses: actions/setup-python@v4
@@ -22,7 +21,7 @@ jobs:
 
     - name: Run convert.py
       run: |
-        python convert.py && dir
+        python convert.py
         rm courses.json && dir
 
     - name: Push updates
