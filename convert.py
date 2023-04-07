@@ -33,21 +33,22 @@ abbrev = {
   'Ricketts Building': 'Ricketts',
   'Troy Building': 'Troy',
   'Lally Hall': 'Lally',
-  'Gurley Building': 'Gurley',
-  'Peoples Ave Complex J': 'J Complex',
+  # 'Gurley Building': 'Gurley',
+  # 'Peoples Ave Complex J': 'J_Complex',
   'Jonsson Engineering Center': 'JEC',
   'Walker Laboratory': 'Walker',
   'Jonsson-Rowland Science Center': 'JROWL',
   'Folsom Library': 'Folsom',
   'Cogswell Laboratory': 'Cogswell',
   'West Hall': 'West',
-  'Nuclear Eng. And Sci. Bldg': 'NES',
+  # 'Nuclear Eng. And Sci. Bldg': 'NES',
   'Biotechnology and Interdis Bld': 'CBIS',
   'Materials Research Center': 'MRC'
 }
 
 URL = "https://api.github.com/repos/quacs/quacs-data/contents/semester_data"
 
+# Get the most recent courses.json from QuACS:
 data = get(URL).json()
 recent = data[-1]["url"]
 content = get(recent).json()
@@ -62,32 +63,47 @@ with open("courses.json", "r") as f:
   input = json.load(f)
   # print(input)
 
+
+# nested dicts; automatically create dicts when accessed
 data = defaultdict(lambda: defaultdict(dict)) 
 
+# courses.json is sorted by dept > course > sec > time block
+# build data (to be rooms.json) sorted by building > room > class
 for dept in input:
   for course in dept['courses']:
     for sec in course['sections']:
       for block in sec['timeslots']:
-        r_name = block['location']
+        roomName = block['location'] # room name
         act, cap = sec['act'], sec['cap']
-        size = act if act > cap else cap
-        if size and r_name not in roomsToSkip and r_name[-1].isnumeric():
-          for day in block['days']:
-            # time = (days[day], block['timeStart'], block['timeEnd'])
+        size = act if act > cap else cap # class size estimate
+        if size and roomName not in roomsToSkip and roomName[-1].isnumeric():
+          for day in block['days']: # for every day its held, make new room instance:
             time = f"{days[day]}: {block['timeStart']:04}-{block['timeEnd']:04}"
             stats = [sec['title'], size]
 
-            b_name, r_num = r_name.rsplit(' ', 1)
+            bldgName, roomNum = roomName.rsplit(' ', 1)
 
-            room = data[abbrev[b_name]][r_num]
+            room = data[abbrev[bldgName]][roomNum] # shorthand
+            # key = room time, value = room stats
             if time not in room:
               room[time] = stats
-            else: room[time][-1] += stats[-1]
+            # sum of class sizes for concurrent time blocks
+            else: room[time][1] += stats[1]
 
 
+# 1. Sort rooms by their day and time
+# 2. count room and building capacities
 for building, rooms in data.items():
+  bldgMax = 0
   for room, times in rooms.items():
     data[building][room] = dict(sorted(times.items(), key=lambda x: x[0]))
+    roomMax = 0
+    for stats in data[building][room].values(): 
+      if roomMax < stats[1]: roomMax = stats[1]
+    data[building][room]["meta"] = { "max": roomMax }
+    bldgMax += roomMax
+  data[building]["meta"] = { "max": bldgMax }
+
 
 with open("rooms.json", "w") as output:
   json.dump(data, output)
