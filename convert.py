@@ -2,7 +2,7 @@ from collections import defaultdict
 from requests import get
 import json
 
-input = None
+input = access = printers = None
 
 roomsToSkip = [
   'Off-Campus',
@@ -52,17 +52,10 @@ URL = "https://api.github.com/repos/quacs/quacs-data/contents/semester_data"
 data = get(URL).json()
 recent = data[-1]["url"]
 content = get(recent).json()
-
 courses = get(content[1]["download_url"]).json()
 
-with open('courses.json', 'w') as file:
-    json.dump(courses, file)
-
-
-with open("courses.json", "r") as f:
-  input = json.load(f)
-  # print(input)
-
+with open('courses.json', 'w') as file: json.dump(courses, file)
+with open("courses.json", "r") as f: input = json.load(f)
 
 # nested dicts; automatically create dicts when accessed
 data = defaultdict(lambda: defaultdict(dict)) 
@@ -90,9 +83,11 @@ for dept in input:
             # sum of class sizes for concurrent time blocks
             else: room[time][1] += stats[1]
 
+with open("access.json", "r") as f: access = json.load(f)
+with open("printers.json", "r") as f: printers = json.load(f)
 
-# 1. Sort rooms by their day and time
-# 2. count room and building capacities
+# sort rooms by their day and time
+# meta: room/building capacities, printers, & access times
 for building, rooms in data.items():
   bldgMax = 0
   for room, times in rooms.items():
@@ -102,8 +97,11 @@ for building, rooms in data.items():
       if roomMax < stats[1]: roomMax = stats[1]
     data[building][room]["meta"] = { "max": roomMax }
     bldgMax += roomMax
+    if building in printers and room in printers[building]:
+      data[building][room]["meta"]["printers"] = printers[building]
   data[building]["meta"] = { "max": bldgMax }
+  if building not in access:
+    data[building]["meta"]["access"] = access["default"]
+  else: data[building]["meta"]["access"] = access[building]
 
-
-with open("rooms.json", "w") as output:
-  json.dump(data, output)
+with open("rooms.json", "w") as output: json.dump(data, output)
