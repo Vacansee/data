@@ -46,6 +46,8 @@ abbrev = {
   'Materials Research Center': 'MRC'
 }
 
+expanded = {v: k for k, v in abbrev.items()}
+
 URL = "https://api.github.com/repos/quacs/quacs-data/contents/semester_data"
 
 # Get the most recent courses.json from QuACS:
@@ -75,13 +77,12 @@ for dept in input:
             stats = [sec['title'], size]
 
             bldgName, roomNum = roomName.rsplit(' ', 1)
-
             room = data[abbrev[bldgName]][roomNum] # shorthand
-            # key = room time, value = room stats
-            if time not in room:
-              room[time] = stats
-            # sum of class sizes for concurrent time blocks
-            else: room[time][1] += stats[1]
+            # key = room time; value = room stats
+            if time not in room: room[time] = stats
+            elif room[time][0] == sec['title']: # avoid test block overlap
+              # sum of class sizes for concurrent time blocks
+              room[time][1] += size
 
 with open("access.json", "r") as f: access = json.load(f)
 with open("printers.json", "r") as f: printers = json.load(f)
@@ -98,10 +99,11 @@ for building, rooms in data.items():
     data[building][room]["meta"] = { "max": roomMax }
     bldgMax += roomMax
     if building in printers and room in printers[building]:
-      data[building][room]["meta"]["printers"] = printers[building]
+      data[building][room]["meta"]["printers"] = printers[building][room]
   data[building]["meta"] = { "max": bldgMax }
   if building not in access:
     data[building]["meta"]["access"] = access["default"]
   else: data[building]["meta"]["access"] = access[building]
+  data[building]["meta"]["name"] = expanded[building]
 
 with open("rooms.json", "w") as output: json.dump(data, output)
