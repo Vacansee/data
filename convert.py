@@ -1,4 +1,5 @@
 from collections import defaultdict
+from datetime import date
 from requests import get
 import json
 
@@ -9,6 +10,12 @@ roomsToSkip = [
   'Online',
   'TBA',
   ''
+]
+
+bldgsToSkip = [
+  'Gurley Building',
+  'Peoples Ave Complex J',
+  'Nuclear Eng. And Sci. Bldg'
 ]
 
 days = {
@@ -33,15 +40,12 @@ abbrev = {
   'Ricketts Building': 'Ricketts',
   'Troy Building': 'Troy',
   'Lally Hall': 'Lally',
-  # 'Gurley Building': 'Gurley',
-  # 'Peoples Ave Complex J': 'J_Complex',
   'Jonsson Engineering Center': 'JEC',
   'Walker Laboratory': 'Walker',
   'Jonsson-Rowland Science Center': 'JROWL',
   'Folsom Library': 'Folsom',
   'Cogswell Laboratory': 'Cogswell',
   'West Hall': 'West',
-  # 'Nuclear Eng. And Sci. Bldg': 'NES',
   'Biotechnology and Interdis Bld': 'CBIS',
   'Materials Research Center': 'MRC'
 }
@@ -51,9 +55,17 @@ expanded = {v: k for k, v in abbrev.items()}
 URL = "https://api.github.com/repos/quacs/quacs-data/contents/semester_data"
 
 # Get the most recent courses.json from QuACS:
+month = date.today().month; year = date.today().year
 data = get(URL).json()
-recent = data[-1]["url"]
-content = get(recent).json()
+curSem = data[-1]["url"]
+# Pick current sem from what's already been recorded this year
+for sem in reversed(data[-4:]):
+  if int(sem['name'][:4]) == year:
+    if int(sem['name'][-2:]) <= month: #TODO: precise sem cutoffs
+      curSem = sem["url"]
+      break
+
+content = get(curSem).json()
 courses = get(content[1]["download_url"]).json()
 
 with open('courses.json', 'w') as file: json.dump(courses, file)
@@ -77,12 +89,13 @@ for dept in input:
             stats = [sec['title'], size]
 
             bldgName, roomNum = roomName.rsplit(' ', 1)
-            room = data[abbrev[bldgName]][roomNum] # shorthand
-            # key = room time; value = room stats
-            if time not in room: room[time] = stats
-            elif room[time][0] == sec['title']: # avoid test block overlap
-              # sum of class sizes for concurrent time blocks
-              room[time][1] += size
+            if bldgName not in bldgsToSkip:
+              room = data[abbrev[bldgName]][roomNum] # shorthand
+              # key = room time; value = room stats
+              if time not in room: room[time] = stats
+              elif room[time][0] == sec['title']: # avoid test block overlap
+                # sum of class sizes for concurrent time blocks
+                room[time][1] += size
 
 with open("access.json", "r") as f: access = json.load(f)
 with open("printers.json", "r") as f: printers = json.load(f)
