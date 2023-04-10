@@ -26,6 +26,10 @@ days = {
   'F': 5
 }
 
+corrections = {
+  'Rcos == 1 Credit' : 'RCOS'
+}
+
 abbrev = {
   'Darrin Communications Center': 'DCC',
   'Academy Hall': 'Academy',
@@ -85,15 +89,17 @@ for dept in input:
         size = act if act > cap else cap # class size estimate
         if size and roomName not in roomsToSkip and roomName[-1].isnumeric():
           for day in block['days']: # for every day its held, make new room instance:
-            time = f"{days[day]}: {block['timeStart']:04}-{block['timeEnd']:04}"
-            stats = [sec['title'], size]
+            time = f"{days[day]}{block['timeStart']:04}-{days[day]}{block['timeEnd']:04}"
+            title = sec['title']
+            if title in corrections: title = corrections[title]
+            stats = [title, size]
 
             bldgName, roomNum = roomName.rsplit(' ', 1)
             if bldgName not in bldgsToSkip:
               room = data[abbrev[bldgName]][roomNum] # shorthand
               # key = room time; value = room stats
               if time not in room: room[time] = stats
-              elif room[time][0] == sec['title']: # avoid test block overlap
+              elif room[time][0] == title: # avoid test block overlap
                 # sum of class sizes for concurrent time blocks
                 room[time][1] += size
 
