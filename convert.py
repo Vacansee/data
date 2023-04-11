@@ -89,7 +89,7 @@ for dept in input:
         size = act if act > cap else cap # class size estimate
         if size and roomName not in roomsToSkip and roomName[-1].isnumeric():
           for day in block['days']: # for every day its held, make new room instance:
-            time = f"{days[day]}{block['timeStart']:04}-{days[day]}{block['timeEnd']:04}"
+            time = f"{days[day]}:{block['timeStart']:04}-{days[day]}:{block['timeEnd']:04}"
             title = sec['title']
             if title in corrections: title = corrections[title]
             stats = [title, size]
