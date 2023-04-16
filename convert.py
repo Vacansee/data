@@ -1,4 +1,5 @@
 from collections import defaultdict
+from math import inf as inf
 from datetime import date
 from requests import get
 import json
@@ -109,8 +110,13 @@ with open("printers.json", "r") as f: printers = json.load(f)
 # sort rooms by their day and time
 # meta: room/building capacities, printers, & access times
 for building, rooms in data.items():
-  bldgMax = 0
+  bldgMax = f = 0
+  floors = [inf, -inf]
   for room, times in rooms.items():
+    if room[0].isdecimal():
+      f = int(room[0]) # room "[3]08"
+      if f < floors[0]: floors[0] = f
+      if f > floors[1]: floors[1] = f
     data[building][room] = dict(sorted(times.items(), key=lambda x: x[0]))
     roomMax = 0
     for stats in data[building][room].values(): 
@@ -124,5 +130,7 @@ for building, rooms in data.items():
     data[building]["meta"]["access"] = access["default"]
   else: data[building]["meta"]["access"] = access[building]
   data[building]["meta"]["name"] = expanded[building]
+  if building in access["entry"]: floors.append(access["entry"][building])
+  data[building]["meta"]["floors"] = floors
 
 with open("rooms.json", "w") as output: json.dump(data, output)
