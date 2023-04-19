@@ -83,6 +83,8 @@ data = defaultdict(lambda: defaultdict(dict))
 # build data (to be rooms.json) sorted by building > room > class
 for dept in input:
   for course in dept['courses']:
+    numSecs = len(course['sections'])
+    hasSecs = True if numSecs > 1 else False
     for sec in course['sections']:
       for block in sec['timeslots']:
         roomName = block['location'] # room name
@@ -91,9 +93,9 @@ for dept in input:
         if size and roomName not in roomsToSkip and roomName[-1].isnumeric():
           for day in block['days']: # for every day its held, make new room instance:
             time = f"{days[day]}:{block['timeStart']:04}-{days[day]}:{block['timeEnd']:04}"
-            title = sec['title']
+            title, secNum = sec['title'], sec['sec']
             if title in corrections: title = corrections[title]
-            stats = [title, size]
+            stats = [title, size, []]
 
             bldgName, roomNum = roomName.rsplit(' ', 1)
             if bldgName not in bldgsToSkip:
@@ -103,6 +105,8 @@ for dept in input:
               elif room[time][0] == title: # avoid test block overlap
                 # sum of class sizes for concurrent time blocks
                 room[time][1] += size
+              # Adding sections... beware duplicates and crosslisted!
+              if hasSecs and secNum not in room[time][2]: room[time][2].append(secNum) 
 
 with open("access.json", "r") as f: access = json.load(f)
 with open("printers.json", "r") as f: printers = json.load(f)
