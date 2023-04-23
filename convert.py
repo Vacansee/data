@@ -3,6 +3,7 @@ from math import inf as inf
 from datetime import date
 from requests import get
 import json
+import sys
 
 input = access = printers = None
 
@@ -62,19 +63,22 @@ URL = "https://api.github.com/repos/quacs/quacs-data/contents/semester_data"
 # Get the most recent courses.json from QuACS:
 month = date.today().month; year = date.today().year
 data = get(URL).json()
-curSem = data[-1]["url"]
+if "message" in data:
+  if "API rate limit exceeded" in data['message']:
+    sys.exit("API rate limit exceeded!")
+curSem = data[-1]['url']
 # Pick current sem from what's already been recorded this year
 for sem in reversed(data[-4:]):
   if int(sem['name'][:4]) == year:
     if int(sem['name'][-2:]) <= month: #TODO: precise sem cutoffs
-      curSem = sem["url"]
+      curSem = sem['url']
       break
 
 content = get(curSem).json()
-courses = get(content[1]["download_url"]).json()
+courses = get(content[1]['download_url']).json()
 
-with open('courses.json', 'w') as file: json.dump(courses, file)
-with open("courses.json", "r") as f: input = json.load(f)
+with open("courses.json", 'w') as file: json.dump(courses, file)
+with open("courses.json", 'r') as f: input = json.load(f)
 
 # nested dicts; automatically create dicts when accessed
 data = defaultdict(lambda: defaultdict(dict)) 
@@ -108,8 +112,8 @@ for dept in input:
               # Adding sections... beware duplicates and crosslisted!
               if hasSecs and secNum not in room[time][2]: room[time][2].append(secNum) 
 
-with open("access.json", "r") as f: access = json.load(f)
-with open("printers.json", "r") as f: printers = json.load(f)
+with open("access.json", 'r') as f: access = json.load(f)
+with open("printers.json", 'r') as f: printers = json.load(f)
 
 # sort rooms by their day and time
 # meta: room/building capacities, printers, & access times
@@ -125,16 +129,17 @@ for building, rooms in data.items():
     roomMax = 0
     for stats in data[building][room].values(): 
       if roomMax < stats[1]: roomMax = stats[1]
-    data[building][room]["meta"] = { "max": roomMax }
+    data[building][room]['meta'] = { 'max': roomMax }
     bldgMax += roomMax
     if building in printers and room in printers[building]:
-      data[building][room]["meta"]["printers"] = printers[building][room]
-  data[building]["meta"] = { "max": bldgMax }
-  if building not in access:
-    data[building]["meta"]["access"] = access["default"]
-  else: data[building]["meta"]["access"] = access[building]
-  data[building]["meta"]["name"] = expanded[building]
-  if building in access["entry"]: floors.append(access["entry"][building])
-  data[building]["meta"]["floors"] = floors
+      data[building][room]['meta']['printers'] = printers[building][room]
+  data[building]['meta'] = { 'max': bldgMax }
+  if building not in access['times']:
+    data[building]['meta']['access'] = access['times']['default']
+  else: data[building]['meta']['access'] = access['times'][building]
+  data[building]['meta']['name'] = expanded[building]
+  if building in access['entry']: floors.append(access['entry'][building])
+  else: floors.append(access['entry']['default'])
+  data[building]['meta']['floors'] = floors
 
-with open("rooms.json", "w") as output: json.dump(data, output)
+with open("rooms.json", 'w') as output: json.dump(data, output)
