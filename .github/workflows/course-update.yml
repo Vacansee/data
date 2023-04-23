@@ -1,9 +1,8 @@
 name: Update rooms.json
 on:
   push:
-    paths:
-      - 'convert.py'
-      - '.github/workflows/course-update.yml'
+    paths-ignore:
+      - 'rooms.json'
   schedule:
     - cron: '55 4 * * 0-5'    # Weekdays @ EOD (11:55 PM PST) + Sundays for weekend drops/adds
   workflow_dispatch:
