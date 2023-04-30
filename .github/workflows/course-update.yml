@@ -30,9 +30,13 @@ jobs:
     - name: Push updates
       run: |
         git add -A
-        git config user.name "Vacansee"
-        git config user.email "rpi.vacansee@gmail.com"
-        git commit -m "Updated on $(TZ=EST5EDT date)"
-        git push origin main
+        if [ -n "$(git status --porcelain)" ]; then
+          git config user.name "Vacansee"
+          git config user.email "rpi.vacansee@gmail.com"
+          git commit -m "Updated on $(TZ=EST5EDT date)"
+          git push origin main
+        else
+          echo "No changes to commit"
+        fi
       env:
         github_token: ${{ secrets.GITHUB_TOKEN }}
