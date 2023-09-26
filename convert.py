@@ -53,7 +53,8 @@ abbrev = {
   'Cogswell Laboratory': 'Cogswell',
   'West Hall': 'West',
   'Biotechnology and Interdis Bld': 'CBIS',
-  'Materials Research Center': 'MRC'
+  'Materials Research Center': 'MRC',
+  'Winslow Building': 'Winslow'
 }
 
 expanded = {v: k for k, v in abbrev.items()}
@@ -73,7 +74,7 @@ for sem in reversed(data[-4:]):
     if int(sem['name'][-2:]) <= month: #TODO: precise sem cutoffs
       curSem = sem['url']
       break
-
+print(curSem)
 content = get(curSem).json()
 courses = get(content[1]['download_url']).json()
 
