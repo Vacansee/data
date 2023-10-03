@@ -116,6 +116,18 @@ for dept in input:
 with open("access.json", 'r') as f: access = json.load(f)
 with open("printers.json", 'r') as f: printers = json.load(f)
 
+#{CRN: [{Building: .., Time:.., RoomNum:..},{Building: .., Time:.., RoomNum:..}]}
+crnlist = {}
+for dept in input:
+  for course in dept['courses']:
+    numSecs = len(course['sections'])
+    hasSecs = True if numSecs > 1 else False
+    for sec in course['sections']:
+      print(sec)
+      crnlist[sec['crn']] = sec['timeslots']
+print(crnlist)
+with open("crnlist.json", 'w') as file: json.dump(crnlist, file)
+
 # sort rooms by their day and time
 # meta: room/building capacities, printers, & access times
 for building, rooms in data.items():
