@@ -78,7 +78,7 @@ print(curSem)
 content = get(curSem).json()
 courses = get(content[1]['download_url']).json()
 
-with open("courses.json", 'w') as file: json.dump(courses, file)
+with open("courses.json", 'w') as file: json.dump(courses, file, indent=4)
 with open("courses.json", 'r') as f: input = json.load(f)
 
 # nested dicts; automatically create dicts when accessed
@@ -126,7 +126,7 @@ for dept in input:
       print(sec)
       crnlist[sec['crn']] = sec['timeslots']
 print(crnlist)
-with open("crnlist.json", 'w') as file: json.dump(crnlist, file)
+with open("crnlist.json", 'w') as file: json.dump(crnlist, file, indent=4)
 
 # sort rooms by their day and time
 # meta: room/building capacities, printers, & access times
