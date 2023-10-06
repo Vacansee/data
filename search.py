@@ -1,6 +1,6 @@
 import json
 
-with open("crnlist.json", 'r') as file: crndict = json.load(file)
+with open("deptcodesectlist.json", 'r') as file: coursesdict = json.load(file)
 
-print(crndict)
-
+def crnfromDepCodeSection(code, digit, section):
+    return coursesdict[code][digit][section]

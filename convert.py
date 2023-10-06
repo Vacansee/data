@@ -138,6 +138,22 @@ for dept in input:
 print(crnlist)
 with open("crnlist.json", 'w') as file: json.dump(crnlist, file, indent=4)
 
+#{CRN: [{Building: .., Time:.., RoomNum:..},{Building: .., Time:.., RoomNum:..}]}
+deptcodesectlist = {}
+for dept in input:
+  deptcode = dept['code']
+  deptcodesectlist[deptcode] = {}
+  for course in dept['courses']:
+    coursecode = course['crse']
+    numSecs = len(course['sections'])
+    deptcodesectlist[deptcode][coursecode] = {}
+    for section in course['sections']:
+      sectioncode = section['sec']
+      crn = section['crn']
+      deptcodesectlist[deptcode][coursecode][sectioncode] = crn
+
+with open("deptcodesectlist.json", 'w') as file: json.dump(deptcodesectlist, file, indent=4)
+
 # sort rooms by their day and time
 # meta: room/building capacities, printers, & access times
 for building, rooms in data.items():
