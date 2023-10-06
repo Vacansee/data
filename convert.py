@@ -86,11 +86,18 @@ data = defaultdict(lambda: defaultdict(dict))
 
 # courses.json is sorted by dept > course > sec > time block
 # build data (to be rooms.json) sorted by building > room > class
+
+#crnlist.json:
+#{CRN: [{Building: .., Time:.., RoomNum:..},{Building: .., Time:.., RoomNum:..}]}
+crnlist = {}
+crnToTitleList = {}
 for dept in input:
   for course in dept['courses']:
     numSecs = len(course['sections'])
     hasSecs = True if numSecs > 1 else False
     for sec in course['sections']:
+      crnlist[sec['crn']] = sec['timeslots']
+      crnToTitleList[sec['crn']] = sec['title']
       for block in sec['timeslots']:
         roomName = block['location'] # room name
         act, cap = sec['act'], sec['cap']
@@ -112,6 +119,9 @@ for dept in input:
                 room[time][1] += size
               # Adding sections... beware duplicates and crosslisted!
               if hasSecs and secNum not in room[time][2]: room[time][2].append(secNum) 
+
+with open("crnlist.json", 'w') as file: json.dump(crnlist, file)
+with open("crntotitle.json", 'w') as file: json.dump(crnToTitleList, file)
 
 with open("access.json", 'r') as f: access = json.load(f)
 with open("printers.json", 'r') as f: printers = json.load(f)
