@@ -34,9 +34,10 @@ jobs:
           git config user.name "Vacansee"
           git config user.email "rpi.vacansee@gmail.com"
           git commit -m "Updated on $(TZ=EST5EDT date)"
-          git push origin main
+          git push origin $branch
         else
           echo "No changes to commit"
         fi
       env:
+        branch: ${{ github.ref_name }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
