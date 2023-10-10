@@ -120,23 +120,11 @@ for dept in input:
               # Adding sections... beware duplicates and crosslisted!
               if hasSecs and secNum not in room[time][2]: room[time][2].append(secNum) 
 
-with open("crnlist.json", 'w') as file: json.dump(crnlist, file)
-with open("crntotitle.json", 'w') as file: json.dump(crnToTitleList, file)
+with open("crnlist.json", 'w') as file: json.dump(crnlist, file, indent = 4)
+with open("crntotitle.json", 'w') as file: json.dump(crnToTitleList, file, indent = 4)
 
 with open("access.json", 'r') as f: access = json.load(f)
 with open("printers.json", 'r') as f: printers = json.load(f)
-
-#{CRN: [{Building: .., Time:.., RoomNum:..},{Building: .., Time:.., RoomNum:..}]}
-crnlist = {}
-for dept in input:
-  for course in dept['courses']:
-    numSecs = len(course['sections'])
-    hasSecs = True if numSecs > 1 else False
-    for sec in course['sections']:
-      print(sec)
-      crnlist[sec['crn']] = sec['timeslots']
-print(crnlist)
-with open("crnlist.json", 'w') as file: json.dump(crnlist, file, indent=4)
 
 #{CRN: [{Building: .., Time:.., RoomNum:..},{Building: .., Time:.., RoomNum:..}]}
 deptcodesectlist = {}
@@ -181,4 +169,4 @@ for building, rooms in data.items():
   else: floors.append(access['entry']['default'])
   data[building]['meta']['floors'] = floors
 
-with open("rooms.json", 'w') as output: json.dump(data, output)
+with open("rooms.json", 'w') as output: json.dump(data, output, indent = 4)
