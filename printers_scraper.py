@@ -8,6 +8,8 @@ import time
 import platform
 from selenium.webdriver.chrome.service import Service
 
+import json
+
 url = 'https://itssc.rpi.edu/hc/en-us/articles/360005151451-RCS-Public-Printers-Sorted-by-Location'
 
 # a = requests.get(url)
@@ -57,18 +59,40 @@ contents = contents.split('</tr>')
 
 printerdict = dict()
 
-for i in range(1, len(contents)):
+for i in range(1, len(contents)-1):
+    print(i)
     print(contents[i])
+    
+    color = False
+    duplex = False
+    
     printer_info = contents[i].split('</td>')
     building = printer_info[0].split('<td>')[-1]
     room = printer_info[1].split('<td>')[-1]
+    if printer_info[3].split('<td>')[-1] != '&nbsp;':
+        color = True
     printer_id = printer_info[2].split('<td>')[-1]
     paper_type = printer_info[4].split('<td>')[-1]
+    if printer_info[5].split('<td>')[-1] != '&nbsp;':
+        duplex = True
     dpi = printer_info[6].split('<td>')[-1]
     
     
+    if building not in printerdict:
+        printerdict[building] = dict()
+        
+    if room not in printerdict[building]:
+        printerdict[building][room] = dict()
+        
+    printerdict[building][room][printer_id] = dict()
     
+    printerdict[building][room][printer_id]['paper_type'] = paper_type
+    printerdict[building][room][printer_id]['dpi'] = dpi
+    printerdict[building][room][printer_id]['color'] = color
+    printerdict[building][room][printer_id]['duplex'] = duplex
+
     
-    
+with open('newprinters.json', 'w') as convert_file:
+     convert_file.write(json.dumps(printerdict, indent=4))
 
 driver.quit()

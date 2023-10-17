@@ -1,0 +1,704 @@
+{
+    "Amos Eaton": {
+        "215": {
+            "ae215lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "216": {
+            "ae216lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "BARH": {
+        "1A09": {
+            "bh1A09lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Barton": {
+        "next to 3120": {
+            "balw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Blitman": {
+        "1327": {
+            "bllw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Bray": {
+        "3rd fl<br>study rm": {
+            "brlw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Cary": {
+        "3rd fl<br>study rm": {
+            "cylw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "CII": {
+        "3112": {
+            "ci3112lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "3116": {
+            "ci3116lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "3130": {
+            "ci3130lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            },
+            "ci3130p3": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "300 DPI",
+                "color": true,
+                "duplex": false
+            }
+        },
+        "4034": {
+            "ci4034lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "City Station South": {
+        "2nd fl lounge": {
+            "css2flw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": true
+            }
+        }
+    },
+    "City Station West": {
+        "2nd fl lounge": {
+            "csw2flw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": true
+            }
+        }
+    },
+    "Colonie B": {
+        "Room 106": {
+            "clb106lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Colvin": {
+        "Laundry Room": {
+            "clv1flw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Crockett": {
+        "3rd fl<br>study rm": {
+            "crlw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Davison": {
+        "2nd fl lounge": {
+            "dalw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "East Campus Athletics": {
+        "Main lobby": {
+            "ecawdlw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "East Campus Community Center": {
+        "Classroom": {
+            "eccomlw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Greene": {
+        "306": {
+            "gr306lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            },
+            "gr306cb": {
+                "paper_type": "11\u2033\u00d717\u2033",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": true
+            },
+            "gr306cbg": {
+                "paper_type": "11\u2033\u00d717\u2033 glossy",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": true
+            },
+            "gr306cl": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": true
+            }
+        }
+    },
+    "Hall": {
+        "3rd fl<br>study rm": {
+            "halw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Hunt I": {
+        "1st fl lounge": {
+            "hu1lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "JEC": {
+        "3207": {
+            "ec3207lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "3232": {
+            "ec3232lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "3302": {
+            "ec3f1lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "4201": {
+            "ec4201l1": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            },
+            "ec4201l2": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            },
+            "ec4201l3": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Lally": {
+        "102": {
+            "la102lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "104": {
+            "la104lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Library": {
+        "1st Floor": {
+            "li1f1lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "2nd Floor": {
+            "li2f1lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            },
+            "li2f2p3": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "300 DPI",
+                "color": true,
+                "duplex": false
+            }
+        },
+        "3rd Floor": {
+            "li3f1lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "4th Floor": {
+            "li4f1lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Nason": {
+        "3rd fl<br>study rm": {
+            "nalw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "North": {
+        "1st fl": {
+            "nrlw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": true
+            }
+        }
+    },
+    "Nugent": {
+        "2nd fl lounge": {
+            "nulw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Off Campus Commons": {
+        "1005": {
+            "occ1005lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Pittsburgh": {
+        "1002": {
+            "pi1002lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            },
+            "pi1002p3": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "300 DPI",
+                "color": true,
+                "duplex": false
+            }
+        },
+        "4114": {
+            "pi4114lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "4206": {
+            "pi4206lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Polytech Apartments": {
+        "101 (Media Room)": {
+            "ptlw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Ricketts": {
+        "120": {
+            "ri120lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Sage": {
+        "2nd fl<br>hallway": {
+            "sa2f1lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "2704": {
+            "sa2704lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "2715": {
+            "sa2715lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "3101": {
+            "sa3101lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "4702": {
+            "sa4f1lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "5702": {
+            "sa5f1lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Science Center": {
+        "2C25": {
+            "sc2c25lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Sharp": {
+        "1st fl lounge": {
+            "shlw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Student Union": {
+        "Second floor, open area in front of north-side Welcome Desk": {
+            "ru2flw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": true
+            }
+        },
+        "Second floor, next to north-side Welcome Desk": {
+            "ru2fwdcl": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": true
+            }
+        },
+        "3120": {
+            "ru3120cb": {
+                "paper_type": "11\u2033\u00d717\u2033",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": true
+            },
+            "ru3120cl": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": true
+            }
+        }
+    },
+    "Troy": {
+        "2012": {
+            "tr2012lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "2015": {
+            "tr2015lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "2018": {
+            "tr2018lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Tech Terrace": {
+        "3rd fl<br>common area": {
+            "tt3flw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "VCC": {
+        "Print Room": {
+            "vc6700let": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": true
+            },
+            "vc6700ovr": {
+                "paper_type": "8.5\u2033\u00d711\u2033 transparency",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": false
+            },
+            "vc6700lbl": {
+                "paper_type": "8.5\u2033\u00d711\u2033 mailing labels",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": false
+            },
+            "vcc9000cb": {
+                "paper_type": "11\u2033\u00d717\u2033",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": true
+            },
+            "vcc9000cgb": {
+                "paper_type": "11\u2033\u00d717\u2033 glossy",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": true
+            },
+            "vcc9000cz4": {
+                "paper_type": "8.5\u2033\u00d714\u2033",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": true
+            },
+            "vclw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": true
+            },
+            "vcph3let": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "300 DPI",
+                "color": true,
+                "duplex": true
+            },
+            "vcp7100": {
+                "paper_type": "continuous,<br>36\u2033 wide,<br>up to 120\u2033 long",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": false
+            },
+            "vcp7100g": {
+                "paper_type": "glossy, continuous,<br>36\u2033 wide,<br>up to 120\u2033 long",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": false
+            },
+            "vcp7100cf": {
+                "paper_type": "clear film, continuous,<br>36\u2033 wide,<br>up to 120\u2033 long",
+                "dpi": "600 DPI",
+                "color": true,
+                "duplex": false
+            }
+        },
+        "Lobby": {
+            "vcpalw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": true
+            },
+            "vcpap3": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "300 DPI",
+                "color": true,
+                "duplex": true
+            }
+        },
+        "South": {
+            "vcsoutlw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": true
+            },
+            "vcsoutb": {
+                "paper_type": "11\u2033\u00d717\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": true
+            },
+            "vcsoutp3": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "300 DPI",
+                "color": true,
+                "duplex": true
+            }
+        }
+    },
+    "Walker": {
+        "5113": {
+            "wl5113lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        },
+        "6113": {
+            "wl6113lw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    },
+    "Warren": {
+        "111": {
+            "walw": {
+                "paper_type": "8.5\u2033\u00d711\u2033",
+                "dpi": "600 DPI",
+                "color": false,
+                "duplex": false
+            }
+        }
+    }
+}
