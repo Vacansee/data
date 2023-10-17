@@ -1,10 +1,4 @@
-import requests
-
-import urllib.request
-
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-import time
 import platform
 from selenium.webdriver.chrome.service import Service
 
@@ -12,34 +6,14 @@ import json
 
 url = 'https://itssc.rpi.edu/hc/en-us/articles/360005151451-RCS-Public-Printers-Sorted-by-Location'
 
-# a = requests.get(url)
-# print(a.text)
-
-# header= {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) ' 
-#       'AppleWebKit/537.11 (KHTML, like Gecko) '
-#       'Chrome/23.0.1271.64 Safari/537.11',
-#       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-#       'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
-#       'Accept-Encoding': 'none',
-#       'Accept-Language': 'en-US,en;q=0.8',
-#       'Connection': 'keep-alive'}
-
-# req = urllib.request.Request(url, headers=header)
-
-# fp = urllib.request.urlopen(url)
-# mybytes = fp.read()
-
-# mystr = mybytes.decode("utf8")
-# fp.close()
-
-# print(mystr)
-
-#Method 2: Use selenium
-
 options = webdriver.ChromeOptions()
-#options.add_argument("--headless")
+options.add_argument("--headless")
 
-#This is the default path on linux, but probably isn't neccacary tbh
+# Note: Running this program running requires downloading the most recent chromedriver version
+# If on Windows, Visit https://chromedriver.chromium.org/downloads to download, put in same directory as this program
+# On linux, use sudo apt-get install chromium-chromedriver
+# Not sure about mac, but probably a similar approach to windows
+
 service = Service(executable_path = r'/usr/bin/chromedriver')
 if platform.system() == 'Windows':
     driver = webdriver.Chrome(options=options)
@@ -67,16 +41,26 @@ for i in range(1, len(contents)-1):
     duplex = False
     
     printer_info = contents[i].split('</td>')
+    
     building = printer_info[0].split('<td>')[-1]
+    building.replace(' ','_')
+    
     room = printer_info[1].split('<td>')[-1]
+    
     if printer_info[3].split('<td>')[-1] != '&nbsp;':
         color = True
+        
     printer_id = printer_info[2].split('<td>')[-1]
+    
     paper_type = printer_info[4].split('<td>')[-1]
+    paper_type = paper_type.replace('\u2033', '')
+    paper_type = paper_type.replace('\u00d7', 'x')
+    
     if printer_info[5].split('<td>')[-1] != '&nbsp;':
         duplex = True
+        
     dpi = printer_info[6].split('<td>')[-1]
-    
+    dpi = dpi.split()[0]
     
     if building not in printerdict:
         printerdict[building] = dict()
