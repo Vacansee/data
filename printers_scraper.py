@@ -91,6 +91,6 @@ for i in range(1, len(contents)-1):
     # printerdict[building][room][printer_id]['duplex'] = duplex
     
 with open('newprinters.json', 'w') as convert_file:
-     convert_file.write(json.dumps(printerdict, indent=4))
+     convert_file.write(json.dumps(printerdict)
 
 driver.quit()
