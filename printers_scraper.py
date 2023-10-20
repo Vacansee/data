@@ -3,11 +3,19 @@ import platform
 from selenium.webdriver.chrome.service import Service
 
 import json
+import time
+from fake_useragent import UserAgent
+
 
 url = 'https://itssc.rpi.edu/hc/en-us/articles/360005151451-RCS-Public-Printers-Sorted-by-Location'
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
+
+ua = UserAgent()
+user_agent = ua.random
+options.add_argument(f'--user-agent={user_agent}')
+
 
 # Note: Running this program running requires downloading the most recent chromedriver version
 # If on Windows, Visit https://chromedriver.chromium.org/downloads to download, put in same directory as this program
@@ -33,6 +41,9 @@ contents = contents.split('</tr>')
 
 printerdict = dict()
 
+if mystr.find('<div class="l-padded-bottom captcha-container">') != -1 and len(contents) == 1:
+    print("Captcha Error")
+
 for i in range(1, len(contents)-1):
     print(i)
     print(contents[i])
@@ -46,6 +57,7 @@ for i in range(1, len(contents)-1):
     building.replace(' ','_')
     
     room = printer_info[1].split('<td>')[-1]
+    room = room.replace('<br>', ' ')
     
     if printer_info[3].split('<td>')[-1] != '&nbsp;':
         color = True
@@ -55,6 +67,7 @@ for i in range(1, len(contents)-1):
     paper_type = printer_info[4].split('<td>')[-1]
     paper_type = paper_type.replace('\u2033', '')
     paper_type = paper_type.replace('\u00d7', 'x')
+    paper_type = paper_type.replace('<br>', ' ')
     
     if printer_info[5].split('<td>')[-1] != '&nbsp;':
         duplex = True
@@ -66,15 +79,16 @@ for i in range(1, len(contents)-1):
         printerdict[building] = dict()
         
     if room not in printerdict[building]:
-        printerdict[building][room] = dict()
+        #printerdict[building][room] = dict()
+        printerdict[building][room] = []
         
-    printerdict[building][room][printer_id] = dict()
+    #printerdict[building][room][printer_id] = dict()
+    printerdict[building][room].append([printer_id, paper_type, dpi, color, duplex])
     
-    printerdict[building][room][printer_id]['paper_type'] = paper_type
-    printerdict[building][room][printer_id]['dpi'] = dpi
-    printerdict[building][room][printer_id]['color'] = color
-    printerdict[building][room][printer_id]['duplex'] = duplex
-
+    # printerdict[building][room][printer_id]['paper_type'] = paper_type
+    # printerdict[building][room][printer_id]['dpi'] = dpi
+    # printerdict[building][room][printer_id]['color'] = color
+    # printerdict[building][room][printer_id]['duplex'] = duplex
     
 with open('newprinters.json', 'w') as convert_file:
      convert_file.write(json.dumps(printerdict, indent=4))
