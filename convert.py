@@ -38,7 +38,7 @@ abbrev = {
   'Low Center for Industrial Inn.': 'Low',
   'Voorhees Computing Center': 'VCC',
   'Alumni Sports and Rec Center': 'Armory',
-  'Amos Eaton Hall': 'Amos_Eaton',
+  'Amos Eaton Hall': 'AE',
   'Greene Building': 'Greene',
   'Carnegie Building': 'Carnegie',
   'Pittsburgh Building': 'Pittsburgh',
