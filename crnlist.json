@@ -1223,6 +1223,19 @@
             "timeStart": 1200
         }
     ],
+    "64864": [
+        {
+            "dateEnd": "12/20",
+            "dateStart": "08/28",
+            "days": [
+                "W"
+            ],
+            "instructor": "TBA",
+            "location": "TBA",
+            "timeEnd": 1250,
+            "timeStart": 1000
+        }
+    ],
     "63896": [
         {
             "dateEnd": "12/20",
@@ -5142,7 +5155,7 @@
                 "M"
             ],
             "instructor": "Scott Thomas Forth",
-            "location": "Lally Hall 104",
+            "location": "TBA",
             "timeEnd": 1250,
             "timeStart": 1200
         }
@@ -15261,7 +15274,7 @@
             "days": [
                 "W"
             ],
-            "instructor": "Kyle Richard Wilt",
+            "instructor": "Russell P. Kraft, Kyle Richard Wilt",
             "location": "Darrin Communications Center 330",
             "timeEnd": 1150,
             "timeStart": 1000
@@ -29864,7 +29877,7 @@
                 "R"
             ],
             "instructor": "Yong Sung Kim",
-            "location": "Jonsson-Rowland Science Center 2C30",
+            "location": "Jonsson-Rowland Science Center 2C22",
             "timeEnd": 1550,
             "timeStart": 1400
         },
@@ -29889,7 +29902,7 @@
                 "F"
             ],
             "instructor": "Yong Sung Kim",
-            "location": "Jonsson-Rowland Science Center 2C30",
+            "location": "Jonsson-Rowland Science Center 2C22",
             "timeEnd": 1550,
             "timeStart": 1400
         },
@@ -29939,7 +29952,7 @@
                 "R"
             ],
             "instructor": "Joseph Darryl Michael, Yong Sung Kim",
-            "location": "Jonsson-Rowland Science Center 2C30",
+            "location": "Jonsson-Rowland Science Center 2C22",
             "timeEnd": 950,
             "timeStart": 800
         },
