@@ -32,13 +32,14 @@ corrections = {
   'Rcos == 1 Credit' : 'RCOS'
 }
 
-abbrev = {
+# any nicknames with multiple words are concatenated with -'s
+nickname = {
   'Darrin Communications Center': 'DCC',
   'Academy Hall': 'Academy',
   'Low Center for Industrial Inn.': 'Low',
   'Voorhees Computing Center': 'VCC',
   'Alumni Sports and Rec Center': 'Armory',
-  'Amos Eaton Hall': 'Amos_Eaton',
+  'Amos Eaton Hall': 'Amos-Eaton',
   'Greene Building': 'Greene',
   'Carnegie Building': 'Carnegie',
   'Pittsburgh Building': 'Pittsburgh',
@@ -57,7 +58,7 @@ abbrev = {
   'Winslow Building': 'Winslow'
 }
 
-expanded = {v: k for k, v in abbrev.items()}
+expanded = {v: k for k, v in nickname.items()}
 
 URL = "https://api.github.com/repos/quacs/quacs-data/contents/semester_data"
 
@@ -104,7 +105,7 @@ for dept in input:
 
             bldgName, roomNum = roomName.rsplit(' ', 1)
             if bldgName not in bldgsToSkip:
-              room = data[abbrev[bldgName]][roomNum] # shorthand
+              room = data[nickname[bldgName]][roomNum] # shorthand
               # key = room time; value = room stats
               if time not in room: room[time] = stats
               elif room[time][0] == title: # avoid test block overlap
