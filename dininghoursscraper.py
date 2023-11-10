@@ -5,7 +5,6 @@ Created on Fri Oct 27 16:30:22 2023
 @author: Adam
 """
 
-#url = 'https://rpi.emscloudservice.com/web/BrowseEvents.aspx'
 url = 'https://rpi.sodexomyway.com/dining-near-me/hours'
 
 import urllib.request
@@ -39,14 +38,14 @@ for i in range(1,len(test)):
     
     data[name] = dict()
     for day in daystoletter:
-        data[name][day] = dict()
+        #data[name][day] = dict()
+        data[name][day] = []
     
     specmessage = False
     if test[i].find('<div class="spechours hide">') != -1:
         specmessage = True
         special_message = test[i].split('<div class="spechours hide"><div><h3>')
         
-    
     for j in range(1, len(reghours)):
         note = ''
         if reghours[j].find('<p class="dining-block-note">') != -1:
@@ -56,28 +55,13 @@ for i in range(1,len(test)):
         hours = reghours[j].split('<p class="dining-block-hours">')[-1].split('</p>')[0]
         
         for day in days:
-            data[name][day]
+            data[name][day].append([hours, note])
         
         daysstr = ''
         for day in days:
             daysstr += daystoletter[day]
         
         print("\t{}: {} {}".format(daysstr,hours, note))
-
-
-# data = []
-
-# for x in test:
-    
-#     name = data[-1].split('</a>')[0].split('>')[-1]
-#     data.append(x.split('</div></div><div>')[0])
-    
-#     times = data[-1].split('<p class="dining-block-hours">')
-    
-# stop = 0    
-# for i in range(3):
-#     start = data[-1].find('<p data-arrayregdays', stop)
-#     stop = data[-1].find('</span><span>', start)
-#     print(start, stop)
-#     print(data[-1][start:stop])
-#     print()
+        
+with open('dining_hours.json', 'w') as convert_file:
+     convert_file.write(json.dumps(data, indent = 4))
