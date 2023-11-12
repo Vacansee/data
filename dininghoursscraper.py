@@ -10,6 +10,25 @@ url = 'https://rpi.sodexomyway.com/dining-near-me/hours'
 import urllib.request
 import json
 
+# no spaces, replace non standard chars, use numbers as index from days
+#   starting with sunday = 0
+
+def convert_mil(hours):
+    if hours[-2:] == 'PM':
+        times = hours[:-2].split(':')
+        hour = int(times[0])
+        minutes = times[1]
+        hour += 12
+        result = "{}:{}".format(hour, minutes)
+    else:
+        times = hours[:-2].split(':')
+        hour = int(times[0])
+        minutes = times[1]
+        if hour < 10:
+            hour = "0{}".format(hour)
+        result = "{}:{}".format(hour, minutes)
+    return result 
+
 header= {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) ' 
       'AppleWebKit/537.11 (KHTML, like Gecko) '
       'Chrome/23.0.1271.64 Safari/537.11',
@@ -29,17 +48,22 @@ test = mystr.split('<div class="dining-block">')
 data = dict()
 
 daystoletter = {'Monday': 'M', 'Tuesday': 'T', 'Wednesday': 'W', 'Thursday': 'R', 'Friday': 'F', 'Saturday': 'Sa', 'Sunday': 'Su'}
+daystonumber = {'Monday': 1, 'Tuesday': 2, 'Wednesday': 3, 'Thursday': 4, 'Friday': 5, 'Saturday': 6, 'Sunday': 0}
 
 for i in range(1,len(test)):
     name = test[i].split('</a>')[0].split('>')[-1]
     reghours = test[i].split('<h3>Regular Hours</h3>')[-1].split('arrayregdays')
     
+    name = name.replace('’',"'")
+    name = name.replace('é','e')
+    name = name.split(" - ")[-1]
+    name = name.replace(' ','-')
     print(name)
-    
+
     data[name] = dict()
-    for day in daystoletter:
-        #data[name][day] = dict()
-        data[name][day] = []
+    # for day in daystoletter:
+    #     #data[name][day] = dict()
+    #     data[name][daystonumber[day]] = []
     
     specmessage = False
     if test[i].find('<div class="spechours hide">') != -1:
@@ -53,9 +77,18 @@ for i in range(1,len(test)):
             note = note.strip(' :-"')
         days = reghours[j].split('class=')[0].strip('"= ').split(',')
         hours = reghours[j].split('<p class="dining-block-hours">')[-1].split('</p>')[0]
+        hours = hours.split(' - ')
         
         for day in days:
-            data[name][day].append([hours, note])
+            
+            if len(hours) != 2:
+                continue
+            
+            #data[name][daystonumber[day]].append([hours, note])
+            
+            start = convert_mil(hours[0])
+            end = convert_mil(hours[1])
+            data[name]["{}:{}-{}:{}".format(daystonumber[day], start, daystonumber[day], end)] = note
         
         daysstr = ''
         for day in days:
