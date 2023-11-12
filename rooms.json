@@ -216,6 +216,7 @@
                 ""
             ],
             "name": "Greene Building",
+            "hist": "",
             "floors": [
                 1,
                 4,
@@ -1740,6 +1741,7 @@
                 ""
             ],
             "name": "Darrin Communications Center",
+            "hist": "darrin-communication-center",
             "floors": [
                 1,
                 3,
@@ -2852,6 +2854,7 @@
                 ""
             ],
             "name": "Low Center for Industrial Inn.",
+            "hist": "center-industrial-innovation",
             "floors": [
                 1,
                 5,
@@ -2973,6 +2976,7 @@
                 ""
             ],
             "name": "Alumni Sports and Rec Center",
+            "hist": "armory-alumni-sports-and-recreation-center-asrc",
             "floors": [
                 2,
                 4,
@@ -5311,6 +5315,7 @@
                 ""
             ],
             "name": "Russell Sage Laboratory",
+            "hist": "",
             "floors": [
                 1,
                 5,
@@ -5957,6 +5962,7 @@
                 ""
             ],
             "name": "Carnegie Building",
+            "hist": "",
             "floors": [
                 1,
                 2,
@@ -6482,6 +6488,7 @@
                 ""
             ],
             "name": "Pittsburgh Building",
+            "hist": "",
             "floors": [
                 4,
                 5,
@@ -6737,7 +6744,7 @@
         "215": {
             "1:0830-1:0950": [
                 "Foundations Of Analysis",
-                45,
+                46,
                 []
             ],
             "1:1200-1:1250": [
@@ -6778,7 +6785,7 @@
             ],
             "3:0900-3:0950": [
                 "Foundations Of Analysis",
-                45,
+                46,
                 []
             ],
             "3:1600-3:1650": [
@@ -6788,7 +6795,7 @@
             ],
             "4:0830-4:0950": [
                 "Foundations Of Analysis",
-                45,
+                46,
                 []
             ],
             "4:1200-4:1250": [
@@ -6862,6 +6869,7 @@
                 ""
             ],
             "name": "Amos Eaton Hall",
+            "hist": "",
             "floors": [
                 2,
                 2,
@@ -8145,6 +8153,7 @@
                 ""
             ],
             "name": "Jonsson Engineering Center",
+            "hist": "",
             "floors": [
                 1,
                 6,
@@ -8476,6 +8485,7 @@
                 ""
             ],
             "name": "Lally Hall",
+            "hist": "",
             "floors": [
                 0,
                 1,
@@ -8907,6 +8917,7 @@
                 "0700-2400"
             ],
             "name": "West Hall",
+            "hist": "",
             "floors": [
                 1,
                 4,
@@ -9271,6 +9282,7 @@
                 ""
             ],
             "name": "Walker Laboratory",
+            "hist": "",
             "floors": [
                 3,
                 6,
@@ -9706,6 +9718,7 @@
                 ""
             ],
             "name": "Ricketts Building",
+            "hist": "",
             "floors": [
                 2,
                 2,
@@ -10481,6 +10494,7 @@
                 ""
             ],
             "name": "Jonsson-Rowland Science Center",
+            "hist": "",
             "floors": [
                 1,
                 3,
@@ -10597,6 +10611,7 @@
                 "1200-2000"
             ],
             "name": "Folsom Library",
+            "hist": "",
             "floors": [
                 1,
                 1,
@@ -10948,6 +10963,7 @@
                 ""
             ],
             "name": "Troy Building",
+            "hist": "",
             "floors": [
                 2,
                 2,
@@ -10998,6 +11014,7 @@
                 ""
             ],
             "name": "Cogswell Laboratory",
+            "hist": "",
             "floors": [
                 1,
                 1,
@@ -11025,6 +11042,7 @@
                 ""
             ],
             "name": "Winslow Building",
+            "hist": "",
             "floors": [
                 1,
                 1,
@@ -11154,11 +11172,166 @@
                 ""
             ],
             "name": "Materials Research Center",
+            "hist": "",
             "floors": [
                 1,
                 3,
                 1
             ]
+        }
+    },
+    "Academy": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Academy Hall",
+            "hist": "",
+            "floors": []
+        }
+    },
+    "VCC": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2300",
+                "0700-2300",
+                "0700-2300",
+                "0700-2300"
+            ],
+            "name": "Voorhees Computing Center",
+            "hist": "chapel-voorhees-computing-center",
+            "floors": []
+        }
+    },
+    "CBIS": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0900-1700",
+                "0900-1700",
+                "",
+                ""
+            ],
+            "name": "Biotechnology and Interdis Bld",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "EMPAC": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Experimental Media & Performing Arts Center",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "Pool": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Robinson Pool",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "Commons": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Commons Dining Hall",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "Empire_State": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Empire State Hall",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "'87_Gym": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "'87 Gym",
+            "hist": "87-gymnasium",
+            "floors": []
+        }
+    },
+    "RSDH": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Russel Sage Dining Hall",
+            "hist": "",
+            "floors": []
+        }
+    },
+    "Mueller": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2300",
+                "0700-2100",
+                "0900-1900",
+                "0900-2300"
+            ],
+            "name": "Mueller Center",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "Union": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Student Union",
+            "hist": "rensselaer-student-union",
+            "floors": []
         }
     }
 }
