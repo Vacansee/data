@@ -32,32 +32,10 @@ corrections = {
   'Rcos == 1 Credit' : 'RCOS'
 }
 
-abbrev = {
-  'Darrin Communications Center': 'DCC',
-  'Academy Hall': 'Academy',
-  'Low Center for Industrial Inn.': 'Low',
-  'Voorhees Computing Center': 'VCC',
-  'Alumni Sports and Rec Center': 'Armory',
-  'Amos Eaton Hall': 'Amos_Eaton',
-  'Greene Building': 'Greene',
-  'Carnegie Building': 'Carnegie',
-  'Pittsburgh Building': 'Pittsburgh',
-  'Russell Sage Laboratory': 'Sage',
-  'Ricketts Building': 'Ricketts',
-  'Troy Building': 'Troy',
-  'Lally Hall': 'Lally',
-  'Jonsson Engineering Center': 'JEC',
-  'Walker Laboratory': 'Walker',
-  'Jonsson-Rowland Science Center': 'JROWL',
-  'Folsom Library': 'Folsom',
-  'Cogswell Laboratory': 'Cogswell',
-  'West Hall': 'West',
-  'Biotechnology and Interdis Bld': 'CBIS',
-  'Materials Research Center': 'MRC',
-  'Winslow Building': 'Winslow'
-}
+# Full list of buildings (incl. those w/o classes)
+with open("info.json", 'r') as f: info = json.load(f)
 
-expanded = {v: k for k, v in abbrev.items()}
+abbrev = {v[0]: k for k, v in info.items()}
 
 URL = "https://api.github.com/repos/quacs/quacs-data/contents/semester_data"
 
@@ -142,8 +120,12 @@ for dept in input:
 
 with open("deptcodesectlist.json", 'w') as file: json.dump(deptcodesectlist, file, indent=4)
 
+# We've only added buildings with classes to data so far...
+for name, details in info.items():
+  if name not in data: data[name] = defaultdict(dict)
+
 # sort rooms by their day and time
-# meta: room/building capacities, printers, & access times
+# meta: full names + hist page, room/building capacities, printers, & access times
 for building, rooms in data.items():
   bldgMax = f = 0
   floors = [inf, -inf]
@@ -156,17 +138,19 @@ for building, rooms in data.items():
     roomMax = 0
     for stats in data[building][room].values(): 
       if roomMax < stats[1]: roomMax = stats[1]
-    data[building][room]['meta'] = { 'max': roomMax }
+    data[building][room]['meta'] = { 'max': roomMax}
     bldgMax += roomMax
     if building in printers and room in printers[building]:
       data[building][room]['meta']['printers'] = printers[building][room]
-  data[building]['meta'] = { 'max': bldgMax }
+  data[building]['meta'] = { 'max': bldgMax if bldgMax else None }
   if building not in access['times']:
     data[building]['meta']['access'] = access['times']['default']
   else: data[building]['meta']['access'] = access['times'][building]
-  data[building]['meta']['name'] = expanded[building]
+  # Add name and history subdomain to meta
+  data[building]['meta']['name'] = info[building][0]
+  data[building]['meta']['hist'] = info[building][1]
   if building in access['entry']: floors.append(access['entry'][building])
   else: floors.append(access['entry']['default'])
-  data[building]['meta']['floors'] = floors
+  data[building]['meta']['floors'] = floors if floors[0] != inf else []
 
 with open("rooms.json", 'w') as output: json.dump(data, output, indent = 4)
