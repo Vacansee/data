@@ -23,9 +23,7 @@ jobs:
     - run: pip install -r modules.txt
 
     - name: Run convert.py
-      run: |
-        python convert.py
-        rm courses.json && dir
+      run: python convert.py
 
     - name: Push updates
       run: |

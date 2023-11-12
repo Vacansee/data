@@ -4,6 +4,7 @@ from datetime import date
 from requests import get
 import json
 import sys
+import os
 
 input = access = printers = None
 
@@ -33,7 +34,7 @@ corrections = {
 }
 
 # Full list of buildings (incl. those w/o classes)
-with open("info.json", 'r') as f: info = json.load(f)
+with open("data/info.json", 'r') as f: info = json.load(f)
 
 abbrev = {v[0]: k for k, v in info.items()}
 
@@ -56,26 +57,23 @@ print(curSem)
 content = get(curSem).json()
 courses = get(content[1]['download_url']).json()
 
-with open("courses.json", 'w') as file: json.dump(courses, file, indent=4)
+with open("courses.json", 'w') as f: json.dump(courses, f, indent=4)
 with open("courses.json", 'r') as f: input = json.load(f)
 
 # nested dicts; automatically create dicts when accessed
 data = defaultdict(lambda: defaultdict(dict)) 
 
 # courses.json is sorted by dept > course > sec > time block
-# build data (to be rooms.json) sorted by building > room > class
-
-#crnlist.json:
-#{CRN: [{Building: .., Time:.., RoomNum:..},{Building: .., Time:.., RoomNum:..}]}
-crnlist = {}
-crnToTitleList = {}
+# build data (to be data.json) sorted by building > room > class
+byCRN = {}
+titleToCRN = defaultdict(list)
 for dept in input:
   for course in dept['courses']:
     numSecs = len(course['sections'])
     hasSecs = True if numSecs > 1 else False
     for sec in course['sections']:
-      crnlist[sec['crn']] = sec['timeslots']
-      crnToTitleList[sec['crn']] = sec['title']
+      byCRN[sec['crn']] = sec['timeslots']
+      titleToCRN[sec['title']].append(sec['crn']) 
       for block in sec['timeslots']:
         roomName = block['location'] # room name
         act, cap = sec['act'], sec['cap']
@@ -98,27 +96,26 @@ for dept in input:
               # Adding sections... beware duplicates and crosslisted!
               if hasSecs and secNum not in room[time][2]: room[time][2].append(secNum) 
 
-with open("crnlist.json", 'w') as file: json.dump(crnlist, file, indent = 4)
-with open("crntotitle.json", 'w') as file: json.dump(crnToTitleList, file, indent = 4)
-
-with open("access.json", 'r') as f: access = json.load(f)
-with open("printers.json", 'r') as f: printers = json.load(f)
-
-#{CRN: [{Building: .., Time:.., RoomNum:..},{Building: .., Time:.., RoomNum:..}]}
-deptcodesectlist = {}
+deptToCRN = {}
 for dept in input:
-  deptcode = dept['code']
-  deptcodesectlist[deptcode] = {}
+  d = dept['code']
+  deptToCRN[d] = {}
   for course in dept['courses']:
-    coursecode = course['crse']
+    c = course['crse']
     numSecs = len(course['sections'])
-    deptcodesectlist[deptcode][coursecode] = {}
+    deptToCRN[d][c] = {}
     for section in course['sections']:
-      sectioncode = section['sec']
-      crn = section['crn']
-      deptcodesectlist[deptcode][coursecode][sectioncode] = crn
+      s = section['sec']
+      deptToCRN[d][c][s] = section['crn']
 
-with open("deptcodesectlist.json", 'w') as file: json.dump(deptcodesectlist, file, indent=4)
+with open("data/search/byCRN.json", 'w') as file: json.dump(byCRN, file, indent = 4)
+# Class names to CRNs:   "Data Structures" -> [59979, ..., 62915]
+with open("data/search/title_to_CRN.json", 'w') as file: json.dump(titleToCRN, file, indent = 4)
+# Department codes to CRNs:   CSCI 1200 01 -> 59979
+with open("data/search/dept_to_CRN.json", 'w') as f: json.dump(deptToCRN, f, indent=4) 
+
+with open("data/access.json", 'r') as f: access = json.load(f)
+with open("data/printers.json", 'r') as f: printers = json.load(f)
 
 # We've only added buildings with classes to data so far...
 for name, details in info.items():
@@ -153,4 +150,5 @@ for building, rooms in data.items():
   else: floors.append(access['entry']['default'])
   data[building]['meta']['floors'] = floors if floors[0] != inf else []
 
-with open("rooms.json", 'w') as output: json.dump(data, output, indent = 4)
+with open("data/data.json", 'w') as output: json.dump(data, output, indent = 4)
+os.remove("courses.json") 

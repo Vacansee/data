@@ -1,0 +1,191 @@
+{
+	"Amos_Eaton": {
+		"215": [ ["ae215lw", "8.5x11", "600", false, false] ],
+		"216": [ ["ae216lw", "8.5x11", "600", false, false] ]
+	},
+	"BARH": {
+		"1A09": [ ["bh1A09lw", "8.5x11", "600", false, false] ]
+	},
+	"Barton": {
+		"next to 3120": [ ["balw", "8.5x11", "600", false, false] ]
+	},
+	"Blitman": {
+		"1327": [ ["bllw", "8.5x11", "600", false, false] ]
+	},
+	"Bray": {
+		"3rd fl study rm": [ ["brlw", "8.5x11", "600", false, false] ]
+	},
+	"Cary": {
+		"3rd fl study rm": [ ["cylw", "8.5x11", "600", false, false] ]
+	},
+	"Low": {
+		"3112": [ ["ci3112lw", "8.5x11", "600", false, false] ],
+		"3116": [ ["ci3116lw", "8.5x11", "600", false, false] ],
+		"3130": [
+			["ci3130lw", "8.5x11", "600", false, false],
+			["ci3130p3", "8.5x11", "300", true , false]
+		],
+		"4034": [ ["ci4034lw", "8.5x11", "600", false, false] ]
+	},
+	"City_Station_South": {
+		"2nd fl lounge": [ ["css2flw", "8.5x11", "600", false, true] ]
+	},
+	"City_Station_West": {
+		"2nd fl lounge": [ ["csw2flw", "8.5x11", "600", false, true] ]
+	},
+	"Colonie_B": {
+		"Room 106": [ ["clb106lw", "8.5x11", "600", false, false] ]
+	},
+	"Colvin": {
+		"Laundry Room": [ ["clv1flw", "8.5x11", "600", false, false] ]
+	},
+	"Crockett": {
+		"3rd fl study rm": [ ["crlw", "8.5x11", "600", false, false] ]
+	},
+	"Davison": {
+		"2nd fl lounge": [ ["dalw", "8.5x11", "600", false, false] ]
+	},
+	"East_Campus_Athletics": {
+		"Main lobby": [ ["ecawdlw", "8.5x11", "600", false, false] ]
+	},
+	"ECAV": {
+		"Classroom": [ ["eccomlw", "8.5x11", "600", false, false] ]
+	},
+	"Greene": {
+		"306": [
+			["gr306lw" , "8.5x11"      , "600", false, false],
+			["gr306cb" , "11x17"       , "600", true , true ],
+			["gr306cbg", "11x17 glossy", "600", true , true ],
+			["gr306cl" , "8.5x11"      , "600", true , true ]
+		]
+	},
+	"Hall": {
+		"3rd fl study rm": [ ["halw", "8.5x11", "600", false, false] ]
+	},
+	"Hunt_I": {
+		"1st fl lounge": [ ["hu1lw", "8.5x11", "600", false, false] ]
+	},
+	"JEC": {
+		"3207": [ ["ec3207lw", "8.5x11", "600", false, false] ],
+		"3232": [ ["ec3232lw", "8.5x11", "600", false, false] ],
+		"3302": [ ["ec3f1lw", "8.5x11", "600", false, false] ],
+		"4201": [
+			["ec4201l1", "8.5x11", "600", false, false],
+			["ec4201l2", "8.5x11", "600", false, false],
+			["ec4201l3", "8.5x11", "600", false, false]
+		]
+	},
+	"Lally": {
+		"102": [ ["la102lw", "8.5x11", "600", false, false] ],
+		"104": [ ["la104lw", "8.5x11", "600", false, false] ]
+	},
+	"Folsom": {
+		"1st Floor": [ ["li1f1lw", "8.5x11", "600", false, false] ],
+		"2nd Floor": [
+			["li2f1lw", "8.5x11", "600", false, false],
+			["li2f2p3", "8.5x11", "300", true , false]
+		],
+		"3rd Floor": [ ["li3f1lw", "8.5x11", "600", false, false] ],
+		"4th Floor": [ ["li4f1lw", "8.5x11", "600", false, false] ]
+	},
+	"Nason": {
+		"3rd fl study rm": [ ["nalw", "8.5x11", "600", false, false] ]
+	},
+	"North": {
+		"1st fl": [ ["nrlw", "8.5x11", "600", false, true] ]
+	},
+	"Nugent": {
+		"2nd fl lounge": [ ["nulw", "8.5x11", "600", false, false] ]
+	},
+	"Off_Campus_Commons": {
+		"1005": [ ["occ1005lw", "8.5x11", "600", false, false] ]
+	},
+	"Pittsburgh": {
+		"1002": [
+			["pi1002lw", "8.5x11", "600", false, false],
+			["pi1002p3", "8.5x11", "300", true , false]
+		],
+		"4114": [ ["pi4114lw", "8.5x11", "600", false, false] ],
+		"4206": [ ["pi4206lw", "8.5x11", "600", false, false] ]
+	},
+	"Polytech_Apartments": {
+		"101 (Media Room)": [ ["ptlw", "8.5x11", "600", false, false] ]
+	},
+	"Ricketts": {
+		"120": [ ["ri120lw", "8.5x11", "600", false, false] ]
+	},
+	"Sage": {
+		"2nd fl hallway": [ ["sa2f1lw" , "8.5x11", "600", false, false] ],
+		"2704"          : [ ["sa2704lw", "8.5x11", "600", false, false] ],
+		"2715"          : [ ["sa2715lw", "8.5x11", "600", false, false] ],
+		"3101"          : [ ["sa3101lw", "8.5x11", "600", false, false] ],
+		"4702"          : [ ["sa4f1lw" , "8.5x11", "600", false, false] ],
+		"5702"          : [ ["sa5f1lw" , "8.5x11", "600", false, false] ]
+	},
+	"Science_Center": {
+		"2C25": [ ["sc2c25lw", "8.5x11", "600", false, false] ]
+	},
+	"Sharp": {
+		"1st fl lounge": [ ["shlw", "8.5x11", "600", false, false] ]
+	},
+	"Union": {
+		"Second floor, open area in front of north-side Welcome Desk": [
+			["ru2flw", "8.5x11", "600", false, true]
+		],
+		"Second floor, next to north-side Welcome Desk": [
+			["ru2fwdcl", "8.5x11", "600", true, true]
+		],
+		"3120": [
+			["ru3120cb", "11x17" , "600", true, true],
+			["ru3120cl", "8.5x11", "600", true, true]
+		]
+	},
+	"Troy": {
+		"2012": [ ["tr2012lw", "8.5x11", "600", false, false] ],
+		"2015": [ ["tr2015lw", "8.5x11", "600", false, false] ],
+		"2018": [ ["tr2018lw", "8.5x11", "600", false, false] ]
+	},
+	"Tech_Terrace": {
+		"3rd fl common area": [ ["tt3flw", "8.5x11", "600", false, false] ]
+	},
+	"VCC": {
+		"Print Room": [
+			["vc6700let", "8.5x11", "600", true, true],
+			["vc6700ovr", "8.5x11 transparency", "600", true, false],
+			["vc6700lbl", "8.5x11 mailing labels", "600", true, false],
+			["vcc9000cb", "11x17", "600", true, true],
+			["vcc9000cgb", "11x17 glossy", "600", true, true],
+			["vcc9000cz4", "8.5x14", "600", true, true],
+			["vclw", "8.5x11", "600", false, true],
+			["vcph3let", "8.5x11", "300", true, true],
+			[
+				"vcp7100", "continuous, 36 wide, up to 120 long", "600", true,
+				false
+			],
+			[
+				"vcp7100g", "glossy, continuous, 36 wide, up to 120 long",
+				"600", true, false
+			],
+			[
+				"vcp7100cf", "clear film, continuous, 36 wide, up to 120 long",
+				"600", true, false
+			]
+		],
+		"Lobby": [
+			["vcpalw", "8.5x11", "600", false, true],
+			["vcpap3", "8.5x11", "300", true , true]
+		],
+		"South": [
+			["vcsoutlw", "8.5x11", "600", false, true],
+			["vcsoutb" , "11x17" , "600", false, true],
+			["vcsoutp3", "8.5x11", "300", true , true]
+		]
+	},
+	"Walker": {
+		"5113": [ ["wl5113lw", "8.5x11", "600", false, false] ],
+		"6113": [ ["wl6113lw", "8.5x11", "600", false, false] ]
+	},
+	"Warren": {
+		"111": [ ["walw", "8.5x11", "600", false, false] ]
+	}
+}
