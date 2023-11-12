@@ -59,4 +59,4 @@ for tr in table.find_all("tr"):
 
 # print(access)
 with open("access.json", "w") as output:
-  json.dump(access, output)
+  json.dump(access, output, indent = 4)

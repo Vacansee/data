@@ -1,1 +1,4 @@
 requests
+fake-useragent
+webdriver-manager
+selenium

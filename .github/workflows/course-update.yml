@@ -2,9 +2,9 @@ name: Update rooms.json
 on:
   push:
     paths-ignore:
-      - 'rooms.json'
+      - 'data/**'
   schedule:
-    - cron: '55 4 * * 0-5'    # Weekdays @ EOD (11:55 PM PST) + Sundays for weekend drops/adds
+    - cron: '44 3 * * 0-5'    # Weekdays + Sunday for weekend drops/adds @ 10:44/11:44 PM EST/EDT (+ ~11min GH delay)
   workflow_dispatch:
 
 jobs:
@@ -23,9 +23,7 @@ jobs:
     - run: pip install -r modules.txt
 
     - name: Run convert.py
-      run: |
-        python convert.py
-        rm courses.json && dir
+      run: python convert.py
 
     - name: Push updates
       run: |
