@@ -216,6 +216,7 @@
                 ""
             ],
             "name": "Greene Building",
+            "hist": "",
             "floors": [
                 1,
                 4,
@@ -1740,6 +1741,7 @@
                 ""
             ],
             "name": "Darrin Communications Center",
+            "hist": "darrin-communication-center",
             "floors": [
                 1,
                 3,
@@ -1911,8 +1913,10 @@
                 "printers": [
                     [
                         "ci3116lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -1994,8 +1998,10 @@
                 "printers": [
                     [
                         "ci3112lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -2552,8 +2558,10 @@
                 "printers": [
                     [
                         "ci4034lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -2619,13 +2627,17 @@
                 "printers": [
                     [
                         "ci3130lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ],
                     [
                         "ci3130p3",
-                        "C",
-                        ""
+                        "8.5x11",
+                        "300",
+                        true,
+                        false
                     ]
                 ]
             }
@@ -2852,6 +2864,7 @@
                 ""
             ],
             "name": "Low Center for Industrial Inn.",
+            "hist": "center-industrial-innovation",
             "floors": [
                 1,
                 5,
@@ -2973,6 +2986,7 @@
                 ""
             ],
             "name": "Alumni Sports and Rec Center",
+            "hist": "armory-alumni-sports-and-recreation-center-asrc",
             "floors": [
                 2,
                 4,
@@ -3099,8 +3113,10 @@
                 "printers": [
                     [
                         "sa2704lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -4147,8 +4163,10 @@
                 "printers": [
                     [
                         "sa3101lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -4379,8 +4397,10 @@
                 "printers": [
                     [
                         "sa2715lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -5311,6 +5331,7 @@
                 ""
             ],
             "name": "Russell Sage Laboratory",
+            "hist": "",
             "floors": [
                 1,
                 5,
@@ -5957,6 +5978,7 @@
                 ""
             ],
             "name": "Carnegie Building",
+            "hist": "",
             "floors": [
                 1,
                 2,
@@ -6085,8 +6107,10 @@
                 "printers": [
                     [
                         "pi4206lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -6355,8 +6379,10 @@
                 "printers": [
                     [
                         "pi4114lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -6482,6 +6508,7 @@
                 ""
             ],
             "name": "Pittsburgh Building",
+            "hist": "",
             "floors": [
                 4,
                 5,
@@ -6728,8 +6755,10 @@
                 "printers": [
                     [
                         "ae216lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -6737,7 +6766,7 @@
         "215": {
             "1:0830-1:0950": [
                 "Foundations Of Analysis",
-                45,
+                46,
                 []
             ],
             "1:1200-1:1250": [
@@ -6778,7 +6807,7 @@
             ],
             "3:0900-3:0950": [
                 "Foundations Of Analysis",
-                45,
+                46,
                 []
             ],
             "3:1600-3:1650": [
@@ -6788,7 +6817,7 @@
             ],
             "4:0830-4:0950": [
                 "Foundations Of Analysis",
-                45,
+                46,
                 []
             ],
             "4:1200-4:1250": [
@@ -6832,8 +6861,10 @@
                 "printers": [
                     [
                         "ae215lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -6862,6 +6893,7 @@
                 ""
             ],
             "name": "Amos Eaton Hall",
+            "hist": "",
             "floors": [
                 2,
                 2,
@@ -7004,8 +7036,10 @@
                 "printers": [
                     [
                         "ec3207lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -7676,8 +7710,10 @@
                 "printers": [
                     [
                         "ec3232lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -7772,18 +7808,24 @@
                 "printers": [
                     [
                         "ec4201l1",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ],
                     [
                         "ec4201l2",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ],
                     [
                         "ec4201l3",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -8145,6 +8187,7 @@
                 ""
             ],
             "name": "Jonsson Engineering Center",
+            "hist": "",
             "floors": [
                 1,
                 6,
@@ -8366,8 +8409,10 @@
                 "printers": [
                     [
                         "la102lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -8461,8 +8506,10 @@
                 "printers": [
                     [
                         "la104lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -8476,6 +8523,7 @@
                 ""
             ],
             "name": "Lally Hall",
+            "hist": "",
             "floors": [
                 0,
                 1,
@@ -8907,6 +8955,7 @@
                 "0700-2400"
             ],
             "name": "West Hall",
+            "hist": "",
             "floors": [
                 1,
                 4,
@@ -9031,8 +9080,10 @@
                 "printers": [
                     [
                         "wl6113lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -9142,8 +9193,10 @@
                 "printers": [
                     [
                         "wl5113lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -9271,6 +9324,7 @@
                 ""
             ],
             "name": "Walker Laboratory",
+            "hist": "",
             "floors": [
                 3,
                 6,
@@ -9706,6 +9760,7 @@
                 ""
             ],
             "name": "Ricketts Building",
+            "hist": "",
             "floors": [
                 2,
                 2,
@@ -10481,6 +10536,7 @@
                 ""
             ],
             "name": "Jonsson-Rowland Science Center",
+            "hist": "",
             "floors": [
                 1,
                 3,
@@ -10597,6 +10653,7 @@
                 "1200-2000"
             ],
             "name": "Folsom Library",
+            "hist": "",
             "floors": [
                 1,
                 1,
@@ -10735,8 +10792,10 @@
                 "printers": [
                     [
                         "tr2018lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -10832,8 +10891,10 @@
                 "printers": [
                     [
                         "tr2015lw",
-                        "",
-                        ""
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
                     ]
                 ]
             }
@@ -10936,7 +10997,16 @@
                 []
             ],
             "meta": {
-                "max": 80
+                "max": 80,
+                "printers": [
+                    [
+                        "tr2012lw",
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
+                    ]
+                ]
             }
         },
         "meta": {
@@ -10948,6 +11018,7 @@
                 ""
             ],
             "name": "Troy Building",
+            "hist": "",
             "floors": [
                 2,
                 2,
@@ -10998,6 +11069,7 @@
                 ""
             ],
             "name": "Cogswell Laboratory",
+            "hist": "",
             "floors": [
                 1,
                 1,
@@ -11025,6 +11097,7 @@
                 ""
             ],
             "name": "Winslow Building",
+            "hist": "",
             "floors": [
                 1,
                 1,
@@ -11154,11 +11227,166 @@
                 ""
             ],
             "name": "Materials Research Center",
+            "hist": "",
             "floors": [
                 1,
                 3,
                 1
             ]
+        }
+    },
+    "Academy": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Academy Hall",
+            "hist": "",
+            "floors": []
+        }
+    },
+    "VCC": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2300",
+                "0700-2300",
+                "0700-2300",
+                "0700-2300"
+            ],
+            "name": "Voorhees Computing Center",
+            "hist": "chapel-voorhees-computing-center",
+            "floors": []
+        }
+    },
+    "CBIS": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0900-1700",
+                "0900-1700",
+                "",
+                ""
+            ],
+            "name": "Biotechnology and Interdis Bld",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "EMPAC": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Experimental Media & Performing Arts Center",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "Pool": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Robinson Pool",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "Commons": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Commons Dining Hall",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "Empire_State": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Empire State Hall",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "'87_Gym": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "'87 Gym",
+            "hist": "87-gymnasium",
+            "floors": []
+        }
+    },
+    "RSDH": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Russel Sage Dining Hall",
+            "hist": "",
+            "floors": []
+        }
+    },
+    "Mueller": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2300",
+                "0700-2100",
+                "0900-1900",
+                "0900-2300"
+            ],
+            "name": "Mueller Center",
+            "hist": false,
+            "floors": []
+        }
+    },
+    "Union": {
+        "meta": {
+            "max": null,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Student Union",
+            "hist": "rensselaer-student-union",
+            "floors": []
         }
     }
 }
