@@ -29,7 +29,7 @@ def convert_mil(hours):
         result = "{}:{}".format(hour, minutes)
     return result 
 
-header= {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) ' 
+header = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) ' 
       'AppleWebKit/537.11 (KHTML, like Gecko) '
       'Chrome/23.0.1271.64 Safari/537.11',
       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -40,10 +40,13 @@ header= {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) '
 
 req = urllib.request.Request(url, headers=header)
 page = urllib.request.urlopen(req)
-page = page.read()
-mystr = page.decode("utf8")
+page = page.read().decode("utf8")
 
-test = mystr.split('<div class="dining-block">')
+test = page.split('<div class="dining-block">')
+
+rename = {
+
+}
 
 data = dict()
 
@@ -54,10 +57,8 @@ for i in range(1,len(test)):
     name = test[i].split('</a>')[0].split('>')[-1]
     reghours = test[i].split('<h3>Regular Hours</h3>')[-1].split('arrayregdays')
     
-    name = name.replace('’',"'")
-    name = name.replace('é','e')
-    name = name.split(" - ")[-1]
-    name = name.replace(' ','-')
+    name = name.replace('’',"'").replace('é','e').split(" - ")[-1]
+    if name == "The Commons Dining Hall": name = "Commons Dining Hall"
     print(name)
 
     data[name] = dict()
@@ -80,21 +81,20 @@ for i in range(1,len(test)):
         hours = hours.split(' - ')
         
         for day in days:
-            
-            if len(hours) != 2:
-                continue
-            
+
+            if len(hours) != 2: continue
+
             #data[name][daystonumber[day]].append([hours, note])
-            
+
             start = convert_mil(hours[0])
             end = convert_mil(hours[1])
             data[name]["{}:{}-{}:{}".format(daystonumber[day], start, daystonumber[day], end)] = note
-        
+
         daysstr = ''
         for day in days:
             daysstr += daystoletter[day]
-        
+
         print("\t{}: {} {}".format(daysstr,hours, note))
-        
-with open('dining_hours.json', 'w') as convert_file:
-     convert_file.write(json.dumps(data, indent = 4))
+
+with open('data/dining.json', 'w') as f:
+    f.write(json.dumps(data, indent = 4))
