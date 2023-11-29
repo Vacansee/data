@@ -44,24 +44,28 @@ page = page.read().decode("utf8")
 
 test = page.split('<div class="dining-block">')
 
-rename = {
-
-}
-
 data = dict()
 
 daystoletter = {'Monday': 'M', 'Tuesday': 'T', 'Wednesday': 'W', 'Thursday': 'R', 'Friday': 'F', 'Saturday': 'Sa', 'Sunday': 'Su'}
 daystonumber = {'Monday': 1, 'Tuesday': 2, 'Wednesday': 3, 'Thursday': 4, 'Friday': 5, 'Saturday': 6, 'Sunday': 0}
 
+rath = False
 for i in range(1,len(test)):
-    name = test[i].split('</a>')[0].split('>')[-1]
+    bldg = None 
     reghours = test[i].split('<h3>Regular Hours</h3>')[-1].split('arrayregdays')
-    
-    name = name.replace('’',"'").replace('é','e').split(" - ")[-1]
+    name = test[i].split('</a>')[0].split('>')[-1]
+    name = name.replace('’',"'").replace('é','e')
+    href = test[i].split('href="')[1].split('"')[0]
+    if " - " in name: bldg, name = name.split(" - ")
     if name == "The Commons Dining Hall": name = "Commons Dining Hall"
     print(name)
 
-    data[name] = dict()
+    if rath: bldg = "Student Union"
+    if bldg:
+        data.setdefault(bldg, {})
+        data[bldg][name] = dict()
+    else: data[name] = dict()
+
     # for day in daystoletter:
     #     #data[name][day] = dict()
     #     data[name][daystonumber[day]] = []
@@ -88,13 +92,18 @@ for i in range(1,len(test)):
 
             start = convert_mil(hours[0])
             end = convert_mil(hours[1])
-            data[name]["{}:{}-{}:{}".format(daystonumber[day], start, daystonumber[day], end)] = note
+            if bldg: data[bldg][name]["{}:{}-{}:{}".format(daystonumber[day], start, daystonumber[day], end)] = note
+            else:    data[name]["{}:{}-{}:{}".format(daystonumber[day], start, daystonumber[day], end)] = note
 
         daysstr = ''
         for day in days:
             daysstr += daystoletter[day]
 
-        print("\t{}: {} {}".format(daysstr,hours, note))
+    if bldg: data[bldg][name]["url"] = href
+    else: data[name]["url"] = href
+
+        # print("\t{}: {} {}".format(daysstr,hours, note))
+    if '<h2>Student Union – Rathskeller</h2>' in test[i]: rath = True
 
 with open('data/dining.json', 'w') as f:
     f.write(json.dumps(data, indent = 4))

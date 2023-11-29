@@ -6,8 +6,6 @@ import json
 import sys
 import os
 
-input = access = printers = None
-
 roomsToSkip = [
   'Off-Campus',
   'Online',
@@ -116,6 +114,7 @@ with open("data/search/dept_to_CRN.json", 'w') as f: json.dump(deptToCRN, f, ind
 
 with open("data/access.json", 'r') as f: access = json.load(f)
 with open("data/printers.json", 'r') as f: printers = json.load(f)
+with open("data/dining.json", 'r') as f: dining = json.load(f)
 
 # We've only added buildings with classes to data so far...
 for name, details in info.items():
@@ -149,6 +148,8 @@ for building, rooms in data.items():
   if building in access['entry']: floors.append(access['entry'][building])
   else: floors.append(access['entry']['default'])
   data[building]['meta']['floors'] = floors if floors[0] != inf else []
+  if data[building]['meta']['name'] in dining:
+      data[building]['meta']['dining'] = dining[data[building]['meta']['name']]
 
 with open("data/data.json", 'w') as output: json.dump(data, output, indent = 4)
 os.remove("courses.json") 
