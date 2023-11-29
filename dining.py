@@ -55,7 +55,7 @@ for i in range(1,len(test)):
     reghours = test[i].split('<h3>Regular Hours</h3>')[-1].split('arrayregdays')
     name = test[i].split('</a>')[0].split('>')[-1]
     name = name.replace('’',"'").replace('é','e')
-    href = test[i].split('href="')[1].split('"')[0]
+    href = test[i].split('href="')[1].split('"')[0][16:]
     if " - " in name: bldg, name = name.split(" - ")
     if name == "The Commons Dining Hall": name = "Commons Dining Hall"
     print(name)
