@@ -6,6 +6,8 @@ import json
 import sys
 import os
 
+SIS = access = printers = dining = None
+
 roomsToSkip = [
   'Off-Campus',
   'Online',
@@ -31,6 +33,14 @@ corrections = {
   'Rcos == 1 Credit' : 'RCOS'
 }
 
+# Good enough for now
+starting = {
+  '1': 8,   # Spring
+  '5': 20,  # Summer
+  '8': 28,  # Fall
+  '12': 21  # Winter
+}
+
 # Full list of buildings (incl. those w/o classes)
 with open("data/info.json", 'r') as f: info = json.load(f)
 
@@ -39,7 +49,7 @@ abbrev = {v[0]: k for k, v in info.items()}
 URL = "https://api.github.com/repos/quacs/quacs-data/contents/semester_data"
 
 # Get the most recent courses.json from QuACS:
-month = date.today().month; year = date.today().year
+td = date.today(); day, month, year = td.day, td.month, td.year
 data = get(URL).json()
 if "message" in data:
   if "API rate limit exceeded" in data['message']:
@@ -47,16 +57,20 @@ if "message" in data:
 curSem = data[-1]['url']
 # Pick current sem from what's already been recorded this year
 for sem in reversed(data[-4:]):
-  if int(sem['name'][:4]) == year:
-    if int(sem['name'][-2:]) <= month: #TODO: precise sem cutoffs
-      curSem = sem['url']
-      break
+  if int(sem['name'][:4]) == year: # Same year
+      if starting.get(str(month)) and starting[str(month)] <= day: # Starts this month
+        curSem = sem['url']
+        break
+      elif int(sem['name'][-2:]) < month: # Started month(s) ago
+        curSem = sem['url']
+        break
+
 print(curSem)
 content = get(curSem).json()
 courses = get(content[1]['download_url']).json()
 
 with open("courses.json", 'w') as f: json.dump(courses, f, indent=4)
-with open("courses.json", 'r') as f: input = json.load(f)
+with open("courses.json", 'r') as f: SIS = json.load(f)
 
 # nested dicts; automatically create dicts when accessed
 data = defaultdict(lambda: defaultdict(dict)) 
@@ -65,7 +79,7 @@ data = defaultdict(lambda: defaultdict(dict))
 # build data (to be data.json) sorted by building > room > class
 byCRN = {}
 titleToCRN = defaultdict(list)
-for dept in input:
+for dept in SIS:
   for course in dept['courses']:
     numSecs = len(course['sections'])
     hasSecs = True if numSecs > 1 else False
@@ -95,7 +109,7 @@ for dept in input:
               if hasSecs and secNum not in room[time][2]: room[time][2].append(secNum) 
 
 deptToCRN = {}
-for dept in input:
+for dept in SIS:
   d = dept['code']
   deptToCRN[d] = {}
   for course in dept['courses']:
