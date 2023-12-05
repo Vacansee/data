@@ -56,8 +56,9 @@ def write_json():
     
     soup = BeautifulSoup(page, 'html.parser')
     
-    with open('test.html', 'w') as f:
-        f.write(soup.prettify())
+    # For testing, use this to view scraped html
+    # with open('test.html', 'w') as f:
+    #     f.write(soup.prettify())
         
     results = soup.find("ul", {"style" : "list-style-type:none;"})
     
