@@ -74,13 +74,10 @@ def write_json():
         
         regtime = location.find("div", {"class" : "reghours"})
         regdays = regtime.findAll("dt", {"class" : "dining-block-days"})
-        #reghours = regtime.findAll("span", {"class" : "dining-block-hours"})
         info = regtime.findAll("dd")
         
         for i in range(len(regdays)):
             regday = regdays[i]['data-arrayregdays'].split(',')
-            #reghour = reghours[i].string
-            
             reghour2 = info[i].find("span", {"class" : "dining-block-hours"}).string
             
             note_elem = info[i].findAll("span", {"class": "dining-block-note"})
@@ -89,19 +86,15 @@ def write_json():
             else:
                 note = note_elem[0].string.strip(':')
                 
-            print(reghour2)
             if reghour2 == 'Closed':
                 continue
-                            
             reghour2 = reghour2.split(' - ')
             
             start = convert_mil(reghour2[0])
             end = convert_mil(reghour2[1])
     
             for day in regday:
-                
                 print("\t{}:{}-{}:{} {}".format(daystonumber[day], start, daystonumber[day], end, note))
-    
                 data[name]["{}:{}-{}:{}".format(daystonumber[day], start, daystonumber[day], end)] = note
     
     with open('data/dining.json', 'w') as f:
