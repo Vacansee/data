@@ -107,6 +107,26 @@ for dept in SIS:
                 room[time][1] += size
               # Adding sections... beware duplicates and crosslisted!
               if hasSecs and secNum not in room[time][2]: room[time][2].append(secNum) 
+        locTemp = block['location']
+        if (locTemp == "Greene Building"):
+          block['location'] = "Greene 000"
+        elif (locTemp == "Empire State Hall"):
+          block['location'] = "Empire 000"
+        elif (locTemp == "Nason Hall"):
+          block['location'] = "Nason 000"
+        elif (locTemp == "Jonsson-Rowland Science Center"):
+          block['location'] = "JROWL 000"
+        elif(locTemp != "TBA" and locTemp != "Online" and locTemp != "Off-Campus" and locTemp != ""):
+          print(locTemp)
+          bldgRoomSeparate = locTemp.rsplit(' ', 1)
+          print(bldgRoomSeparate)
+          locBldg = bldgRoomSeparate[0]
+          locRoom = bldgRoomSeparate[1]
+          #print(locBldg)
+          if locBldg in abbrev:
+            locBldg = abbrev[locBldg]
+          block['location'] = locBldg + ' ' + locRoom
+          #print(block['location'])
 
 deptToCRN = {}
 for dept in SIS:
