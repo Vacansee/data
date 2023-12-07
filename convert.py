@@ -138,12 +138,12 @@ for name, details in info.items():
 # meta: full names + hist page, room/building capacities, printers, & access times
 for building, rooms in data.items():
   bldgMax = f = 0
-  floors = [inf, -inf]
+  
+  floors = []
+  if building in access['numfloors']: floors.append(access['numfloors'][building])
+  else: floors.append(access['numfloors']['default'])
+
   for room, times in rooms.items():
-    if room[0].isdecimal():
-      f = int(room[0]) # room "[3]08"
-      if f < floors[0]: floors[0] = f
-      if f > floors[1]: floors[1] = f
     data[building][room] = dict(sorted(times.items(), key=lambda x: x[0]))
     roomMax = 0
     for stats in data[building][room].values(): 
