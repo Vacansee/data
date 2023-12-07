@@ -29,10 +29,6 @@ days = {
   'F': 5
 }
 
-corrections = {
-  'Rcos == 1 Credit' : 'RCOS'
-}
-
 # Good enough for now
 starting = {
   '1': 8,   # Spring
@@ -58,7 +54,7 @@ curSem = data[-1]['url']
 # Pick current sem from what's already been recorded this year
 for sem in reversed(data[-4:]):
   if int(sem['name'][:4]) == year: # Same year
-      if starting.get(str(month)) and starting[str(month)] <= day: # Starts this month
+      if str(month) in starting and starting[str(month)] <= day: # Starts this month
         curSem = sem['url']
         break
       elif int(sem['name'][-2:]) < month: # Started month(s) ago
@@ -77,36 +73,42 @@ data = defaultdict(lambda: defaultdict(dict))
 
 # courses.json is sorted by dept > course > sec > time block
 # build data (to be data.json) sorted by building > room > class
-byCRN = {}
+byCRN, toRoom = {}, {}
 titleToCRN = defaultdict(list)
 for dept in SIS:
   for course in dept['courses']:
     numSecs = len(course['sections'])
     hasSecs = True if numSecs > 1 else False
     for sec in course['sections']:
-      byCRN[sec['crn']] = sec['timeslots']
-      titleToCRN[sec['title']].append(sec['crn']) 
+      title, secNum = sec['title'], sec['sec']
+      if "Rcos ==" in title: title = "RCOS"
+      titleToCRN[title].append(sec['crn']) 
       for block in sec['timeslots']:
         roomName = block['location'] # room name
         act, cap = sec['act'], sec['cap']
         size = act if act > cap else cap # class size estimate
-        if size and roomName not in roomsToSkip and roomName[-1].isnumeric():
-          for day in block['days']: # for every day its held, make new room instance:
-            time = f"{days[day]}:{block['timeStart']:04}-{days[day]}:{block['timeEnd']:04}"
-            title, secNum = sec['title'], sec['sec']
-            if title in corrections: title = corrections[title]
-            stats = [title, size, []]
+        if not size or roomName in roomsToSkip or roomName[-1].isalpha(): continue
+        bldgName, roomNum = roomName.rsplit(' ', 1)
+        if bldgName in bldgsToSkip: continue
+        room = {}
+        for day in block['days']: # for every day its held, make new room instance:
 
-            bldgName, roomNum = roomName.rsplit(' ', 1)
-            if bldgName not in bldgsToSkip:
-              room = data[abbrev[bldgName]][roomNum] # shorthand
-              # key = room time; value = room stats
-              if time not in room: room[time] = stats
-              elif room[time][0] == title: # avoid test block overlap
-                # sum of class sizes for concurrent time blocks
-                room[time][1] += size
-              # Adding sections... beware duplicates and crosslisted!
-              if hasSecs and secNum not in room[time][2]: room[time][2].append(secNum) 
+          stats = [title, size, []]
+          time = f"{days[day]}:{block['timeStart']:04}-{days[day]}:{block['timeEnd']:04}"
+          room = data[abbrev[bldgName]][roomNum] # shorthand
+
+          # key = room time; value = room stats
+          if time not in room: room[time] = stats
+          elif room[time][0] == title: # avoid test block overlap
+            # sum of class sizes for concurrent time blocks
+            room[time][1] += size
+          # Adding sections... beware duplicates and crosslisted!
+          if hasSecs and secNum not in room[time][2]: room[time][2].append(secNum) 
+
+        roomCRN = f"{abbrev[bldgName]} {roomNum}"
+        byCRN.setdefault(sec['crn'], {}); byCRN[sec['crn']].setdefault(roomCRN, [])
+        byCRN[sec['crn']][roomCRN] += [t for t in room.keys()]
+        toRoom.setdefault(roomCRN, "")
 
 deptToCRN = {}
 for dept in SIS:
@@ -120,11 +122,12 @@ for dept in SIS:
       s = section['sec']
       deptToCRN[d][c][s] = section['crn']
 
-with open("data/search/byCRN.json", 'w') as file: json.dump(byCRN, file, indent = 4)
+with open("data/search/byCRN.json", 'w') as f: json.dump(byCRN, f, indent = 4)
+with open("data/search/toRoom.json", 'w') as f: json.dump(toRoom, f, indent=4) 
 # Class names to CRNs:   "Data Structures" -> [59979, ..., 62915]
-with open("data/search/title_to_CRN.json", 'w') as file: json.dump(titleToCRN, file, indent = 4)
+with open("data/search/titleToCRN.json", 'w') as f: json.dump(titleToCRN, f, indent = 4)
 # Department codes to CRNs:   CSCI 1200 01 -> 59979
-with open("data/search/dept_to_CRN.json", 'w') as f: json.dump(deptToCRN, f, indent=4) 
+with open("data/search/deptToCRN.json", 'w') as f: json.dump(deptToCRN, f, indent=4) 
 
 with open("data/access.json", 'r') as f: access = json.load(f)
 with open("data/printers.json", 'r') as f: printers = json.load(f)

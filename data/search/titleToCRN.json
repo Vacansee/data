@@ -1991,16 +1991,10 @@
         63146,
         64737
     ],
-    "Rcos == 1 Credit": [
-        63775
-    ],
-    "Rcos == 2 Credits": [
-        64455
-    ],
-    "Rcos == 3 Credits": [
-        63776
-    ],
-    "Rcos == 4 Credits": [
+    "RCOS": [
+        63775,
+        64455,
+        63776,
         63777
     ],
     "Machine Learning From Data": [
