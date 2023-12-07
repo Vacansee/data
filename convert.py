@@ -113,14 +113,11 @@ for dept in SIS:
 deptToCRN = {}
 for dept in SIS:
   d = dept['code']
-  deptToCRN[d] = {}
   for course in dept['courses']:
     c = course['crse']
-    numSecs = len(course['sections'])
-    deptToCRN[d][c] = {}
     for section in course['sections']:
       s = section['sec']
-      deptToCRN[d][c][s] = section['crn']
+      deptToCRN[f"{d} {c} ({s})"] = section['crn']
 
 with open("data/search/byCRN.json", 'w') as f: json.dump(byCRN, f, indent = 4)
 with open("data/search/toRoom.json", 'w') as f: json.dump(toRoom, f, indent=4) 
