@@ -87,7 +87,10 @@ for dept in SIS:
         roomName = block['location'] # room name
         act, cap = sec['act'], sec['cap']
         size = act if act > cap else cap # class size estimate
-        if not size or roomName in roomsToSkip or roomName[-1].isalpha(): continue
+        if not size or roomName in roomsToSkip: continue
+        if roomName[-1].isalpha(): # Keep rooms like STU, AUD, SO
+          bldgName, _ = roomName.rsplit(' ', 1)
+          if bldgName not in abbrev: continue
         bldgName, roomNum = roomName.rsplit(' ', 1)
         if bldgName in bldgsToSkip: continue
         room = {}
