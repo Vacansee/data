@@ -241,39 +241,12 @@
         68688,
         68268
     ],
-    "Modern And Contemporary Rome": [
-        69201
-    ],
     "Parametrics Of The Environment": [
         68897
     ],
     "Seminar On Sensory Culture": [
         68997,
         68684
-    ],
-    "Intro To Global Studies": [
-        69202
-    ],
-    "Global Changemakers": [
-        69203
-    ],
-    "Rome: Field / Objects / Vector": [
-        69066
-    ],
-    "Architecture Of The City": [
-        69067
-    ],
-    "Renaissance & Baroque Arch": [
-        69068
-    ],
-    "To Rome With Love": [
-        69069
-    ],
-    "History Of Italian Design": [
-        69070
-    ],
-    "Fashion & Architecture": [
-        69071
     ],
     "History, Theory, Criticism I": [
         67419
@@ -323,6 +296,7 @@
         68280
     ],
     "Master's Project": [
+        69471,
         67220,
         66669,
         66855,
@@ -395,9 +369,6 @@
         68597,
         68599,
         68600,
-        65899,
-        66122,
-        68137,
         67271,
         69175,
         65881,
@@ -1171,18 +1142,6 @@
         66848,
         67916
     ],
-    "Topics In Circadian Biology": [
-        69193,
-        69194,
-        69043,
-        69044
-    ],
-    "Muscle And Cardiac Biology": [
-        68650,
-        68649,
-        68647,
-        68648
-    ],
     "Data Analytics": [
         68859,
         68969,
@@ -1208,12 +1167,6 @@
         66043,
         66044
     ],
-    "Biophysics Of Adaptation": [
-        68389,
-        68564,
-        68387,
-        68388
-    ],
     "Biochemistry Research": [
         65191
     ],
@@ -1227,8 +1180,7 @@
         67742
     ],
     "Research Rotation": [
-        67256,
-        66941
+        67256
     ],
     "Professional Project": [
         68871,
@@ -1368,8 +1320,7 @@
     "Biomedical Engineering Lab": [
         65075,
         65076,
-        65857,
-        65295
+        65857
     ],
     "Modeling Of Biomedical Systems": [
         67245
@@ -1492,9 +1443,6 @@
     ],
     "Biotech: Sustainable Plastics": [
         68967
-    ],
-    "Chem & Envr Engineering Proj": [
-        65373
     ],
     "Biochemical Engr": [
         67075
@@ -1652,9 +1600,6 @@
     "Organic Chemistry I": [
         65307
     ],
-    "Out-of-classroom Experience": [
-        65392
-    ],
     "Inorganic Chemistry II": [
         67633
     ],
@@ -1791,9 +1736,6 @@
         65071,
         65365
     ],
-    "Colloquium Series": [
-        67107
-    ],
     "Bridge Engineering": [
         69102
     ],
@@ -1825,11 +1767,6 @@
         68586,
         68588,
         68587
-    ],
-    "Undergraduate Thesis": [
-        68381,
-        66940,
-        65985
     ],
     "Bayesian Data Analysis": [
         69331,
@@ -2061,10 +1998,6 @@
     "Ai In Fiction And Fact": [
         69136
     ],
-    "Algorithmic Game Theory": [
-        67675,
-        67714
-    ],
     "Neurosymbolic Knowledge Graphs": [
         67713,
         67676
@@ -2079,6 +2012,9 @@
     "Graduate Skills": [
         68844,
         68870
+    ],
+    "Algorithmic Game Theory": [
+        67714
     ],
     "Prof Develop: Group Dynamics": [
         68244
@@ -2278,9 +2214,6 @@
     "Advanced Grndwtr Hydro": [
         65066
     ],
-    "Readings In Erth": [
-        66092
-    ],
     "Geochemical Modeling": [
         69204
     ],
@@ -2460,15 +2393,6 @@
     "Intro To Machine Learning": [
         68868
     ],
-    "Multidisciplinary Capstone Design": [
-        65436,
-        65437,
-        65481,
-        66296,
-        66662,
-        66790,
-        66661
-    ],
     "Computer Vision": [
         69154,
         68225
@@ -2522,9 +2446,6 @@
         68955,
         68956,
         68957
-    ],
-    "Senior Project": [
-        65277
     ],
     "Adv Groundwater Hydrology": [
         69393
@@ -2673,16 +2594,6 @@
     "Human Performance Modeling & Support": [
         68960
     ],
-    "Mulitdisciplinary Capstone Design": [
-        66283,
-        66300,
-        66448,
-        66449,
-        65361,
-        65362,
-        65490,
-        66287
-    ],
     "Discrete Event Simulation, Modeling And Analysis": [
         69148
     ],
@@ -2789,10 +2700,6 @@
         68950,
         69051,
         69052
-    ],
-    "Modern & Contemporary Lit": [
-        69049,
-        69295
     ],
     "The Film Experience": [
         68828
@@ -3307,9 +3214,6 @@
     "Heating, Ventilation, & Ac": [
         66663
     ],
-    "Mane Laboratory Safety Program": [
-        67842
-    ],
     "Aeroelasticity & Struct Vibes": [
         67813
     ],
@@ -3326,7 +3230,6 @@
         68243
     ],
     "Advanced Engr Mathematics I": [
-        67843,
         67669
     ],
     "Turbulence": [
@@ -3628,9 +3531,6 @@
     ],
     "Bodies, Institutions, Infrastr": [
         69246
-    ],
-    "Masters Internship": [
-        68814
     ],
     "Writing In Context": [
         67809,
