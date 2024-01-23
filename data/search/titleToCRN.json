@@ -2035,7 +2035,6 @@
         66775,
         65003,
         65004,
-        66921,
         66922,
         66954
     ],
@@ -2139,14 +2138,6 @@
         66040,
         68744
     ],
-    "Adv Mats Metro Eqpt Semi Mfg": [
-        69079,
-        69380,
-        69152,
-        69153,
-        69378,
-        69379
-    ],
     "Adv. Manufacturing Proc & Sys": [
         67650,
         67651
@@ -2177,6 +2168,13 @@
     ],
     "Lean Six Sigma I": [
         68608
+    ],
+    "Adv Mats Metro Eqpt Semi Mfg": [
+        69380,
+        69152,
+        69153,
+        69378,
+        69379
     ],
     "Geology I: Earth's Interior": [
         67794,
