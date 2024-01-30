@@ -1,5 +1,3687 @@
 {
-    "Law School Admission & Careers": [
+    "Arch Exp & Plan Architecture": [
+        93972
+    ],
+    "Arch Exp & Plan Engineering": [
+        93773
+    ],
+    "Arch Exp & Plan Humanities": [
+        93973
+    ],
+    "Arch Exp & Plan Itws/undecided": [
+        93974
+    ],
+    "Arch Exp & Plan Management": [
+        93975
+    ],
+    "Arch Exp & Plan Science": [
+        93976
+    ],
+    "Arch Explore & Planning Exp": [
+        94415
+    ],
+    "Portfolio Development": [
+        93950,
+        94118,
+        94119
+    ],
+    "Student Success Labs": [
+        93629
+    ],
+    "Fip Seminar": [
+        93253,
+        93254,
+        93255,
+        93257,
+        93258,
+        95046,
+        95047,
+        93259,
+        93260,
+        93261,
+        93264,
+        93265,
+        93305,
+        93553,
+        93554,
+        93777,
+        94673
+    ],
+    "Grad Final Administrative Reg": [
+        90432
+    ],
+    "Academic Orientation Seminar For Graduate Students": [
+        92048,
+        93055,
+        94633
+    ],
+    "Ta Training Seminar": [
+        92049
+    ],
+    "Topics Course In Admn": [
+        94711
+    ],
+    "Leadership Lab": [
+        90064
+    ],
+    "Aerospace Studies 100b": [
+        90085
+    ],
+    "Aerospace Studies 200b": [
+        90003
+    ],
+    "Aerospace Studies 300b": [
+        90004
+    ],
+    "Aerospace Studies 400b": [
+        90005
+    ],
+    "Environmental And Ecol System": [
+        90331
+    ],
+    "Environmental And  Ecol System": [
+        94936
+    ],
+    "Energy, Comfort & Ecology": [
+        92618,
+        94369
+    ],
+    "Digital Constructs 2": [
+        92622,
+        94116,
+        94681,
+        94700
+    ],
+    "Digital Constructs 4": [
+        92977,
+        93951,
+        94680,
+        94938
+    ],
+    "Architectural Design Studio 2": [
+        92619,
+        92620,
+        93189,
+        92621,
+        93190,
+        94676,
+        94677,
+        94958,
+        94959,
+        94960,
+        94961,
+        94962,
+        94963,
+        94964
+    ],
+    "Architectural Design Studio 4": [
+        92969,
+        92970,
+        92976,
+        93487,
+        93047,
+        94965,
+        94968,
+        94969,
+        94970,
+        94971,
+        94972,
+        94975
+    ],
+    "Bedford Seminar": [
+        92495,
+        92343
+    ],
+    "Architectural Case Studies": [
+        92650,
+        93952,
+        94113,
+        94114
+    ],
+    "An Architectural Genealogy": [
+        93447
+    ],
+    "Contemporary Design Approaches": [
+        93217,
+        93953,
+        94957
+    ],
+    "Environmental Parametrics": [
+        94664
+    ],
+    "Structures 2": [
+        94244
+    ],
+    "Construction Industry Semr 2": [
+        93448
+    ],
+    "Building Sciences Capstone": [
+        94243
+    ],
+    "Professional Practice 1": [
+        90100
+    ],
+    "Professional Practice 2": [
+        92623,
+        93167
+    ],
+    "Materials Systems & Production": [
+        92651
+    ],
+    "Entrepreneurship &architecture": [
+        93449
+    ],
+    "Bldg Systems And Environment": [
+        90332
+    ],
+    "Architectural Design Studio 5": [
+        92971,
+        94955,
+        94956,
+        92935,
+        94657
+    ],
+    "Architectural Design Studio 6": [
+        93450,
+        94953,
+        94954,
+        93451,
+        94658
+    ],
+    "Architectural Desgin Studio 7": [
+        94659
+    ],
+    "Integrated Design Development Studio": [
+        93192,
+        93955,
+        93956,
+        94667,
+        94951,
+        94952
+    ],
+    "Architectural Acoustics 2": [
+        91446
+    ],
+    "Aural Architecture": [
+        93452,
+        91861
+    ],
+    "Final Project Design Studio": [
+        93193,
+        93194,
+        93195,
+        93196,
+        94668
+    ],
+    "Res Investigations: Projbuilt": [
+        92062
+    ],
+    "Systems Prototyping": [
+        93711
+    ],
+    "Travel Narratives": [
+        95034
+    ],
+    "Latin America Arch /urbanism": [
+        94653
+    ],
+    "Exploratory Drawing": [
+        95032
+    ],
+    "Local Technologies & Systems": [
+        95033
+    ],
+    "Intense Ornamnt 3d Printed Mtl": [
+        94941
+    ],
+    "Design Programming 2": [
+        93453,
+        95123
+    ],
+    "Deep Viewing: Hitchcock": [
+        94942
+    ],
+    "The Art Of Structure": [
+        93469
+    ],
+    "Ceramic Upholstery": [
+        94943
+    ],
+    "Comprehensive Design 2 Cmptng": [
+        94940
+    ],
+    "Lighting Workshop": [
+        94292,
+        94293,
+        94857
+    ],
+    "Interactive Opera": [
+        94944
+    ],
+    "Artif. Intel. Imagining Arch": [
+        94945,
+        95118
+    ],
+    "Geo-actors II": [
+        94286,
+        93750
+    ],
+    "Skin Deep": [
+        94946
+    ],
+    "Relationship Btwn Film & Arch": [
+        93003,
+        94023
+    ],
+    "Urban Data II": [
+        94304,
+        94305
+    ],
+    "Parametrics Of The Environment": [
+        94308
+    ],
+    "Built Ecologies 2": [
+        93709
+    ],
+    "Material Systems & Productions": [
+        94666
+    ],
+    "Interdisciplinary Research Studio": [
+        93705
+    ],
+    "Graduate Environmental Parametrics": [
+        94665
+    ],
+    "Research Design Seminar": [
+        94120,
+        94290
+    ],
+    "Graduate Thesis Seminar:acoustics": [
+        91862
+    ],
+    "Sonics Research Lab 2": [
+        90379
+    ],
+    "Graduate Thesis Seminar": [
+        92347
+    ],
+    "Doctoral Seminar 1": [
+        93165,
+        92647,
+        93779
+    ],
+    "Doctoral Seminar 2": [
+        92648,
+        93778,
+        93967,
+        94844
+    ],
+    "Graduate Final Project": [
+        93174,
+        94947,
+        94948,
+        94949,
+        94950
+    ],
+    "Master's Project": [
+        94846,
+        92374,
+        93706,
+        91293,
+        91294,
+        92281,
+        92321,
+        92395,
+        92475,
+        92499,
+        92514,
+        92515,
+        92516,
+        93347,
+        92249,
+        92568,
+        92567,
+        92714,
+        93534,
+        93852,
+        93982,
+        94057,
+        94318,
+        94543,
+        92597,
+        93010,
+        93022,
+        93023,
+        93026,
+        93027,
+        93046,
+        93056,
+        93063,
+        93067,
+        93075,
+        93081,
+        93134,
+        93236,
+        93496,
+        93499,
+        93512,
+        93541,
+        93546,
+        93560,
+        93606,
+        93623,
+        93744,
+        93747,
+        93751,
+        93753,
+        93786,
+        93141,
+        94630,
+        94977,
+        95028,
+        95058,
+        95110,
+        92481,
+        92983,
+        91820,
+        90153,
+        90171,
+        90220,
+        92727,
+        93299,
+        93627,
+        93759,
+        93995,
+        94015,
+        93142,
+        90431,
+        90501,
+        91894,
+        94319,
+        94321,
+        94322,
+        94323,
+        94324,
+        94544,
+        94545,
+        94546,
+        94547,
+        94861,
+        91335,
+        90502,
+        93980,
+        92088,
+        93011,
+        92539,
+        92640,
+        92643,
+        93024,
+        93139,
+        93456,
+        93539,
+        90500,
+        92123,
+        91122,
+        91638,
+        91911,
+        92105,
+        92560,
+        92750,
+        93036,
+        91565,
+        92054,
+        92234,
+        92238,
+        92279,
+        92506,
+        92533,
+        92546,
+        92507,
+        92508,
+        93501,
+        92509,
+        92510,
+        92511,
+        93504,
+        92547,
+        93507,
+        93515,
+        92695,
+        92699,
+        92746,
+        92747,
+        92803,
+        93014,
+        93017,
+        93043,
+        93224,
+        93285,
+        93374,
+        93376,
+        93377,
+        93029,
+        93219,
+        93222,
+        93249,
+        93755,
+        93136,
+        92958,
+        95005,
+        95008,
+        95011,
+        95014,
+        95017,
+        93130,
+        93144,
+        91419,
+        91966,
+        92003,
+        92260,
+        92384,
+        93527,
+        92398,
+        92410,
+        94640,
+        94641,
+        92563,
+        94642,
+        94643,
+        93064,
+        93068,
+        93086,
+        93251,
+        93297,
+        94644,
+        94645,
+        94646,
+        94647,
+        94648
+    ],
+    "Master's Thesis": [
+        90442,
+        90443,
+        94289,
+        94850,
+        93710,
+        90204,
+        90205,
+        92004,
+        92071,
+        92210,
+        92382,
+        91462,
+        91463,
+        92258,
+        91295,
+        91464,
+        92557,
+        91465,
+        91296,
+        91466,
+        92032,
+        92672,
+        91437,
+        91824,
+        91148,
+        92319,
+        92607,
+        93087,
+        92018,
+        91515,
+        91926,
+        90143,
+        92408,
+        90444,
+        92405,
+        92413,
+        92545,
+        90148,
+        91285,
+        91286,
+        91470,
+        91475,
+        91478,
+        91480,
+        91793,
+        91876,
+        91831,
+        91827,
+        91877,
+        91878,
+        91287,
+        91892,
+        90381,
+        90385,
+        91924,
+        91349,
+        91522,
+        90249,
+        93961,
+        92482,
+        92984,
+        90155,
+        91300,
+        90172,
+        90254,
+        90258,
+        91340,
+        91301,
+        91343,
+        91359,
+        90492,
+        91635,
+        91826,
+        91879,
+        91882,
+        91908,
+        92056,
+        90429,
+        92160,
+        92192,
+        92289,
+        93020,
+        93493,
+        91484,
+        91486,
+        91487,
+        93457,
+        90266,
+        92159,
+        92276,
+        92290,
+        92269,
+        92270,
+        92271,
+        91825,
+        92122,
+        90417,
+        92641,
+        92644,
+        91075,
+        93035,
+        91280,
+        91126,
+        93500,
+        91477,
+        91492,
+        91499,
+        93503,
+        91509,
+        93506,
+        91328,
+        90485,
+        91329,
+        91636,
+        91819,
+        91896,
+        91980,
+        92093,
+        92096,
+        92103,
+        93756,
+        93013,
+        92502,
+        90355,
+        92052,
+        92053,
+        92503,
+        92504,
+        93016,
+        93018,
+        93030,
+        93220,
+        93221,
+        93248,
+        94626,
+        90482,
+        90677,
+        95006,
+        95009,
+        95012,
+        95015,
+        95018,
+        91833,
+        91529,
+        93511,
+        93772,
+        92261,
+        91571,
+        91840,
+        95053,
+        95056
+    ],
+    "Architecture Dissertation": [
+        93050,
+        91289,
+        91082,
+        91067,
+        94851,
+        90499
+    ],
+    "Digital Filmmaking": [
+        93168,
+        93551
+    ],
+    "Basic Drawing": [
+        92461,
+        92354
+    ],
+    "Fundamentals Of Music & Sound": [
+        94580
+    ],
+    "2d Experimental Animation": [
+        94446
+    ],
+    "Radical Graphics Screenprnt": [
+        94447
+    ],
+    "Deep Listening": [
+        93906,
+        94138,
+        94448,
+        94449
+    ],
+    "Fundamentals Of 2d Design": [
+        94817
+    ],
+    "3d Digital Modeling": [
+        94605
+    ],
+    "Rensselaer Orchestra": [
+        90404
+    ],
+    "Rensselaer Concert Choir": [
+        90403
+    ],
+    "Chamber Music Ensemble": [
+        94137,
+        94818
+    ],
+    "Music And Sound I": [
+        93712
+    ],
+    "History Of Western Music": [
+        94671
+    ],
+    "The Multimedia Century": [
+        92050
+    ],
+    "Sound Recording & Prod I": [
+        93946,
+        93947,
+        93948
+    ],
+    "Private Music Lessons: Violin": [
+        94029
+    ],
+    "Private Music Lessons:viola": [
+        94026
+    ],
+    "Private Music Lessons: Cello": [
+        94027
+    ],
+    "Private Music Lessons: Flute": [
+        94028
+    ],
+    "Private Music Lessons: Oboe": [
+        94030
+    ],
+    "Private Music Lessons:clarinet": [
+        94025
+    ],
+    "Private Music Lessons: Bassoon": [
+        94031
+    ],
+    "Private Music Lessons: Sax": [
+        94032
+    ],
+    "Private Music Lessons: Piano": [
+        94033,
+        94039,
+        94034
+    ],
+    "Private Music Lessons: Guitar": [
+        94140
+    ],
+    "Music Lessons: Euphonium": [
+        94139
+    ],
+    "Private Music Lessons: Harp": [
+        94035
+    ],
+    "Private Music Lessons: Percuss": [
+        94036
+    ],
+    "Private Music Lessons: Voice": [
+        94037
+    ],
+    "Private Music Lessons: Trumpet": [
+        94038
+    ],
+    "Private Music Lesson: Trombone": [
+        94141
+    ],
+    "Private Music Lessons: Tuba": [
+        94142
+    ],
+    "Prv Music Lessons: Jazz Improv": [
+        94143
+    ],
+    "Prv Music Lessons: Jazz Sax": [
+        94144
+    ],
+    "Private Music Lessons: Bass": [
+        95021
+    ],
+    "Private Music Lesson: Frnch Hr": [
+        95081
+    ],
+    "Rensselaer Wind Symphony": [
+        94583
+    ],
+    "Rethinking Documentary:video Production": [
+        94454
+    ],
+    "Adv Video Media Studio": [
+        94831
+    ],
+    "3d Visual Effects": [
+        94819
+    ],
+    "Art, Community And Technology": [
+        94455
+    ],
+    "New Media Theory": [
+        94821,
+        94822
+    ],
+    "Queer Ecologies": [
+        94823,
+        94824
+    ],
+    "Music And Technology II": [
+        94604
+    ],
+    "Advanced Drawing": [
+        92462
+    ],
+    "Painting": [
+        94825,
+        94826
+    ],
+    "Life Drawing And Anatomy For Artists": [
+        94827,
+        94828
+    ],
+    "Music And Sound II": [
+        93691
+    ],
+    "Animation Production": [
+        93408
+    ],
+    "Science Fictions": [
+        94829,
+        94830
+    ],
+    "Sound Recording & Prod II": [
+        94024
+    ],
+    "Creative Seminar II": [
+        92463
+    ],
+    "Advanced Digital Imaging": [
+        94606,
+        94607
+    ],
+    "Music & Ai": [
+        94145
+    ],
+    "Spatial Music & Sound": [
+        94892,
+        94894
+    ],
+    "Net.art": [
+        94893
+    ],
+    "Rethinking Documentary: Video": [
+        94820
+    ],
+    "Electronic Arts Overview": [
+        93464
+    ],
+    "Experimental Game Design": [
+        92496,
+        93490
+    ],
+    "Arts Graduate Colloquium": [
+        94991
+    ],
+    "Dissertation": [
+        91640,
+        91714,
+        94146,
+        92541,
+        92551,
+        93537,
+        94147,
+        92614,
+        93060,
+        93550,
+        94539,
+        94052,
+        94053,
+        94054,
+        95060,
+        92676,
+        93532,
+        91848,
+        91849,
+        93244,
+        91851,
+        91850,
+        92967,
+        93138,
+        93533,
+        94358,
+        91846,
+        91847,
+        90191,
+        92370,
+        92414,
+        90329,
+        92685,
+        94682,
+        92680,
+        93252,
+        90555,
+        93426,
+        93745,
+        93509,
+        90557,
+        90556,
+        91272,
+        91273,
+        90133,
+        92377,
+        91467,
+        90537,
+        91297,
+        90384,
+        93229,
+        90487,
+        92031,
+        91514,
+        92519,
+        93465,
+        92034,
+        92368,
+        92369,
+        92550,
+        94649,
+        91087,
+        94507,
+        91278,
+        91334,
+        91458,
+        90137,
+        90138,
+        91106,
+        90139,
+        90140,
+        91483,
+        90218,
+        90257,
+        91489,
+        92351,
+        90388,
+        92383,
+        92705,
+        93034,
+        93518,
+        90423,
+        90575,
+        90979,
+        92180,
+        90134,
+        91471,
+        90135,
+        91105,
+        90136,
+        94000,
+        93228,
+        91952,
+        92235,
+        92373,
+        93038,
+        94678,
+        90256,
+        92679,
+        91885,
+        90141,
+        91288,
+        90142,
+        92244,
+        90145,
+        90147,
+        92245,
+        90409,
+        90410,
+        92668,
+        93218,
+        92363,
+        92378,
+        92387,
+        92400,
+        92543,
+        92544,
+        92598,
+        92673,
+        94058,
+        94059,
+        91920,
+        93763,
+        92098,
+        92389,
+        93977,
+        92044,
+        90144,
+        91119,
+        91283,
+        90149,
+        91284,
+        90206,
+        91036,
+        90297,
+        90318,
+        91533,
+        93234,
+        90324,
+        91890,
+        90325,
+        90326,
+        90327,
+        92702,
+        91914,
+        90386,
+        92228,
+        91146,
+        93558,
+        92522,
+        92524,
+        90411,
+        94631,
+        90412,
+        95072,
+        90477,
+        95114,
+        91921,
+        92483,
+        93962,
+        92985,
+        90157,
+        91333,
+        90158,
+        90159,
+        93749,
+        90160,
+        90161,
+        91472,
+        90164,
+        91344,
+        90165,
+        90166,
+        91500,
+        90167,
+        90168,
+        91507,
+        90207,
+        90211,
+        90216,
+        90217,
+        90330,
+        92390,
+        91524,
+        90389,
+        92086,
+        93557,
+        90391,
+        91888,
+        90419,
+        93741,
+        90420,
+        91726,
+        91883,
+        90430,
+        91536,
+        93045,
+        90486,
+        90496,
+        92670,
+        91091,
+        94616,
+        90562,
+        90568,
+        90673,
+        91526,
+        94634,
+        92318,
+        92454,
+        92529,
+        92531,
+        93065,
+        93225,
+        93233,
+        92243,
+        90173,
+        90174,
+        90175,
+        94863,
+        94331,
+        94548,
+        94549,
+        94550,
+        94551,
+        92026,
+        92027,
+        93019,
+        93491,
+        92028,
+        93492,
+        93781,
+        93494,
+        93966,
+        93495,
+        92029,
+        92030,
+        90536,
+        91073,
+        92262,
+        92197,
+        92257,
+        92313,
+        90178,
+        92367,
+        90497,
+        91001,
+        94636,
+        90179,
+        91423,
+        94672,
+        91727,
+        90415,
+        90416,
+        92409,
+        91893,
+        92211,
+        92415,
+        92072,
+        92121,
+        91485,
+        90180,
+        90181,
+        90182,
+        90183,
+        91291,
+        90184,
+        91089,
+        93458,
+        91418,
+        90214,
+        90215,
+        90274,
+        91068,
+        92273,
+        92274,
+        91069,
+        92375,
+        92642,
+        92645,
+        94614,
+        94615,
+        91299,
+        91482,
+        90185,
+        92207,
+        93025,
+        90248,
+        93520,
+        90476,
+        91491,
+        91527,
+        90421,
+        90424,
+        90425,
+        90484,
+        92065,
+        91085,
+        90636,
+        90426,
+        93232,
+        94002,
+        93502,
+        93012,
+        90356,
+        93015,
+        90357,
+        91281,
+        90358,
+        91493,
+        93505,
+        90359,
+        93508,
+        93042,
+        90360,
+        91302,
+        90361,
+        91338,
+        91439,
+        93776,
+        91510,
+        91637,
+        92372,
+        90362,
+        92055,
+        92517,
+        92097,
+        92518,
+        91066,
+        90363,
+        93231,
+        90364,
+        90365,
+        90366,
+        90367,
+        90368,
+        90375,
+        90390,
+        90393,
+        90675,
+        90676,
+        95007,
+        95010,
+        95013,
+        95016,
+        95019,
+        90169,
+        90170,
+        91389,
+        93514,
+        91476,
+        91088,
+        90186,
+        93562,
+        90213,
+        95054,
+        91099,
+        95057,
+        91494,
+        90293,
+        91889,
+        91111,
+        90478,
+        92553,
+        92407,
+        93293,
+        90788,
+        92698,
+        94325,
+        94326,
+        94327,
+        94328
+    ],
+    "Stars, Galaxies And The Cosmos": [
+        94338
+    ],
+    "Readings In Astr": [
+        91227,
+        91229
+    ],
+    "Observational Astronomy": [
+        92355
+    ],
+    "Gravitation & Cosmology": [
+        92660
+    ],
+    "Astrophysics Of Galaxies": [
+        93216,
+        94998
+    ],
+    "Particle Astrophysics": [
+        94520,
+        95001,
+        92397,
+        94526
+    ],
+    "Masters Professional Project": [
+        93375,
+        94712,
+        95020,
+        92057,
+        92158,
+        92212,
+        92241,
+        92268,
+        92416,
+        93561,
+        94976,
+        94996,
+        94997,
+        94250,
+        94690
+    ],
+    "Research In Biochem/biophysics": [
+        90287
+    ],
+    "Genetic Engineering": [
+        91260,
+        91259
+    ],
+    "Molecular Modeling": [
+        92473,
+        92472,
+        90371,
+        92474
+    ],
+    "Data Analytics": [
+        94986,
+        94295,
+        94299,
+        93004,
+        93684,
+        93005,
+        93529,
+        94979,
+        94980,
+        94333,
+        94334
+    ],
+    "The Biology Of Systems": [
+        93424,
+        93425,
+        93422,
+        93423
+    ],
+    "Biochemistry Lab": [
+        93704,
+        94235,
+        93701,
+        94234
+    ],
+    "Molecular Biochem II": [
+        90019,
+        90021,
+        90069
+    ],
+    "Senior Research Thesis": [
+        91881,
+        91144,
+        91193,
+        91901,
+        91963,
+        91961,
+        92674,
+        92000
+    ],
+    "Professional Project": [
+        94995,
+        94398,
+        95111,
+        94417,
+        95052,
+        95055
+    ],
+    "Accelerated Program": [
+        95030
+    ],
+    "Introduction To Biology": [
+        92464,
+        92465,
+        92466
+    ],
+    "Introduction To Biology Laboratory": [
+        92468,
+        92469,
+        92470,
+        92471,
+        93146,
+        93147
+    ],
+    "Intro Biol Computational Lab": [
+        94719,
+        94720
+    ],
+    "Intro To Cell & Molec Biology": [
+        94201,
+        94202
+    ],
+    "Intro Cell & Molec Biol Lab": [
+        94203,
+        94538,
+        94204,
+        94205,
+        94206,
+        94207,
+        94208,
+        94209,
+        94210,
+        94211
+    ],
+    "Research In Biology": [
+        91230
+    ],
+    "Investigative Medicine II": [
+        93212,
+        93466
+    ],
+    "Biomedical Research": [
+        94603,
+        93467
+    ],
+    "Cellular Neuroscience": [
+        93728,
+        93729
+    ],
+    "Biostatistics": [
+        92966,
+        94453
+    ],
+    "Developmental Biology": [
+        91444
+    ],
+    "Human Population": [
+        94214
+    ],
+    "Molecular Biology": [
+        90020
+    ],
+    "Principles Of Ecology": [
+        91274
+    ],
+    "Biology Core Course II": [
+        91442
+    ],
+    "Ethical Issues In Biotechnology": [
+        94473,
+        94472
+    ],
+    "Seminar In Biology": [
+        90087
+    ],
+    "Research Rotation III": [
+        92498
+    ],
+    "Curr Topics-cytoskeletal Rsch": [
+        93738
+    ],
+    "Research": [
+        92157
+    ],
+    "Programming For Biomed Engr": [
+        94215,
+        94217
+    ],
+    "Biomaterials Sci & Engineering": [
+        92223
+    ],
+    "Bioimaging/ Bioinstrumentation": [
+        92490,
+        92981
+    ],
+    "Biomechanics": [
+        92358,
+        93186
+    ],
+    "Biomedical Engineering Lab": [
+        92224,
+        92357,
+        94758
+    ],
+    "Modeling Of Biomedical Systems": [
+        94759
+    ],
+    "Biomed Transport Phenomena": [
+        94218
+    ],
+    "Biomedical Product Development & Commercialization": [
+        93434
+    ],
+    "Biomems": [
+        93435,
+        93436
+    ],
+    "Biophotonics": [
+        93187,
+        93188
+    ],
+    "Biological Image Analysis": [
+        92632,
+        92634
+    ],
+    "Biomedical Data Science": [
+        93769,
+        93770
+    ],
+    "Adv Systems Physiology": [
         90043
+    ],
+    "Biomedical Engr Design": [
+        90044,
+        92225
+    ],
+    "Intro To Cell And Tissue Eng": [
+        91269
+    ],
+    "Ai For Biomedical Applications": [
+        93742,
+        93743
+    ],
+    "Bme Seminar": [
+        92633,
+        92657
+    ],
+    "Intro To Cell And Tissue Engr": [
+        92491
+    ],
+    "Discussions In Graduate Research": [
+        92635
+    ],
+    "Data Science & Alzheimer's": [
+        93965
+    ],
+    "Protect& Commercial Your Innov": [
+        94355
+    ],
+    "Managing Dynamic Organizations": [
+        94251
+    ],
+    "Markets, Strategy & People": [
+        94252
+    ],
+    "Evaluating Performance": [
+        94254
+    ],
+    "Agile Planning & Execution": [
+        94257
+    ],
+    "Leaders As Change Agents": [
+        94259
+    ],
+    "Changing And Innovating": [
+        94260
+    ],
+    "Leaders & Strategy": [
+        94426
+    ],
+    "Leaders In Dynamic Markets": [
+        94810
+    ],
+    "Leaders Making Financial Decsn": [
+        94760
+    ],
+    "Fundmtls Of Chemical Engr": [
+        94300,
+        94301
+    ],
+    "Energy, Entropy, & Equilibrium": [
+        93716,
+        94788
+    ],
+    "Introduction To Computational Chemical Engineering": [
+        93726
+    ],
+    "Chemical Process Safety": [
+        94521
+    ],
+    "Transport Phenomena I": [
+        92686
+    ],
+    "Semiconductor Electrochemistry": [
+        94522,
+        94525
+    ],
+    "Transport Phenomena II": [
+        91454
+    ],
+    "Chemical Eng Separations": [
+        94789
+    ],
+    "Chemical Process Dsgn: Fdmtl": [
+        94457,
+        94458
+    ],
+    "Chemical Process Dsgn: Apps": [
+        95003
+    ],
+    "Finite Element Modeling": [
+        94524
+    ],
+    "Chem Engr Lab II": [
+        91456,
+        91457
+    ],
+    "Biotechnol & Bioprocessing Lab": [
+        91455,
+        93246
+    ],
+    "Chromatography Separation Proc": [
+        91059
+    ],
+    "Chemical Reactor Design": [
+        94790
+    ],
+    "Chemical Process Design": [
+        94555
+    ],
+    "Colloid & Interface Science": [
+        93428,
+        93429
+    ],
+    "Chromatographic Separation Processes": [
+        92500
+    ],
+    "Adv Transport Phenomena I": [
+        90281
+    ],
+    "Chbe Seminar": [
+        91528
+    ],
+    "Perspectives In Bms & Eng": [
+        93526
+    ],
+    "Perspectives In Alz Research": [
+        93752
+    ],
+    "Masters Project": [
+        92128,
+        92365
+    ],
+    "Masters Thesis": [
+        92116,
+        92435,
+        92689,
+        92536,
+        93516,
+        92592,
+        93978,
+        93979,
+        92946,
+        92385,
+        94056,
+        93277,
+        92227,
+        93278,
+        92521,
+        92523,
+        92671,
+        92061,
+        92066,
+        92100,
+        93556,
+        93748,
+        92669,
+        92528,
+        92530,
+        92610,
+        92959,
+        91997,
+        92239,
+        94552
+    ],
+    "Chemistry I": [
+        90513,
+        90514,
+        93746
+    ],
+    "Chemistry II": [
+        90230,
+        94593,
+        91267
+    ],
+    "Chemistry II Without Lab": [
+        93919
+    ],
+    "Chemistry II Honors": [
+        94778
+    ],
+    "Materials Science": [
+        93470,
+        93472,
+        93475,
+        93478,
+        90077,
+        90084,
+        90050,
+        92325,
+        93471,
+        93474,
+        93477,
+        93480,
+        93485,
+        93473,
+        93476,
+        93479
+    ],
+    "Inorganic Chemistry I": [
+        90018
+    ],
+    "Organic Chemistry Lab II": [
+        94779,
+        93525,
+        90518,
+        90519,
+        92376
+    ],
+    "Organic Chemistry II": [
+        90515
+    ],
+    "Experimental Chemistry II:synthesis And Characterization": [
+        90437
+    ],
+    "Undergraduate Research": [
+        90520
+    ],
+    "Experimental Chemistry Iv:physical And Instrumental Methods": [
+        90438
+    ],
+    "Nmr Spectroscopy": [
+        93920,
+        93921
+    ],
+    "Industrial Chemistry": [
+        93968
+    ],
+    "Medicinal Chemistry": [
+        94783,
+        94785
+    ],
+    "Microscopic Physical Chemistry": [
+        91453
+    ],
+    "Modern Techniques In Chemistry": [
+        94842
+    ],
+    "Natural Polymers & Materials": [
+        94739,
+        93549
+    ],
+    "Intro Polymer Chemistry": [
+        94599
+    ],
+    "Chem Of The Environment": [
+        94230,
+        94245
+    ],
+    "Culminating Research Exp": [
+        94345
+    ],
+    "Proteomics-str Bioinformatics": [
+        94802,
+        94801
+    ],
+    "History Of Chemistry": [
+        94242
+    ],
+    "Hydrothermal Expmt Methods": [
+        94595,
+        94596,
+        94839,
+        94840
+    ],
+    "Xray Diffraction & Crystal Str": [
+        94601,
+        94602
+    ],
+    "Polymer Chemistry": [
+        94600
+    ],
+    "Chemistry Seminar": [
+        90017
+    ],
+    "Introduction To Research": [
+        94987
+    ],
+    "Introduction To Civil And Environmental Engineering": [
+        92348
+    ],
+    "Beg Program Civl & Envir Engr": [
+        94309
+    ],
+    "Intro Transportation Engineeri": [
+        93649
+    ],
+    "Intro Water Resource Eng": [
+        94121,
+        94357,
+        94429
+    ],
+    "Intro To Geotechnical Engr": [
+        93660,
+        93661,
+        93662,
+        93663,
+        93665
+    ],
+    "Intro To Structural Eng": [
+        93654,
+        93656,
+        93657,
+        93658,
+        93659
+    ],
+    "Readings In Civl": [
+        90455
+    ],
+    "Concrete Design": [
+        94450,
+        94451,
+        94452
+    ],
+    "Geotechnical Design": [
+        90102,
+        93762
+    ],
+    "Intro To Finite Elements": [
+        93182,
+        93689,
+        93880,
+        93879,
+        93181,
+        93688
+    ],
+    "Construction Management": [
+        90129
+    ],
+    "Design For Constructability": [
+        92968
+    ],
+    "Matrix Structural Analysis": [
+        91843
+    ],
+    "Conceptual Structural Systems": [
+        92349
+    ],
+    "Seepage, Drainage, Groundwater": [
+        94717
+    ],
+    "System Modeling For Civl & Env": [
+        94122
+    ],
+    "Mass Transit Systems": [
+        94115
+    ],
+    "Civil Engineering Capstone Design": [
+        90285
+    ],
+    "Bedford Digital Tools Dev.": [
+        93445
+    ],
+    "Adv Steel Design": [
+        90522
+    ],
+    "Bedford Design Studio": [
+        92344
+    ],
+    "Earthquake Engr": [
+        94726
+    ],
+    "Adv Seepage, Drainage, Grndwtr": [
+        94430
+    ],
+    "Civl And Environmental Engineering Graduate Seminar": [
+        90091
+    ],
+    "Colloquium Series": [
+        92455
+    ],
+    "Structural Reliability": [
+        94724
+    ],
+    "Intro To Cognitive Science": [
+        92215,
+        94313
+    ],
+    "Introduction To Linguistics": [
+        94148,
+        93864
+    ],
+    "Cognitive Modeling": [
+        94832
+    ],
+    "Animal Cognition&inter W/human": [
+        94280,
+        94281
+    ],
+    "Behavioral Neuroscience": [
+        94932,
+        94933,
+        94930,
+        94931
+    ],
+    "Stress And The Brain": [
+        92456,
+        94929,
+        92457,
+        94928
+    ],
+    "Advanced Topics In Linguistics": [
+        94834
+    ],
+    "Language-endowed Intel Agents": [
+        94149,
+        94150
+    ],
+    "Social Computing": [
+        93943,
+        93944,
+        93949
+    ],
+    "Language Learning": [
+        94934
+    ],
+    "Undergraduate Thesis": [
+        92366,
+        92379,
+        92439,
+        92552,
+        92558,
+        92599,
+        93021,
+        93294,
+        93739,
+        94416,
+        91351,
+        92512
+    ],
+    "Cognitive Modeling I": [
+        94833
+    ],
+    "Research Problems In Cog Sci": [
+        90447
+    ],
+    "Eff Comm For Class Pedagogy": [
+        93994
+    ],
+    "Communication Theory & Prac.": [
+        93696,
+        93697,
+        93698,
+        93699,
+        94496
+    ],
+    "Typography": [
+        93400,
+        93736
+    ],
+    "Introduction To Graphic Design": [
+        93889,
+        93890,
+        94579
+    ],
+    "Social Media & Stratgc Comm": [
+        94498
+    ],
+    "Information Design": [
+        93393
+    ],
+    "Visual Culture": [
+        94865
+    ],
+    "Interface Design:hypermedia Theory And Application": [
+        94847
+    ],
+    "Brand Identity Design": [
+        94152,
+        94315
+    ],
+    "Adaptation In Games & Media": [
+        94843,
+        94849
+    ],
+    "Computer Science I": [
+        90341,
+        90342,
+        90343,
+        90344,
+        92338,
+        93032,
+        93207
+    ],
+    "Data Structures": [
+        90346,
+        90347,
+        90348,
+        90349,
+        90350,
+        90351,
+        90352,
+        92339,
+        92487,
+        92501,
+        93203,
+        93204,
+        93205,
+        93206,
+        93413,
+        93414
+    ],
+    "Early Introduction To Rcos": [
+        94780
+    ],
+    "Foundations Of Computer Sci": [
+        92340,
+        92653,
+        92654,
+        93671,
+        92709,
+        94777
+    ],
+    "Introduction To Algorithms": [
+        91263,
+        90288,
+        91055,
+        90284,
+        92488,
+        92489,
+        93523,
+        93524,
+        94351,
+        94352
+    ],
+    "Computer Organization": [
+        92656,
+        92658,
+        93415,
+        93416
+    ],
+    "Principles Of Software": [
+        92655
+    ],
+    "Introduction To Rcos": [
+        94782
+    ],
+    "Mathematical Foundations Of Ml": [
+        93924
+    ],
+    "Design And Analysis Of Algorithms": [
+        90307
+    ],
+    "Introduction To Artificial Intelligence": [
+        92527
+    ],
+    "Csci 4210 Operating Systems": [
+        90282
+    ],
+    "Cryptography And Network Security I": [
+        94533,
+        94535
+    ],
+    "Graph Theory": [
+        94881,
+        94882
+    ],
+    "Computational Vision": [
+        94784,
+        94786
+    ],
+    "Parallel Programming": [
+        92979
+    ],
+    "Xinformatics": [
+        92478,
+        92479,
+        92476,
+        92477,
+        92458,
+        92459
+    ],
+    "Principles Of Program Analysis": [
+        94791,
+        94792
+    ],
+    "Dist Systems & Algorithms": [
+        94793
+    ],
+    "Web Science Systems Develpment": [
+        94815,
+        94973
+    ],
+    "Interactive Visualization": [
+        93902,
+        93903
+    ],
+    "Numerical Computing": [
+        90286,
+        90070
+    ],
+    "Intro To Num Meth For Diff Eq": [
+        94776
+    ],
+    "Deep Learning": [
+        94537,
+        93904
+    ],
+    "Security And Privacy Of Ml": [
+        93431,
+        93432
+    ],
+    "Graph Mining": [
+        94795,
+        94796
+    ],
+    "Ml Open Source Open Science": [
+        93497
+    ],
+    "Time Series Analysis": [
+        94261,
+        94262
+    ],
+    "Projects In Ml And Ai": [
+        93675,
+        93676
+    ],
+    "Trustworthy Machine Learning": [
+        93677,
+        93678
+    ],
+    "Robotics II": [
+        93679,
+        94939,
+        94171,
+        94172,
+        94660,
+        94332
+    ],
+    "Rcos": [
+        94797,
+        94798,
+        94799,
+        94800
+    ],
+    "Ai And Blockchain": [
+        91875,
+        92652
+    ],
+    "Parallel Computing": [
+        92980
+    ],
+    "Distributed Algorithms And Systems": [
+        94794
+    ],
+    "Finite Element Analysis": [
+        94775,
+        94771
+    ],
+    "Ai For Drug Discovery": [
+        94806
+    ],
+    "Network Flows": [
+        94978,
+        94773
+    ],
+    "Prof Develop: Group Dynamics": [
+        90106,
+        93384
+    ],
+    "Intro To Engr Analysis": [
+        90051,
+        94622,
+        92324
+    ],
+    "Eng Graphics & Cad": [
+        90127,
+        90052,
+        90053,
+        90090,
+        90054,
+        90055,
+        93150
+    ],
+    "Engr Processes": [
+        90096,
+        90056,
+        90093,
+        90057,
+        90058,
+        90083,
+        90059,
+        90076,
+        94638,
+        94637,
+        92627,
+        92988,
+        93149
+    ],
+    "Engineering Communications": [
+        92326,
+        92327,
+        92328,
+        92329,
+        92330,
+        93151
+    ],
+    "Intro Engineering Design": [
+        90436,
+        90298,
+        90107,
+        90108,
+        90280
+    ],
+    "Intro Engineering  Design": [
+        92628
+    ],
+    "Intro Engineering Design-pilot": [
+        90109,
+        90110,
+        90233,
+        90111
+    ],
+    "Engineering Dynamics": [
+        90112,
+        90113,
+        92484
+    ],
+    "Thermal & Fluids Eng I": [
+        92485
+    ],
+    "Electronic Instrumentation": [
+        92359,
+        92360,
+        95025
+    ],
+    "Embedded Control": [
+        90239,
+        90240,
+        90241
+    ],
+    "Strength Of Materials": [
+        93637,
+        90047,
+        90048
+    ],
+    "Mod & Analysis Uncertainty": [
+        90049,
+        90062,
+        92486,
+        92629
+    ],
+    "Mod & Analysis Uncertain": [
+        90082,
+        90045
+    ],
+    "Modeling & Analysis Uncertaint": [
+        93245
+    ],
+    "Intro Manufacturing Planning": [
+        93210
+    ],
+    "Gen Manufacturing Proc": [
+        90046
+    ],
+    "Pd: Leadership Competencies": [
+        90277,
+        90278,
+        90279,
+        90435,
+        91445,
+        90508,
+        90509,
+        92990
+    ],
+    "Business Issues For Engr & Sci": [
+        90516,
+        90517
+    ],
+    "Ethical Engineering & Tech": [
+        94721
+    ],
+    "Product Design And Innovation Design Studio 6": [
+        94989
+    ],
+    "Manufacturing Processes And Systems Laboratory II": [
+        93152,
+        93153
+    ],
+    "Engineering Economics": [
+        91262
+    ],
+    "Fab Tech f Semiconductor Mfg": [
+        94730,
+        94731,
+        94474,
+        94475,
+        94728,
+        94729
+    ],
+    "Business Issues For Engineers": [
+        93935
+    ],
+    "Data-driven Decision Making": [
+        93936
+    ],
+    "Production & Logistic Analysis": [
+        93937
+    ],
+    "Modeling Production Decisions": [
+        93938
+    ],
+    "Business Intelligence Analysis": [
+        93939
+    ],
+    "Modeling Business Decisions": [
+        93940
+    ],
+    "Data Architecture": [
+        93941
+    ],
+    "Machine Learning Frameworks": [
+        94248
+    ],
+    "Deep Learning In Ai Systems": [
+        94249
+    ],
+    "Lean Six Sigma I": [
+        93942
+    ],
+    "Platform Bus. For Eng. & Sci.": [
+        94808,
+        94807
+    ],
+    "Geology II Earth's Surface": [
+        90079
+    ],
+    "Geology II: Earth's Surface": [
+        94588
+    ],
+    "Geology II: Lab": [
+        93433,
+        92991,
+        93437,
+        93646,
+        93957
+    ],
+    "Intro To Astrobiology": [
+        94471,
+        94470
+    ],
+    "Intro Geophysics": [
+        93648
+    ],
+    "Earth's Climate:past, Present And Future": [
+        91852
+    ],
+    "Gis In The Sciences": [
+        94985
+    ],
+    "Readings In Erth": [
+        90534,
+        90466
+    ],
+    "Biogeochem Impact Extreme Evnt": [
+        94756
+    ],
+    "Evolution Of Earths Atmosphere": [
+        94757
+    ],
+    "Special Topics In Geology": [
+        94767
+    ],
+    "Intermediate Microeconomic Theory": [
+        90038,
+        90065,
+        94541
+    ],
+    "Intermediate Macroeconomic Theory": [
+        92037,
+        92646,
+        93859
+    ],
+    "Econ Data Analysis & Applic.": [
+        94542,
+        94910
+    ],
+    "Apld Microecon & Public Policy": [
+        94911,
+        94922
+    ],
+    "Econ Of Innovation & New Tech": [
+        94157,
+        94158
+    ],
+    "Money & Banking": [
+        90074
+    ],
+    "Health Economics And Policy": [
+        93643,
+        94553,
+        93642
+    ],
+    "Intl Economics & Globalization": [
+        93631,
+        94164
+    ],
+    "Cost-benefit Analysis": [
+        94923
+    ],
+    "Applied Game Theory": [
+        94917,
+        94918,
+        94919,
+        94920
+    ],
+    "Environmental Economics": [
+        94921
+    ],
+    "Behavioral Economics": [
+        93860,
+        94554,
+        93861
+    ],
+    "Econometric Methods-big Data": [
+        94159,
+        94160
+    ],
+    "Econ Of Biotech & Med Innov": [
+        94913,
+        94914,
+        94915
+    ],
+    "Law & Economics": [
+        93409
+    ],
+    "Econ Models Of Decision Making": [
+        93907,
+        94156
+    ],
+    "Behavioral Financial Econ": [
+        93908,
+        93909
+    ],
+    "Experimental Economics": [
+        93885,
+        93905
+    ],
+    "Labor Mrkts & Discrimination": [
+        94916
+    ],
+    "Economics Of Growth & Innov": [
+        94163
+    ],
+    "Econometrics": [
+        94161,
+        93536,
+        94162
+    ],
+    "Adv Data Analy & Policy Eval": [
+        94912,
+        94155
+    ],
+    "Econ Of Growth & Innovation": [
+        93884
+    ],
+    "Adv Intl Econ & Globalization": [
+        93630
+    ],
+    "Adv Cost-benefit Analysis": [
+        94924
+    ],
+    "Introduction To Ecse": [
+        93197
+    ],
+    "Electric Circuits": [
+        90075,
+        90078
+    ],
+    "Introduction To Electronics": [
+        90081,
+        93001
+    ],
+    "Fields And Waves I": [
+        90041
+    ],
+    "Electrical Energy Systems": [
+        93198
+    ],
+    "Microelectronics Technology": [
+        91864
+    ],
+    "Signals And Systems": [
+        91866
+    ],
+    "Engineering Probability": [
+        92497
+    ],
+    "Cptr Components & Oper": [
+        90103,
+        91863,
+        90104
+    ],
+    "Ecse Enrichment Seminar": [
+        92661
+    ],
+    "Practicum-college Teaching I": [
+        93668
+    ],
+    "Practicum-college Teaching II": [
+        93669
+    ],
+    "Digital Electronics": [
+        91275
+    ],
+    "Advanced Electronic Circuits": [
+        92662,
+        92663
+    ],
+    "Mechatronics": [
+        93007,
+        93715
+    ],
+    "Epe Lab": [
+        91868
+    ],
+    "Renewable Power Generation": [
+        94462,
+        94463
+    ],
+    "Vlsi Design": [
+        90338
+    ],
+    "Fdmtls Of Rf/microwave Engr": [
+        94310,
+        94311
+    ],
+    "Modern Communication Sys": [
+        93394,
+        93395
+    ],
+    "Internetworking Of Things": [
+        94198,
+        94199
+    ],
+    "Real-time Applications In Control And Communications": [
+        90040
+    ],
+    "Advanced Computer Hardware Design": [
+        94732
+    ],
+    "Introduction To Deep Learning": [
+        93730
+    ],
+    "Multidisciplinary Capstone Design": [
+        90305,
+        90448,
+        90524,
+        91460,
+        92231,
+        92232,
+        92233
+    ],
+    "Fund Of Optoelectronics Tech": [
+        94733,
+        94734
+    ],
+    "Advanced Power Electronics": [
+        94735,
+        93410
+    ],
+    "Distrib. Optimiz. & Learning": [
+        93199,
+        93200
+    ],
+    "Intro To Robot Programming": [
+        94736,
+        94927
+    ],
+    "Advance Device Concepts": [
+        94494,
+        93634
+    ],
+    "Intro To Quantum Elec Devices": [
+        94738
+    ],
+    "Ic Fabrication Lab": [
+        90306,
+        91061
+    ],
+    "Multivariable Control Systems": [
+        93868,
+        91872
+    ],
+    "Detection & Est Theory": [
+        93869
+    ],
+    "Inform Theory & Coding": [
+        94737
+    ],
+    "Advanced Vlsi Design": [
+        93412
+    ],
+    "Computer Architecture Prototyping With Fpga's": [
+        93528
+    ],
+    "Intro To Deep Learning": [
+        93731
+    ],
+    "Seminar in Ecse": [
+        93202
+    ],
+    "Doctor's Thesis In Engrng Sci": [
+        91479,
+        91532,
+        91880,
+        92149,
+        90413,
+        90907,
+        91086
+    ],
+    "Introduction To Env. Engr.": [
+        93653,
+        94612
+    ],
+    "Environmental Process Design": [
+        90521
+    ],
+    "Solid & Hazardous Waste": [
+        93862
+    ],
+    "Env Chemodynamics": [
+        92346
+    ],
+    "Physicochemical Proc In Enve": [
+        92345
+    ],
+    "Photobiology & Hydroponics": [
+        94443
+    ],
+    "Nanotechnology In Water Rsrch": [
+        94723
+    ],
+    "Art For Interactive Media": [
+        93446,
+        93883
+    ],
+    "History And Culture Of Games": [
+        93488,
+        94852
+    ],
+    "Intro To Game Storytelling": [
+        94166,
+        94853
+    ],
+    "Intro To Game Programming": [
+        93489,
+        93735
+    ],
+    "Game Animation": [
+        94854
+    ],
+    "Writing For Games I": [
+        94855
+    ],
+    "Writing For Games II": [
+        94560
+    ],
+    "Game Narrative Design": [
+        94170
+    ],
+    "Game Development II": [
+        93645
+    ],
+    "Game Architecture": [
+        94858
+    ],
+    "Psychology Of Games": [
+        94586,
+        94587
+    ],
+    "Topics In Games Research": [
+        94862
+    ],
+    "Gsas Capstone": [
+        94167
+    ],
+    "Topics In Game Research": [
+        94168
+    ],
+    "Advanced Game Design": [
+        94628
+    ],
+    "Science, Tech, & Society": [
+        94866,
+        94867,
+        94868,
+        95035
+    ],
+    "Science & Science Misconduct": [
+        94869
+    ],
+    "Great Ideas In Philosophy": [
+        94870
+    ],
+    "Well-being: Cultving Curiosity": [
+        94872
+    ],
+    "Principles Of Economics": [
+        94873,
+        94874
+    ],
+    "It & Society": [
+        94925,
+        94926,
+        92036,
+        93179,
+        93682
+    ],
+    "It And Society": [
+        95050,
+        95051
+    ],
+    "Language And Power": [
+        94876
+    ],
+    "Media And Society": [
+        94877
+    ],
+    "Life In Color": [
+        94880
+    ],
+    "Songwriting Workshop": [
+        94905
+    ],
+    "The American Dream": [
+        95059
+    ],
+    "Ai & Society": [
+        94906
+    ],
+    "Feminist Critiques Of Reason": [
+        94907
+    ],
+    "Writing For A Global Audience": [
+        94908
+    ],
+    "Introduction To Industrial & Systems Engineering": [
+        92341
+    ],
+    "Production And Operations Management": [
+        93209
+    ],
+    "Statistical Analysis": [
+        92626
+    ],
+    "Desgn & Analys Of Supply Chain": [
+        94761
+    ],
+    "Engr Proj Management": [
+        93430
+    ],
+    "Mulitdisciplinary Capstone Design": [
+        92021,
+        92022,
+        92023,
+        92024,
+        90334,
+        90335,
+        90510,
+        91461
+    ],
+    "Discrete Event Sim  Modeling": [
+        92342
+    ],
+    "Design Of Experiments": [
+        94225,
+        94237
+    ],
+    "Systems Eng & Social Media": [
+        93918
+    ],
+    "Engineering Data Analytics": [
+        94803,
+        94804
+    ],
+    "Ethical Engr, Engring, & Tech": [
+        94722
+    ],
+    "Stochastic Mthds In Oper Rsrch": [
+        94515
+    ],
+    "Syst Engineer & Social Media": [
+        94224
+    ],
+    "Design Of Manufacturing Systems And Supply Chains": [
+        94764,
+        93917
+    ],
+    "Systems Modeling In Dses": [
+        93722
+    ],
+    "Discrete Event Simulation": [
+        92025,
+        93721
+    ],
+    "Linear And Conic Optimization": [
+        94236,
+        94772
+    ],
+    "Intro To It & Web Science": [
+        93407,
+        94632
+    ],
+    "Introduction To Hci": [
+        94618
+    ],
+    "It & Web Science Capstone": [
+        92216
+    ],
+    "Managing It Resources": [
+        93695
+    ],
+    "Information System Security": [
+        92217,
+        94993
+    ],
+    "Web Science Systems Dev": [
+        92636,
+        93683
+    ],
+    "Ethical Informatics": [
+        94576
+    ],
+    "Business Issues For Engineers And Scientists": [
+        92019
+    ],
+    "Big Data Policy": [
+        94240
+    ],
+    "Software Development": [
+        94805
+    ],
+    "It  Master's Capstone": [
+        92020
+    ],
+    "Environmental Seminar": [
+        93963
+    ],
+    "Digital Rhetoic": [
+        94864
+    ],
+    "Rdgs Astrobio & Orig Of Life": [
+        93732
+    ],
+    "Capstone In Astrobiology": [
+        94410,
+        94411,
+        95031
+    ],
+    "Readings In Astrobiology": [
+        94519
+    ],
+    "Chinese I": [
+        92460,
+        93172,
+        94895
+    ],
+    "Chinese II": [
+        93211
+    ],
+    "Chinese III": [
+        93999
+    ],
+    "Chinese V": [
+        93173
+    ],
+    "Lighting Technologies And Applications": [
+        94860
+    ],
+    "Lighting Leadership Seminar": [
+        94859
+    ],
+    "Intro To Literature": [
+        92975,
+        94508
+    ],
+    "Victorian Literature & Tech": [
+        94609,
+        94884
+    ],
+    "The Graphic Novel": [
+        94885
+    ],
+    "Science And Fiction": [
+        94883
+    ],
+    "Irish Literature": [
+        94509
+    ],
+    "Women Writers": [
+        94216
+    ],
+    "Management In The Digital Age": [
+        90013,
+        90086,
+        93388,
+        94662
+    ],
+    "Management Professional Development II": [
+        90226,
+        90227
+    ],
+    "Business Law And Ethics": [
+        90014,
+        92973
+    ],
+    "Statistical Methods": [
+        90238,
+        93389
+    ],
+    "Financial Acctg In Digital Age": [
+        92352,
+        90002,
+        94434
+    ],
+    "Managerial Finance": [
+        90011
+    ],
+    "Marketing Principles": [
+        92630,
+        92631
+    ],
+    "Intro To Data Mgmt & Analytics": [
+        93390
+    ],
+    "Negotiations": [
+        94754
+    ],
+    "Quantitative Methods For Bus": [
+        90405,
+        93391
+    ],
+    "Operations Management": [
+        90224,
+        90406
+    ],
+    "Computer Info Systems": [
+        90225
+    ],
+    "It Project Management": [
+        93154
+    ],
+    "Appl Analy & Predictive Mod": [
+        94227
+    ],
+    "Data Resource Management": [
+        91342
+    ],
+    "Intro To Machine Learning Apps": [
+        94691
+    ],
+    "Financial Statement Analysis": [
+        94228
+    ],
+    "Student Managed Invest Fund": [
+        94349,
+        94231
+    ],
+    "Internet Marketing": [
+        92331,
+        92380
+    ],
+    "Adv Strat & Promotions": [
+        90010
+    ],
+    "Intro To Tech Entrepreneurship": [
+        90407
+    ],
+    "Starting Up A New Venture": [
+        94428,
+        94427
+    ],
+    "Business Ug Internship": [
+        94727
+    ],
+    "Org Behavior In High Perf Org": [
+        90126
+    ],
+    "Hr Resources In High Perf Orgs": [
+        90092
+    ],
+    "Strategy And Policy": [
+        91261
+    ],
+    "Engineering, Science & Mgmt": [
+        93427,
+        94749
+    ],
+    "Sport Marketing": [
+        94246
+    ],
+    "Financial Management I": [
+        92045
+    ],
+    "Foundations Of Data Science": [
+        94229,
+        94432
+    ],
+    "Manage Digitization & Transfrm": [
+        91270
+    ],
+    "App Analytics & Pred Modeling": [
+        93155
+    ],
+    "Quantitative Asset Management": [
+        92222
+    ],
+    "Advanced Financial Statement Analysis": [
+        92332
+    ],
+    "Business Capstone": [
+        94441,
+        94442
+    ],
+    "Financial Computation & Simul": [
+        94232
+    ],
+    "Prac Life Sciences Entreprnshp": [
+        94440
+    ],
+    "Marketing Comm & Promo Strat": [
+        91060
+    ],
+    "Introduction To Machine Learning Applications": [
+        93392
+    ],
+    "Adv Data Resource Management": [
+        93667
+    ],
+    "Marketing High - Tech Prod": [
+        94238
+    ],
+    "Technol Entrepreneurship": [
+        92333
+    ],
+    "Negotiation": [
+        93157
+    ],
+    "Protecting & Commercializing Y": [
+        94401
+    ],
+    "Adv Ai/machine Learn For Fin": [
+        93913
+    ],
+    "Management Thesis": [
+        90177
+    ],
+    "Strategy, Tech & Competition I": [
+        94233
+    ],
+    "Professional Development Workshop II": [
+        90523
+    ],
+    "Risk Analytics And Management": [
+        93886
+    ],
+    "Professional Development Workshop II - Ms": [
+        93159,
+        93160
+    ],
+    "Programming For Engineers": [
+        94935
+    ],
+    "Struc Of Engr Materials": [
+        92992
+    ],
+    "Thermodynamics Of Materials": [
+        93670
+    ],
+    "Elec & Optical Prop Of Matls": [
+        93405
+    ],
+    "Mechanical Properties Of Materials": [
+        94745
+    ],
+    "Synthesis And Processing": [
+        93899,
+        93900
+    ],
+    "Fundamental Of Metallurgical Alloy Systems": [
+        94751
+    ],
+    "Biology In Materials Science": [
+        95119
+    ],
+    "Materials Selection": [
+        92046
+    ],
+    "Adv Kinetics Of Matl Reactions": [
+        91276
+    ],
+    "Advanced Electronic Properties": [
+        94753
+    ],
+    "Matls Characterization": [
+        93898
+    ],
+    "Biology Of Materials Science": [
+        95120
+    ],
+    "Graduate Seminar": [
+        90039,
+        90354
+    ],
+    "Practical Tem Microscopy": [
+        95022,
+        95023,
+        95024
+    ],
+    "Fun Of Metallurgical Alloy Sys": [
+        95117
+    ],
+    "Intro To Data Mathematics": [
+        93170,
+        93171
+    ],
+    "Computational Optimization": [
+        90022,
+        90401
+    ],
+    "Calculus I": [
+        90036,
+        90299,
+        94219,
+        94220
+    ],
+    "Calculus II": [
+        90397,
+        90398,
+        90032,
+        90033,
+        90034,
+        91051,
+        90089,
+        90035,
+        92334,
+        92335,
+        92336,
+        92337,
+        90030,
+        90031,
+        90095,
+        90234,
+        90235,
+        90236,
+        92218,
+        91844,
+        93161,
+        93162,
+        93163,
+        93164,
+        93644,
+        93685,
+        94223,
+        94239
+    ],
+    "Math Methods In Mgt & Economic": [
+        93175,
+        93176,
+        93177,
+        93178
+    ],
+    "Multivar Calc & Matrix Alg": [
+        90072
+    ],
+    "Multivar Calc & Matrix Algebra": [
+        92322,
+        90114,
+        90115,
+        91886,
+        91887,
+        92035,
+        92042,
+        92089,
+        92092,
+        92219,
+        92220,
+        92624,
+        92625,
+        94511,
+        94512
+    ],
+    "Intro Diff Equations": [
+        90237,
+        90088,
+        90399,
+        90400,
+        90071,
+        90026,
+        90027,
+        90028,
+        90029,
+        90116,
+        90128,
+        91052,
+        94766,
+        90302,
+        94768,
+        92972,
+        94505,
+        94510,
+        94513,
+        94514
+    ],
+    "Abstract Algebra": [
+        90117
+    ],
+    "Foundations Of Analysis": [
+        91268,
+        94467
+    ],
+    "Linear Algebra": [
+        93865,
+        93923
+    ],
+    "Fund Of Geometry": [
+        94750
+    ],
+    "Intermediate Logic": [
+        94887,
+        94886
+    ],
+    "Intro Complex Var": [
+        90023
+    ],
+    "Meth Pde Of Math Physics": [
+        90024
+    ],
+    "Advanced Calculus": [
+        90025
+    ],
+    "Intro Numerical Mthd Diff Equ": [
+        94765
+    ],
+    "Randomized Comp Linear Algebra": [
+        94590
+    ],
+    "Perturbation Methods": [
+        94769
+    ],
+    "Stochastic Processes And Modeling": [
+        94770
+    ],
+    "Numerical Solutions Of P": [
+        94241
+    ],
+    "Intro. To Research In Math": [
+        90353
+    ],
+    "Master's Practicum  In Math": [
+        92749,
+        92774
+    ],
+    "Fundamentals Of Flight": [
+        93180
+    ],
+    "Introduction To Nuclear Engineering": [
+        93870
+    ],
+    "Mechanics 1": [
+        94557
+    ],
+    "Intro Engineering Computation": [
+        94558
+    ],
+    "Numerical Methods And Programming For Engineers": [
+        93655,
+        93871,
+        93872,
+        93873,
+        94175
+    ],
+    "Inventor's Studio 1": [
+        93383
+    ],
+    "Fundamentals Of Nuclear Engr": [
+        93664
+    ],
+    "Thermodynamics": [
+        93874
+    ],
+    "Fluid Mechanics": [
+        93666,
+        93875
+    ],
+    "Readings In Mane": [
+        90467
+    ],
+    "Elements Of Mech Design": [
+        93006,
+        94491
+    ],
+    "Mechanical Systems Lab": [
+        91050,
+        91264,
+        91265,
+        91266,
+        92253,
+        92494
+    ],
+    "Aerospace Struc & Materials": [
+        93686
+    ],
+    "Aerodynamics": [
+        93687
+    ],
+    "Propulsion Systems": [
+        93877
+    ],
+    "Spaceflight Mechanics": [
+        90440
+    ],
+    "Intro Computat Fluid Dynamics": [
+        93223,
+        93694
+    ],
+    "Machine Dynamics": [
+        92226
+    ],
+    "Vtol Aircraft Design": [
+        93915,
+        93916
+    ],
+    "Inventor's Studio 2": [
+        93878
+    ],
+    "Air Vehicle Design": [
+        92047
+    ],
+    "Inventor's Studio 3": [
+        94176
+    ],
+    "Instrumentation & Measur": [
+        93690
+    ],
+    "Nuclear Eng Senr Dsgn Proj II": [
+        90336
+    ],
+    "Appl Atomic & Nucl Phys": [
+        94523,
+        94529
+    ],
+    "Linear Accelerator Lab": [
+        94296
+    ],
+    "Engineering Materials For Nuclear Application": [
+        94747
+    ],
+    "Modeling And Contrl Of Dyn Sys": [
+        93876,
+        94527
+    ],
+    "Control Systems Lab": [
+        94192,
+        94193,
+        94194,
+        94195
+    ],
+    "Manufact Process & Sys Lab II": [
+        94743,
+        94744
+    ],
+    "Analy. Of Manuf. Process": [
+        94247,
+        94838
+    ],
+    "Heat Transfer": [
+        94177
+    ],
+    "Thermal and Fluids Engineering Laboratory": [
+        94180,
+        94181,
+        94182,
+        94183,
+        94184,
+        94185,
+        94186,
+        94187
+    ],
+    "Intro Nonlinear Finite Elemnts": [
+        94835,
+        94836
+    ],
+    "Mane Laboratory Safety Program": [
+        94179
+    ],
+    "Aeroelasticity And Structural Vibrations": [
+        90339
+    ],
+    "Fluid Dynamics Lab": [
+        90511,
+        90512,
+        91855,
+        91856
+    ],
+    "Aerospace Structures And Control Laboratory": [
+        90340,
+        90545
+    ],
+    "Compressible Flows": [
+        93958,
+        94809
+    ],
+    "Machine Learning Engineering": [
+        94613
+    ],
+    "Advanced Engr Mathematics I": [
+        94340,
+        93754
+    ],
+    "Numeric Meth Reac Analys": [
+        94746
+    ],
+    "Nuclear Reactor Material": [
+        94748
+    ],
+    "Aerodynamic Flow Control": [
+        94742
+    ],
+    "Adv Computnl Fluid Dynamics": [
+        93650
+    ],
+    "Combustion Systems": [
+        95088
+    ],
+    "Scientific Machine Learning": [
+        93725
+    ],
+    "Intro Spacecraft Navigation": [
+        94879
+    ],
+    "Electrochemical Energy Storage": [
+        94811
+    ],
+    "System Id - Learning From Data": [
+        94812
+    ],
+    "Master's Professional Project": [
+        93530,
+        93531
+    ],
+    "Funadmentals Of Military Science Lab II": [
+        91857
+    ],
+    "Applied Leadership Lab II": [
+        91858
+    ],
+    "Applied Military Leadership Lab II": [
+        91859
+    ],
+    "Adv Milt Mgt Leadership Lab II": [
+        91860
+    ],
+    "Fund Of Military Sci II": [
+        90006
+    ],
+    "Applied Leadership II": [
+        90007
+    ],
+    "Military Leadership II": [
+        90008
+    ],
+    "Military Mgmt & Leadership II": [
+        90063,
+        93922
+    ],
+    "Drill/laboratory": [
+        94988
+    ],
+    "Seapower": [
+        90124
+    ],
+    "Navigation": [
+        94347
+    ],
+    "Naval Ships Systems II": [
+        94348
+    ],
+    "Naval Leadership & Ethics": [
+        90061
+    ],
+    "Intro To Philosophy": [
+        90309,
+        93959
+    ],
+    "Critical Thinking": [
+        91047,
+        90308
+    ],
+    "Introduction To Logic": [
+        92664
+    ],
+    "Ethics Of Artificial Intellige": [
+        95002
+    ],
+    "Philosophy Of Science": [
+        93639
+    ],
+    "Environmental Philosophy": [
+        94888,
+        94899
+    ],
+    "Bioethics": [
+        93863,
+        94276
+    ],
+    "Philosophy Of Mathematics": [
+        94889,
+        95004
+    ],
+    "Capstone Exper In Philosophy": [
+        92063
+    ],
+    "General Physics": [
+        90068
+    ],
+    "Physics I": [
+        90119,
+        91447,
+        90120,
+        91448,
+        90121,
+        91449,
+        90402,
+        90118,
+        93213,
+        93214,
+        93226,
+        93227,
+        94639,
+        94674
+    ],
+    "Intro Classical Dynamics": [
+        94421,
+        94422,
+        94423
+    ],
+    "Physics II": [
+        90283,
+        90080,
+        90016,
+        91450,
+        90067,
+        90122,
+        90232,
+        91451,
+        91545
+    ],
+    "Quantum Physics I": [
+        93901
+    ],
+    "Quantum Physics II": [
+        92350
+    ],
+    "Experimental Physics": [
+        94272
+    ],
+    "Fundamentals Of Optics": [
+        90123
+    ],
+    "Practicum In College Teaching": [
+        94350
+    ],
+    "Thesis": [
+        90187
+    ],
+    "Intro Quantum Mech": [
+        90094
+    ],
+    "Electromagnetic Theory": [
+        90125
+    ],
+    "General Relativity": [
+        92659,
+        93459
+    ],
+    "Theoretical Mechanics": [
+        93468
+    ],
+    "Thermodyn & Stat Mech": [
+        90130
+    ],
+    "Computational Physics": [
+        92051
+    ],
+    "Culminating Experience Project": [
+        92107
+    ],
+    "Physics Teaching Seminar": [
+        91534
+    ],
+    "Advanced Experimental Physics": [
+        94992
+    ],
+    "Electrodynamics": [
+        91277
+    ],
+    "Quantum Mechanics II": [
+        91279
+    ],
+    "Physics Colloquium": [
+        90370
+    ],
+    "Intro To Psychological Science": [
+        90073,
+        90037
+    ],
+    "Research Methods And Statistics I": [
+        93638,
+        93866
+    ],
+    "Industrial & Org'l Psychology": [
+        94317
+    ],
+    "Math Methods In Psyc Sci": [
+        93911,
+        93912
+    ],
+    "Cognitive Psychology": [
+        93867,
+        94896
+    ],
+    "Psychology Of Mindfulness": [
+        93887,
+        93888
+    ],
+    "Abnormal Psychology": [
+        94983,
+        94984
+    ],
+    "Positive Psychology": [
+        93267,
+        93403
+    ],
+    "Design, Culture, And Society": [
+        94284
+    ],
+    "Environment And Society": [
+        94273
+    ],
+    "American History": [
+        94897
+    ],
+    "Sociology": [
+        94291
+    ],
+    "Design & Innovation Studio II": [
+        94898
+    ],
+    "Pd - Tech Issues & Solutions": [
+        94123,
+        94124,
+        94125,
+        94126,
+        94132,
+        94127,
+        94128,
+        94129,
+        94130,
+        94131,
+        94135,
+        94133,
+        94134
+    ],
+    "Sustainability & Sts Careers": [
+        94277
+    ],
+    "Environmental Justice": [
+        94629
+    ],
+    "Politics Of Design": [
+        94624
+    ],
+    "Medicine, Culture & Society": [
+        94577
+    ],
+    "Drugs In History": [
+        94285
+    ],
+    "Globalization & Development": [
+        94287
+    ],
+    "Design And Innovation Studio C": [
+        94283
+    ],
+    "Governing Complex Ecosys": [
+        94900
+    ],
+    "Biology Of Everyday Life": [
+        94901
+    ],
+    "Human Futures": [
+        94902
+    ],
+    "Dis Senior Project": [
+        94278
+    ],
+    "Sts & Sust Senior Project": [
+        94279
+    ],
+    "Technology Studies": [
+        94903
+    ],
+    "Community-engaged Sts": [
+        94904
+    ],
+    "Creative Nonfiction Writing": [
+        92520
+    ],
+    "Creative Writing: The Short Story": [
+        94341,
+        94342
+    ],
+    "Speech Communication": [
+        94040,
+        94506
+    ],
+    "Research Writing": [
+        94890,
+        94891
     ]
 }
