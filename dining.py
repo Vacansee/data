@@ -5,14 +5,27 @@ Created on Fri Oct 27 16:30:22 2023
 @author: Adam
 """
 
-url = 'https://rpi.sodexomyway.com/dining-near-me/hours'
-
 import urllib.request
 import json
 from bs4 import BeautifulSoup
 
 # no spaces, replace non standard chars, use numbers as index from days
 #   starting with sunday = 0
+
+header = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) ' 
+      'AppleWebKit/537.11 (KHTML, like Gecko) '
+      'Chrome/23.0.1271.64 Safari/537.11',
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
+      'Accept-Encoding': 'none',
+      'Accept-Language': 'en-US,en;q=0.8',
+      'Connection': 'keep-alive'}
+
+rename = {
+
+}
+
+existing_meal_names = ['brunch', 'dinner', 'lunch', 'breakfast']
 
 def convert_mil(hours):
     if hours[-2:] == 'PM':
@@ -30,20 +43,9 @@ def convert_mil(hours):
         result = "{}:{}".format(hour, minutes)
     return result 
 
-header = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) ' 
-      'AppleWebKit/537.11 (KHTML, like Gecko) '
-      'Chrome/23.0.1271.64 Safari/537.11',
-      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-      'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
-      'Accept-Encoding': 'none',
-      'Accept-Language': 'en-US,en;q=0.8',
-      'Connection': 'keep-alive'}
-
-rename = {
-
-}
-
-def write_json():
+def get_hours():
+    
+    url = 'https://rpi.sodexomyway.com/dining-near-me/hours'
 
     req = urllib.request.Request(url, headers=header)
     page = urllib.request.urlopen(req)
@@ -100,4 +102,71 @@ def write_json():
     with open('data/dining.json', 'w') as f:
         f.write(json.dumps(data, indent = 4))
         
-write_json()
+def get_menu_options():
+    
+    urls = [
+        
+    ]
+    
+    data = dict()
+    
+    url = 'https://menus.sodexomyway.com/BiteMenu/Menu?menuId=15465&locationId=76929001&whereami=http://rpi.sodexomyway.com/dining-near-me/commons-dining-hall'
+    
+    req = urllib.request.Request(url, headers=header)
+    page = urllib.request.urlopen(req)
+    page = page.read().decode("utf8")
+    
+    soup = BeautifulSoup(page, 'html.parser')
+    
+    #For testing, use this to view scraped html
+    with open('test.html', 'w', encoding="utf-8") as f:
+        f.write(soup.prettify())
+        
+    # To find day:
+    # <div class="bite-day-menu" id="menuid-30-day">, where day = day of month
+    
+    # Under a day, there are multiple blocks
+    # <div class="accordion-block brunch">
+    
+    # List of menu items in <ul aria-describedby="course-ff03fb20b5" class="bite-menu-item">
+    
+    #Gets all 7 days of the current week
+    menu_day = soup.findAll("div", {"class": "bite-day-menu"})
+    
+    for day in menu_day:
+        
+        day_num = day.attrs['id']
+        
+        day = menu_day[0] #only for testing
+        
+        meals = day.findAll("div", {"class": "accordion-block"})
+        
+        for meal in meals:
+            meal = meals[0] #only for testing
+            meal_name = meal.attrs['class'][-1]
+            print(meal_name)
+            
+            if meal_name not in existing_meal_names:
+                print("Parsing error! Check meal name")
+                
+            courses = meal.findAll("div", {"class": "bite-menu-course"})
+            menus = meal.findAll('ul', {"class": "bite-menu-item"})
+            
+            # Courses represents the name of the station (eg, bakery)
+            # Menus is the list of menu offerings for that station, and is not
+            # nested, so we have to search both and loop through them together.
+            # Therefore each menu corresponds to a course (station) so the num should be equal
+            assert(len(courses) == len(menus))
+
+
+            for i in range(len(courses)):
+                print(courses[i].find('h5').text)
+                menu_items = menus[i].findAll('li')
+                    
+                
+    
+    
+    with open('data/menus.json', 'w') as f:
+        f.write(json.dumps(data, indent = 4))
+    
+    
