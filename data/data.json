@@ -2057,7 +2057,7 @@
             ],
             "1:1200-1:1350": [
                 "Entrepreneurship &architecture",
-                41,
+                40,
                 []
             ],
             "2:1000-2:1150": [
@@ -2112,7 +2112,7 @@
                 ]
             ],
             "meta": {
-                "max": 41
+                "max": 40
             }
         },
         "1211": {
@@ -3762,7 +3762,7 @@
             }
         },
         "meta": {
-            "max": 1518,
+            "max": 1517,
             "access": [
                 "0700-2400",
                 "0700-2400",
@@ -6600,7 +6600,7 @@
             ],
             "1:1400-1:1550": [
                 "Modeling And Contrl Of Dyn Sys",
-                78,
+                77,
                 [
                     "01"
                 ]
@@ -6693,7 +6693,7 @@
             ],
             "4:1400-4:1550": [
                 "Modeling And Contrl Of Dyn Sys",
-                78,
+                77,
                 [
                     "01"
                 ]
@@ -8850,7 +8850,7 @@
             ],
             "2:1200-2:1350": [
                 "Numerical Methods And Programming For Engineers",
-                47,
+                46,
                 [
                     "04"
                 ]
@@ -8869,7 +8869,7 @@
             ],
             "5:1200-5:1350": [
                 "Numerical Methods And Programming For Engineers",
-                47,
+                46,
                 [
                     "04"
                 ]
