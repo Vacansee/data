@@ -135,6 +135,10 @@ def get_menu_options():
     
     for day in menu_day:
         
+        print(day)
+        
+        data[day] = dict()
+        
         day_num = day.attrs['id']
         
         day = menu_day[0] #only for testing
@@ -142,12 +146,14 @@ def get_menu_options():
         meals = day.findAll("div", {"class": "accordion-block"})
         
         for meal in meals:
+            data[day][meal] = dict()
             meal = meals[0] #only for testing
             meal_name = meal.attrs['class'][-1]
-            print(meal_name)
+            #print(meal_name)
             
             if meal_name not in existing_meal_names:
                 print("Parsing error! Check meal name")
+                assert(True==False) #delete this later
                 
             courses = meal.findAll("div", {"class": "bite-menu-course"})
             menus = meal.findAll('ul', {"class": "bite-menu-item"})
@@ -160,11 +166,17 @@ def get_menu_options():
 
 
             for i in range(len(courses)):
-                print(courses[i].find('h5').text)
+                coursename = courses[i].find('h5').text
+                data[day][meal][coursename] = dict()
+                #print("\t\t",courses[i].find('h5').text)
                 menu_items = menus[i].findAll('li')
-                    
                 
-    
+                for item in menu_items:
+                    
+                    info = item.findAll('a')
+                    data[day][meal][coursename][info[0].text] = []
+                    for j in range(1, len(info)):
+                        data[day][meal][coursename][info[0].text].append(info[j].text)
     
     with open('data/menus.json', 'w') as f:
         f.write(json.dumps(data, indent = 4))
