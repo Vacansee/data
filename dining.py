@@ -122,6 +122,9 @@ def get_menu_options():
     with open('test.html', 'w', encoding="utf-8") as f:
         f.write(soup.prettify())
         
+    print("================================\n\n\n")
+    print("DONE WITH REQUEST!!")
+        
     # To find day:
     # <div class="bite-day-menu" id="menuid-30-day">, where day = day of month
     
@@ -133,23 +136,25 @@ def get_menu_options():
     #Gets all 7 days of the current week
     menu_day = soup.findAll("div", {"class": "bite-day-menu"})
     
+    menu_day = menu_day[0:1]
+    
     for day in menu_day:
-        
-        print(day)
-        
-        data[day] = dict()
         
         day_num = day.attrs['id']
         
-        day = menu_day[0] #only for testing
+        data[day_num] = dict()
+        
+        print(day_num)
+        
+        #day = menu_day[0] #only for testing
         
         meals = day.findAll("div", {"class": "accordion-block"})
         
         for meal in meals:
-            data[day][meal] = dict()
-            meal = meals[0] #only for testing
+            data[day_num][meal] = dict()
+            #meal = meals[0] #only for testing
             meal_name = meal.attrs['class'][-1]
-            #print(meal_name)
+            print(meal_name)
             
             if meal_name not in existing_meal_names:
                 print("Parsing error! Check meal name")
@@ -167,17 +172,19 @@ def get_menu_options():
 
             for i in range(len(courses)):
                 coursename = courses[i].find('h5').text
-                data[day][meal][coursename] = dict()
-                #print("\t\t",courses[i].find('h5').text)
+                data[day_num][meal][coursename] = dict()
+                print("\t\t",courses[i].find('h5').text)
                 menu_items = menus[i].findAll('li')
                 
                 for item in menu_items:
                     
                     info = item.findAll('a')
                     data[day][meal][coursename][info[0].text] = []
+                    print("\t\t\t",info[0].text)
                     for j in range(1, len(info)):
-                        data[day][meal][coursename][info[0].text].append(info[j].text)
+                        data[day_num][meal][coursename][info[0].text].append(info[j].text)
     
+    print(data)
     with open('data/menus.json', 'w') as f:
         f.write(json.dumps(data, indent = 4))
     
