@@ -15140,7 +15140,7 @@
                 "M",
                 "R"
             ],
-            "instructor": "Samuel G Chiappone, Larry David Oligny",
+            "instructor": "Samuel G Chiappone, Stephen James Derby, Larry David Oligny",
             "location": "Low Center for Industrial Inn. 1027",
             "timeEnd": 950,
             "timeStart": 800
@@ -15151,7 +15151,7 @@
             "days": [
                 "W"
             ],
-            "instructor": "Samuel G Chiappone",
+            "instructor": "Samuel G Chiappone, Stephen James Derby",
             "location": "Jonsson Engineering Center 3232",
             "timeEnd": 1250,
             "timeStart": 1100
@@ -15165,7 +15165,7 @@
                 "M",
                 "R"
             ],
-            "instructor": "Samuel G Chiappone, Larry David Oligny",
+            "instructor": "Samuel G Chiappone, Stephen James Derby, Larry David Oligny",
             "location": "Low Center for Industrial Inn. 1027",
             "timeEnd": 1550,
             "timeStart": 1400
@@ -15176,7 +15176,7 @@
             "days": [
                 "W"
             ],
-            "instructor": "Samuel G Chiappone",
+            "instructor": "Samuel G Chiappone, Stephen James Derby",
             "location": "Jonsson Engineering Center 3232",
             "timeEnd": 1250,
             "timeStart": 1100
@@ -17415,6 +17415,17 @@
             "location": "Low Center for Industrial Inn. 4050",
             "timeEnd": 1700,
             "timeStart": 1600
+        }
+    ],
+    "95378": [
+        {
+            "dateEnd": "04/24",
+            "dateStart": "01/08",
+            "days": [],
+            "instructor": "Tat-Sing Chow",
+            "location": "TBA",
+            "timeEnd": -1,
+            "timeStart": -1
         }
     ],
     "94475": [
@@ -21616,6 +21627,17 @@
             "location": "Pittsburgh Building 5216",
             "timeEnd": 1550,
             "timeStart": 1400
+        }
+    ],
+    "95377": [
+        {
+            "dateEnd": "04/24",
+            "dateStart": "01/08",
+            "days": [],
+            "instructor": "Kevin Albro Fletcher",
+            "location": "TBA",
+            "timeEnd": -1,
+            "timeStart": -1
         }
     ],
     "93427": [
@@ -26658,7 +26680,7 @@
                 "M",
                 "R"
             ],
-            "instructor": "Samuel G Chiappone, Larry David Oligny",
+            "instructor": "Samuel G Chiappone, Stephen James Derby, Larry David Oligny",
             "location": "Low Center for Industrial Inn. 1027",
             "timeEnd": 950,
             "timeStart": 800
@@ -26669,7 +26691,7 @@
             "days": [
                 "W"
             ],
-            "instructor": "Samuel G Chiappone",
+            "instructor": "Samuel G Chiappone, Stephen James Derby",
             "location": "Jonsson Engineering Center 3232",
             "timeEnd": 1250,
             "timeStart": 1100
