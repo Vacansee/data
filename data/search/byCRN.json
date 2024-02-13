@@ -1981,6 +1981,7 @@
             "dateEnd": "04/24",
             "dateStart": "01/08",
             "days": [
+                "T",
                 "F"
             ],
             "instructor": "Marc Anthony Tatarsky",
@@ -2118,6 +2119,20 @@
             "location": "TBA",
             "timeEnd": 1825,
             "timeStart": 1535
+        }
+    ],
+    "95299": [
+        {
+            "dateEnd": "04/24",
+            "dateStart": "01/08",
+            "days": [
+                "T",
+                "F"
+            ],
+            "instructor": "Marc Anthony Tatarsky",
+            "location": "Darrin Communications Center 236",
+            "timeEnd": 1120,
+            "timeStart": 1000
         }
     ],
     "93167": [
@@ -8140,6 +8155,17 @@
             "timeStart": 1000
         }
     ],
+    "95177": [
+        {
+            "dateEnd": "04/24",
+            "dateStart": "01/08",
+            "days": [],
+            "instructor": "Alexander C. Ma",
+            "location": "TBA",
+            "timeEnd": -1,
+            "timeStart": -1
+        }
+    ],
     "94345": [
         {
             "dateEnd": "04/24",
@@ -9195,11 +9221,12 @@
             "dateEnd": "04/24",
             "dateStart": "01/08",
             "days": [
+                "T",
                 "F"
             ],
             "instructor": "Marc Anthony Tatarsky",
             "location": "Darrin Communications Center 236",
-            "timeEnd": 1350,
+            "timeEnd": 1320,
             "timeStart": 1200
         }
     ],
@@ -9253,7 +9280,7 @@
                 "M",
                 "R"
             ],
-            "instructor": "John M. Reilly",
+            "instructor": "John M. Reilly, Julia D Carroll",
             "location": "Amos Eaton Hall 215",
             "timeEnd": 1350,
             "timeStart": 1200
@@ -15446,7 +15473,7 @@
                 "M",
                 "R"
             ],
-            "instructor": "Karyn Lynne Rogers, Andrew Steele",
+            "instructor": "Andrew Steele, Karyn Lynne Rogers",
             "location": "Russell Sage Laboratory 3713",
             "timeEnd": 1550,
             "timeStart": 1400
@@ -15518,17 +15545,6 @@
             "location": "Carnegie Building 101",
             "timeEnd": 1150,
             "timeStart": 1000
-        }
-    ],
-    "90534": [
-        {
-            "dateEnd": "",
-            "dateStart": "",
-            "days": [],
-            "instructor": "",
-            "location": "",
-            "timeEnd": -1,
-            "timeStart": -1
         }
     ],
     "94839": [
@@ -16145,7 +16161,7 @@
                 "F"
             ],
             "instructor": "Michael A. Klein",
-            "location": "Lally Hall 02",
+            "location": "Russell Sage Laboratory 3205",
             "timeEnd": 1550,
             "timeStart": 1400
         }
@@ -16257,7 +16273,7 @@
                 "F"
             ],
             "instructor": "Michael A. Klein",
-            "location": "Lally Hall 02",
+            "location": "Russell Sage Laboratory 3205",
             "timeEnd": 1550,
             "timeStart": 1400
         }
@@ -19514,7 +19530,7 @@
                 "F"
             ],
             "instructor": "Natalie Erika Amiama",
-            "location": "Russell Sage Laboratory 3205",
+            "location": "Russell Sage Laboratory 5711",
             "timeEnd": 950,
             "timeStart": 800
         }
@@ -20985,7 +21001,7 @@
                 "M",
                 "R"
             ],
-            "instructor": "Miles A Kimball",
+            "instructor": "Kristin Ellen Bergene",
             "location": "Russell Sage Laboratory 3704",
             "timeEnd": 1150,
             "timeStart": 1000
@@ -20999,7 +21015,7 @@
                 "M",
                 "R"
             ],
-            "instructor": "Miles A Kimball",
+            "instructor": "Kristin Ellen Bergene",
             "location": "Russell Sage Laboratory 2112",
             "timeEnd": 1550,
             "timeStart": 1400
@@ -21042,7 +21058,7 @@
                 "F"
             ],
             "instructor": "Natalie Erika Amiama",
-            "location": "Russell Sage Laboratory 3205",
+            "location": "Russell Sage Laboratory 4711",
             "timeEnd": 1550,
             "timeStart": 1400
         }
@@ -22368,7 +22384,7 @@
             ],
             "instructor": "Daniel J. Lewis",
             "location": "Materials Research Center 136",
-            "timeEnd": 1450,
+            "timeEnd": 1520,
             "timeStart": 1400
         }
     ],
@@ -22618,7 +22634,7 @@
             ],
             "instructor": "Daniel J. Lewis",
             "location": "Materials Research Center 136",
-            "timeEnd": 1450,
+            "timeEnd": 1520,
             "timeStart": 1400
         }
     ],
@@ -26521,7 +26537,7 @@
                 "W"
             ],
             "instructor": "Yaron Danon",
-            "location": "Low Center for Industrial Inn. 3112",
+            "location": "Nuclear Eng. And Sci. Bldg",
             "timeEnd": 1550,
             "timeStart": 1200
         }
@@ -31215,7 +31231,7 @@
             ],
             "instructor": "Sonja Ann Miller",
             "location": "Voorhees Computing Center SO",
-            "timeEnd": 1600,
+            "timeEnd": 1550,
             "timeStart": 1400
         }
     ],
@@ -31229,7 +31245,7 @@
             ],
             "instructor": "Sonja Ann Miller",
             "location": "Voorhees Computing Center SO",
-            "timeEnd": 1600,
+            "timeEnd": 1550,
             "timeStart": 1400
         }
     ],

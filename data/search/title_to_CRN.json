@@ -150,7 +150,8 @@
         94664
     ],
     "Structures 2": [
-        94244
+        94244,
+        95299
     ],
     "Construction Industry Semr 2": [
         93448
@@ -1711,6 +1712,9 @@
         94230,
         94245
     ],
+    "Lab Mentoring": [
+        95177
+    ],
     "Culminating Research Exp": [
         94345
     ],
@@ -2312,15 +2316,14 @@
     "Gis In The Sciences": [
         94985
     ],
-    "Readings In Erth": [
-        90534,
-        90466
-    ],
     "Biogeochem Impact Extreme Evnt": [
         94756
     ],
     "Evolution Of Earths Atmosphere": [
         94757
+    ],
+    "Readings In Erth": [
+        90466
     ],
     "Special Topics In Geology": [
         94767
