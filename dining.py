@@ -136,7 +136,7 @@ def get_menu_options():
     #Gets all 7 days of the current week
     menu_day = soup.findAll("div", {"class": "bite-day-menu"})
     
-    menu_day = menu_day[0:1]
+    #menu_day = menu_day[0:1] Only get first day
     
     for day in menu_day:
         
@@ -151,9 +151,9 @@ def get_menu_options():
         meals = day.findAll("div", {"class": "accordion-block"})
         
         for meal in meals:
-            data[day_num][meal] = dict()
             #meal = meals[0] #only for testing
             meal_name = meal.attrs['class'][-1]
+            data[day_num][meal_name] = dict()
             print(meal_name)
             
             if meal_name not in existing_meal_names:
@@ -172,19 +172,25 @@ def get_menu_options():
 
             for i in range(len(courses)):
                 coursename = courses[i].find('h5').text
-                data[day_num][meal][coursename] = dict()
+                data[day_num][meal_name][coursename] = dict()
                 print("\t\t",courses[i].find('h5').text)
                 menu_items = menus[i].findAll('li')
                 
                 for item in menu_items:
                     
                     info = item.findAll('a')
-                    data[day][meal][coursename][info[0].text] = []
-                    print("\t\t\t",info[0].text)
+                    item_name = info[0].text
+                    
+                    data[day_num][meal_name][coursename][item_name] = []
+                    print("\t\t\t",item_name)
+                    
                     for j in range(1, len(info)):
-                        data[day_num][meal][coursename][info[0].text].append(info[j].text)
-    
-    print(data)
+                        data[day_num][meal_name][coursename][info[0].text].append(info[j].text)
+                        
+                    allergens = item.findAll("img")
+                    for allg in allergens:
+                        data[day_num][meal_name][coursename][info[0].text].append(allg.attrs['alt'])
+                        
     with open('data/menus.json', 'w') as f:
         f.write(json.dumps(data, indent = 4))
     
