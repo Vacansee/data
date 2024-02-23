@@ -14036,7 +14036,7 @@
             "days": [
                 "M"
             ],
-            "instructor": "John P Szczesniak",
+            "instructor": "John P Szczesniak, Dana M Chichester",
             "location": "Jonsson Engineering Center 1010",
             "timeEnd": 1650,
             "timeStart": 1400
@@ -14153,7 +14153,7 @@
             "days": [
                 "T"
             ],
-            "instructor": "Scott Frederick Yerbury, John P Szczesniak",
+            "instructor": "Scott Frederick Yerbury, Dana M Chichester, John P Szczesniak",
             "location": "Jonsson Engineering Center 1010",
             "timeEnd": 1850,
             "timeStart": 1600
@@ -21012,7 +21012,7 @@
                 "M",
                 "R"
             ],
-            "instructor": "Kristin Ellen Bergene",
+            "instructor": "Audrey Lenore Peterson-McCann",
             "location": "Russell Sage Laboratory 3704",
             "timeEnd": 1150,
             "timeStart": 1000
@@ -21026,7 +21026,7 @@
                 "M",
                 "R"
             ],
-            "instructor": "Kristin Ellen Bergene",
+            "instructor": "Nicole Antonia Cosentino",
             "location": "Russell Sage Laboratory 2112",
             "timeEnd": 1550,
             "timeStart": 1400
@@ -31073,6 +31073,17 @@
             "location": "Darrin Communications Center 235",
             "timeEnd": 1150,
             "timeStart": 1000
+        }
+    ],
+    "95424": [
+        {
+            "dateEnd": "04/24",
+            "dateStart": "01/08",
+            "days": [],
+            "instructor": "Lucy Cui",
+            "location": "TBA",
+            "timeEnd": -1,
+            "timeStart": -1
         }
     ],
     "94317": [
