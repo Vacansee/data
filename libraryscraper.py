@@ -77,6 +77,8 @@ def get_bookings():
     
     slots = table.findAll("div", {"class": "fc-timeline-event-harness"})
     
+    rooms = set()
+    
     for slot in slots:
         
         description = slot.find("a").attrs['title']
@@ -86,6 +88,9 @@ def get_bookings():
         room = description[1].strip()
         status = description[2].strip()
         
+        if room not in rooms:
+            rooms.add(room)
+        
         print(time, room, status)
         
         if room not in data:
@@ -94,6 +99,8 @@ def get_bookings():
         
     with open('data/data.json', 'r') as file:
         roomsData = json.load(file)
+        
+    roomsData['Folsom']
         
     with open('data/library_data', 'w') as convert_file:
          convert_file.write(json.dumps(data))
