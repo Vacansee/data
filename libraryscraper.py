@@ -100,10 +100,15 @@ def get_bookings():
     with open('data/data.json', 'r') as file:
         roomsData = json.load(file)
         
-    roomsData['Folsom']
+    for room in rooms:
+        print(room)
+        roomsData['Folsom'][room] = []
         
     with open('data/library_data', 'w') as convert_file:
          convert_file.write(json.dumps(data))
+         
+    with open('data/data.json', 'w') as convert_file:
+         convert_file.write(json.dumps(roomsData))
         
         
         

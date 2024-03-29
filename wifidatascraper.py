@@ -27,6 +27,7 @@ def get_all_buildings():
     
     req = urllib.request.Request(url)
     page = urllib.request.urlopen(req)
+    
     page = page.read().decode("utf8")
                               
     soup = BeautifulSoup(page, 'html.parser')
@@ -35,9 +36,11 @@ def get_all_buildings():
     with open('test.html', 'w', encoding = 'utf-8') as f:
         f.write(soup.prettify())
     
-    r = requests.get(buildings_url)
-    cont = r.json()
-    print(cont)
+    r = requests.get(buildings_url, verify=False)
+    soup = BeautifulSoup(r.content, 'html.parser')
+    element = soup.find(id='hourly_crowd_json')
+    print(element.text)
+
     
     options = webdriver.ChromeOptions()
     #options.add_argument("--headless")
