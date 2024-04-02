@@ -16,14 +16,24 @@ from fake_useragent import UserAgent
 import urllib.request
 from selenium.webdriver.common.by import By
 
+import time
+from datetime import datetime
+
 
 days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
-url = "https://lp01.idea.rpi.edu/shiny/erickj4/StudySafeJSON/?building={}&day={}&hour={}"
-buildings_url = "https://lp01.idea.rpi.edu/shiny/erickj4/StudySafeJSON/?list=TRUE"
+all_buildings = "https://lp01.idea.rpi.edu/shiny/erickj4/StudySafeJSON/?list=TRUE"
 url2 = 'https://lp01.idea.rpi.edu/shiny/erickj4/StudySafeJSON/?building=CII&day=Sunday&hour=12'
 
-def get_all_buildings():
+def get_url_data(building):
+    url = "https://lp01.idea.rpi.edu/shiny/erickj4/StudySafeJSON/?building={}".format(building)
+    return url
+
+def get_json_from_url(url_input):
+    
+    '''
+    Try to get this working with requests later,
+    using selenium for now
     
     req = urllib.request.Request(url)
     page = urllib.request.urlopen(req)
@@ -40,7 +50,7 @@ def get_all_buildings():
     soup = BeautifulSoup(r.content, 'html.parser')
     element = soup.find(id='hourly_crowd_json')
     print(element.text)
-
+    '''
     
     options = webdriver.ChromeOptions()
     #options.add_argument("--headless")
@@ -48,14 +58,40 @@ def get_all_buildings():
     options.add_argument(f'--user-agent={UA}')
     
     # Install appropriate webdriver for platform
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    driver = webdriver.Chrome(options=options)
     
+    driver.get(url_input)
     driver.implicitly_wait(10)
-    driver.get(buildings_url)
+    time.sleep(2)
     
     pre_element = driver.find_element(By.ID, "hourly_crowd_json")
-    pre_element.text
+    #print(pre_element.text)
+    json_data = json.loads(pre_element.text)    
     
-    page = driver.page_source
+    return json_data
 
+def run_report():
+    
+    current_date = datetime.now().strftime('%Y-%m-%d')
+    
+    buildings = get_json_from_url(all_buildings)
+    
+    data = dict()
+    
+    for building in buildings:
+        name = building['Building'].split(";")[-1]
+        url = get_url_data(name)
+        print(url)
+        json_list = (get_json_from_url(url))
+        #print(json)
+        data[name] = json_list
+    
+    data = dict(data)
+    print(type(data))
+        
+    with open("data/wifi/data_{}.json".format(current_date), 'w') as f:
+        f.write(json.dumps(data, indent = 4))
+
+        
+    
 
