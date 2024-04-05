@@ -123,6 +123,37 @@ for name, details in info.items():
 
 # sort rooms by their day and time
 # meta: full names + hist page, room/building capacities, printers, & access times
+'''
+Returns data.py in the form
+"BUILDING_NAME": {
+        "ROOM_NUMBER": {
+            "1:START_TIME-1:END_TIME": [
+                "DEPT",
+                SEATS,
+                []
+            ],
+            "meta": {
+                "max": 30
+            }
+        },
+        "meta": {
+            "max": 65,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "OFFICAL_NAME",
+            "hist": "armory-alumni-sports-and-recreation-center-asrc",
+            "floors": [
+                START_FLOOR,
+                TOP_FLOOR,
+                BOTTOM_FLOOR
+            ]
+        }
+    },
+'''
 for building, rooms in data.items():
   bldgMax = f = 0
   floors = [inf, -inf]
@@ -131,6 +162,8 @@ for building, rooms in data.items():
       f = int(room[0]) # room "[3]08"
       if f < floors[0]: floors[0] = f
       if f > floors[1]: floors[1] = f
+      # remove the floors that don't make sense on the 
+      # if building == 'Carnegie': floors[1] = 3
     data[building][room] = dict(sorted(times.items(), key=lambda x: x[0]))
     roomMax = 0
     for stats in data[building][room].values(): 
@@ -149,6 +182,9 @@ for building, rooms in data.items():
   if building in access['entry']: floors.append(access['entry'][building])
   else: floors.append(access['entry']['default'])
   data[building]['meta']['floors'] = floors if floors[0] != inf else []
+  
+
+
 
 with open("data/data.json", 'w') as output: json.dump(data, output, indent = 4)
 os.remove("courses.json") 
