@@ -127,33 +127,33 @@ for name, details in info.items():
 Returns data.py in the form
 "BUILDING_NAME": {
         "ROOM_NUMBER": {
-            "1:START_TIME-1:END_TIME": [
-                "DEPT",
-                SEATS,
-                []
+            "DAY:START_TIME-DAY:END_TIME": [
+                "CLASS_NAME",
+                SEATS <int>,
+                [ "SEC_NUM" ... ]
             ],
             "meta": {
-                "max": 30
+                "max": ROOM_CAP <int>
             }
         },
         "meta": {
-            "max": 65,
+            "max": BLDG_CAP <int>,
             "access": [
-                "0700-2100",
-                "0700-2100",
-                "",
-                ""
+                "M-Tu_HOURS",
+                "F_HOURS",
+                "S_HOURS",
+                "Su_HOURS"
             ],
             "name": "OFFICAL_NAME",
-            "hist": "armory-alumni-sports-and-recreation-center-asrc",
+            "hist": "building-hist-url-slug",
             "floors": [
-                START_FLOOR,
-                TOP_FLOOR,
-                BOTTOM_FLOOR
+                NUM_FLOORS,
+                ENTRY_FLOOR
             ]
         }
     },
 '''
+
 for building, rooms in data.items():
   bldgMax = f = 0
   floors = [inf, -inf]
@@ -182,8 +182,6 @@ for building, rooms in data.items():
   if building in access['entry']: floors.append(access['entry'][building])
   else: floors.append(access['entry']['default'])
   data[building]['meta']['floors'] = floors if floors[0] != inf else []
-  
-
 
 
 with open("data/data.json", 'w') as output: json.dump(data, output, indent = 4)
