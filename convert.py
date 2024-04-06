@@ -139,8 +139,9 @@ for name, details in info.items():
 
 # sort rooms by their day and time
 # meta: full names + hist page, room/building capacities, printers, & access times
+
 '''
-Returns data.py in the form
+Puts in data.java in the form
 "BUILDING_NAME": {
         "ROOM_NUMBER": {
             "DAY:START_TIME-DAY:END_TIME": [
@@ -176,7 +177,6 @@ for building, rooms in data.items():
   floors = []
   if building in access['num_floors']: floors.append(access['num_floors'][building])
   else: floors.append(access['num_floors']['default'])
-
   for room, times in rooms.items():
     data[building][room] = dict(sorted(times.items(), key=lambda x: x[0]))
     roomMax = 0
@@ -190,6 +190,7 @@ for building, rooms in data.items():
   if building not in access['times']:
     data[building]['meta']['access'] = access['times']['default']
   else: data[building]['meta']['access'] = access['times'][building]
+
   # Add name and history subdomain to meta
   data[building]['meta']['name'] = info[building][0]
   data[building]['meta']['hist'] = info[building][1]
