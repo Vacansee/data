@@ -2,7 +2,9 @@
 	"entry": {
 		"default":  1,
 
-		"DCC":      3
+		"DCC": 3,
+		"Pittsburgh": 3,
+		"Sage": 3
 	},
 	"num_floors": {
 		"default": 1,
