@@ -4,7 +4,40 @@
 
 		"DCC":      3
 	},
+	"num_floors": {
+		"default": 1,
 
+		"DCC": 3,
+		"Academy": 4,
+		"Low": 9,
+		"VCC": 3,
+		"Armory": 4,
+		"Amos_Eaton": 4,
+		"Greene": 4,
+		"Carnegie": 4,
+		"Pittsburgh": 5,
+		"Sage": 5,
+		"Ricketts": 6,
+		"Troy": 5,
+		"Lally": 3,
+		"JEC": 7,
+		"Walker": 6,
+		"JROWL": 3,
+		"Folsom": 4,
+		"Cogswell": 3,
+		"West": 4,
+		"CBIS": 4,
+		"MRC": 3,
+		"Winslow": 3,
+		"EMPAC": 5,
+		"Pool": 1,
+		"Commons": 2,
+		"Empire_State": 3,
+		"'87_Gym": 3,
+		"RSDH": 2,
+		"Mueller": 2,
+		"Union": 3
+	},
 	"times": {
 		"default":    ["0700-2100", "0700-2100", "", ""],
 

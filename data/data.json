@@ -1261,7 +1261,6 @@
             "name": "Darrin Communications Center",
             "hist": "darrin-communication-center",
             "floors": [
-                1,
                 3,
                 3
             ]
@@ -1708,8 +1707,7 @@
             "name": "Troy Building",
             "hist": "",
             "floors": [
-                2,
-                2,
+                5,
                 1
             ]
         }
@@ -3774,7 +3772,6 @@
             "name": "Russell Sage Laboratory",
             "hist": "",
             "floors": [
-                1,
                 5,
                 1
             ]
@@ -5025,8 +5022,7 @@
             "name": "Low Center for Industrial Inn.",
             "hist": "center-industrial-innovation",
             "floors": [
-                1,
-                5,
+                9,
                 1
             ]
         }
@@ -5561,6 +5557,46 @@
             ],
             "meta": {
                 "max": 15
+            }
+        },
+        "1042F": {
+            "1:1400-1:1550": [
+                "Intro To Structural Eng",
+                14,
+                [
+                    "01"
+                ]
+            ],
+            "2:1000-2:1150": [
+                "Intro To Structural Eng",
+                14,
+                [
+                    "03"
+                ]
+            ],
+            "3:1000-3:1150": [
+                "Intro To Structural Eng",
+                14,
+                [
+                    "02"
+                ]
+            ],
+            "3:1400-3:1550": [
+                "Intro To Structural Eng",
+                14,
+                [
+                    "05"
+                ]
+            ],
+            "4:1400-4:1550": [
+                "Intro To Structural Eng",
+                14,
+                [
+                    "04"
+                ]
+            ],
+            "meta": {
+                "max": 14
             }
         },
         "5119": {
@@ -6298,7 +6334,7 @@
             }
         },
         "meta": {
-            "max": 740,
+            "max": 754,
             "access": [
                 "0600-2200",
                 "0600-2200",
@@ -6308,8 +6344,111 @@
             "name": "Jonsson Engineering Center",
             "hist": "",
             "floors": [
-                1,
-                6,
+                7,
+                1
+            ]
+        }
+    },
+    "VCC": {
+        "SO": {
+            "1:1000-1:1150": [
+                "Biomechanics",
+                35,
+                [
+                    "02"
+                ]
+            ],
+            "1:1200-1:1350": [
+                "Intro Engineering Design-pilot",
+                30,
+                [
+                    "06"
+                ]
+            ],
+            "1:1400-1:1550": [
+                "Abnormal Psychology",
+                20,
+                [
+                    "01",
+                    "02"
+                ]
+            ],
+            "2:1000-2:1150": [
+                "Computer Science I",
+                24,
+                [
+                    "01"
+                ]
+            ],
+            "2:1200-2:1350": [
+                "Computer Science I",
+                24,
+                [
+                    "02"
+                ]
+            ],
+            "2:1400-2:1550": [
+                "Computer Science I",
+                24,
+                [
+                    "03"
+                ]
+            ],
+            "3:0900-3:1150": [
+                "Gis In The Sciences",
+                15,
+                []
+            ],
+            "3:1200-3:1250": [
+                "Fip Seminar",
+                15,
+                [
+                    "21"
+                ]
+            ],
+            "3:1400-3:1650": [
+                "Ml Open Source Open Science",
+                16,
+                []
+            ],
+            "4:1000-4:1150": [
+                "Biomechanics",
+                35,
+                [
+                    "02"
+                ]
+            ],
+            "4:1200-4:1350": [
+                "Intro Engineering Design-pilot",
+                30,
+                [
+                    "06"
+                ]
+            ],
+            "4:1400-4:1550": [
+                "Abnormal Psychology",
+                20,
+                [
+                    "01",
+                    "02"
+                ]
+            ],
+            "meta": {
+                "max": 35
+            }
+        },
+        "meta": {
+            "max": 35,
+            "access": [
+                "0700-2300",
+                "0700-2300",
+                "0700-2300",
+                "0700-2300"
+            ],
+            "name": "Voorhees Computing Center",
+            "hist": "chapel-voorhees-computing-center",
+            "floors": [
+                3,
                 1
             ]
         }
@@ -6420,8 +6559,7 @@
             "name": "Alumni Sports and Rec Center",
             "hist": "armory-alumni-sports-and-recreation-center-asrc",
             "floors": [
-                2,
-                3,
+                4,
                 1
             ]
         }
@@ -7138,8 +7276,7 @@
             "name": "Carnegie Building",
             "hist": "",
             "floors": [
-                1,
-                2,
+                4,
                 1
             ]
         }
@@ -7634,7 +7771,6 @@
             "name": "Pittsburgh Building",
             "hist": "",
             "floors": [
-                4,
                 5,
                 1
             ]
@@ -7926,8 +8062,7 @@
             "name": "Lally Hall",
             "hist": "",
             "floors": [
-                0,
-                1,
+                3,
                 1
             ]
         }
@@ -8022,6 +8157,152 @@
                 "max": 65
             }
         },
+        "STU": {
+            "1:1400-1:1550": [
+                "Integrated Design Development Studio",
+                30,
+                [
+                    "04",
+                    "06"
+                ]
+            ],
+            "1:1400-1:1750": [
+                "Architectural Design Studio 2",
+                265,
+                [
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "06",
+                    "07",
+                    "09",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15"
+                ]
+            ],
+            "1:1430-1:1820": [
+                "Architectural Design Studio 5",
+                5,
+                [
+                    "80"
+                ]
+            ],
+            "1:1600-1:1750": [
+                "Building Sciences Capstone",
+                1,
+                []
+            ],
+            "1:1830-1:2030": [
+                "Interactive Opera",
+                10,
+                []
+            ],
+            "1:1900-1:2050": [
+                "Deep Viewing: Hitchcock",
+                10,
+                []
+            ],
+            "2:1200-2:1350": [
+                "Artif. Intel. Imagining Arch",
+                10,
+                [
+                    "01"
+                ]
+            ],
+            "3:1400-3:1550": [
+                "Integrated Design Development Studio",
+                30,
+                [
+                    "04",
+                    "06"
+                ]
+            ],
+            "3:1400-3:1750": [
+                "Architectural Design Studio 2",
+                10,
+                [
+                    "14",
+                    "01",
+                    "02",
+                    "03",
+                    "05",
+                    "04"
+                ]
+            ],
+            "3:1600-3:1750": [
+                "Architectural Design Studio 2",
+                85,
+                [
+                    "01"
+                ]
+            ],
+            "4:1000-4:1150": [
+                "Skin Deep",
+                10,
+                []
+            ],
+            "4:1400-4:1550": [
+                "Integrated Design Development Studio",
+                30,
+                [
+                    "04",
+                    "06"
+                ]
+            ],
+            "4:1400-4:1750": [
+                "Architectural Design Studio 2",
+                265,
+                [
+                    "01",
+                    "02",
+                    "03",
+                    "04",
+                    "05",
+                    "06",
+                    "07",
+                    "09",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15"
+                ]
+            ],
+            "4:1430-4:1820": [
+                "Architectural Design Studio 5",
+                5,
+                [
+                    "80"
+                ]
+            ],
+            "4:1600-4:1750": [
+                "Building Sciences Capstone",
+                1,
+                []
+            ],
+            "5:1000-5:1150": [
+                "Intense Ornamnt 3d Printed Mtl",
+                10,
+                [
+                    "01"
+                ]
+            ],
+            "5:1300-5:1450": [
+                "Ceramic Upholstery",
+                10,
+                []
+            ],
+            "meta": {
+                "max": 265
+            }
+        },
         "117": {
             "1:1000-1:1120": [
                 "An Architectural Genealogy",
@@ -8078,7 +8359,7 @@
             }
         },
         "meta": {
-            "max": 215,
+            "max": 480,
             "access": [
                 "0700-2100",
                 "0700-2100",
@@ -8088,8 +8369,7 @@
             "name": "Greene Building",
             "hist": "",
             "floors": [
-                1,
-                2,
+                4,
                 1
             ]
         }
@@ -8550,8 +8830,51 @@
                 "max": 38
             }
         },
+        "AUD": {
+            "1:1000-1:1150": [
+                "Money & Banking",
+                180,
+                []
+            ],
+            "2:1000-2:1150": [
+                "Numerical Methods And Programming For Engineers",
+                44,
+                [
+                    "02"
+                ]
+            ],
+            "2:1200-2:1350": [
+                "Numerical Methods And Programming For Engineers",
+                45,
+                [
+                    "04"
+                ]
+            ],
+            "4:1000-4:1150": [
+                "Money & Banking",
+                180,
+                []
+            ],
+            "5:1000-5:1150": [
+                "Numerical Methods And Programming For Engineers",
+                44,
+                [
+                    "02"
+                ]
+            ],
+            "5:1200-5:1350": [
+                "Numerical Methods And Programming For Engineers",
+                45,
+                [
+                    "04"
+                ]
+            ],
+            "meta": {
+                "max": 180
+            }
+        },
         "meta": {
-            "max": 232,
+            "max": 412,
             "access": [
                 "0700-2400",
                 "0700-2400",
@@ -8561,7 +8884,6 @@
             "name": "West Hall",
             "hist": "",
             "floors": [
-                1,
                 4,
                 1
             ]
@@ -8785,6 +9107,25 @@
                 "max": 30
             }
         },
+        "008A": {
+            "2:1400-2:1750": [
+                "Chem Engr Lab II",
+                16,
+                [
+                    "01"
+                ]
+            ],
+            "4:1400-4:1750": [
+                "Chem Engr Lab II",
+                12,
+                [
+                    "02"
+                ]
+            ],
+            "meta": {
+                "max": 16
+            }
+        },
         "211": {
             "1:1000-1:1150": [
                 "Intro To Philosophy",
@@ -8892,7 +9233,7 @@
             }
         },
         "meta": {
-            "max": 313,
+            "max": 329,
             "access": [
                 "0700-2100",
                 "0700-2100",
@@ -8902,8 +9243,7 @@
             "name": "Ricketts Building",
             "hist": "",
             "floors": [
-                2,
-                2,
+                6,
                 1
             ]
         }
@@ -9642,7 +9982,6 @@
             "name": "Jonsson-Rowland Science Center",
             "hist": "",
             "floors": [
-                1,
                 3,
                 1
             ]
@@ -9917,8 +10256,157 @@
             "name": "Walker Laboratory",
             "hist": "",
             "floors": [
-                2,
                 6,
+                1
+            ]
+        }
+    },
+    "Academy": {
+        "AUD": {
+            "1:1000-1:1150": [
+                "Intro To Cell & Molec Biology",
+                95,
+                [
+                    "01"
+                ]
+            ],
+            "1:1200-1:1350": [
+                "Introduction To Electronics",
+                80,
+                [
+                    "01",
+                    "02"
+                ]
+            ],
+            "1:1400-1:1550": [
+                "Intro To Cell & Molec Biology",
+                95,
+                [
+                    "02"
+                ]
+            ],
+            "1:1600-1:1750": [
+                "Electric Circuits",
+                130,
+                [
+                    "01",
+                    "02"
+                ]
+            ],
+            "2:0800-2:0950": [
+                "Parallel Programming",
+                90,
+                []
+            ],
+            "2:1000-2:1150": [
+                "Geology II Earth's Surface",
+                101,
+                [
+                    "01",
+                    "02"
+                ]
+            ],
+            "2:1200-2:1350": [
+                "Cptr Components & Oper",
+                116,
+                [
+                    "01",
+                    "02",
+                    "03"
+                ]
+            ],
+            "2:1900-2:2050": [
+                "Electric Circuits",
+                130,
+                [
+                    "01",
+                    "02"
+                ]
+            ],
+            "3:1000-3:1150": [
+                "Embedded Control",
+                180,
+                [
+                    "01",
+                    "02",
+                    "03"
+                ]
+            ],
+            "3:1200-3:1350": [
+                "Pd: Leadership Competencies",
+                45,
+                [
+                    "06"
+                ]
+            ],
+            "4:1000-4:1150": [
+                "Intro To Cell & Molec Biology",
+                95,
+                [
+                    "01"
+                ]
+            ],
+            "4:1200-4:1350": [
+                "Introduction To Electronics",
+                80,
+                [
+                    "01",
+                    "02"
+                ]
+            ],
+            "4:1400-4:1550": [
+                "Intro To Cell & Molec Biology",
+                95,
+                [
+                    "02"
+                ]
+            ],
+            "4:1600-4:1750": [
+                "Electric Circuits",
+                130,
+                [
+                    "01",
+                    "02"
+                ]
+            ],
+            "5:0800-5:0950": [
+                "Parallel Programming",
+                90,
+                []
+            ],
+            "5:1000-5:1150": [
+                "Geology II Earth's Surface",
+                101,
+                [
+                    "01",
+                    "02"
+                ]
+            ],
+            "5:1200-5:1350": [
+                "Cptr Components & Oper",
+                116,
+                [
+                    "01",
+                    "02",
+                    "03"
+                ]
+            ],
+            "meta": {
+                "max": 180
+            }
+        },
+        "meta": {
+            "max": 180,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Academy Hall",
+            "hist": "",
+            "floors": [
+                4,
                 1
             ]
         }
@@ -10019,8 +10507,7 @@
             "name": "Folsom Library",
             "hist": "",
             "floors": [
-                1,
-                1,
+                4,
                 1
             ]
         }
@@ -10478,8 +10965,7 @@
             "name": "Amos Eaton Hall",
             "hist": "",
             "floors": [
-                2,
-                2,
+                4,
                 1
             ]
         }
@@ -10629,7 +11115,6 @@
             "name": "Materials Research Center",
             "hist": "",
             "floors": [
-                1,
                 3,
                 1
             ]
@@ -10662,38 +11147,9 @@
             "name": "Cogswell Laboratory",
             "hist": "",
             "floors": [
-                1,
-                1,
+                3,
                 1
             ]
-        }
-    },
-    "Academy": {
-        "meta": {
-            "max": null,
-            "access": [
-                "0700-2100",
-                "0700-2100",
-                "",
-                ""
-            ],
-            "name": "Academy Hall",
-            "hist": "",
-            "floors": []
-        }
-    },
-    "VCC": {
-        "meta": {
-            "max": null,
-            "access": [
-                "0700-2300",
-                "0700-2300",
-                "0700-2300",
-                "0700-2300"
-            ],
-            "name": "Voorhees Computing Center",
-            "hist": "chapel-voorhees-computing-center",
-            "floors": []
         }
     },
     "CBIS": {
@@ -10707,7 +11163,10 @@
             ],
             "name": "Biotechnology and Interdis Bld",
             "hist": false,
-            "floors": []
+            "floors": [
+                4,
+                1
+            ]
         }
     },
     "Winslow": {
@@ -10721,7 +11180,10 @@
             ],
             "name": "Winslow Building",
             "hist": "",
-            "floors": []
+            "floors": [
+                3,
+                1
+            ]
         }
     },
     "EMPAC": {
@@ -10735,7 +11197,10 @@
             ],
             "name": "Experimental Media & Performing Arts Center",
             "hist": false,
-            "floors": []
+            "floors": [
+                5,
+                1
+            ]
         }
     },
     "Pool": {
@@ -10749,7 +11214,10 @@
             ],
             "name": "Robinson Pool",
             "hist": false,
-            "floors": []
+            "floors": [
+                1,
+                1
+            ]
         }
     },
     "Commons": {
@@ -10763,7 +11231,44 @@
             ],
             "name": "Commons Dining Hall",
             "hist": false,
-            "floors": []
+            "floors": [
+                2,
+                1
+            ],
+            "dining": {
+                "1:07:00-1:10:00": "Breakfast",
+                "2:07:00-2:10:00": "Breakfast",
+                "3:07:00-3:10:00": "Breakfast",
+                "4:07:00-4:10:00": "Breakfast",
+                "5:07:00-5:10:00": "Breakfast",
+                "1:10:00-1:11:00": "Continental Breakfast",
+                "2:10:00-2:11:00": "Continental Breakfast",
+                "3:10:00-3:11:00": "Continental Breakfast",
+                "4:10:00-4:11:00": "Continental Breakfast",
+                "5:10:00-5:11:00": "Continental Breakfast",
+                "1:11:00-1:15:30": "Lunch",
+                "2:11:00-2:15:30": "Lunch",
+                "3:11:00-3:15:30": "Lunch",
+                "4:11:00-4:15:30": "Lunch",
+                "5:11:00-5:15:30": "Lunch",
+                "1:16:30-1:21:00": "Dinner",
+                "2:16:30-2:21:00": "Dinner",
+                "3:16:30-3:21:00": "Dinner",
+                "4:16:30-4:21:00": "Dinner",
+                "5:16:30-5:21:00": "Dinner",
+                "6:16:30-6:21:00": "Dinner",
+                "0:16:30-0:21:00": "Dinner",
+                "1:21:00-1:22:30": "Late Night",
+                "2:21:00-2:22:30": "Late Night",
+                "3:21:00-3:22:30": "Late Night",
+                "4:21:00-4:22:30": "Late Night",
+                "0:21:00-0:22:30": "Late Night",
+                "6:09:00-6:14:00": "Brunch",
+                "0:09:00-0:14:00": "Brunch",
+                "6:16:30-6:20:00": "Dinner",
+                "0:16:30-0:20:00": "Dinner",
+                "url": "commons-dining-hall"
+            }
         }
     },
     "Empire_State": {
@@ -10777,7 +11282,10 @@
             ],
             "name": "Empire State Hall",
             "hist": false,
-            "floors": []
+            "floors": [
+                3,
+                1
+            ]
         }
     },
     "'87_Gym": {
@@ -10791,7 +11299,10 @@
             ],
             "name": "'87 Gym",
             "hist": "87-gymnasium",
-            "floors": []
+            "floors": [
+                3,
+                1
+            ]
         }
     },
     "RSDH": {
@@ -10803,9 +11314,39 @@
                 "",
                 ""
             ],
-            "name": "Russel Sage Dining Hall",
+            "name": "Russell Sage Dining Hall",
             "hist": "",
-            "floors": []
+            "floors": [
+                2,
+                1
+            ],
+            "dining": {
+                "1:07:00-1:10:00": "Breakfast",
+                "2:07:00-2:10:00": "Breakfast",
+                "3:07:00-3:10:00": "Breakfast",
+                "4:07:00-4:10:00": "Breakfast",
+                "5:07:00-5:10:00": "Breakfast",
+                "1:10:00-1:11:00": "Continental Breakfast",
+                "2:10:00-2:11:00": "Continental Breakfast",
+                "3:10:00-3:11:00": "Continental Breakfast",
+                "4:10:00-4:11:00": "Continental Breakfast",
+                "5:10:00-5:11:00": "Continental Breakfast",
+                "1:11:00-1:14:30": "Lunch",
+                "2:11:00-2:14:30": "Lunch",
+                "3:11:00-3:14:30": "Lunch",
+                "4:11:00-4:14:30": "Lunch",
+                "5:11:00-5:14:30": "Lunch",
+                "1:16:00-1:20:00": "Dinner",
+                "2:16:00-2:20:00": "Dinner",
+                "3:16:00-3:20:00": "Dinner",
+                "4:16:00-4:20:00": "Dinner",
+                "5:16:00-5:20:00": "Dinner",
+                "6:16:00-6:20:00": "Dinner",
+                "0:16:00-0:20:00": "Dinner",
+                "6:13:30-6:16:00": "Late Lunch",
+                "0:13:30-0:16:00": "Late Lunch",
+                "url": "russell-sage"
+            }
         }
     },
     "Mueller": {
@@ -10819,7 +11360,10 @@
             ],
             "name": "Mueller Center",
             "hist": false,
-            "floors": []
+            "floors": [
+                2,
+                1
+            ]
         }
     },
     "Union": {
@@ -10833,7 +11377,70 @@
             ],
             "name": "Student Union",
             "hist": "rensselaer-student-union",
-            "floors": []
+            "floors": [
+                3,
+                1
+            ],
+            "dining": {
+                "Father's Marketplace": {
+                    "1:08:00-1:23:00": "",
+                    "2:08:00-2:23:00": "",
+                    "3:08:00-3:23:00": "",
+                    "4:08:00-4:23:00": "",
+                    "5:08:00-5:23:00": "",
+                    "6:09:30-6:23:00": "",
+                    "0:09:30-0:23:00": "",
+                    "url": "fathers-marketplace"
+                },
+                "Panera Bread": {
+                    "1:08:00-1:20:00": "",
+                    "2:08:00-2:20:00": "",
+                    "3:08:00-3:20:00": "",
+                    "4:08:00-4:20:00": "",
+                    "5:08:00-5:20:00": "",
+                    "6:09:30-6:20:00": "",
+                    "0:09:30-0:20:00": "",
+                    "url": "mcneil-room"
+                },
+                "Thunder Mountain Curry": {
+                    "1:11:00-1:15:00": "",
+                    "2:11:00-2:15:00": "",
+                    "3:11:00-3:15:00": "",
+                    "4:11:00-4:15:00": "",
+                    "5:11:00-5:15:00": "",
+                    "url": "TMC"
+                },
+                "Wild Blue Sushi": {
+                    "1:11:00-1:22:00": "",
+                    "2:11:00-2:22:00": "",
+                    "3:11:00-3:22:00": "",
+                    "4:11:00-4:22:00": "",
+                    "5:11:00-5:22:00": "",
+                    "6:11:00-6:22:00": "",
+                    "0:11:00-0:22:00": "",
+                    "url": "wild_blue_sushi"
+                },
+                "Collar City Grill": {
+                    "1:11:00-1:23:00": "",
+                    "2:11:00-2:23:00": "",
+                    "3:11:00-3:23:00": "",
+                    "4:11:00-4:23:00": "",
+                    "5:11:00-5:23:00": "",
+                    "6:11:00-6:23:00": "",
+                    "0:11:00-0:23:00": "",
+                    "url": "CCG"
+                },
+                "Halal Shack": {
+                    "1:17:00-1:23:00": "",
+                    "2:17:00-2:23:00": "",
+                    "3:17:00-3:23:00": "",
+                    "4:17:00-4:23:00": "",
+                    "5:17:00-5:23:00": "",
+                    "6:13:00-6:22:00": "",
+                    "0:13:00-0:22:00": "",
+                    "url": "Halal_shack"
+                }
+            }
         }
     }
 }

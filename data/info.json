@@ -26,7 +26,7 @@
 	"Commons": ["Commons Dining Hall", false],
 	"Empire_State": ["Empire State Hall", false],
 	"'87_Gym": ["'87 Gym", "87-gymnasium"],
-	"RSDH": ["Russel Sage Dining Hall", ""],
+	"RSDH": ["Russell Sage Dining Hall", ""],
 	"Mueller": ["Mueller Center", false],
 	"Union": ["Student Union", "rensselaer-student-union"]
 }
