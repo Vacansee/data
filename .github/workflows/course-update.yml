@@ -25,6 +25,12 @@ jobs:
     - name: Run convert.py
       run: python convert.py
 
+    - name: Run library.py
+      run: python library.py
+
+    - name: Run dining.py
+      run: python dining.py
+
     - name: Push updates
       run: |
         git add -A

@@ -1,4 +1,5 @@
 requests
 fake-useragent
 webdriver-manager
+beautifulsoup4
 selenium
