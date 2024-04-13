@@ -53,7 +53,7 @@ def get_json_from_url(url_input):
     '''
 
     options = webdriver.ChromeOptions()
-    #options.add_argument("--headless")
+    options.add_argument("--headless")
     UA = UserAgent().random # Create a random user agent
     options.add_argument(f'--user-agent={UA}')
 
@@ -90,3 +90,31 @@ def run_report():
 
     with open("data/wifi/data_{}.json".format(current_date), 'w') as f:
         f.write(json.dumps(data, indent = 4))
+        
+def filter_old_report(date):
+    #Date is in format YYYY-MM-DD
+    
+    with open('data/wifi/data_{}.json'.format(date), 'r') as file:
+        report = json.load(file)
+
+    data = dict() #Dict to store new (filtered) data
+    
+    for building in report:
+        data[building] = dict()
+        for entry in report[building]:
+            #print(entry["weekday"], entry["Hour"])
+            weekday = entry["weekday"]
+            hour = entry['Hour']
+            
+            if weekday not in data[building]:
+                data[building][weekday] = dict()
+            
+            data[building][weekday][hour] = dict()
+            data[building][weekday][hour]["UserCount"] = entry["users"]
+            data[building][weekday][hour]["MeanUserCount"] = entry["Mean_Usercount"]
+            
+    with open("data/wifi/filtered_data_{}.json".format(date), 'w') as f:
+        f.write(json.dumps(data, indent = 4))
+    
+def generate_building_stats():
+    data = dict()
