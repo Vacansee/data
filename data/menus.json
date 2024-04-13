@@ -4333,8 +4333,8 @@
         "12": {
             "Breakfast": {
                 "Bakery": {
-                    "Double Chocolate Chip Muffin": [
-                        "173cal ",
+                    "Chocolate Chunk Scone": [
+                        "412cal ",
                         "vegetarian",
                         "contains milk",
                         "contains egg",
@@ -4342,8 +4342,8 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Chocolate Chunk Scone": [
-                        "412cal ",
+                    "Double Chocolate Chip Muffin": [
+                        "173cal ",
                         "vegetarian",
                         "contains milk",
                         "contains egg",
@@ -4359,10 +4359,38 @@
                         "vegan",
                         "contains soy"
                     ],
+                    "Caramel Topping": [
+                        "71cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Sriracha Sauce": [
+                        "20cal ",
+                        "vegetarian"
+                    ],
+                    "Scrambled Eggs": [
+                        "191cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains soy"
+                    ],
+                    "Whipped Topping": [
+                        "22cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains soy"
+                    ],
                     "Warm Pancake Syrup": [
                         "112cal ",
                         "vegetarian",
                         "vegan"
+                    ],
+                    "Chocolate Sauce": [
+                        "226cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains soy"
                     ],
                     "Two Buttermilk Pancakes": [
                         "227cal ",
@@ -4374,44 +4402,26 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Whipped Topping": [
-                        "22cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains soy"
-                    ],
-                    "Scrambled Eggs": [
-                        "191cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains egg",
-                        "contains soy"
-                    ],
                     "Pork Sausage Link": [
                         "95cal "
-                    ],
-                    "Sriracha Sauce": [
-                        "20cal ",
-                        "vegetarian"
-                    ],
-                    "Caramel Topping": [
-                        "71cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Chocolate Sauce": [
-                        "226cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains soy"
                     ]
                 },
                 "Miscellaneous": {},
                 "Salad": {
-                    "Diced Watermelon": [
-                        "9cal ",
+                    "Low Fat Strawberry Yogurt": [
+                        "25cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Fresh Strawberries": [
+                        "14cal ",
                         "vegetarian",
                         "vegan",
+                        "mindful"
+                    ],
+                    "Cinnamon Applesauce": [
+                        "65cal ",
+                        "vegetarian",
                         "mindful"
                     ],
                     "Low Fat Vanilla Yogurt": [
@@ -4432,41 +4442,31 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Low Fat Strawberry Yogurt": [
-                        "25cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Fresh Strawberries": [
-                        "14cal ",
+                    "Assorted Seasonal Fresh Fruit": [
+                        "88cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Cinnamon Applesauce": [
-                        "65cal ",
-                        "vegetarian",
-                        "mindful"
-                    ],
-                    "Assorted Seasonal Fresh Fruit": [
-                        "88cal ",
+                    "Diced Watermelon": [
+                        "9cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ]
                 },
                 "Saute": {
-                    "Egg Substitute": [
-                        "88cal ",
-                        "vegetarian",
-                        "mindful",
-                        "contains egg"
-                    ],
                     "Vegan Shredded Cheddar Cheese": [
                         "84cal ",
                         "vegetarian",
                         "vegan",
                         "contains tree nuts"
+                    ],
+                    "Egg Substitute": [
+                        "88cal ",
+                        "vegetarian",
+                        "mindful",
+                        "contains egg"
                     ]
                 }
             },
@@ -4506,19 +4506,21 @@
                         "vegetarian",
                         "vegan"
                     ],
-                    "Diced Bacon": [
-                        "72cal "
-                    ],
-                    "Shredded Cheddar Cheese": [
-                        "111cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
                     "Smoked Ham": [
                         "37cal "
                     ],
-                    "Roast Beef": [
-                        "64cal "
+                    "Pepper Jack Cheese, Sliced": [
+                        "53cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Diced Bacon": [
+                        "72cal "
+                    ],
+                    "Cheddar Cheese": [
+                        "57cal ",
+                        "vegetarian",
+                        "contains milk"
                     ],
                     "American Cheese": [
                         "47cal ",
@@ -4526,16 +4528,14 @@
                         "contains milk",
                         "contains soy"
                     ],
-                    "Pepper Jack Cheese, Sliced": [
-                        "53cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
                     "Deli Turkey Breast": [
                         "51cal "
                     ],
-                    "Cheddar Cheese": [
-                        "57cal ",
+                    "Roast Beef": [
+                        "64cal "
+                    ],
+                    "Shredded Cheddar Cheese": [
+                        "111cal ",
                         "vegetarian",
                         "contains milk"
                     ]
@@ -4570,6 +4570,13 @@
                         "contains soy",
                         "contains gluten"
                     ],
+                    "Hamburger": [
+                        "312cal ",
+                        "contains wheat",
+                        "contains soy",
+                        "contains sesame",
+                        "contains gluten"
+                    ],
                     "French Fries": [
                         "205cal ",
                         "vegetarian",
@@ -4583,30 +4590,23 @@
                         "contains soy",
                         "contains sesame",
                         "contains gluten"
-                    ],
-                    "Hamburger": [
-                        "312cal ",
-                        "contains wheat",
-                        "contains soy",
-                        "contains sesame",
-                        "contains gluten"
                     ]
                 },
                 "Miscellaneous": {},
                 "Pacifica": {
-                    "Sesame Ginger Green Beans": [
-                        "63cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful",
-                        "contains sesame"
-                    ],
                     "Seared Beef Lo Mein": [
                         "450cal ",
                         "contains wheat",
                         "contains soy",
                         "contains sesame",
                         "contains gluten"
+                    ],
+                    "Sesame Ginger Green Beans": [
+                        "63cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful",
+                        "contains sesame"
                     ],
                     "Vegetable Egg Roll": [
                         "188cal ",
@@ -4636,36 +4636,35 @@
                     ]
                 },
                 "Power Plant": {
-                    "Mushroom Risotto": [
-                        "149cal ",
+                    "Sauteed Broccoli & Carrots": [
+                        "55cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Sauteed Broccoli & Carrots": [
-                        "55cal ",
+                    "Mushroom Risotto": [
+                        "149cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ]
                 },
                 "Salad": {
-                    "Crumbled Bacon": [
+                    "Grilled Chicken Breast Strips": [
                         "48cal "
                     ],
-                    "Fresh Blueberries": [
-                        "5cal ",
+                    "Flax Seeds": [
+                        "56cal ",
                         "vegetarian",
-                        "vegan",
-                        "mindful"
+                        "vegan"
                     ],
                     "Roasted Red Grape Tomatoes": [
                         "419cal ",
                         "vegetarian",
                         "vegan"
                     ],
-                    "Julienne Red Peppers": [
-                        "9cal ",
+                    "Sliced Jalapeno Peppers": [
+                        "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -4676,11 +4675,10 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Honeydew Melon Cubes": [
-                        "10cal ",
+                    "Balsamic Vinaigrette": [
+                        "103cal ",
                         "vegetarian",
-                        "vegan",
-                        "mindful"
+                        "contains soy"
                     ],
                     "Fresh Red Onions": [
                         "11cal ",
@@ -4688,24 +4686,38 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Thousand Island Dressing": [
-                        "139cal ",
+                    "Fresh Honeydew Melon Cubes": [
+                        "10cal ",
                         "vegetarian",
-                        "contains egg"
+                        "vegan",
+                        "mindful"
                     ],
                     "Low Fat Strawberry Yogurt": [
                         "25cal ",
                         "vegetarian",
                         "contains milk"
                     ],
-                    "Shredded Carrots": [
-                        "6cal ",
+                    "Homestyle Croutons": [
+                        "62cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains wheat",
+                        "contains gluten"
+                    ],
+                    "Fresh Cucumber": [
+                        "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Cucumber": [
-                        "4cal ",
+                    "Blanched Fresh Broccoli": [
+                        "11cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Cherry Tomatoes": [
+                        "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -4716,11 +4728,29 @@
                         "vegan",
                         "contains sesame"
                     ],
-                    "Cherry Tomatoes": [
-                        "5cal ",
+                    "Fresh Spinach": [
+                        "7cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
+                    ],
+                    "Shredded Carrots": [
+                        "6cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Crumbled Bacon": [
+                        "48cal "
+                    ],
+                    "Thousand Island Dressing": [
+                        "139cal ",
+                        "vegetarian",
+                        "contains egg"
+                    ],
+                    "Fat Free Italian Dressing": [
+                        "27cal ",
+                        "vegetarian"
                     ],
                     "Fresh Strawberries": [
                         "14cal ",
@@ -4728,22 +4758,14 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Spinach": [
-                        "7cal ",
+                    "Spring Mix": [
+                        "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Flax Seeds": [
-                        "56cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
-                    "Grilled Chicken Breast Strips": [
-                        "48cal "
-                    ],
-                    "Sliced Jalapeno Peppers": [
-                        "4cal ",
+                    "Julienne Green Peppers": [
+                        "6cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -4766,55 +4788,30 @@
                         "vegetarian",
                         "contains milk"
                     ],
-                    "Julienne Green Peppers": [
-                        "6cal ",
+                    "Fresh Blueberries": [
+                        "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Spring Mix": [
-                        "4cal ",
+                    "Julienne Red Peppers": [
+                        "9cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
-                    ],
-                    "Blanched Fresh Broccoli": [
-                        "11cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Fat Free Italian Dressing": [
-                        "27cal ",
-                        "vegetarian"
-                    ],
-                    "Homestyle Croutons": [
-                        "62cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains wheat",
-                        "contains gluten"
-                    ],
-                    "Balsamic Vinaigrette": [
-                        "103cal ",
-                        "vegetarian",
-                        "contains soy"
                     ]
                 },
                 "Saute": {
-                    "Alfredo Sauce": [
-                        "195cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains wheat",
-                        "contains soy",
-                        "contains gluten"
-                    ],
-                    "Saut\u00e9ed Mushrooms": [
-                        "16cal ",
+                    "Sauteed Spinach With Garlic": [
+                        "46cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
+                    ],
+                    "Tomato Basil Marinara": [
+                        "18cal ",
+                        "vegetarian",
+                        "vegan"
                     ],
                     "Fresh Tomatoes": [
                         "5cal ",
@@ -4828,19 +4825,22 @@
                         "vegan",
                         "mindful"
                     ],
+                    "Alfredo Sauce": [
+                        "195cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains wheat",
+                        "contains soy",
+                        "contains gluten"
+                    ],
+                    "Grilled Chicken Breast": [
+                        "141cal "
+                    ],
                     "Sauteed Onions": [
                         "21cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
-                    ],
-                    "Grilled Chicken Breast": [
-                        "141cal "
-                    ],
-                    "Dal (lentils)": [
-                        "222cal ",
-                        "vegetarian",
-                        "vegan"
                     ],
                     "Extra Firm Tofu": [
                         "29cal ",
@@ -4849,11 +4849,21 @@
                         "mindful",
                         "contains soy"
                     ],
-                    "Sauteed Spinach With Garlic": [
-                        "46cal ",
+                    "Dal (lentils)": [
+                        "222cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "Saut\u00e9ed Mushrooms": [
+                        "16cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
+                    ],
+                    "Shredded Parmesan Cheese": [
+                        "20cal ",
+                        "vegetarian",
+                        "contains milk"
                     ],
                     "Fresh Garlic": [
                         "4cal ",
@@ -4865,16 +4875,6 @@
                         "vegetarian",
                         "vegan",
                         "mindful"
-                    ],
-                    "Tomato Basil Marinara": [
-                        "18cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
-                    "Shredded Parmesan Cheese": [
-                        "20cal ",
-                        "vegetarian",
-                        "contains milk"
                     ]
                 },
                 "Simple Servings": {
@@ -4933,19 +4933,28 @@
                         "vegan",
                         "mindful"
                     ],
+                    "Southwest Seasoned Rotisserie Chicken": [
+                        "371cal "
+                    ],
                     "Garlic And Oregano Roasted Red Potatoes": [
                         "118cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
-                    ],
-                    "Southwest Seasoned Rotisserie Chicken": [
-                        "371cal "
                     ]
                 },
                 "Deli": {
                     "Smoked Ham": [
                         "37cal "
+                    ],
+                    "Roast Beef": [
+                        "64cal "
+                    ],
+                    "American Cheese": [
+                        "47cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains soy"
                     ],
                     "Deli Turkey Breast": [
                         "51cal "
@@ -4958,12 +4967,6 @@
                         "vegetarian",
                         "contains milk"
                     ],
-                    "American Cheese": [
-                        "47cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains soy"
-                    ],
                     "Cheddar Cheese": [
                         "57cal ",
                         "vegetarian",
@@ -4973,9 +4976,6 @@
                         "4cal ",
                         "vegetarian",
                         "vegan"
-                    ],
-                    "Roast Beef": [
-                        "64cal "
                     ],
                     "Shredded Cheddar Cheese": [
                         "111cal ",
@@ -5033,15 +5033,15 @@
                 },
                 "Miscellaneous": {},
                 "Pizza": {
-                    "Meat Lover's Feast Pizza": [
-                        "308cal ",
+                    "Pepperoni Pizza": [
+                        "277cal ",
                         "contains milk",
                         "contains wheat",
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Pepperoni Pizza": [
-                        "277cal ",
+                    "Meat Lover's Feast Pizza": [
+                        "308cal ",
                         "contains milk",
                         "contains wheat",
                         "contains soy",
@@ -5063,53 +5063,35 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Garlic Orange Chili Tofu": [
-                        "419cal ",
-                        "contains shellfish",
-                        "contains wheat",
-                        "contains soy",
-                        "contains sesame",
-                        "contains gluten"
-                    ],
                     "Brown Rice": [
                         "90cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
+                    ],
+                    "Crispy Fried Tofu": [
+                        "66cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful",
+                        "contains soy"
                     ]
                 },
                 "Salad": {
-                    "Shredded Carrots": [
-                        "6cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
+                    "Crumbled Bacon": [
+                        "48cal "
                     ],
-                    "Spring Mix": [
-                        "4cal ",
+                    "Homestyle Croutons": [
+                        "62cal ",
                         "vegetarian",
-                        "vegan",
-                        "mindful"
+                        "contains milk",
+                        "contains wheat",
+                        "contains gluten"
                     ],
-                    "Thousand Island Dressing": [
-                        "139cal ",
+                    "Roasted Red Grape Tomatoes": [
+                        "419cal ",
                         "vegetarian",
-                        "contains egg"
-                    ],
-                    "Yoplait Low Fat Vanilla Yogurt": [
-                        "24cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Balsamic Vinaigrette": [
-                        "103cal ",
-                        "vegetarian",
-                        "contains soy"
-                    ],
-                    "Low Fat Strawberry Yogurt": [
-                        "25cal ",
-                        "vegetarian",
-                        "contains milk"
+                        "vegan"
                     ],
                     "Julienne Red Peppers": [
                         "9cal ",
@@ -5123,17 +5105,45 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Blueberries": [
-                        "5cal ",
+                    "Balsamic Vinaigrette": [
+                        "103cal ",
+                        "vegetarian",
+                        "contains soy"
+                    ],
+                    "Fat Free Italian Dressing": [
+                        "27cal ",
+                        "vegetarian"
+                    ],
+                    "Sliced Jalapeno Peppers": [
+                        "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Red Onions": [
-                        "11cal ",
+                    "Spring Mix": [
+                        "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
+                    ],
+                    "Shredded Carrots": [
+                        "6cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Yoplait Low Fat Vanilla Yogurt": [
+                        "24cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Thousand Island Dressing": [
+                        "139cal ",
+                        "vegetarian",
+                        "contains egg"
+                    ],
+                    "Grilled Chicken Breast Strips": [
+                        "48cal "
                     ],
                     "Fresh Honeydew Melon Cubes": [
                         "10cal ",
@@ -5141,17 +5151,40 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Cucumber": [
-                        "4cal ",
+                    "Ranch Dressing": [
+                        "48cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains soy"
+                    ],
+                    "Fresh Blueberries": [
+                        "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Sliced Jalapeno Peppers": [
-                        "4cal ",
+                    "Fresh Spinach": [
+                        "7cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
+                    ],
+                    "Flax Seeds": [
+                        "56cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "Fresh Red Onions": [
+                        "11cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Hardboiled Eggs": [
+                        "44cal ",
+                        "vegetarian",
+                        "contains egg"
                     ],
                     "Fresh Cantaloupe Cubes": [
                         "10cal ",
@@ -5165,31 +5198,10 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Roasted Red Grape Tomatoes": [
-                        "419cal ",
+                    "Low Fat Strawberry Yogurt": [
+                        "25cal ",
                         "vegetarian",
-                        "vegan"
-                    ],
-                    "Homestyle Croutons": [
-                        "62cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains wheat",
-                        "contains gluten"
-                    ],
-                    "Crumbled Bacon": [
-                        "48cal "
-                    ],
-                    "Flax Seeds": [
-                        "56cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
-                    "Fresh Spinach": [
-                        "7cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
+                        "contains milk"
                     ],
                     "Hummus": [
                         "78cal ",
@@ -5197,18 +5209,17 @@
                         "vegan",
                         "contains sesame"
                     ],
-                    "Grilled Chicken Breast Strips": [
-                        "48cal "
-                    ],
-                    "Fresh Strawberries": [
-                        "14cal ",
+                    "Fresh Cucumber": [
+                        "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Fat Free Italian Dressing": [
-                        "27cal ",
-                        "vegetarian"
+                    "Julienne Green Peppers": [
+                        "6cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
                     ],
                     "Blanched Fresh Broccoli": [
                         "11cal ",
@@ -5216,31 +5227,17 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Ranch Dressing": [
-                        "48cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains egg",
-                        "contains soy"
-                    ],
-                    "Hardboiled Eggs": [
-                        "44cal ",
-                        "vegetarian",
-                        "contains egg"
-                    ],
-                    "Julienne Green Peppers": [
-                        "6cal ",
+                    "Fresh Strawberries": [
+                        "14cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ]
                 },
                 "Simple Servings": {
-                    "Balsamic Roasted Vegetables": [
-                        "63cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
+                    "Old Bay Cod Fillet": [
+                        "77cal ",
+                        "contains fish"
                     ],
                     "Steamed Jasmine Rice": [
                         "104cal ",
@@ -5248,9 +5245,11 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Old Bay Cod Fillet": [
-                        "77cal ",
-                        "contains fish"
+                    "Balsamic Roasted Vegetables": [
+                        "63cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
                     ]
                 },
                 "Soup": {
@@ -5291,8 +5290,8 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Two Double Chocolate Chip Cookies": [
-                        "335cal ",
+                    "Blondie Bar": [
+                        "192cal ",
                         "vegetarian",
                         "contains milk",
                         "contains egg",
@@ -5306,10 +5305,11 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Chocolate Chip Vegan Cookie": [
-                        "186cal ",
+                    "Two Double Chocolate Chip Cookies": [
+                        "335cal ",
                         "vegetarian",
-                        "vegan",
+                        "contains milk",
+                        "contains egg",
                         "contains wheat",
                         "contains soy",
                         "contains gluten"
@@ -5323,11 +5323,10 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Blondie Bar": [
-                        "192cal ",
+                    "Chocolate Chip Vegan Cookie": [
+                        "186cal ",
                         "vegetarian",
-                        "contains milk",
-                        "contains egg",
+                        "vegan",
                         "contains wheat",
                         "contains soy",
                         "contains gluten"
@@ -5382,15 +5381,6 @@
                         "vegan",
                         "contains sesame"
                     ],
-                    "Deli Turkey Breast": [
-                        "51cal "
-                    ],
-                    "Sliced Jalapeno Peppers": [
-                        "4cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
                     "Sliced Pepperoncini": [
                         "4cal ",
                         "vegetarian",
@@ -5399,14 +5389,35 @@
                     "Smoked Ham": [
                         "37cal "
                     ],
-                    "Grilled Chicken Breast Strips": [
-                        "48cal "
+                    "Pepper Jack Cheese, Sliced": [
+                        "53cal ",
+                        "vegetarian",
+                        "contains milk"
                     ],
                     "American Cheese": [
                         "47cal ",
                         "vegetarian",
                         "contains milk",
                         "contains soy"
+                    ],
+                    "Ranch Dressing": [
+                        "48cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains soy"
+                    ],
+                    "Sliced Jalapeno Peppers": [
+                        "4cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Deli Turkey Breast": [
+                        "51cal "
+                    ],
+                    "Grilled Chicken Breast Strips": [
+                        "48cal "
                     ],
                     "Roast Beef": [
                         "64cal "
@@ -5415,18 +5426,6 @@
                         "111cal ",
                         "vegetarian",
                         "contains milk"
-                    ],
-                    "Pepper Jack Cheese, Sliced": [
-                        "53cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Ranch Dressing": [
-                        "48cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains egg",
-                        "contains soy"
                     ]
                 },
                 "Entree": {
@@ -5439,6 +5438,14 @@
                     ]
                 },
                 "Grill": {
+                    "Pork Sausage Link": [
+                        "95cal "
+                    ],
+                    "Warm Pancake Syrup": [
+                        "112cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
                     "Hamburger": [
                         "312cal ",
                         "contains wheat",
@@ -5463,23 +5470,22 @@
                         "contains sesame",
                         "contains gluten"
                     ],
-                    "Warm Pancake Syrup": [
-                        "112cal ",
+                    "Scrambled Eggs": [
+                        "191cal ",
                         "vegetarian",
-                        "vegan"
+                        "contains milk",
+                        "contains egg",
+                        "contains soy"
                     ],
-                    "Pork Sausage Link": [
-                        "95cal "
+                    "Sriracha Sauce": [
+                        "20cal ",
+                        "vegetarian"
                     ],
                     "Fried Tater Tots": [
                         "252cal ",
                         "vegetarian",
                         "vegan",
                         "contains soy"
-                    ],
-                    "Sriracha Sauce": [
-                        "20cal ",
-                        "vegetarian"
                     ],
                     "Cheeseburger": [
                         "373cal ",
@@ -5488,13 +5494,6 @@
                         "contains soy",
                         "contains sesame",
                         "contains gluten"
-                    ],
-                    "Scrambled Eggs": [
-                        "191cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains egg",
-                        "contains soy"
                     ]
                 },
                 "Miscellaneous": {},
@@ -5559,8 +5558,8 @@
                         "vegetarian",
                         "contains egg"
                     ],
-                    "Julienne Red Peppers": [
-                        "9cal ",
+                    "Fresh Blueberries": [
+                        "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -5571,12 +5570,11 @@
                         "contains fish",
                         "contains soy"
                     ],
-                    "Homestyle Croutons": [
-                        "62cal ",
+                    "Fresh Honeydew Melon Cubes": [
+                        "10cal ",
                         "vegetarian",
-                        "contains milk",
-                        "contains wheat",
-                        "contains gluten"
+                        "vegan",
+                        "mindful"
                     ],
                     "Assorted Seasonal Fresh Fruit": [
                         "88cal ",
@@ -5584,46 +5582,33 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Blueberries": [
-                        "5cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
+                    "Diced Bacon": [
+                        "72cal "
                     ],
                     "Cheddar Cheese": [
                         "57cal ",
                         "vegetarian",
                         "contains milk"
                     ],
-                    "Balsamic Vinaigrette": [
-                        "103cal ",
-                        "vegetarian",
-                        "contains soy"
-                    ],
-                    "Spring Mix": [
-                        "4cal ",
+                    "Julienne Red Peppers": [
+                        "9cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
-                    ],
-                    "Fresh Honeydew Melon Cubes": [
-                        "10cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Yoplait Low Fat Vanilla Yogurt": [
-                        "24cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Diced Bacon": [
-                        "72cal "
                     ],
                     "Roasted Red Grape Tomatoes": [
                         "419cal ",
                         "vegetarian",
                         "vegan"
+                    ],
+                    "Shredded Carrots": [
+                        "6cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Crumbled Bacon": [
+                        "48cal "
                     ],
                     "Chopped Romaine": [
                         "5cal ",
@@ -5631,11 +5616,23 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Red Onions": [
-                        "11cal ",
+                    "Fresh Cucumber": [
+                        "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
+                    ],
+                    "Homestyle Croutons": [
+                        "62cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains wheat",
+                        "contains gluten"
+                    ],
+                    "Yoplait Low Fat Vanilla Yogurt": [
+                        "24cal ",
+                        "vegetarian",
+                        "contains milk"
                     ],
                     "Blanched Fresh Broccoli": [
                         "11cal ",
@@ -5655,8 +5652,8 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Spinach": [
-                        "7cal ",
+                    "Fresh Red Onions": [
+                        "11cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -5666,8 +5663,8 @@
                         "vegetarian",
                         "contains egg"
                     ],
-                    "Cherry Tomatoes": [
-                        "5cal ",
+                    "Fresh Spinach": [
+                        "7cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -5678,8 +5675,11 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Crumbled Bacon": [
-                        "48cal "
+                    "Spring Mix": [
+                        "4cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
                     ],
                     "Low Fat Vanilla Yogurt": [
                         "97cal ",
@@ -5687,8 +5687,8 @@
                         "mindful",
                         "contains milk"
                     ],
-                    "Fresh Cucumber": [
-                        "4cal ",
+                    "Cherry Tomatoes": [
+                        "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -5703,11 +5703,10 @@
                         "vegetarian",
                         "contains milk"
                     ],
-                    "Shredded Carrots": [
-                        "6cal ",
+                    "Balsamic Vinaigrette": [
+                        "103cal ",
                         "vegetarian",
-                        "vegan",
-                        "mindful"
+                        "contains soy"
                     ]
                 },
                 "Simple Servings": {
@@ -5741,19 +5740,19 @@
             },
             "Dinner": {
                 "Bakery": {
-                    "Apple Pie": [
-                        "468cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains wheat",
-                        "contains soy",
-                        "contains gluten"
-                    ],
                     "Mint Chocolate Chip Whoopie Pie": [
                         "173cal ",
                         "vegetarian",
                         "contains milk",
                         "contains egg",
+                        "contains wheat",
+                        "contains soy",
+                        "contains gluten"
+                    ],
+                    "Apple Pie": [
+                        "468cal ",
+                        "vegetarian",
+                        "contains milk",
                         "contains wheat",
                         "contains soy",
                         "contains gluten"
@@ -5769,6 +5768,14 @@
                     ]
                 },
                 "Deli": {
+                    "Smoked Ham": [
+                        "37cal "
+                    ],
+                    "Shredded Cheddar Cheese": [
+                        "111cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
                     "American Cheese": [
                         "47cal ",
                         "vegetarian",
@@ -5777,14 +5784,6 @@
                     ],
                     "Roast Beef": [
                         "64cal "
-                    ],
-                    "Smoked Ham": [
-                        "37cal "
-                    ],
-                    "Shredded Cheddar Cheese": [
-                        "111cal ",
-                        "vegetarian",
-                        "contains milk"
                     ],
                     "Sliced Pepperoncini": [
                         "4cal ",
@@ -5806,6 +5805,14 @@
                     ]
                 },
                 "Grill": {
+                    "Cheeseburger": [
+                        "373cal ",
+                        "contains milk",
+                        "contains wheat",
+                        "contains soy",
+                        "contains sesame",
+                        "contains gluten"
+                    ],
                     "Hamburger": [
                         "312cal ",
                         "contains wheat",
@@ -5825,22 +5832,15 @@
                         "vegetarian",
                         "vegan",
                         "contains soy"
-                    ],
-                    "Cheeseburger": [
-                        "373cal ",
-                        "contains milk",
-                        "contains wheat",
-                        "contains soy",
-                        "contains sesame",
-                        "contains gluten"
                     ]
                 },
                 "Miscellaneous": {},
                 "Pacifica": {
-                    "Shrimp Curry Over Basmati Rice": [
-                        "257cal ",
-                        "contains tree nuts",
-                        "contains shellfish"
+                    "Curry Roasted Cauliflower & Tomatoes": [
+                        "59cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
                     ],
                     "Steamed Basmati Rice": [
                         "147cal ",
@@ -5848,11 +5848,10 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Curry Roasted Cauliflower & Tomatoes": [
-                        "59cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
+                    "Shrimp Curry Over Basmati Rice": [
+                        "257cal ",
+                        "contains tree nuts",
+                        "contains shellfish"
                     ],
                     "Naan Bread": [
                         "261cal ",
@@ -5863,8 +5862,9 @@
                     ]
                 },
                 "Pizza": {
-                    "Meat Lover's Feast Pizza": [
-                        "308cal ",
+                    "Cheese Pizza": [
+                        "248cal ",
+                        "vegetarian",
                         "contains milk",
                         "contains wheat",
                         "contains soy",
@@ -5877,9 +5877,8 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Cheese Pizza": [
-                        "248cal ",
-                        "vegetarian",
+                    "Meat Lover's Feast Pizza": [
+                        "308cal ",
                         "contains milk",
                         "contains wheat",
                         "contains soy",
@@ -5893,11 +5892,10 @@
                         "vegan",
                         "contains soy"
                     ],
-                    "Basmati Rice": [
-                        "137cal ",
+                    "Spicy Vegetable Curry": [
+                        "92cal ",
                         "vegetarian",
-                        "vegan",
-                        "mindful"
+                        "contains tree nuts"
                     ],
                     "Naan Bread": [
                         "146cal ",
@@ -5908,18 +5906,40 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Spicy Vegetable Curry": [
-                        "92cal ",
+                    "Basmati Rice": [
+                        "137cal ",
                         "vegetarian",
-                        "contains tree nuts"
+                        "vegan",
+                        "mindful"
                     ]
                 },
                 "Salad": {
+                    "Fresh Strawberries": [
+                        "14cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Ranch Dressing": [
+                        "48cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains soy"
+                    ],
                     "Julienne Green Peppers": [
                         "6cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
+                    ],
+                    "Grilled Chicken Breast Strips": [
+                        "48cal "
+                    ],
+                    "Hardboiled Eggs": [
+                        "44cal ",
+                        "vegetarian",
+                        "contains egg"
                     ],
                     "Fresh Spinach": [
                         "7cal ",
@@ -5927,10 +5947,11 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Hardboiled Eggs": [
-                        "44cal ",
+                    "Shredded Carrots": [
+                        "6cal ",
                         "vegetarian",
-                        "contains egg"
+                        "vegan",
+                        "mindful"
                     ],
                     "Fruit Salad": [
                         "36cal ",
@@ -5960,8 +5981,36 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Shredded Carrots": [
-                        "6cal ",
+                    "Hummus": [
+                        "78cal ",
+                        "vegetarian",
+                        "vegan",
+                        "contains sesame"
+                    ],
+                    "Yoplait Low Fat Vanilla Yogurt": [
+                        "24cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Diced Bacon": [
+                        "72cal "
+                    ],
+                    "Fresh Cucumber": [
+                        "4cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Balsamic Vinaigrette": [
+                        "103cal ",
+                        "vegetarian",
+                        "contains soy"
+                    ],
+                    "Crumbled Bacon": [
+                        "48cal "
+                    ],
+                    "Julienne Red Peppers": [
+                        "9cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -5972,39 +6021,11 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Strawberries": [
-                        "14cal ",
+                    "Fresh Arugula": [
+                        "7cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
-                    ],
-                    "Crumbled Bacon": [
-                        "48cal "
-                    ],
-                    "Hummus": [
-                        "78cal ",
-                        "vegetarian",
-                        "vegan",
-                        "contains sesame"
-                    ],
-                    "Fresh Cucumber": [
-                        "4cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Diced Bacon": [
-                        "72cal "
-                    ],
-                    "Low Fat Strawberry Yogurt": [
-                        "25cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Balsamic Vinaigrette": [
-                        "103cal ",
-                        "vegetarian",
-                        "contains soy"
                     ],
                     "Fresh Red Onions": [
                         "11cal ",
@@ -6012,49 +6033,21 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Julienne Red Peppers": [
-                        "9cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Grilled Chicken Breast Strips": [
-                        "48cal "
-                    ],
                     "Fresh Blueberries": [
                         "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Yoplait Low Fat Vanilla Yogurt": [
-                        "24cal ",
+                    "Low Fat Strawberry Yogurt": [
+                        "25cal ",
                         "vegetarian",
                         "contains milk"
-                    ],
-                    "Fresh Arugula": [
-                        "7cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Ranch Dressing": [
-                        "48cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains egg",
-                        "contains soy"
                     ],
                     "Flax Seeds": [
                         "56cal ",
                         "vegetarian",
                         "vegan"
-                    ],
-                    "Chopped Romaine": [
-                        "5cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
                     ],
                     "Homestyle Croutons": [
                         "62cal ",
@@ -6062,6 +6055,12 @@
                         "contains milk",
                         "contains wheat",
                         "contains gluten"
+                    ],
+                    "Chopped Romaine": [
+                        "5cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
                     ],
                     "Sliced Jalapeno Peppers": [
                         "4cal ",
@@ -6071,8 +6070,10 @@
                     ]
                 },
                 "Simple Servings": {
-                    "Grilled Lemon Thyme Chicken": [
-                        "151cal "
+                    "Crispy Smashed Red Bliss Potato": [
+                        "175cal ",
+                        "vegetarian",
+                        "vegan"
                     ],
                     "Sauteed Spinach & Caramelized Onions": [
                         "60cal ",
@@ -6080,10 +6081,8 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Crispy Smashed Red Bliss Potato": [
-                        "175cal ",
-                        "vegetarian",
-                        "vegan"
+                    "Grilled Lemon Thyme Chicken": [
+                        "151cal "
                     ]
                 },
                 "Soup": {
@@ -10250,8 +10249,19 @@
         "12": {
             "Breakfast": {
                 "Bakery": {
-                    "Strawberry Topping": [
-                        "92cal ",
+                    "Pancake Syrup": [
+                        "112cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "Whipped Topping": [
+                        "22cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains soy"
+                    ],
+                    "Chocolate Syrup": [
+                        "23cal ",
                         "vegetarian"
                     ],
                     "Vanilla Belgian Waffle": [
@@ -10262,49 +10272,27 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Chocolate Syrup": [
-                        "23cal ",
+                    "Strawberry Topping": [
+                        "92cal ",
                         "vegetarian"
-                    ],
-                    "Whipped Topping": [
-                        "22cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains soy"
-                    ],
-                    "Pancake Syrup": [
-                        "112cal ",
-                        "vegetarian",
-                        "vegan"
                     ]
                 },
                 "Grill": {
                     "Pork Sausage Patty": [
                         "175cal "
                     ],
-                    "Blueberries & Cream Oatmeal": [
-                        "160cal ",
-                        "vegetarian",
-                        "contains milk"
+                    "Pork Sausage Link": [
+                        "95cal "
                     ],
                     "Chorizo Egg Frittata": [
                         "312cal ",
                         "contains egg"
                     ],
-                    "Scrambled Eggs": [
-                        "191cal ",
+                    "Fried Tater Tots": [
+                        "252cal ",
                         "vegetarian",
-                        "contains milk",
-                        "contains egg",
+                        "vegan",
                         "contains soy"
-                    ],
-                    "Warm Pancake Syrup": [
-                        "112cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
-                    "Pork Sausage Link": [
-                        "95cal "
                     ],
                     "French Toast": [
                         "112cal ",
@@ -10315,6 +10303,20 @@
                         "contains wheat",
                         "contains soy",
                         "contains gluten"
+                    ],
+                    "French Toast Sticks With Syrup": [
+                        "495cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains wheat",
+                        "contains soy",
+                        "contains gluten"
+                    ],
+                    "Warm Pancake Syrup": [
+                        "112cal ",
+                        "vegetarian",
+                        "vegan"
                     ],
                     "Strawberry Pie Filling": [
                         "83cal ",
@@ -10327,29 +10329,25 @@
                         "vegetarian",
                         "contains soy"
                     ],
-                    "Fried Tater Tots": [
-                        "252cal ",
-                        "vegetarian",
-                        "vegan",
-                        "contains soy"
-                    ],
-                    "French Toast Sticks With Syrup": [
-                        "495cal ",
+                    "Scrambled Eggs": [
+                        "191cal ",
                         "vegetarian",
                         "contains milk",
                         "contains egg",
-                        "contains wheat",
-                        "contains soy",
-                        "contains gluten"
+                        "contains soy"
+                    ],
+                    "Blueberries & Cream Oatmeal": [
+                        "160cal ",
+                        "vegetarian",
+                        "contains milk"
                     ]
                 },
                 "Miscellaneous": {},
                 "Salad": {
-                    "Assorted Seasonal Fresh Fruit": [
-                        "88cal ",
+                    "Low Fat Strawberry Yogurt": [
+                        "25cal ",
                         "vegetarian",
-                        "vegan",
-                        "mindful"
+                        "contains milk"
                     ],
                     "Low Fat Vanilla Yogurt": [
                         "97cal ",
@@ -10357,10 +10355,11 @@
                         "mindful",
                         "contains milk"
                     ],
-                    "Low Fat Strawberry Yogurt": [
-                        "25cal ",
+                    "Assorted Seasonal Fresh Fruit": [
+                        "88cal ",
                         "vegetarian",
-                        "contains milk"
+                        "vegan",
+                        "mindful"
                     ],
                     "Fresh Strawberries": [
                         "14cal ",
@@ -10399,13 +10398,17 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Andouille Sausage": [
-                        "311cal "
-                    ],
                     "Cajun Seasoning": [
                         "21cal ",
                         "vegetarian",
                         "vegan"
+                    ],
+                    "Grilled Shrimp": [
+                        "121cal ",
+                        "contains shellfish"
+                    ],
+                    "Andouille Sausage": [
+                        "311cal "
                     ]
                 },
                 "Bakery": {
@@ -10417,10 +10420,9 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Pancake Syrup": [
-                        "112cal ",
-                        "vegetarian",
-                        "vegan"
+                    "Strawberry Topping": [
+                        "92cal ",
+                        "vegetarian"
                     ],
                     "Whipped Topping": [
                         "22cal ",
@@ -10428,13 +10430,14 @@
                         "contains milk",
                         "contains soy"
                     ],
-                    "Strawberry Topping": [
-                        "92cal ",
-                        "vegetarian"
-                    ],
                     "Chocolate Syrup": [
                         "23cal ",
                         "vegetarian"
+                    ],
+                    "Pancake Syrup": [
+                        "112cal ",
+                        "vegetarian",
+                        "vegan"
                     ]
                 },
                 "Grill": {
@@ -10452,8 +10455,9 @@
                         "vegan",
                         "contains soy"
                     ],
-                    "Hamburger": [
-                        "312cal ",
+                    "Cheeseburger": [
+                        "373cal ",
+                        "contains milk",
                         "contains wheat",
                         "contains soy",
                         "contains sesame",
@@ -10468,9 +10472,8 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Cheeseburger": [
-                        "373cal ",
-                        "contains milk",
+                    "Hamburger": [
+                        "312cal ",
                         "contains wheat",
                         "contains soy",
                         "contains sesame",
@@ -10479,8 +10482,8 @@
                 },
                 "Miscellaneous": {},
                 "Pizza": {
-                    "Alfredo Sauce": [
-                        "195cal ",
+                    "Vegetable Lovers Feast Pizza": [
+                        "286cal ",
                         "vegetarian",
                         "contains milk",
                         "contains wheat",
@@ -10492,8 +10495,8 @@
                         "vegetarian",
                         "vegan"
                     ],
-                    "Vegetable Lovers Feast Pizza": [
-                        "286cal ",
+                    "Cheese Pizza": [
+                        "248cal ",
                         "vegetarian",
                         "contains milk",
                         "contains wheat",
@@ -10508,8 +10511,8 @@
                         "contains wheat",
                         "contains gluten"
                     ],
-                    "Cheese Pizza": [
-                        "248cal ",
+                    "Alfredo Sauce": [
+                        "195cal ",
                         "vegetarian",
                         "contains milk",
                         "contains wheat",
@@ -10546,8 +10549,8 @@
                     ]
                 },
                 "Salad": {
-                    "Fresh Strawberries": [
-                        "14cal ",
+                    "Chopped Romaine": [
+                        "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -10558,52 +10561,17 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Hardboiled Eggs": [
-                        "44cal ",
-                        "vegetarian",
-                        "contains egg"
-                    ],
-                    "Crumbled Bacon": [
-                        "48cal "
-                    ],
-                    "Hummus": [
-                        "78cal ",
-                        "vegetarian",
-                        "vegan",
-                        "contains sesame"
-                    ],
-                    "Fresh Red Onions": [
+                    "Blanched Fresh Broccoli": [
                         "11cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Honeydew Melon Cubes": [
-                        "10cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
+                    "Crumbled Bacon": [
+                        "48cal "
                     ],
-                    "Cherry Tomatoes": [
-                        "5cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Homestyle Croutons": [
-                        "62cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains wheat",
-                        "contains gluten"
-                    ],
-                    "Low Fat Strawberry Yogurt": [
-                        "25cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Sliced Jalapeno Peppers": [
-                        "4cal ",
+                    "Fresh Strawberries": [
+                        "14cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -10614,56 +10582,33 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Flax Seeds": [
-                        "56cal ",
+                    "Hardboiled Eggs": [
+                        "44cal ",
                         "vegetarian",
-                        "vegan"
+                        "contains egg"
                     ],
-                    "Shredded Cheddar Cheese": [
-                        "111cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Blanched Fresh Broccoli": [
-                        "11cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Ranch Dressing": [
-                        "48cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains egg",
-                        "contains soy"
-                    ],
-                    "Chopped Romaine": [
+                    "Cherry Tomatoes": [
                         "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Deli Turkey Breast": [
-                        "51cal "
-                    ],
-                    "Shredded Carrots": [
-                        "6cal ",
+                    "Hummus": [
+                        "78cal ",
                         "vegetarian",
                         "vegan",
-                        "mindful"
+                        "contains sesame"
                     ],
-                    "Roasted Red Grape Tomatoes": [
-                        "419cal ",
+                    "Low Fat Strawberry Yogurt": [
+                        "25cal ",
                         "vegetarian",
-                        "vegan"
+                        "contains milk"
                     ],
-                    "Thousand Island Dressing": [
-                        "139cal ",
-                        "vegetarian",
-                        "contains egg"
+                    "Diced Bacon": [
+                        "72cal "
                     ],
-                    "Spring Mix": [
-                        "4cal ",
+                    "Fresh Red Onions": [
+                        "11cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -10674,26 +10619,81 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Yoplait Low Fat Vanilla Yogurt": [
-                        "24cal ",
+                    "Shredded Cheddar Cheese": [
+                        "111cal ",
                         "vegetarian",
                         "contains milk"
+                    ],
+                    "Thousand Island Dressing": [
+                        "139cal ",
+                        "vegetarian",
+                        "contains egg"
+                    ],
+                    "Deli Turkey Breast": [
+                        "51cal "
                     ],
                     "Balsamic Vinaigrette": [
                         "103cal ",
                         "vegetarian",
                         "contains soy"
                     ],
-                    "Diced Bacon": [
-                        "72cal "
-                    ]
-                },
-                "Simple Servings": {
-                    "Sauteed Spinach": [
-                        "35cal ",
+                    "Ranch Dressing": [
+                        "48cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains soy"
+                    ],
+                    "Flax Seeds": [
+                        "56cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "Roasted Red Grape Tomatoes": [
+                        "419cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "Homestyle Croutons": [
+                        "62cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains wheat",
+                        "contains gluten"
+                    ],
+                    "Spring Mix": [
+                        "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
+                    ],
+                    "Fresh Honeydew Melon Cubes": [
+                        "10cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Yoplait Low Fat Vanilla Yogurt": [
+                        "24cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Sliced Jalapeno Peppers": [
+                        "4cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Shredded Carrots": [
+                        "6cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ]
+                },
+                "Simple Servings": {
+                    "Roasted Pork Loin": [
+                        "210cal "
                     ],
                     "White Rice": [
                         "187cal ",
@@ -10701,8 +10701,11 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Roasted Pork Loin": [
-                        "210cal "
+                    "Sauteed Spinach": [
+                        "35cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
                     ]
                 },
                 "Soup": {
@@ -10750,13 +10753,6 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Italian Meatball": [
-                        "178cal ",
-                        "contains milk",
-                        "contains wheat",
-                        "contains soy",
-                        "contains gluten"
-                    ],
                     "Baked Ziti With Marinara": [
                         "456cal ",
                         "vegetarian",
@@ -10764,6 +10760,13 @@
                         "contains wheat",
                         "contains soy",
                         "contains sesame",
+                        "contains gluten"
+                    ],
+                    "Italian Meatball": [
+                        "178cal ",
+                        "contains milk",
+                        "contains wheat",
+                        "contains soy",
                         "contains gluten"
                     ]
                 }
@@ -10794,10 +10797,9 @@
                         "contains milk",
                         "contains soy"
                     ],
-                    "Pancake Syrup": [
-                        "112cal ",
-                        "vegetarian",
-                        "vegan"
+                    "Chocolate Syrup": [
+                        "23cal ",
+                        "vegetarian"
                     ],
                     "Vanilla Belgian Waffle": [
                         "261cal ",
@@ -10807,9 +10809,10 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Chocolate Syrup": [
-                        "23cal ",
-                        "vegetarian"
+                    "Pancake Syrup": [
+                        "112cal ",
+                        "vegetarian",
+                        "vegan"
                     ],
                     "Strawberry Topping": [
                         "92cal ",
@@ -10856,6 +10859,14 @@
                         "contains sesame",
                         "contains gluten"
                     ],
+                    "Cheeseburger": [
+                        "373cal ",
+                        "contains milk",
+                        "contains wheat",
+                        "contains soy",
+                        "contains sesame",
+                        "contains gluten"
+                    ],
                     "Garlic Shrimp Po' Boy": [
                         "231cal ",
                         "contains egg",
@@ -10870,18 +10881,22 @@
                         "vegetarian",
                         "vegan",
                         "contains soy"
-                    ],
-                    "Cheeseburger": [
-                        "373cal ",
-                        "contains milk",
-                        "contains wheat",
-                        "contains soy",
-                        "contains sesame",
-                        "contains gluten"
                     ]
                 },
                 "Miscellaneous": {},
                 "Pizza": {
+                    "Pepperoni Pizza": [
+                        "277cal ",
+                        "contains milk",
+                        "contains wheat",
+                        "contains soy",
+                        "contains gluten"
+                    ],
+                    "Tomato Basil Marinara": [
+                        "18cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
                     "Sicilian Meatball Pizza": [
                         "513cal ",
                         "contains milk",
@@ -10897,28 +10912,16 @@
                         "contains wheat",
                         "contains gluten"
                     ],
-                    "Pepperoni Pizza": [
-                        "277cal ",
+                    "Cheese Pizza": [
+                        "248cal ",
+                        "vegetarian",
                         "contains milk",
                         "contains wheat",
                         "contains soy",
                         "contains gluten"
-                    ],
-                    "Tomato Basil Marinara": [
-                        "18cal ",
-                        "vegetarian",
-                        "vegan"
                     ],
                     "Alfredo Sauce": [
                         "195cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains wheat",
-                        "contains soy",
-                        "contains gluten"
-                    ],
-                    "Cheese Pizza": [
-                        "248cal ",
                         "vegetarian",
                         "contains milk",
                         "contains wheat",
@@ -10950,34 +10953,15 @@
                     "Deli Turkey Breast": [
                         "51cal "
                     ],
-                    "Diced Bacon": [
-                        "72cal "
+                    "Homestyle Croutons": [
+                        "62cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains wheat",
+                        "contains gluten"
                     ],
                     "Crumbled Bacon": [
                         "48cal "
-                    ],
-                    "Balsamic Vinaigrette": [
-                        "103cal ",
-                        "vegetarian",
-                        "contains soy"
-                    ],
-                    "Fresh Cucumber": [
-                        "4cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Fresh Blueberries": [
-                        "5cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Cherry Tomatoes": [
-                        "5cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
                     ],
                     "Fresh Honeydew Melon Cubes": [
                         "10cal ",
@@ -10985,17 +10969,37 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Low Fat Strawberry Yogurt": [
-                        "25cal ",
+                    "Spring Mix": [
+                        "4cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Balsamic Vinaigrette": [
+                        "103cal ",
+                        "vegetarian",
+                        "contains soy"
+                    ],
+                    "Ranch Dressing": [
+                        "48cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains soy"
+                    ],
+                    "Diced Bacon": [
+                        "72cal "
+                    ],
+                    "Yoplait Low Fat Vanilla Yogurt": [
+                        "24cal ",
                         "vegetarian",
                         "contains milk"
                     ],
-                    "Homestyle Croutons": [
-                        "62cal ",
+                    "Fresh Blueberries": [
+                        "5cal ",
                         "vegetarian",
-                        "contains milk",
-                        "contains wheat",
-                        "contains gluten"
+                        "vegan",
+                        "mindful"
                     ],
                     "Fresh Red Onions": [
                         "11cal ",
@@ -11008,23 +11012,10 @@
                         "vegetarian",
                         "contains egg"
                     ],
-                    "Roasted Red Grape Tomatoes": [
-                        "419cal ",
+                    "Low Fat Strawberry Yogurt": [
+                        "25cal ",
                         "vegetarian",
-                        "vegan"
-                    ],
-                    "Hummus": [
-                        "78cal ",
-                        "vegetarian",
-                        "vegan",
-                        "contains sesame"
-                    ],
-                    "Ranch Dressing": [
-                        "48cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains egg",
-                        "contains soy"
+                        "contains milk"
                     ],
                     "Shredded Carrots": [
                         "6cal ",
@@ -11032,10 +11023,11 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Yoplait Low Fat Vanilla Yogurt": [
-                        "24cal ",
+                    "Fresh Cucumber": [
+                        "4cal ",
                         "vegetarian",
-                        "contains milk"
+                        "vegan",
+                        "mindful"
                     ],
                     "Fresh Strawberries": [
                         "14cal ",
@@ -11043,11 +11035,32 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Spring Mix": [
-                        "4cal ",
+                    "Cherry Tomatoes": [
+                        "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
+                    ],
+                    "Hummus": [
+                        "78cal ",
+                        "vegetarian",
+                        "vegan",
+                        "contains sesame"
+                    ],
+                    "Shredded Cheddar Cheese": [
+                        "111cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Hardboiled Eggs": [
+                        "44cal ",
+                        "vegetarian",
+                        "contains egg"
+                    ],
+                    "Roasted Red Grape Tomatoes": [
+                        "419cal ",
+                        "vegetarian",
+                        "vegan"
                     ],
                     "Sliced Jalapeno Peppers": [
                         "4cal ",
@@ -11055,26 +11068,16 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Shredded Cheddar Cheese": [
-                        "111cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Flax Seeds": [
-                        "56cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
                     "Fresh Cantaloupe Cubes": [
                         "10cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Hardboiled Eggs": [
-                        "44cal ",
+                    "Flax Seeds": [
+                        "56cal ",
                         "vegetarian",
-                        "contains egg"
+                        "vegan"
                     ],
                     "Blanched Fresh Broccoli": [
                         "11cal ",
@@ -11090,11 +11093,8 @@
                     ]
                 },
                 "Simple Servings": {
-                    "Simply Roasted Carrots": [
-                        "14cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
+                    "Balsamic Chicken Breast": [
+                        "96cal "
                     ],
                     "Oven Roast Garlic Red Potatoes": [
                         "133cal ",
@@ -11102,8 +11102,11 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Balsamic Chicken Breast": [
-                        "96cal "
+                    "Simply Roasted Carrots": [
+                        "14cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
                     ]
                 },
                 "Soup": {
@@ -11123,6 +11126,10 @@
                     ]
                 },
                 "Traditions": {
+                    "Baked Cod Italian Style": [
+                        "144cal ",
+                        "contains fish"
+                    ],
                     "Baked Potato": [
                         "114cal ",
                         "vegetarian",
@@ -11133,10 +11140,6 @@
                         "64cal ",
                         "vegetarian",
                         "mindful"
-                    ],
-                    "Baked Cod Italian Style": [
-                        "144cal ",
-                        "contains fish"
                     ]
                 }
             }
@@ -11144,11 +11147,14 @@
         "13": {
             "Lunch": {
                 "Deli": {
+                    "Roast Beef": [
+                        "64cal "
+                    ],
                     "Smoked Ham": [
                         "37cal "
                     ],
-                    "Cheddar Cheese": [
-                        "57cal ",
+                    "Pepper Jack Cheese, Sliced": [
+                        "53cal ",
                         "vegetarian",
                         "contains milk"
                     ],
@@ -11158,13 +11164,10 @@
                         "contains milk",
                         "contains soy"
                     ],
-                    "Pepper Jack Cheese, Sliced": [
-                        "53cal ",
+                    "Cheddar Cheese": [
+                        "57cal ",
                         "vegetarian",
                         "contains milk"
-                    ],
-                    "Roast Beef": [
-                        "64cal "
                     ]
                 },
                 "Grill": {
@@ -11183,6 +11186,12 @@
                         "contains sesame",
                         "contains gluten"
                     ],
+                    "French Fries": [
+                        "205cal ",
+                        "vegetarian",
+                        "vegan",
+                        "contains soy"
+                    ],
                     "Cheeseburger": [
                         "373cal ",
                         "contains milk",
@@ -11190,12 +11199,6 @@
                         "contains soy",
                         "contains sesame",
                         "contains gluten"
-                    ],
-                    "French Fries": [
-                        "205cal ",
-                        "vegetarian",
-                        "vegan",
-                        "contains soy"
                     ]
                 },
                 "Miscellaneous": {},
@@ -11208,17 +11211,17 @@
                         "contains soy",
                         "contains gluten"
                     ],
-                    "Marinara Sauce": [
-                        "22cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
                     "Pepperoni Pizza": [
                         "285cal ",
                         "contains milk",
                         "contains wheat",
                         "contains soy",
                         "contains gluten"
+                    ],
+                    "Marinara Sauce": [
+                        "22cal ",
+                        "vegetarian",
+                        "vegan"
                     ],
                     "Penne Pasta": [
                         "197cal ",
@@ -11246,39 +11249,39 @@
                     ]
                 },
                 "Salad": {
-                    "Fresh Spinach": [
-                        "7cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Fresh Honeydew Melon Cubes": [
-                        "10cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
                     "Cherry Tomatoes": [
                         "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
+                    "Diced Bacon": [
+                        "72cal "
+                    ],
+                    "Shredded Cheddar Cheese": [
+                        "111cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
                     "Balsamic Vinaigrette": [
                         "103cal ",
                         "vegetarian",
                         "contains soy"
                     ],
-                    "Crumbled Bacon": [
-                        "48cal "
-                    ],
-                    "Flax Seeds": [
-                        "56cal ",
+                    "Fresh Cantaloupe Cubes": [
+                        "10cal ",
                         "vegetarian",
-                        "vegan"
+                        "vegan",
+                        "mindful"
                     ],
-                    "Fresh Cucumber": [
+                    "Sliced Jalapeno Peppers": [
                         "4cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Fresh Spinach": [
+                        "7cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -11290,25 +11293,58 @@
                         "contains wheat",
                         "contains gluten"
                     ],
-                    "Shredded Cheddar Cheese": [
-                        "111cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Sliced Jalapeno Peppers": [
-                        "4cal ",
+                    "Fresh Red Onions": [
+                        "11cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Cantaloupe Cubes": [
+                    "Fresh Honeydew Melon Cubes": [
                         "10cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
+                    "Spring Mix": [
+                        "4cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Flax Seeds": [
+                        "56cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "Ranch Dressing": [
+                        "48cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains soy"
+                    ],
                     "Chopped Romaine": [
                         "5cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Fat Free Italian Dressing": [
+                        "27cal ",
+                        "vegetarian"
+                    ],
+                    "Hardboiled Eggs": [
+                        "44cal ",
+                        "vegetarian",
+                        "contains egg"
+                    ],
+                    "Roasted Red Grape Tomatoes": [
+                        "419cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "Blanched Fresh Broccoli": [
+                        "11cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -11318,29 +11354,29 @@
                         "vegetarian",
                         "contains milk"
                     ],
-                    "Hardboiled Eggs": [
-                        "44cal ",
+                    "Julienne Green Peppers": [
+                        "6cal ",
                         "vegetarian",
-                        "contains egg"
+                        "vegan",
+                        "mindful"
                     ],
-                    "Spring Mix": [
+                    "Fresh Cucumber": [
                         "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Blanched Fresh Broccoli": [
-                        "11cal ",
+                    "Julienne Red Peppers": [
+                        "9cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Fat Free Italian Dressing": [
-                        "27cal ",
-                        "vegetarian"
+                    "Crumbled Bacon": [
+                        "48cal "
                     ],
-                    "Julienne Green Peppers": [
-                        "6cal ",
+                    "Fresh Blueberries": [
+                        "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -11350,31 +11386,11 @@
                         "vegetarian",
                         "contains milk"
                     ],
-                    "Julienne Red Peppers": [
-                        "9cal ",
+                    "Hummus": [
+                        "78cal ",
                         "vegetarian",
                         "vegan",
-                        "mindful"
-                    ],
-                    "Roasted Red Grape Tomatoes": [
-                        "419cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
-                    "Fresh Blueberries": [
-                        "5cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Fresh Red Onions": [
-                        "11cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Diced Bacon": [
-                        "72cal "
+                        "contains sesame"
                     ],
                     "Deli Turkey Breast": [
                         "51cal "
@@ -11384,24 +11400,11 @@
                         "vegetarian",
                         "contains egg"
                     ],
-                    "Ranch Dressing": [
-                        "48cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains egg",
-                        "contains soy"
-                    ],
                     "Shredded Carrots": [
                         "6cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
-                    ],
-                    "Hummus": [
-                        "78cal ",
-                        "vegetarian",
-                        "vegan",
-                        "contains sesame"
                     ],
                     "Fresh Strawberries": [
                         "14cal ",
@@ -11492,6 +11495,11 @@
                         "contains soy",
                         "contains gluten"
                     ],
+                    "Tomato Basil Marinara": [
+                        "18cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
                     "Pepperoni Pizza": [
                         "285cal ",
                         "contains milk",
@@ -11506,11 +11514,6 @@
                         "mindful",
                         "contains wheat",
                         "contains gluten"
-                    ],
-                    "Tomato Basil Marinara": [
-                        "18cal ",
-                        "vegetarian",
-                        "vegan"
                     ]
                 },
                 "Power Plant": {
@@ -11530,21 +11533,11 @@
                     ]
                 },
                 "Salad": {
-                    "Fresh Red Onions": [
-                        "11cal ",
+                    "Fresh Cantaloupe Cubes": [
+                        "10cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
-                    ],
-                    "Thousand Island Dressing": [
-                        "139cal ",
-                        "vegetarian",
-                        "contains egg"
-                    ],
-                    "Low Fat Strawberry Yogurt": [
-                        "25cal ",
-                        "vegetarian",
-                        "contains milk"
                     ],
                     "Hummus": [
                         "78cal ",
@@ -11555,59 +11548,24 @@
                     "Crumbled Bacon": [
                         "48cal "
                     ],
-                    "Balsamic Vinaigrette": [
-                        "103cal ",
-                        "vegetarian",
-                        "contains soy"
-                    ],
-                    "Shredded Cheddar Cheese": [
-                        "111cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Fresh Honeydew Melon Cubes": [
-                        "10cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Roasted Red Grape Tomatoes": [
-                        "419cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
-                    "Julienne Red Peppers": [
-                        "9cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Cherry Tomatoes": [
-                        "5cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Fresh Blueberries": [
-                        "5cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Fresh Cucumber": [
-                        "4cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
                     "Shredded Carrots": [
                         "6cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Cantaloupe Cubes": [
-                        "10cal ",
+                    "Low Fat Strawberry Yogurt": [
+                        "25cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Thousand Island Dressing": [
+                        "139cal ",
+                        "vegetarian",
+                        "contains egg"
+                    ],
+                    "Fresh Spinach": [
+                        "7cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -11618,14 +11576,59 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Fresh Spinach": [
-                        "7cal ",
+                    "Roasted Red Grape Tomatoes": [
+                        "419cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "Blanched Fresh Broccoli": [
+                        "11cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Blanched Fresh Broccoli": [
+                    "Shredded Cheddar Cheese": [
+                        "111cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Chopped Romaine": [
+                        "5cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Cherry Tomatoes": [
+                        "5cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Hardboiled Eggs": [
+                        "44cal ",
+                        "vegetarian",
+                        "contains egg"
+                    ],
+                    "Fresh Cucumber": [
+                        "4cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Julienne Green Peppers": [
+                        "6cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Fresh Red Onions": [
                         "11cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Sliced Jalapeno Peppers": [
+                        "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -11637,46 +11640,6 @@
                         "contains egg",
                         "contains soy"
                     ],
-                    "Chopped Romaine": [
-                        "5cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Spring Mix": [
-                        "4cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Hardboiled Eggs": [
-                        "44cal ",
-                        "vegetarian",
-                        "contains egg"
-                    ],
-                    "Deli Turkey Breast": [
-                        "51cal "
-                    ],
-                    "Julienne Green Peppers": [
-                        "6cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Fat Free Italian Dressing": [
-                        "27cal ",
-                        "vegetarian"
-                    ],
-                    "Flax Seeds": [
-                        "56cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
-                    "Yoplait Low Fat Vanilla Yogurt": [
-                        "24cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
                     "Homestyle Croutons": [
                         "62cal ",
                         "vegetarian",
@@ -11684,8 +11647,48 @@
                         "contains wheat",
                         "contains gluten"
                     ],
-                    "Sliced Jalapeno Peppers": [
+                    "Deli Turkey Breast": [
+                        "51cal "
+                    ],
+                    "Flax Seeds": [
+                        "56cal ",
+                        "vegetarian",
+                        "vegan"
+                    ],
+                    "Fat Free Italian Dressing": [
+                        "27cal ",
+                        "vegetarian"
+                    ],
+                    "Balsamic Vinaigrette": [
+                        "103cal ",
+                        "vegetarian",
+                        "contains soy"
+                    ],
+                    "Spring Mix": [
                         "4cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Julienne Red Peppers": [
+                        "9cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Yoplait Low Fat Vanilla Yogurt": [
+                        "24cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Fresh Honeydew Melon Cubes": [
+                        "10cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Fresh Blueberries": [
+                        "5cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -13631,18 +13634,6 @@
                         "contains milk",
                         "contains soy"
                     ],
-                    "Whipped Topping": [
-                        "22cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains soy"
-                    ],
-                    "Assorted Seasonal Fresh Fruit": [
-                        "88cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
                     "Canadian Bacon": [
                         "61cal "
                     ],
@@ -13657,10 +13648,24 @@
                         "vegetarian",
                         "contains milk"
                     ],
-                    "Caramel Topping": [
-                        "71cal ",
+                    "Assorted Seasonal Fresh Fruit": [
+                        "88cal ",
                         "vegetarian",
-                        "contains milk"
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Whipped Topping": [
+                        "22cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains soy"
+                    ],
+                    "Scrambled Eggs": [
+                        "191cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains soy"
                     ],
                     "Raspberry Syrup": [
                         "26cal ",
@@ -13676,15 +13681,13 @@
                         "contains soy",
                         "contains gluten"
                     ],
+                    "Caramel Topping": [
+                        "71cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
                     "Western Scrambled Eggs": [
                         "175cal ",
-                        "contains milk",
-                        "contains egg",
-                        "contains soy"
-                    ],
-                    "Scrambled Eggs": [
-                        "191cal ",
-                        "vegetarian",
                         "contains milk",
                         "contains egg",
                         "contains soy"
@@ -13698,8 +13701,8 @@
                 },
                 "Miscellaneous": {},
                 "Salad Bar": {
-                    "Fresh Blueberries": [
-                        "11cal ",
+                    "Assorted Seasonal Fresh Fruit": [
+                        "88cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -13710,17 +13713,17 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Assorted Seasonal Fresh Fruit": [
-                        "88cal ",
+                    "Fresh Blueberries": [
+                        "11cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Low Fat Vanilla Yogurt": [
-                        "97cal ",
+                    "Mandarin Oranges": [
+                        "33cal ",
                         "vegetarian",
-                        "mindful",
-                        "contains milk"
+                        "vegan",
+                        "mindful"
                     ],
                     "Low Fat Strawberry Yogurt": [
                         "400cal ",
@@ -13728,11 +13731,11 @@
                         "mindful",
                         "contains milk"
                     ],
-                    "Mandarin Oranges": [
-                        "33cal ",
+                    "Low Fat Vanilla Yogurt": [
+                        "97cal ",
                         "vegetarian",
-                        "vegan",
-                        "mindful"
+                        "mindful",
+                        "contains milk"
                     ]
                 },
                 "Soup": {
@@ -13798,8 +13801,8 @@
                         "contains soy",
                         "contains sesame"
                     ],
-                    "Roasted Turkey Breast": [
-                        "91cal "
+                    "Shaved Ham": [
+                        "30cal "
                     ],
                     "Tomato Slices": [
                         "5cal ",
@@ -13807,8 +13810,8 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Shaved Ham": [
-                        "30cal "
+                    "Roasted Turkey Breast": [
+                        "91cal "
                     ],
                     "Diced Peaches": [
                         "15cal ",
@@ -13816,48 +13819,48 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Pickle Spear": [
-                        "8cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
                     "American Cheese": [
                         "47cal ",
                         "vegetarian",
                         "contains milk",
                         "contains soy"
+                    ],
+                    "Pickle Spear": [
+                        "8cal ",
+                        "vegetarian",
+                        "vegan"
                     ]
                 },
                 "Desserts": {
-                    "Strawberry Ice Cream": [
-                        "79cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Rainbow Sprinkles": [
-                        "25cal ",
-                        "vegetarian"
-                    ],
                     "Semi Sweet Chocolate Chips": [
                         "71cal ",
                         "vegetarian",
                         "contains milk",
                         "contains soy"
                     ],
-                    "Maraschino Cherry": [
-                        "11cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
-                    "Chocolate Syrup": [
-                        "47cal ",
+                    "Rainbow Sprinkles": [
+                        "25cal ",
                         "vegetarian"
+                    ],
+                    "Strawberry Ice Cream": [
+                        "79cal ",
+                        "vegetarian",
+                        "contains milk"
                     ],
                     "Whipped Topping": [
                         "22cal ",
                         "vegetarian",
                         "contains milk",
                         "contains soy"
+                    ],
+                    "Chocolate Syrup": [
+                        "47cal ",
+                        "vegetarian"
+                    ],
+                    "Maraschino Cherry": [
+                        "11cal ",
+                        "vegetarian",
+                        "vegan"
                     ],
                     "Vanilla Ice Cream": [
                         "87cal ",
@@ -13880,11 +13883,10 @@
                     ]
                 },
                 "Salad Bar": {
-                    "Assorted Seasonal Fresh Fruit": [
-                        "88cal ",
+                    "Yoplait Low Fat Vanilla Yogurt": [
+                        "24cal ",
                         "vegetarian",
-                        "vegan",
-                        "mindful"
+                        "contains milk"
                     ],
                     "Diced Yellow Onions": [
                         "3cal ",
@@ -13892,9 +13894,11 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Fat Free Italian Dressing": [
-                        "27cal ",
-                        "vegetarian"
+                    "Assorted Seasonal Fresh Fruit": [
+                        "88cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
                     ],
                     "Chopped Romaine": [
                         "5cal ",
@@ -13902,41 +13906,9 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Yoplait Low Fat Vanilla Yogurt": [
-                        "24cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Grape Tomatoes": [
-                        "10cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Crumbled Bacon": [
-                        "18cal "
-                    ],
-                    "Fresh Celery": [
-                        "5cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Low Fat Strawberry Yogurt": [
-                        "25cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Hardboiled Eggs": [
-                        "44cal ",
-                        "vegetarian",
-                        "contains egg"
-                    ],
-                    "Fresh Cucumber": [
-                        "4cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
+                    "Fat Free Italian Dressing": [
+                        "27cal ",
+                        "vegetarian"
                     ],
                     "Fresh Red Onions": [
                         "11cal ",
@@ -13949,20 +13921,50 @@
                         "vegetarian",
                         "contains milk"
                     ],
-                    "Blue Cheese Dressing": [
-                        "144cal ",
+                    "Low Fat Strawberry Yogurt": [
+                        "25cal ",
                         "vegetarian",
-                        "contains milk",
-                        "contains egg",
-                        "contains soy"
+                        "contains milk"
+                    ],
+                    "Fresh Celery": [
+                        "5cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Crumbled Bacon": [
+                        "18cal "
+                    ],
+                    "Grape Tomatoes": [
+                        "10cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Sliced Black Olives": [
+                        "27cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
                     ],
                     "Thousand Island Dressing": [
                         "139cal ",
                         "vegetarian",
                         "contains egg"
                     ],
-                    "Fresh Baby Carrots": [
-                        "10cal ",
+                    "Fresh Cucumber": [
+                        "4cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Hardboiled Eggs": [
+                        "44cal ",
+                        "vegetarian",
+                        "contains egg"
+                    ],
+                    "Mixed Greens": [
+                        "4cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -13972,33 +13974,16 @@
                         "vegetarian",
                         "mindful"
                     ],
-                    "Cheddar Cheese": [
-                        "57cal ",
-                        "vegetarian",
-                        "contains milk"
-                    ],
-                    "Balsamic Vinaigrette": [
-                        "103cal ",
-                        "vegetarian",
-                        "contains soy"
-                    ],
-                    "Sliced Black Olives": [
-                        "27cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Mixed Greens": [
-                        "4cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
                     "Ranch Dressing": [
                         "97cal ",
                         "vegetarian",
                         "contains milk",
                         "contains egg",
+                        "contains soy"
+                    ],
+                    "Balsamic Vinaigrette": [
+                        "103cal ",
+                        "vegetarian",
                         "contains soy"
                     ],
                     "French Bread Croutons": [
@@ -14008,6 +13993,24 @@
                         "contains wheat",
                         "contains soy",
                         "contains gluten"
+                    ],
+                    "Cheddar Cheese": [
+                        "57cal ",
+                        "vegetarian",
+                        "contains milk"
+                    ],
+                    "Fresh Baby Carrots": [
+                        "10cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
+                    "Blue Cheese Dressing": [
+                        "144cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains soy"
                     ]
                 },
                 "Soup": {
@@ -14029,17 +14032,6 @@
                         "91cal ",
                         "vegetarian"
                     ],
-                    "Scrambled Eggs, Jack Cheese & Tomato": [
-                        "178cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains egg"
-                    ],
-                    "Warm Pancake Syrup": [
-                        "112cal ",
-                        "vegetarian",
-                        "vegan"
-                    ],
                     "Scrambled Eggs": [
                         "191cal ",
                         "vegetarian",
@@ -14052,14 +14044,11 @@
                         "vegetarian",
                         "vegan"
                     ],
-                    "Belgian Waffles": [
-                        "357cal ",
+                    "Scrambled Eggs, Jack Cheese & Tomato": [
+                        "178cal ",
                         "vegetarian",
                         "contains milk",
-                        "contains egg",
-                        "contains wheat",
-                        "contains soy",
-                        "contains gluten"
+                        "contains egg"
                     ],
                     "Caramelized Apples": [
                         "135cal ",
@@ -14071,11 +14060,10 @@
                         "vegetarian",
                         "contains milk"
                     ],
-                    "Tater Tots": [
-                        "442cal ",
+                    "Warm Pancake Syrup": [
+                        "112cal ",
                         "vegetarian",
-                        "vegan",
-                        "contains soy"
+                        "vegan"
                     ],
                     "Chocolate Sauce": [
                         "226cal ",
@@ -14095,26 +14083,47 @@
                         "vegan",
                         "mindful"
                     ],
+                    "Tater Tots": [
+                        "442cal ",
+                        "vegetarian",
+                        "vegan",
+                        "contains soy"
+                    ],
                     "Pork Sausage Link": [
                         "95cal "
+                    ],
+                    "Belgian Waffles": [
+                        "357cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains egg",
+                        "contains wheat",
+                        "contains soy",
+                        "contains gluten"
                     ]
                 },
                 "Miscellaneous": {},
                 "Salad Bar": {
+                    "Fresh Blueberries": [
+                        "11cal ",
+                        "vegetarian",
+                        "vegan",
+                        "mindful"
+                    ],
                     "Assorted Seasonal Fresh Fruit": [
                         "88cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
                     ],
-                    "Low Fat Vanilla Yogurt": [
-                        "97cal ",
+                    "Mandarin Oranges": [
+                        "33cal ",
                         "vegetarian",
-                        "mindful",
-                        "contains milk"
+                        "vegan",
+                        "mindful"
                     ],
-                    "Fresh Blueberries": [
-                        "11cal ",
+                    "Fresh Honeydew Melon Cubes": [
+                        "10cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -14125,17 +14134,11 @@
                         "mindful",
                         "contains milk"
                     ],
-                    "Fresh Honeydew Melon Cubes": [
-                        "10cal ",
+                    "Low Fat Vanilla Yogurt": [
+                        "97cal ",
                         "vegetarian",
-                        "vegan",
-                        "mindful"
-                    ],
-                    "Mandarin Oranges": [
-                        "33cal ",
-                        "vegetarian",
-                        "vegan",
-                        "mindful"
+                        "mindful",
+                        "contains milk"
                     ]
                 },
                 "Soup": {
@@ -15718,22 +15721,11 @@
                     ]
                 },
                 "Entree": {
-                    "Chicken Nuggets": [
-                        "325cal ",
-                        "contains wheat",
-                        "contains soy",
-                        "contains gluten"
-                    ],
-                    "Pork Sausage Link": [
-                        "99cal "
-                    ],
                     "Diced Bacon": [
                         "36cal "
                     ],
-                    "Cage Free Pasteurized Eggs": [
-                        "262cal ",
-                        "vegetarian",
-                        "contains egg"
+                    "Pork Sausage Link": [
+                        "99cal "
                     ],
                     "Pierogies With Toppings": [
                         "349cal ",
@@ -15741,6 +15733,17 @@
                         "mindful",
                         "contains milk",
                         "contains egg",
+                        "contains wheat",
+                        "contains soy",
+                        "contains gluten"
+                    ],
+                    "Cage Free Pasteurized Eggs": [
+                        "262cal ",
+                        "vegetarian",
+                        "contains egg"
+                    ],
+                    "Chicken Nuggets": [
+                        "325cal ",
                         "contains wheat",
                         "contains soy",
                         "contains gluten"
@@ -15789,8 +15792,8 @@
                     ]
                 },
                 "Vegetable": {
-                    "Diced Yellow Onions": [
-                        "3cal ",
+                    "Saut\u00e9ed Mushrooms": [
+                        "16cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -15801,8 +15804,8 @@
                         "vegan",
                         "mindful"
                     ],
-                    "Saut\u00e9ed Mushrooms": [
-                        "16cal ",
+                    "Diced Yellow Onions": [
+                        "3cal ",
                         "vegetarian",
                         "vegan",
                         "mindful"
@@ -15882,23 +15885,23 @@
                     ]
                 },
                 "Starch": {
-                    "Mashed Yukon Gold Potatoes": [
-                        "98cal ",
-                        "vegetarian",
-                        "contains milk",
-                        "contains soy"
-                    ],
-                    "Chipotle Mushroom Quinoa Pilaf": [
-                        "187cal ",
-                        "vegetarian",
-                        "mindful"
-                    ],
                     "Cornbread Stuffing": [
                         "213cal ",
                         "contains milk",
                         "contains wheat",
                         "contains soy",
                         "contains gluten"
+                    ],
+                    "Chipotle Mushroom Quinoa Pilaf": [
+                        "187cal ",
+                        "vegetarian",
+                        "mindful"
+                    ],
+                    "Mashed Yukon Gold Potatoes": [
+                        "98cal ",
+                        "vegetarian",
+                        "contains milk",
+                        "contains soy"
                     ]
                 },
                 "Vegetable": {
