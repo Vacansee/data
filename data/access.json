@@ -4,6 +4,7 @@
 
 		"DCC": 3,
 		"Pittsburgh": 3,
+		"Troy": 2,
 		"Sage": 3
 	},
 	"num_floors": {
@@ -20,7 +21,7 @@
 		"Pittsburgh": 5,
 		"Sage": 5,
 		"Ricketts": 5,
-		"Troy": 5,
+		"Troy": 2,
 		"Lally": 3,
 		"JEC": 7,
 		"Walker": 6,
