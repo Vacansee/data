@@ -108,11 +108,11 @@ def get_hours():
         if rath:
             data["Student Union"][name] = dict()
         elif name == "The Beanery Cafe":
-            data['Sage'][name] = dict()
+            data['Russell Sage Laboratory'][name] = dict()
         elif name == "DCC Cafe":
-            data['DCC'][name] = dict()
+            data['Darrin Communications Center'][name] = dict()
         elif name == "Argo Tea":
-            data['Folsom'][name] = dict()
+            data['Folsom Library'][name] = dict()
         else:
             data[name] = dict()
     
@@ -141,22 +141,22 @@ def get_hours():
             if rath:
                 data['Student Union'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
             elif name == "The Beanery Cafe":
-                data['Sage'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
+                data['Russell Sage Laboratory'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
             elif name == "DCC Cafe":
-                data['DCC'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
+                data['Darrin Communications Center'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
             elif name == "Argo Tea":
-                data['Folsom'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
+                data['Folsom Library'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
             else:
                 data[name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
                 
         if rath:
             data["Student Union"][name]["url"] = url
         elif name == "The Beanery Cafe":
-            data['Sage'][name]["url"] = url
+            data['Russell Sage Laboratory'][name]["url"] = url
         elif name == "DCC Cafe":
-            data['DCC'][name]["url"] = url
+            data['Darrin Communications Center'][name]["url"] = url
         elif name == "Argo Tea":
-            data['Folsom'][name]["url"] = url
+            data['Folsom Library'][name]["url"] = url
         else:
             data[name]["url"] = url
 
