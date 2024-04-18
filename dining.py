@@ -51,6 +51,10 @@ def get_hours():
   page = page.read().decode("utf8")
 
   data = dict()
+  data['Student Union'] = dict()
+  data['DCC'] = dict()
+  data['Sage'] = dict()
+  data['Folsom'] = dict()
 
   daystoletter = {
     "Monday": "M",
@@ -67,44 +71,95 @@ def get_hours():
 
   # For testing, use this to view scraped html
   # with open('test.html', 'w') as f:
-  #     f.write(soup.prettify())
+  #      f.write(soup.prettify())
 
   results = soup.find("ul", {"style": "list-style-type:none;"})
+  
+  headers = results.findAll("li", {"class": "dining-group"})
+  
+  for dining_header in headers:
+      headerName = dining_header.find("h2").text
+      #print(headerName)
+      
+      locations = dining_header.findAll("div", {"class": "dining-block"})
+    
+      for location in locations:
+        
+        rath = False
+        
+        name = location.find("a").string
+        print(name)
+        
+        #print("HEADER NAME:", headerName.split(" – ")[0])
+        if name.split(" - ")[0] == "Student Union" or headerName.find("Student Union") != -1:
+            print("{} --- RATH IS TRUE".format(name))
+            rath = True
+        
+        
+        #if name.find()
+        
+        name = name.replace("’", "'").replace("é", "e").split(" - ")[-1]
+        url = location.find("a")["href"]
+        url = "/".join(url.split('/')[2:])
+        
+        if name == "The Commons Dining Hall":
+          name = "Commons Dining Hall"
+            
+        if rath:
+            data["Student Union"][name] = dict()
+        elif name == "The Beanery Cafe":
+            data['Sage'][name] = dict()
+        elif name == "DCC Cafe":
+            data['DCC'][name] = dict()
+        elif name == "Argo Tea":
+            data['Folsom'][name] = dict()
+        else:
+            data[name] = dict()
+    
+        regtime = location.find("div", {"class": "reghours"})
+        regdays = regtime.findAll("dt", {"class": "dining-block-days"})
+        info = regtime.findAll("dd")
+            
+        for i in range(len(regdays)):
+          regday = regdays[i]["data-arrayregdays"].split(",")
+          reghour2 = info[i].find("span", {"class": "dining-block-hours"}).string
+    
+          note_elem = info[i].findAll("span", {"class": "dining-block-note"})
+          if len(note_elem) == 0:
+            note = note = ""
+          else:
+            note = note_elem[0].string.strip(":")
+    
+          if reghour2 == "Closed": continue
+          reghour2 = reghour2.split(" - ")
+    
+          start = convert_mil(reghour2[0])
+          end = convert_mil(reghour2[1])
+    
+          for day in regday:
+            print("\t{}:{}-{}:{} {}".format(days_to_num[day], start, days_to_num[day], end, note))
+            if rath:
+                data['Student Union'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
+            elif name == "The Beanery Cafe":
+                data['Sage'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
+            elif name == "DCC Cafe":
+                data['DCC'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
+            elif name == "Argo Tea":
+                data['Folsom'][name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
+            else:
+                data[name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
+                
+        if rath:
+            data["Student Union"][name]["url"] = url
+        elif name == "The Beanery Cafe":
+            data['Sage'][name]["url"] = url
+        elif name == "DCC Cafe":
+            data['DCC'][name]["url"] = url
+        elif name == "Argo Tea":
+            data['Folsom'][name]["url"] = url
+        else:
+            data[name]["url"] = url
 
-  locations = results.findAll("div", {"class": "dining-block"})
-
-  for location in locations:
-    name = location.find("a").string
-    name = name.replace("’", "'").replace("é", "e").split(" - ")[-1]
-    if name == "The Commons Dining Hall":
-      name = "Commons Dining Hall"
-
-    print(name)
-    data[name] = dict()
-
-    regtime = location.find("div", {"class": "reghours"})
-    regdays = regtime.findAll("dt", {"class": "dining-block-days"})
-    info = regtime.findAll("dd")
-
-    for i in range(len(regdays)):
-      regday = regdays[i]["data-arrayregdays"].split(",")
-      reghour2 = info[i].find("span", {"class": "dining-block-hours"}).string
-
-      note_elem = info[i].findAll("span", {"class": "dining-block-note"})
-      if len(note_elem) == 0:
-        note = note = ""
-      else:
-        note = note_elem[0].string.strip(":")
-
-      if reghour2 == "Closed": continue
-      reghour2 = reghour2.split(" - ")
-
-      start = convert_mil(reghour2[0])
-      end = convert_mil(reghour2[1])
-
-      for day in regday:
-        print("\t{}:{}-{}:{} {}".format(days_to_num[day], start, days_to_num[day], end, note))
-        data[name]["{}:{}-{}:{}".format(days_to_num[day], start, days_to_num[day], end)] = note
 
   with open("data/dining.json", "w") as f:
     f.write(json.dumps(data, indent=4))
@@ -208,5 +263,5 @@ def get_menu_options():
     with open("data/menus.json", "w") as f:
       f.write(json.dumps(data, indent=4))
 
-get_menu_options()
+#get_menu_options()
 get_hours()
