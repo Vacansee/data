@@ -117,4 +117,45 @@ def filter_old_report(date):
         f.write(json.dumps(data, indent = 4))
     
 def generate_building_stats():
+    
     data = dict()
+    most_recent = "2024-04-09"
+    
+    data['stats'] = dict()
+    data['occupancy'] = dict()
+    
+    with open('data/wifi/filtered_data_{}.json'.format(most_recent), 'r') as file:
+        report = json.load(file)
+        
+    for building in report:
+        data['stats'][building] = dict()
+        for weekday in report[building]:
+            for hour in report[building][weekday]:
+                
+                if "min" not in data["stats"][building]:
+                    data['stats'][building]["min"] = report[building][weekday][hour]['MeanUserCount']
+                if "max" not in data["stats"][building]:
+                    data['stats'][building]["max"] = report[building][weekday][hour]['MeanUserCount']
+                    
+                if report[building][weekday][hour]['MeanUserCount'] > data['stats'][building]["max"]:
+                    data['stats'][building]["max"] = report[building][weekday][hour]['MeanUserCount']
+                    
+                if report[building][weekday][hour]['MeanUserCount'] < data['stats'][building]["min"]:
+                    data['stats'][building]["min"] = report[building][weekday][hour]['MeanUserCount']
+              
+    for building in report:
+        data["occupancy"][building] = dict()
+        for weekday in report[building]:
+            data["occupancy"][building][weekday] = dict()
+            for hour in report[building][weekday]:
+                if data['stats'][building]['max'] > 0:
+                    val = (report[building][weekday][hour]['MeanUserCount']/data['stats'][building]['max'])
+                else:
+                    val = 0
+                data["occupancy"][building][weekday][hour] = "{:.3f}".format(val)
+              
+                
+    with open("data/wifi/stats_{}.json".format(most_recent), 'w') as f:
+        f.write(json.dumps(data, indent = 4))
+                
+    
