@@ -5,7 +5,8 @@
 		"DCC": 3,
 		"Pittsburgh": 3,
 		"Troy": 2,
-		"Sage": 3
+		"Sage": 3,
+		"Folsom": 2
 	},
 	"num_floors": {
 		"default": 1,
