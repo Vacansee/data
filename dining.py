@@ -52,9 +52,9 @@ def get_hours():
 
   data = dict()
   data['Student Union'] = dict()
-  data['DCC'] = dict()
-  data['Sage'] = dict()
-  data['Folsom'] = dict()
+  data['Darrin Communications Center'] = dict()
+  data['Russell Sage Laboratory'] = dict()
+  data['Folsom Library'] = dict()
 
   daystoletter = {
     "Monday": "M",
