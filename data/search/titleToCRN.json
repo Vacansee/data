@@ -1853,7 +1853,8 @@
     ],
     "Introduction To Cognitive  Neuroscience": [
         68667,
-        68668
+        68668,
+        69823
     ],
     "Learning & Advanced Game Ai": [
         69498
@@ -2284,10 +2285,10 @@
     "Modeling Production Decisions": [
         68605
     ],
-    "Business Intelligence Analysis": [
+    "Modeling, Forecasting, Simultn": [
         68248
     ],
-    "Modeling Business Decisions": [
+    "Applied Analytics": [
         68606
     ],
     "Data Architecture": [
@@ -3658,7 +3659,8 @@
     ],
     "Introduction To Cognitive Neuroscience": [
         68669,
-        68670
+        68670,
+        69822
     ],
     "Cognitive Psychology": [
         65840,
@@ -3667,6 +3669,9 @@
     "Psychology Of Mindfulness": [
         68566,
         68567
+    ],
+    "Learning": [
+        69059
     ],
     "Positive Psychology": [
         67811,
