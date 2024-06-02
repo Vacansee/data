@@ -1,3761 +1,769 @@
 {
-    "Arch Exp & Plan Architecture": [
-        69353
-    ],
-    "Arch Exp & Plan Engineering": [
-        69354
-    ],
-    "Arch Exp & Plan Humanities": [
-        69355
-    ],
-    "Arch Exp & Plan Itws/undecided": [
-        69356
-    ],
-    "Arch Exp & Plan Mgmt": [
-        69357
-    ],
-    "Arch Exp & Plan Sciences": [
-        69358
-    ],
-    "Arch Exp & Planning Exp": [
-        69359
+    "Arch Exploration & Planning": [
+        19950
     ],
     "Student Success Labs": [
-        68158
+        19618
     ],
-    "First Year Seminar": [
-        65888,
-        68129
-    ],
-    "Orientation Sem For Grads": [
-        66677
+    "Summer Administ Registration": [
+        19240,
+        19827
     ],
     "Academic Orientation Seminar For Graduate Students": [
-        67445,
-        69131
+        19574,
+        19909
     ],
     "Ta Training Seminar": [
-        66678
+        19761
     ],
-    "Leadership Lab": [
-        65146
-    ],
-    "Aerospace Studies 100a": [
-        65168
-    ],
-    "Aerospace Studies 200a": [
-        65169
-    ],
-    "Aerospace Studies 300a": [
-        65170
-    ],
-    "Aerospace Studies 400a": [
-        65171
-    ],
-    "The Ethos Of Architecture": [
-        67206
-    ],
-    "Architectural Media": [
-        69332,
-        69333,
-        69570
-    ],
-    "Structures 1": [
-        65332,
-        69571,
-        69772,
-        67420
-    ],
-    "Construction Systems": [
-        65858,
-        68679,
-        69058,
-        69120
-    ],
-    "Materials And Design": [
-        69792,
-        69793,
-        69794
-    ],
-    "Digital Constructs I": [
-        67248,
-        68681,
-        69408
-    ],
-    "Digital Constructs 3": [
-        68680,
-        69409,
-        69410,
-        69707
-    ],
-    "Architectural Design Studio 1": [
-        67260,
-        67261,
-        69072,
-        67262,
-        67684,
-        69365,
-        68829,
-        69366,
-        69367,
-        69368,
-        69369,
-        69381,
-        69445
-    ],
-    "Architectural Design Studio 3": [
-        67407,
-        67408,
-        68898,
-        68675,
-        69169,
-        69170,
-        69370,
-        69371,
-        69372,
-        69373,
-        69374,
-        69382,
-        69407
-    ],
-    "Bedford Seminar": [
-        67203,
-        67058
-    ],
-    "Cities And Their Territories": [
-        67828,
-        69171,
-        69604
-    ],
-    "Urban Data 1": [
-        69745,
-        69746
-    ],
-    "Design Programming 1": [
-        69747,
-        69748
-    ],
-    "Geo-actors 1": [
-        69743,
-        69744
-    ],
-    "Modernity & Architecture": [
-        68052,
-        69564,
-        69566
-    ],
-    "Environmental Parametrics": [
-        68838,
-        69066
-    ],
-    "Portfolio Development": [
-        68685,
-        68836,
-        69603
-    ],
-    "Building Integration 1: Design": [
-        69577,
-        69578,
-        69579,
-        69580,
-        69581,
-        69582,
-        69587
-    ],
-    "Structures 2": [
-        67653,
-        67434
-    ],
-    "Building Sciences Capstone": [
-        69774
-    ],
-    "Professional Practice 1": [
-        65130,
-        69583
-    ],
-    "Materials And Enclosures": [
-        69761
-    ],
-    "Materials Systems & Production": [
-        68053
-    ],
-    "Entrepreneurship &architecture": [
-        68831
-    ],
-    "Bldg Systems And Environment": [
-        69762
-    ],
-    "Architectural Design Studio 5": [
-        67412,
-        67685,
-        67686,
-        68689,
-        68693,
-        69584,
-        69600,
-        69601,
-        69602,
-        69064,
-        68054
-    ],
-    "Architectural Design Studio 6": [
-        67655,
-        68699,
-        67656,
-        67657,
-        68690,
-        68694,
-        69597,
-        69598,
-        69599,
-        69065,
-        68055
-    ],
-    "Architectural Desgin Studio 7": [
-        67829,
-        68700,
-        69565,
-        67830,
-        68676,
-        69173,
-        69594,
-        69595,
-        69596
-    ],
-    "Comprehensive Design Studio 1": [
-        68992,
-        68109,
-        68993,
-        69592,
-        69593,
-        69733
-    ],
-    "Architectural Acoustics 1": [
-        65323
-    ],
-    "Applied Psychoacoustics": [
-        66454,
-        66456
-    ],
-    "Sonics Research Lab 1": [
-        69742,
-        68061
-    ],
-    "Engineering Acoustics": [
-        67844,
-        68060,
-        69311,
-        69184
-    ],
-    "Final Project Design Research Seminar": [
-        67658,
-        67659,
-        67660,
-        67661,
-        69077
-    ],
-    "Research Design Seminar": [
-        69738,
-        67435
-    ],
-    "Research Investigations": [
-        68056
-    ],
-    "Sentient Spaces": [
-        69782,
-        69821
-    ],
-    "Duchamps Seminar": [
-        68249
-    ],
-    "Ceramic Assemblies": [
-        68990,
-        68991
-    ],
-    "Latin American Studies": [
-        68856
-    ],
-    "Bldg Information Modeling": [
-        69753,
-        69737
-    ],
-    "Hot Glass: Slumping & Blow Mld": [
-        69765
-    ],
-    "Bldg Attitudes, Comprtive Stdy": [
-        69771
-    ],
-    "Elemenatary Italian": [
-        69799
-    ],
-    "Modern And Contemporary Rome": [
-        69201
-    ],
-    "Parametrics Of The Environment": [
-        68897
-    ],
-    "Spolia, Roman Singularities": [
-        69202
-    ],
-    "Global Changemakers": [
-        69203
-    ],
-    "Architecture Of The City": [
-        69067
-    ],
-    "Renaissance & Baroque Arch": [
-        69068
-    ],
-    "Intro Restratn Of Historic Bld": [
-        69798
-    ],
-    "To Rome With Love": [
-        69069
-    ],
-    "History Of Italian Design": [
-        69070
-    ],
-    "Fashion & Architecture": [
-        69071
-    ],
-    "History, Theory, Criticism I": [
-        67419
-    ],
-    "Grad Digital Constructs 1": [
-        68901
-    ],
-    "Graduate Arch Design I": [
-        69434
-    ],
-    "Materials And Construction Systems": [
-        67421
-    ],
-    "Environmental History & Theory": [
-        68057
-    ],
-    "Built Ecologies 1": [
-        66451
-    ],
-    "Material Systems & Productions": [
-        68058
-    ],
-    "Design Research Studio": [
-        68059
-    ],
-    "Graduate Environmental Parametrics": [
-        68839
-    ],
-    "Graduate Architecture Design 5": [
-        69735
-    ],
-    "Final Project Research Seminar": [
-        69736
-    ],
-    "Doctoral Seminar 1": [
-        68250
-    ],
-    "Systems Prototyping": [
-        69734
+    "Graduate Away Opportunity": [
+        19913
     ],
     "Master's Project": [
-        67220,
-        66669,
-        66855,
-        66899,
-        66263,
-        67118,
-        67171,
-        67176,
-        67729,
-        66612,
-        66851,
-        66962,
-        67236,
-        68283,
-        69335,
-        69342,
-        69343,
-        69345,
-        69796,
-        67492,
-        65955,
-        67509,
-        67703,
-        67728,
-        67738,
-        67739,
-        67854,
-        67855,
-        67865,
-        67932,
-        67958,
-        68077,
-        68080,
-        68098,
-        68277,
-        68712,
-        69001,
-        69021,
-        69025,
-        69040,
-        69041,
-        69074,
-        69310,
-        69321,
-        69350,
-        69415,
-        69437,
-        69769,
-        69781,
-        66781,
-        67199,
-        67466,
-        66201,
-        65229,
-        65237,
-        65257,
-        67110,
-        67230,
-        67252,
-        67959,
-        68025,
-        68132,
-        68698,
-        69347,
-        68893,
-        68592,
-        68593,
-        68602,
-        68601,
-        68594,
-        68595,
-        68596,
-        68597,
-        68599,
-        68600,
-        68251,
-        69175,
-        65881,
-        67019,
-        65285,
-        66824,
-        66839,
-        69466,
-        67737,
-        67910,
-        68902,
-        66521,
-        66817,
-        67519,
-        68281,
-        66702,
-        66707,
-        66716,
-        66717,
-        66795,
-        66987,
-        66991,
-        68092,
-        67287,
-        67298,
-        67437,
-        67442,
-        67497,
-        68087,
-        67562,
-        68101,
-        67735,
-        67743,
-        67886,
-        67887,
-        67888,
-        67890,
-        67893,
-        68316,
-        69800,
-        67279,
-        67477,
-        67217,
-        67218,
-        67222,
-        67224,
-        67225,
-        67232,
-        67403,
-        67621,
-        69420,
-        69423,
-        69426,
-        69429,
-        66937,
-        66413,
-        66843,
-        68651,
-        66829,
-        66854,
-        68147,
-        68697,
-        66933,
-        68024,
-        66989,
-        68849,
-        68850,
-        67099,
-        68851,
-        67446,
-        68852,
-        68853,
-        68861,
-        68862,
-        68863,
-        69012,
-        69013,
-        69014,
-        69015,
-        69016,
-        69017,
-        69023,
-        69391,
-        69392
-    ],
-    "Master's Thesis": [
-        68683,
-        66452,
-        66761,
-        67472,
-        66675,
-        66362,
-        65283,
-        68089,
-        66683,
-        66807,
-        66840,
-        67114,
-        67131,
-        66260,
-        66417,
-        68099,
-        66846,
-        67557,
-        66690,
-        66248,
-        65286,
-        66382,
-        67109,
-        67426,
-        67127,
-        67265,
-        65263,
-        66783,
-        65273,
-        67200,
-        67467,
-        66767,
-        66793,
-        67093,
-        66172,
-        66160,
-        66136,
-        66167,
-        66313,
-        66124,
-        66464,
-        65312,
-        66465,
-        67898,
-        66820,
-        66821,
-        66822,
-        66823,
-        67128,
-        66135,
-        66176,
-        68088,
-        66357,
-        65343,
-        66179,
-        65344,
-        66358,
-        65334,
-        66180,
-        65335,
-        66360,
-        66190,
-        66370,
-        66383,
-        66191,
-        66225,
-        66389,
-        66390,
-        66643,
-        66005,
-        66695,
-        66701,
-        66751,
-        66802,
-        66804,
-        66970,
-        66972,
-        67460,
-        67892,
-        65414,
-        67476,
-        69421,
-        69424,
-        69427,
-        69430,
-        66153,
-        66181,
-        66418,
-        66746,
-        66842,
-        66935,
-        66936,
-        69390,
-        67250,
-        66615
-    ],
-    "Architecture Dissertation": [
-        69785,
-        65482,
-        66453,
-        68677,
-        66046
-    ],
-    "Digital Imaging": [
-        65250
-    ],
-    "Digital Filmmaking": [
-        68228
-    ],
-    "Intro To Game Art": [
-        69530
-    ],
-    "Art History": [
-        67807,
-        69749
-    ],
-    "Basic Drawing": [
-        65249
-    ],
-    "Fundamentals Of Music & Sound": [
-        68194,
-        69309
-    ],
-    "Intermediate Video": [
-        68073
-    ],
-    "Music And Technology 1": [
-        65252,
-        68230
-    ],
-    "Intermediate Digital Imaging": [
-        68754
-    ],
-    "Intermediate Drawing": [
-        68043
+        20077,
+        19216,
+        19233,
+        19515,
+        19263,
+        20043,
+        19229,
+        19944,
+        19802,
+        19508,
+        19224,
+        19275,
+        19413,
+        20047,
+        19625,
+        19362,
+        19762,
+        19947,
+        19346
     ],
     "Sculpture I": [
-        67449
+        19988
     ],
     "3d Digital Modeling": [
-        69208
+        19974
     ],
-    "Rensselaer Orchestra": [
-        68755
+    "Popular Music And Society": [
+        20008
     ],
-    "Rensselaer Concert Choir": [
-        68756
+    "Game Sound & Musical Play": [
+        19936,
+        19925
     ],
-    "Chamber Music Ensemble": [
-        68757,
-        69537
-    ],
-    "Music And Sound I": [
-        68193
-    ],
-    "Hist Of Jazz & Improvis Music": [
-        69063
-    ],
-    "The Multimedia Century": [
-        69209
-    ],
-    "Designing Musical Games": [
-        69210
-    ],
-    "Sound Recording & Production I": [
-        68542,
-        68543,
-        68544
+    "Sound Recording & Prod I": [
+        20038
     ],
     "Private Music Lessons: Violin": [
-        68626
+        19732
     ],
     "Private Music Lessons: Viola": [
-        68627
-    ],
-    "Private Music Lessons: Cello": [
-        68628
+        19733
     ],
     "Private Music Lessons: Flute": [
-        68629
+        19734
     ],
     "Private Music Lessons: Oboe": [
-        68630
+        19735
     ],
     "Private Music Lessons:clarinet": [
-        68631
-    ],
-    "Private Music Lessons:bassoon": [
-        68632
+        19736
     ],
     "Private Music Lessons: Sax": [
-        68633
-    ],
-    "Private Music Lessons: Harp": [
-        68634
-    ],
-    "Private Music Lessons:percuss": [
-        68635
-    ],
-    "Private Music Lessons: Trumpet": [
-        69801
+        19737
     ],
     "Private Music Lessons: Voice": [
-        68637
-    ],
-    "Private Music Lessons: Piano": [
-        68638,
-        68639
-    ],
-    "Private Music Lesson: Trombone": [
-        68758
-    ],
-    "Private Music Lessons: Tuba": [
-        68759
+        19738
     ],
     "Private Music Lessons: Guitar": [
-        68760
+        19794
     ],
-    "Private Music Lessn: Euphonium": [
-        69541
+    "Private Music Lessons: Cello": [
+        19918
     ],
-    "Music Lessons: Jazz Improv": [
-        68762
+    "Private Music Lessons: Piano": [
+        19919
     ],
-    "Music Lessons: Jazz Sax": [
-        68763
+    "Private Music Lessons: Euphoni": [
+        19920
+    ],
+    "Private Music Lessons: Tuba": [
+        19921
+    ],
+    "Private Music Lessons: Trombon": [
+        19922
+    ],
+    "Private Music Lessons: Percssn": [
+        19923
     ],
     "Private Music Lessons: Bass": [
-        69211
+        19924
     ],
-    "Art Of Songwriting": [
-        68765
+    "Private Music Lessons: Trumpet": [
+        20026
     ],
-    "Wind Symphony": [
-        69073
+    "Art & Code & Interactivity Arts": [
+        19975
     ],
-    "Art, Community And Technology": [
-        69534
-    ],
-    "Biopunk: Arts Lab Practice": [
-        69535,
-        69536
-    ],
-    "Sculpture II": [
-        68769
-    ],
-    "Painting": [
-        69539,
-        69540
-    ],
-    "Life Drawing And Anatomy For Artists": [
-        69061
-    ],
-    "3d Technical Direction": [
-        68948
-    ],
-    "Music And Sound II": [
-        69538
-    ],
-    "Composition Seminar": [
-        68770
-    ],
-    "Seminar In Sound Studies": [
-        69524,
-        69526
-    ],
-    "Hactivism": [
-        68546,
-        68547
-    ],
-    "Creative Seminar I": [
-        68585
-    ],
-    "Advanced Studio": [
-        68255
-    ],
-    "Arts Graduate Colloquium": [
-        67666
-    ],
-    "Sound Studies: Sonic Spaces": [
-        69527
-    ],
-    "Dissertation": [
-        66295,
-        68580,
-        68107,
-        68581,
-        68582,
-        67238,
-        67241,
-        67483,
-        68583,
-        69338,
-        69339,
-        69340,
-        69341,
-        66290,
-        66291,
-        69000,
-        66292,
-        67102,
-        67239,
-        67263,
-        67705,
-        67679,
-        68877,
-        68878,
-        68879,
-        68880,
-        68881,
-        68110,
-        68882,
-        68883,
-        68884,
-        68885,
-        68886,
-        68887,
-        68888,
-        68889,
-        68890,
-        68891,
-        66183,
-        68082,
-        65313,
-        68609,
-        65384,
-        65390,
-        66797,
-        66047,
-        69385,
-        65445,
-        67240,
-        67266,
-        67863,
-        67864,
-        65579,
-        66048,
-        66288,
-        67444,
-        67907,
-        66841,
-        68301,
-        65192,
-        66352,
-        65231,
-        65407,
-        65451,
-        65551,
-        68873,
-        69384,
-        66363,
-        66964,
-        66965,
-        66966,
-        67092,
-        65974,
-        67895,
-        67904,
-        69026,
-        69039,
-        69084,
-        66142,
-        65914,
-        65158,
-        65159,
-        66980,
-        65194,
-        65195,
-        67428,
-        65196,
-        65255,
-        66316,
-        66450,
-        66786,
-        67051,
-        67470,
-        68100,
-        65612,
-        65874,
-        65871,
-        65155,
-        66423,
-        65172,
-        69435,
-        65193,
-        65202,
-        69083,
-        67723,
-        66500,
-        66815,
-        66685,
-        65256,
-        67052,
-        65404,
-        67423,
-        65162,
-        66138,
-        65173,
-        65314,
-        65410,
-        66832,
-        65939,
-        66833,
-        67264,
-        67465,
-        66942,
-        66943,
-        66944,
-        66948,
-        67008,
-        67237,
-        67259,
-        68576,
-        68577,
-        68578,
-        66312,
-        65433,
-        66994,
-        68108,
-        65492,
-        68579,
-        69075,
-        65163,
-        67120,
-        66026,
-        65198,
-        66133,
-        65199,
-        66147,
-        65238,
-        66166,
-        68079,
-        65898,
-        66184,
-        66196,
-        65377,
-        65383,
-        65835,
-        65385,
-        68097,
-        67911,
-        66349,
-        66355,
-        65924,
-        65419,
-        67282,
-        66458,
-        65420,
-        67284,
-        67286,
-        65823,
-        66030,
-        69076,
-        65878,
-        68710,
-        67201,
-        67468,
-        66255,
-        65207,
-        65208,
-        66143,
-        65160,
-        65412,
-        65161,
-        65174,
-        67857,
-        68090,
-        65209,
-        69470,
-        65210,
-        65211,
-        65212,
-        65213,
-        65214,
-        65215,
-        65216,
-        66246,
-        65227,
-        65233,
-        65234,
-        65235,
-        65266,
-        66249,
-        65271,
-        66348,
-        65282,
-        65447,
-        65449,
-        66392,
-        65456,
-        65457,
-        65463,
-        65580,
-        66536,
-        66806,
-        67275,
-        67852,
-        65164,
-        65226,
-        69003,
-        69004,
-        69027,
-        69028,
-        69029,
-        69031,
-        69033,
-        69034,
-        69348,
-        65204,
-        66492,
-        65205,
-        65206,
-        68270,
-        66407,
-        66777,
-        67464,
-        69035,
-        69060,
-        65647,
-        66688,
-        66946,
-        65178,
-        66131,
-        67469,
-        66016,
-        66141,
-        66155,
-        66162,
-        67227,
-        65488,
-        66953,
-        66704,
-        65489,
-        66708,
-        66998,
-        66642,
-        66739,
-        66813,
-        68391,
-        65179,
-        65180,
-        65181,
-        66137,
-        67094,
-        65220,
-        65225,
-        66177,
-        66314,
-        65276,
-        66466,
-        67273,
-        67274,
-        67897,
-        66158,
-        69092,
-        66694,
-        69091,
-        66148,
-        65176,
-        65177,
-        66205,
-        66217,
-        66311,
-        66700,
-        67798,
-        65441,
-        67457,
-        67458,
-        65442,
-        65443,
-        65444,
-        66132,
-        65346,
-        65336,
-        65337,
-        65347,
-        66178,
-        65338,
-        66182,
-        65339,
-        66194,
-        65348,
-        66305,
-        65341,
-        66345,
-        66346,
-        66359,
-        66803,
-        66805,
-        65349,
-        67894,
-        65351,
-        66983,
-        65875,
-        65354,
-        67461,
-        65356,
-        65342,
-        65388,
-        65399,
-        65409,
-        67475,
-        65870,
-        66971,
-        66973,
-        65986,
-        66020,
-        69422,
-        69425,
-        69428,
-        69431,
-        65154,
-        65156,
-        68864,
-        68869,
-        65183,
-        66220,
-        65221,
-        69388,
-        65222,
-        69389,
-        66361,
-        69783,
-        67884,
-        65274,
-        65275,
-        66837,
-        67269,
-        68128,
-        65458,
-        65988,
-        65581,
-        65648,
-        66159,
-        66457,
-        67503,
-        68446,
-        69005,
-        69006,
-        69007,
-        69008,
-        69009,
-        69010,
-        69011,
-        69042,
-        68819,
-        68820,
-        68821,
-        68822
-    ],
-    "Intro Astronomy & Astrophys": [
-        66923
+    "Stars, Galaxies And The Cosmos": [
+        20032
     ],
     "Earth And Sky": [
-        65047
+        20033
     ],
-    "Cosmology": [
-        69726,
-        69729,
-        69727,
-        69728
-    ],
-    "Masters Professional Project": [
-        68854,
-        67680,
-        68273,
-        68855,
-        68860,
-        69019,
-        69324,
-        66720,
-        66774,
-        66792,
-        66858,
-        66939,
-        67709,
-        68022,
-        66990,
-        67144,
-        67233,
-        67741,
-        68843,
-        66848
-    ],
-    "Topics In Circadian Biology": [
-        69193,
-        69194,
-        69043,
-        69044
-    ],
-    "Microbial Pathogenesis": [
-        69759,
-        69760,
-        69757,
-        69758
-    ],
-    "Data Analytics": [
-        68859,
-        68969,
-        68970,
-        68035,
-        68226,
-        68036,
-        68229,
-        69130,
-        69142,
-        68994,
-        69185
-    ],
-    "Molecular Biochem I": [
-        65062,
-        65072
-    ],
-    "Methods In Biophysics": [
-        67254,
-        67255
-    ],
-    "Protein Structure Determin.": [
-        66043,
-        66044
-    ],
-    "Biochemistry Research": [
-        65191
-    ],
-    "Senior Research Thesis": [
-        66154,
-        67368,
-        67370,
-        67479,
-        67480,
-        66721,
-        67742
-    ],
-    "Research Rotation": [
-        67256,
-        66941
-    ],
-    "Professional Project": [
-        68871,
-        68915,
-        69815,
-        66004,
-        67732,
-        68264,
-        68105,
-        67847
-    ],
-    "Introduction To Biology": [
-        65058,
-        65059,
-        65847,
-        69481,
-        66045,
-        69482
-    ],
-    "Introduction To Biology Laboratory": [
-        67087,
-        67088,
-        67089,
-        67090,
-        67091,
-        67207
-    ],
-    "Intro Biol Computational Lab": [
-        69137,
-        69138
-    ],
-    "Intro To Cell & Molec Biology": [
-        67251
-    ],
-    "Intro Cell & Molec Biol Lab": [
-        68865,
-        68866,
-        68867
-    ],
-    "Introduction To Geobiology": [
-        68570,
-        68569
-    ],
-    "Genetics & Evolution": [
-        65299
-    ],
-    "From Neuron To Behavior": [
-        68767,
-        68768
-    ],
-    "Investigative Medicine I": [
-        67736,
-        67883
-    ],
-    "Cytoskeletal Biology": [
-        69045,
-        69046
-    ],
-    "Biostatistics": [
-        66961
-    ],
-    "Machine Learning For Environmental Biology": [
-        68278,
-        68279
-    ],
-    "Advanced Cell Biology": [
-        66428,
-        66429
-    ],
-    "Human Physiology": [
-        65060
-    ],
-    "Microbiology Laboratory": [
-        67187
-    ],
-    "Animal Behavior": [
-        69754
-    ],
-    "Adv Topics: Ecology & Env Biol": [
-        69755,
-        69756
-    ],
-    "Sequence Analysis": [
-        66430,
-        67404
-    ],
-    "Molecular Biology II": [
-        66130
-    ],
-    "Molecular Biology Lab": [
-        65141,
-        65846
-    ],
-    "Advanced Cell Biology Laboratory": [
-        68067
+    "Cosmology: Our Universe": [
+        19781
     ],
     "Molecular Biochemistry I": [
-        65061
+        19547,
+        19546,
+        19548
     ],
-    "The Global Environment": [
-        69139,
-        69140
+    "Master's Thesis": [
+        19432,
+        19242,
+        19437,
+        19438,
+        19439,
+        19244,
+        19440,
+        19442,
+        19443,
+        19444,
+        19232,
+        19518,
+        19555,
+        19562,
+        19210,
+        19276,
+        19411,
+        19373,
+        19261,
+        19259,
+        19361
     ],
-    "Non-thesis Research": [
-        67137
+    "Dissertation": [
+        19433,
+        19434,
+        19436,
+        19245,
+        19246,
+        19380,
+        19445,
+        19247,
+        19333,
+        19447,
+        19448,
+        19449,
+        19215,
+        19345,
+        19227,
+        19327,
+        19258,
+        19353,
+        19499,
+        19211,
+        19219,
+        19221,
+        19231,
+        19307,
+        19301,
+        19300,
+        19532,
+        19563,
+        19630,
+        19755,
+        19454,
+        20066,
+        19223,
+        19271,
+        19351,
+        19372,
+        19317
     ],
-    "Biology Core Course I": [
-        66431
+    "Introduction To Biology": [
+        19487
     ],
-    "Adv Molecular Biology": [
-        66650
+    "Introduction To Biology Laboratory": [
+        19488
     ],
-    "Seminar In Biology": [
-        65320
+    "Biology In Popular Fiction": [
+        20025
     ],
-    "Research Rotation II": [
-        68857
+    "Human Evolution Lab": [
+        19871
     ],
-    "Adv Top Ecology & Environment": [
-        68771
+    "Field Experiences Aquatic Biol": [
+        19945
     ],
-    "Research Rotation I": [
-        65452
+    "Sense And Signal": [
+        20010
+    ],
+    "Biostatistics": [
+        19549
+    ],
+    "Microbiology Laboratory": [
+        19770
+    ],
+    "Molecular Biology Lab": [
+        19768,
+        19769
+    ],
+    "Advanced Cell Biology Laboratory": [
+        19797
     ],
     "Programming For Biomed Engr": [
-        68799,
-        68802
+        19863
     ],
     "Biomaterials Sci & Engineering": [
-        67195
+        19864
     ],
     "Bioimaging/ Bioinstrumentation": [
-        67197
+        19916
     ],
     "Biomechanics": [
-        67111
+        19917
     ],
     "Biomedical Engineering Lab": [
-        65075,
-        65076,
-        65857,
-        65295
+        19627,
+        19545
     ],
     "Modeling Of Biomedical Systems": [
-        67245
+        19510
     ],
     "Biomed Transport Phenomena": [
-        68808
+        19799
     ],
-    "Biomedical Product Development & Commercialization": [
-        67246,
-        67247
+    "Markets, Strategy & People": [
+        19748
     ],
-    "Biomedical Instrumentation": [
-        69507
+    "Agile Planning & Execution": [
+        19749
     ],
-    "Biostatistics For Life Science Applications": [
-        68262,
-        68263
-    ],
-    "Adv Systems Physiology": [
-        68063
-    ],
-    "Biomechanics II": [
-        69731
-    ],
-    "Cell Biomechanics": [
-        68589,
-        68591
-    ],
-    "Biomedical Fluid Mechanics": [
-        67055,
-        68282
-    ],
-    "Medical Imaging": [
-        69205,
-        69206
-    ],
-    "Biomedical Engr Design": [
-        68065
-    ],
-    "Bme Seminar": [
-        67409,
-        67410
-    ],
-    "Engineering Math: Data Science": [
-        69508
-    ],
-    "Drug And Gene Delivery": [
-        69506
-    ],
-    "Discussions In Graduate Research": [
-        67257
-    ],
-    "Comm Bmed Inn/entrep Bus Fdmt": [
-        69476,
-        69475
-    ],
-    "Perspective Biomolecular Sci": [
-        68106
-    ],
-    "Managing Dynamic Org": [
-        68610
-    ],
-    "Evaluating Performance": [
-        68611
-    ],
-    "Leaders As Change Agents": [
-        68613
+    "Changing And Innovating": [
+        19796
     ],
     "Leaders & Strategy": [
-        69132
+        19908
     ],
     "Leaders In Dynamic Markets": [
-        69134
+        20005
     ],
     "Leaders Making Financial Decsn": [
-        69512
+        20006
     ],
-    "Leaders Planning & Executing": [
-        69513
-    ],
-    "Leaders Leading People": [
-        69514
-    ],
-    "Programs And Strategy": [
-        69819
-    ],
-    "Intro To Chemical Engineering": [
-        66491
-    ],
-    "Material, Energy & Entropy Bal": [
-        68965
+    "Leaders Planning And Executing": [
+        20007
     ],
     "Introduction To Computational Chemical Engineering": [
-        69320
+        19911
     ],
     "Chemical Process Safety": [
-        69147
-    ],
-    "Transport Phenomena I": [
-        65240
+        19914
     ],
     "Transport Phenomena II": [
-        67846
+        19602
     ],
-    "Chem Process Dynamics & Cntrl": [
-        66655
+    "Careers In Chemical Eng": [
+        20021
     ],
-    "Chemical Eng Separations": [
-        65293
+    "Chem Eng In Drug Disc & Deliv": [
+        19792
     ],
-    "Chemical Process Dsgn: Fdmtl": [
-        69636,
-        69645
+    "Polymer Processing & Plas Tech": [
+        19912
     ],
-    "Chemical Engr Lab I": [
-        65131,
-        65132,
-        68845
-    ],
-    "Intro Biochemical Engr": [
-        67074
-    ],
-    "Chemical Reactor Design": [
-        65143
-    ],
-    "Intro Semiconductor Proc": [
-        69666
-    ],
-    "Physical Chemistry Of Polymers": [
-        69667,
-        69672
-    ],
-    "Fund Of Optical Nanomaterials": [
-        69668
-    ],
-    "Deep Dive Dna / Rna Purificatn": [
-        69779,
-        69780
-    ],
-    "Chem & Envr Engineering Proj": [
-        65373
-    ],
-    "Biochemical Engr": [
-        67075
-    ],
-    "Chemical & Phase Equilibria": [
-        65133
-    ],
-    "Math Methods In Chem Engr I": [
-        65134
-    ],
-    "Chemical And Biological Engineering Seminar": [
-        67208
-    ],
-    "Optical Nanomaterials": [
-        69673
-    ],
-    "Cbe Phd On-ramp Seminar": [
-        68120
-    ],
-    "Masters Project": [
-        66719,
-        68440,
-        66459,
-        69364,
-        65200,
-        65203
+    "Chemical Engineering Pro Simul": [
+        19573
     ],
     "Masters Thesis": [
-        66745,
-        66977,
-        66978,
-        67009,
-        67130,
-        67471,
-        67950,
-        68442,
-        68443,
-        69443,
-        69452,
-        66938,
-        66947,
-        67053,
-        69346,
-        67136,
-        67235,
-        68643,
-        68378,
-        66140,
-        66307,
-        66353,
-        66354,
-        68096,
-        68119,
-        65372,
-        66393,
-        66463,
-        66469,
-        66480,
-        66519,
-        66520,
-        66705,
-        65411,
-        65416,
-        66750,
-        66787,
-        65417,
-        65418,
-        67281,
-        67283,
-        67285,
-        65887,
-        68078,
-        65262,
-        66310,
-        66161,
-        66187,
-        66200,
-        65280,
-        66204,
-        66203,
-        66206,
-        66253,
-        66254,
-        66306,
-        66320,
-        65378,
-        66347,
-        66356,
-        66398,
-        66524,
-        66526,
-        66814,
-        66640,
-        66691,
-        65448,
-        66856,
-        67564,
-        68207,
-        65464,
-        65879,
-        65907,
-        67226,
-        68815
+        19214,
+        19226,
+        19255,
+        19368,
+        19457,
+        19490,
+        19371,
+        19280,
+        19264,
+        19212,
+        19340,
+        19402,
+        19412,
+        19422,
+        19456,
+        19629,
+        19367,
+        19302,
+        19273
     ],
     "Chemistry I": [
-        66776,
-        65473,
-        65478,
-        65474,
-        65475,
-        65476,
-        65477,
-        65845,
-        66925
+        19495
     ],
-    "Chemistry I With Advanced Lab": [
-        66301,
-        66302,
-        66303
-    ],
-    "Chemistry I Honors": [
-        69394
-    ],
-    "Materials Science": [
-        67822,
-        67821,
-        66284,
-        65394,
-        67827,
-        67826,
-        67823,
-        67824
-    ],
-    "Chemistry For Life": [
-        69360
-    ],
-    "Equilibrium Chemistry And Quantitative Analysis": [
-        65466
-    ],
-    "Experimental Chemistry I:analytical Techniques": [
-        68826
+    "Chemistry II": [
+        20012
     ],
     "Organic Chemistry Lab I": [
-        69271,
-        65469,
-        65470,
-        65471,
-        68899,
-        66432,
-        66433,
-        69002
+        19789
+    ],
+    "Organic Chemistry Lab II": [
+        19790
     ],
     "Organic Chemistry I": [
-        65307
+        19319
+    ],
+    "Organic Chemistry II": [
+        19320
+    ],
+    "Chemistry In The Movies": [
+        20067
     ],
     "Inorganic Chemistry II": [
-        67633
-    ],
-    "Experimental Chmistry III:inorganic And Physical Methods": [
-        65468,
-        68962
-    ],
-    "Expr Chem III Abridg: Phys Mth": [
-        68825,
-        68963
-    ],
-    "Instrumental Methods Of Analysis": [
-        68571
-    ],
-    "Mass Spectrometry": [
-        69775,
-        69776
-    ],
-    "Medicinal Chemistry": [
-        69590,
-        69591
+        19607
     ],
     "Macroscopic Physical Chemistry": [
-        65467
-    ],
-    "Microscopic Physical Chemistry": [
-        68265
+        19606
     ],
     "Physical Chem For Life Science": [
-        68018
+        19605
     ],
     "Modern Techniques In Chemistry": [
-        65287,
-        65479
+        19530
     ],
-    "Chemical Biology": [
-        68652,
-        67638
+    "Intro To Nanomaterials Chem": [
+        19752
     ],
-    "Professional Development Seminar": [
-        65321
-    ],
-    "Culminating Research Exp": [
-        69768
-    ],
-    "Organic Chemistry 3": [
-        68961
-    ],
-    "Protein Struct & Deep Learning": [
-        69322,
-        69323
-    ],
-    "Electrochemistry": [
-        69589
-    ],
-    "Chemistry Seminar": [
-        65241
-    ],
-    "Chemistry Teaching Seminar": [
-        65073
-    ],
-    "Introduction To Research": [
-        67258
-    ],
-    "Organic Synthesis & Stereochms": [
-        69432
-    ],
-    "Engineering Graphics For Civil Engineers": [
-        67085
-    ],
-    "Fluid Mechan Civl & Envir Engr": [
-        68947,
-        69509,
-        69510
-    ],
-    "Foundation Engineering": [
-        65063
-    ],
-    "Steel Design": [
-        65070
-    ],
-    "Geoenvironmental Eng": [
-        67628
-    ],
-    "Finite Element Methods": [
-        65064,
-        69163,
-        68553,
-        68554,
-        65071,
-        69702,
-        65360,
-        69162,
-        68236,
-        68237,
-        65365,
-        69701
-    ],
-    "Highway Engineering": [
-        68827
-    ],
-    "Data Analytics: Civl & Env Eng": [
-        69497,
-        69102
-    ],
-    "Mechanics Of Solids": [
-        66535,
-        66443
-    ],
-    "Intelligent Transportation Systems": [
-        69480
-    ],
-    "Transportation Sys Planning": [
-        69479
-    ],
-    "Trans Network Analysis": [
-        69478
-    ],
-    "Adv Concrete Structures": [
-        66780
-    ],
-    "Bedford Design Studio": [
-        67059
-    ],
-    "Timber Design": [
-        69499
-    ],
-    "Wind Engineering": [
-        69488
-    ],
-    "Structural Dynamics": [
-        65333
-    ],
-    "Advanced Geotechnical Engineering": [
-        68221
-    ],
-    "Advanced Geoenv Engr": [
-        67629
-    ],
-    "Colloquium Series": [
-        67107
-    ],
-    "Machine Learning In Trans.": [
-        69501
-    ],
-    "Bridge Engineering": [
-        69751
+    "Food Chemistry And Technology": [
+        19753
     ],
     "Intro To Cognitive Science": [
-        68285,
-        68286,
-        68548
+        19989
     ],
-    "Introduction To Linguistics": [
-        68284,
-        69047
+    "Cognitive Modeling": [
+        20034,
+        20037,
+        20002
     ],
-    " Human & Machine Learning": [
-        69473
+    "Behavioral Neuroscience": [
+        19543,
+        19978,
+        19939,
+        19983
     ],
-    "Introduction To Cognitive  Neuroscience": [
-        68667,
-        68668,
-        69823
+    "Extended Cognition": [
+        19869
     ],
-    "Learning & Advanced Game Ai": [
-        69498
+    "Documentary Film": [
+        19990
     ],
-    "Canine Cogs&sci-based Training": [
-        69532,
-        69533
+    "Comm Theory & Practice": [
+        19833
     ],
-    "Intro Logic-based Ai": [
-        69789,
-        69790,
-        69791,
-        69788
-    ],
-    "Undergraduate Thesis": [
-        68381,
-        66940,
-        65985
-    ],
-    "Human & Machine Learning": [
-        69474
-    ],
-    "Bayesian Data Analysis": [
-        69331,
-        69330
-    ],
-    "Professional Seminar": [
-        68572
-    ],
-    "Research Problems In Cog Sci": [
-        66926
-    ],
-    "Eff Comm For Class Pedagogy": [
-        67838,
-        69732,
-        69285
-    ],
-    "Communication Theory & Prac.": [
-        68223,
-        68224,
-        69055,
-        69317
-    ],
-    "Typography": [
-        69797
+    "Superheroes In The Classroom": [
+        19992
     ],
     "Introduction To Graphic Design": [
-        67859,
-        68130,
-        68832,
-        69053,
-        69286
+        19991
+    ],
+    "Leadership And Creativity": [
+        19993
+    ],
+    "Social Media And Society": [
+        19994
+    ],
+    "Language And Society": [
+        20000
     ],
     "Health Comm In Practice": [
-        69288,
-        69289
+        20003
     ],
-    "Foundations Of Hci Usability": [
-        67869,
-        67870
+    "Social Media: East & West": [
+        19938
     ],
-    "Advertising And Culture": [
-        69291
-    ],
-    "Pro-semr In Comm, Media, Dsgn": [
-        68835
-    ],
-    "Writing For Tech Communication": [
-        69554,
-        69555
-    ],
-    "2-d Motion Graphics": [
-        69293
+    "Interactive Data Visualization": [
+        19511,
+        19512
     ],
     "Computer Science I": [
-        65024,
-        65324,
-        65325,
-        66949,
-        66950,
-        66169,
-        65025,
-        66682,
-        66175,
-        65026,
-        67639,
-        67115,
-        68117,
-        67640,
-        65028,
-        67452,
-        66340,
-        67641,
-        67724,
-        67725,
-        67726,
-        67727
+        19323
     ],
-    "Data Structures": [
-        65029,
-        67272,
-        65030,
-        67076,
-        66170,
-        65031,
-        65305,
-        67451,
-        67642,
-        67820
+    "Principles Of Software": [
+        19603,
+        19777
     ],
-    "Early Introduction To Rcos": [
-        69684
+    "Rcos": [
+        19723,
+        19830,
+        19891,
+        19906
     ],
-    "Web Systems Development": [
-        69559,
-        69560,
-        66931,
-        68034
+    "Operating Systems": [
+        19599,
+        19609,
+        20013,
+        20014
     ],
-    "Foundations Of Computer Sci": [
-        67077,
-        67221,
-        67413,
-        67861,
-        69113
-    ],
-    "Introduction To Algorithms": [
-        65032,
-        65033,
-        65306,
-        65294,
-        66145,
-        65254
-    ],
-    "Computer Organization": [
-        65034,
-        67414,
-        67415,
-        68641,
-        69411,
-        69412
-    ],
-    "Introduction To Rcos": [
-        69686
-    ],
-    "Intro To Competitive Prog": [
-        69683
-    ],
-    "Machine Learning From Data": [
-        69122,
-        69561
-    ],
-    "Network Programming": [
-        69126
-    ],
-    "Frontiers Of Network Science": [
-        67645,
-        67646
-    ],
-    "Ontologies": [
-        69674,
-        68075
-    ],
-    "Data Science": [
-        67209,
-        67210,
-        67211,
-        67212,
-        67184,
-        67185
-    ],
-    "Data And Society": [
-        68655,
-        68691
-    ],
-    "Database Systems": [
-        65330
-    ],
-    "Data Mining": [
-        67216,
-        68064
-    ],
-    "Programming Languages": [
-        65472
-    ],
-    "Software Design & Documentatio": [
-        65069,
-        65147
-    ],
-    "Large Scale Program & Testing": [
-        69678,
-        69679
-    ],
-    "Robotics I": [
-        66341,
-        66344,
-        67637,
-        68521,
-        67190
-    ],
-    "Dist Systems & Algorithms": [
-        69676
+    "Software Design & Docume": [
+        19788,
+        19800
     ],
     "Numerical Computing": [
-        65152,
-        65104
+        19787,
+        19786
     ],
-    "Modern Binary Exploitation": [
-        69462,
-        69463
+    "Introduction To Research": [
+        19478,
+        20017
     ],
-    "Ai For Science": [
-        69386,
-        68983
+    "Intro To Quantum Computing": [
+        19550
     ],
-    "Network Security And Defense": [
-        66442
-    ],
-    "Ml And Optimization": [
-        68260,
-        67902
-    ],
-    "Reinforcement Learning": [
-        68750,
-        68751,
-        69810,
-        69811
-    ],
-    "Computing & Quantum Computing": [
-        65859,
-        67249
-    ],
-    "Ai For Conservation": [
-        69127,
-        69128
-    ],
-    "Programming In Haskell": [
-        69129,
-        69135
-    ],
-    "RCOS": [
-        69688,
-        69689,
-        69690,
-        69691
-    ],
-    "Sense Making And Computation": [
-        69136,
-        69784
-    ],
-    "Nlp With Deep Learning": [
-        67675
-    ],
-    "Quantum Programming & Apps": [
-        68692,
-        68696
-    ],
-    "Deep Learning On Graphs": [
-        69336,
-        69337
-    ],
-    "Distributed Algorithms And Systems": [
-        69677
-    ],
-    "Computational Linear Algebra": [
-        65438
-    ],
-    "Machine Learning Seminar": [
-        69681
-    ],
-    "Large Language Models": [
-        69682
-    ],
-    "Decision Making Under Uncertai": [
-        67676,
-        69695,
-        69696,
-        69773
-    ],
-    "Graduate Skills": [
-        68844,
-        68870
-    ],
-    "Prof Develop: Group Dynamics": [
-        68244
+    "Application Design Using Java": [
+        19551
     ],
     "Intro To Engr Analysis": [
-        69107,
-        69108,
-        68975,
-        69109,
-        69110,
-        69050,
-        69111,
-        69562
+        19299
     ],
-    "Engr Graphics & Cad": [
-        65142,
-        65068,
-        65067,
-        66775,
-        65003,
-        65004,
-        66921,
-        66922
+    "Eng Graphics & Cad": [
+        19201
     ],
-    "Engr Processes": [
-        65005,
-        65006,
-        65007,
-        65008,
-        65009,
-        67191,
-        65010,
-        68741,
-        68742,
-        68743,
-        67192,
-        67706,
-        67805
+    "Engineeriing Processes": [
+        19324
     ],
-    "Engineering Communications": [
-        66956,
-        66957,
-        66958,
-        66959,
-        66960
-    ],
-    "Introduction To Better World Engineering": [
-        68070
+    "Materials Science": [
+        19364
     ],
     "Intro Engineering Design": [
-        65011,
-        66441,
-        67079,
-        65012,
-        65014
+        19202,
+        19496,
+        19535,
+        19968
     ],
     "Intro Engineering Design-pilot": [
-        65013,
-        67806,
-        67193,
-        69105,
-        69106,
-        69567
+        19616,
+        19624
     ],
     "Engineering Dynamics": [
-        65015,
-        66281,
-        67712
+        19514,
+        19513,
+        20031
     ],
     "Electronic Instrumentation": [
-        67083,
-        67084
-    ],
-    "Embedded Control": [
-        65016,
-        65017,
-        69101
+        19718
     ],
     "Strength Of Materials": [
-        65018,
-        65019,
-        65020,
-        65319,
-        69103
+        19489,
+        19450
     ],
     "Mod & Analysis Uncertainty": [
-        65021,
-        68976,
-        66294,
-        65022,
-        67080
-    ],
-    "Gen Manufacturing Proc": [
-        65023
-    ],
-    "Computer Aided Machining": [
-        66041
+        19203,
+        19598,
+        19623
     ],
     "Pd: Leadership Competencies": [
-        66651,
-        66434,
-        66435,
-        66436,
-        66437,
-        69767,
-        66439,
-        66440,
-        66652,
-        67632
-    ],
-    "Business Issues For Engr & Sci": [
-        65428,
-        65429,
-        68047
-    ],
-    "Mgmt Of Engineering & Tech": [
-        69477,
-        69143
-    ],
-    "Manufacturing Processes And Systems Laboratory I": [
-        67803,
-        67804
+        19349,
+        19597
     ],
     "Engineering Economics": [
-        66040,
-        68744
+        19378
     ],
-    "Adv Mats Metro Eqpt Semi Mfg": [
-        69605,
-        69572,
-        69152,
-        69607,
-        69378,
-        69606
+    "Sustainable Energy Systems": [
+        19910,
+        19865,
+        20029
     ],
-    "Adv. Manufacturing Proc & Sys": [
-        67650,
-        67651
+    "Enhancing Critical Thinking": [
+        19969,
+        19970,
+        20050
     ],
     "Data-driven Decision Making": [
-        68247
+        19619
     ],
     "Production & Logistic Analysis": [
-        68842
+        19740
     ],
     "Modeling Production Decisions": [
-        68605
+        19741
     ],
-    "Modeling, Forecasting, Simultn": [
-        68248
+    "Business Intelligence Analysis": [
+        19742
     ],
-    "Applied Analytics": [
-        68606
+    "Modeling Business Decisions": [
+        19743
     ],
     "Data Architecture": [
-        68607
+        19744
     ],
     "Machine Learning Frameworks": [
-        68645
+        19745
     ],
     "Deep Learning In Ai Systems": [
-        68642
+        19798
     ],
-    "Lean Six Sigma I": [
-        68608
+    "Lean Six Sigma II": [
+        19746
     ],
-    "Platform Bus. For Eng. & Sci.": [
-        69687,
-        69685
+    "Masters Professional Project": [
+        19801,
+        19430
     ],
-    "Geology I: Earth's Interior": [
-        67794,
-        68984
+    "Planet Earth I": [
+        19851
     ],
-    "Geology I: Lab": [
-        67795,
-        67796,
-        68968,
-        68118,
-        68846
-    ],
-    "Structural Geology": [
-        68562
-    ],
-    "Field Methods": [
-        68824
-    ],
-    "Earth Materials": [
-        69145
-    ],
-    "Organic Geochemistry": [
-        68985,
-        69036
-    ],
-    "Groundwater Hydrology": [
-        65065,
-        67086
-    ],
-    "Advanced Grndwtr Hydro": [
-        65066
+    "Environmental Measurements": [
+        19795
     ],
     "Intermediate Microeconomic Theory": [
-        65001,
-        65002,
-        68972,
-        69777
+        19544,
+        19995
     ],
     "Intermediate Macroeconomic Theory": [
-        67183,
-        67278,
-        68026
-    ],
-    "Econ Data Analysis & Applic.": [
-        69213,
-        69361
-    ],
-    "Apld Microecon & Public Policy": [
-        68974,
-        69222
+        19726
     ],
     "Money & Banking": [
-        65395
-    ],
-    "Health Economics And Policy": [
-        68195,
-        69214,
-        68196
+        19776
     ],
     "International Economics And Globalization": [
-        67808
+        19730
     ],
-    "Applied Game Theory": [
-        69325,
-        69326
-    ],
-    "Behavioral Economics": [
-        68256,
-        69217,
-        68973
-    ],
-    "Econometric Methods-big Data": [
-        68257,
-        69483
-    ],
-    "Econ Of Biotech & Med Innov": [
-        69218,
-        69219,
-        69225
-    ],
-    "Econ Models Of Decis Making": [
-        69220
-    ],
-    "Econ-financial Markets & Inst.": [
-        68095
-    ],
-    "Experimental Economics": [
-        68978,
-        68979
-    ],
-    "Labor Mrkts & Discrimination": [
-        69221
+    "Environmental Economics": [
+        19601
     ],
     "Econometrics": [
-        67073,
-        67853
-    ],
-    "Data Anaysis In Econ & Finance": [
-        68833,
-        68834
-    ],
-    "Energy Economics And Policy": [
-        69778
-    ],
-    "Adv Intern Eco & Globalization": [
-        68027
-    ],
-    "Econ Models Of Decision Making": [
-        69226
-    ],
-    "Microeconomics I": [
-        69486
-    ],
-    "Econometrics I": [
-        69487
-    ],
-    "Economics Of Innovation 1": [
-        69485
-    ],
-    "Introduction To Ecse": [
-        67831,
-        67832
-    ],
-    "Mechatronics-hardware/software": [
-        67648,
-        67647
+        19620
     ],
     "Electric Circuits": [
-        65435,
-        65112
-    ],
-    "Introduction To Electronics": [
-        65113,
-        67417
-    ],
-    "Fields And Waves I": [
-        65491
+        19716
     ],
     "Electrical Energy Systems": [
-        67816
+        19722
     ],
-    "Microelectronics Technology": [
-        67268
-    ],
-    "Signals & Systems": [
-        65114
+    "Signals And Systems": [
+        19715
     ],
     "Engineering Probability": [
-        66455
-    ],
-    "Cptr Components & Oper": [
-        65115,
-        65127
+        19845
     ],
     "Comp Architecture & Networks": [
-        67817
-    ],
-    "Ecse Enrichment Seminar": [
-        67215
+        19772
     ],
     "Practicum-college Teaching I": [
-        68045
+        19766
     ],
     "Practicum-college Teaching II": [
-        68046
+        19750
     ],
-    "Analog Ic Design": [
-        67416
-    ],
-    "Semi Power Electronics": [
-        67815
-    ],
-    "Mechatronics": [
-        67202,
-        68259
-    ],
-    "Electromechanics": [
-        69576
-    ],
-    "Vlsi Design": [
-        65116
-    ],
-    "Ic Proc & Design": [
-        65117
-    ],
-    "Advanced Computer Systems": [
-        69158,
-        69159
-    ],
-    "Control Systems Engineering": [
-        65118
-    ],
-    "Digital Signal Processing": [
-        66791
-    ],
-    "Introduction To Image Processing": [
-        69610
-    ],
-    "Cptr Comm Networks": [
-        65119
-    ],
-    "Solid State Physics": [
-        69740
-    ],
-    "Computer Hardware Design": [
-        65120,
-        65121,
-        65122,
-        65123
-    ],
-    "Microprocessor Systems": [
-        65128
-    ],
-    "Introduction To Probabilistic Graphical Models": [
-        69608,
-        69609
-    ],
-    "Intro To Machine Learning": [
-        68868
-    ],
-    "Multidisciplinary Capstone Design": [
-        65436,
-        65437,
-        65481,
-        66296,
-        66662,
-        66790,
-        66661
-    ],
-    "Integrated Photonics & Optical": [
-        69693,
-        69694
-    ],
-    "Semiconductor Devices And Models I": [
-        65124
-    ],
-    "Systems Analysis Techniques": [
-        65125,
-        67405
-    ],
-    "Intro Stoch Sign & Sys": [
-        65126
-    ],
-    "Seminar In Ecse": [
-        67885
-    ],
-    "Doctor's Thesis In Engrng Sci": [
-        66351,
-        66412,
-        66670,
-        66671,
-        66672,
-        66673,
-        65279,
-        66674,
-        66146,
-        65980
-    ],
-    "Water Reuse Tech & Application": [
-        69399
-    ],
-    "Bench Scale Design": [
-        68946
-    ],
-    "Introduction To Air Quality Control": [
-        67057
-    ],
-    "Biol Process In Enve": [
-        65292
+    "Professional Project": [
+        19429
     ],
     "Applied Hydrology & Design": [
-        68955,
-        68956,
-        68957
+        19847,
+        19848,
+        19849,
+        19850
     ],
-    "Adv Groundwater Hydrology": [
-        69393
-    ],
-    "Emrging Contamnts: Soil/water": [
-        69500
-    ],
-    "Introduction To Game Art": [
-        68044
-    ],
-    "History And Culture Of Games": [
-        68102,
-        69520
-    ],
-    "Intro To Game Design": [
-        68028,
-        68037,
-        68131
-    ],
-    "Intro To Game Storytelling": [
-        68030
-    ],
-    "Intro To Game Programming": [
-        68296
-    ],
-    "Lighting, Rendering, Cinema": [
-        69519
-    ],
-    "Writing For Games I": [
-        69529
+    "Level Design": [
+        19980
     ],
     "Experimental Game Design": [
-        68029
+        19981
     ],
-    "Game Development I": [
-        68038
+    "Intermediate Game Design": [
+        19996
     ],
-    "Intermediate Game Programming": [
-        69244
-    ],
-    "Gsas Capstone": [
-        68790
-    ],
-    "Game Stdies Theory & Praxis": [
-        68837
-    ],
-    "Seminar In Ecoresilience": [
-        68749
-    ],
-    "Res Mthds Critical Game Dsgn": [
-        69243
-    ],
-    "Critical Game Design": [
-        68840
-    ],
-    "Behind The Tv Screen": [
-        69247
-    ],
-    "Documentary In 21st Century": [
-        69248
-    ],
-    "Science, Tech, & Society": [
-        69253,
-        69254,
-        69255,
-        69669,
-        69267,
-        69268,
-        69670,
-        69671
-    ],
-    "Nature / Society": [
-        69256
-    ],
-    "Minds And Machines": [
-        69305,
-        69306,
-        69307,
-        69308
-    ],
-    "The Genome And You": [
-        69282
-    ],
-    "Well-being: Cultving Curiosity": [
-        69283
-    ],
-    "The Art Of Listening": [
-        69249,
-        69250
-    ],
-    "Principles Of Economics": [
-        69263,
-        69264
-    ],
-    "Sustainability Debates": [
-        69257
-    ],
-    "Race And Film: Us Culture Hist": [
-        69251
-    ],
-    "Media And Society": [
-        69328,
-        69329
-    ],
-    "Life In Color": [
-        69302
-    ],
-    "War&tech: Past, Pres & Future": [
-        69494
-    ],
-    "Design And Innovation Studio 1": [
-        69260,
-        69261
-    ],
-    "Religion In A Global World": [
-        69262
-    ],
-    "Songwriting Workshop": [
-        69252
-    ],
-    "The American Dream": [
-        69303
-    ],
-    "Ai In The Information Age": [
-        69284
-    ],
-    "News Media Culture And Politic": [
-        69418
-    ],
-    "Science Fiction": [
-        69692
-    ],
-    "Information & Data Systems": [
-        68764
-    ],
-    "Desgn & Analys Of Supply Chain": [
-        67213
-    ],
-    "Quality Control": [
-        68748
+    "Statistical Analysis": [
+        19528
     ],
     "Engr Proj Management": [
-        69495,
-        67851
+        19570,
+        19553
     ],
-    "Human Performance Modeling & Support": [
-        68960
+    "Operations Research Method": [
+        19529
     ],
-    "Mulitdisciplinary Capstone Design": [
-        66283,
-        66300,
-        66448,
-        66449,
-        65361,
-        65362,
-        65490,
-        66287
-    ],
-    "Discrete Event Simulation, Modeling And Analysis": [
-        69148
-    ],
-    "Applied Data Science": [
-        68663,
-        69511
-    ],
-    "Operations Research Methods": [
-        66514
-    ],
-    "Game Theory Appl: Supply Chain": [
-        69179
-    ],
-    "Design Of Manufacturing Systems And Supply Chains": [
-        67214
+    "Theory Of Prod Schedule": [
+        19747
     ],
     "Systems Modeling In Dses": [
-        66285,
-        68113
+        19855
     ],
-    "Discrete Event Simulation": [
-        69149,
-        69516
+    "Masters Project": [
+        19571
     ],
-    "Introduction To Optimization": [
-        68540,
-        65109
+    "It And Society": [
+        19997
     ],
-    "Seminar In Isye Research": [
-        68959
-    ],
-    "Game Theory App: Supply Chain": [
-        69180,
-        69181
-    ],
-    "Intro To It & Web Science": [
-        66342,
-        67881
-    ],
-    "It & Web Science Capstone": [
-        65331
-    ],
-    "Database Applications & Syst": [
-        68661,
-        68662
-    ],
-    "Managing It Resources": [
-        65296,
-        69496
-    ],
-    "Business Issues For Engineers And Scientists": [
-        65484
-    ],
-    "It  Master's Capstone": [
-        66808
-    ],
-    "One Mile Of The Hudson River": [
-        68986
-    ],
-    "Research Methods": [
-        68408
-    ],
-    "Media Studies": [
-        69552
-    ],
-    "Rdgs Astrobio & Orig Of Life": [
-        68276,
-        69037
-    ],
-    "Capstone In Astrobiology": [
-        68954
+    "Dialogue Facilitation  Methods": [
+        19982
     ],
     "Chinese I": [
-        67095,
-        67189,
-        69548
+        19834
     ],
-    "Chinese II": [
-        69549
+    "Chinese Calligraphy": [
+        19976
     ],
-    "Chinese III": [
-        68254
-    ],
-    "Chinese Iv": [
-        67715
-    ],
-    "Lighting Design": [
-        69176
-    ],
-    "Human Factors In Lighting": [
-        69177
-    ],
-    "Physics Of Light": [
-        69178
-    ],
-    "Physics Of Light Laboratory": [
-        69465
-    ],
-    "Intro To Literature": [
-        69051,
-        69052
-    ],
-    "Science And Fiction": [
-        69553
-    ],
-    "Multicultural American Litr": [
-        69675
-    ],
-    "History Of Motion Pictures": [
-        69723
-    ],
-    "Management In The Digital Age": [
-        65049,
-        67056,
-        65048,
-        65050
-    ],
-    "Management Professional Development I": [
-        65298,
-        65297,
-        69197
-    ],
-    "Business Ethics & Law": [
-        67634
-    ],
-    "Statistical Methods": [
-        65253,
-        67673
-    ],
-    "Financial Acctg In Digital Age": [
-        65052,
-        69531
+    "Chinese Lang & Culture In Film": [
+        19611
     ],
     "Managerial Finance": [
-        68537,
-        69505
+        19712
     ],
-    "Marketing Principles": [
-        67205,
-        67204
-    ],
-    "Intro To Data Mgmt & Analytics": [
-        66282,
-        66042
-    ],
-    "Networks And Value Creation": [
-        68538
-    ],
-    "Quantitative Methods For Bus": [
-        65430
-    ],
-    "Operations Management": [
-        65398
+    "The Wealth Compass": [
+        20011
     ],
     "Computer Info Systems": [
-        65288
+        19714
     ],
-    "Data Resource Management": [
-        67406,
-        68660
+    "Business And Sustainability": [
+        19973
     ],
-    "Intro To Machine Learning Apps": [
-        68659,
-        68644
+    "Materials Laboratory Skills": [
+        19773
     ],
-    "Systems Analysis & Design": [
-        65289
-    ],
-    "Finl Trading And Investing": [
-        68549
-    ],
-    "Investments I": [
-        65053
-    ],
-    "Adv Corporate Finance": [
-        67060
-    ],
-    "Consumer Behavior And Prod Dsn": [
-        67448
-    ],
-    "Marketing Research": [
-        66945,
-        67801
-    ],
-    "Invention, Innov & Entrepren": [
-        65290,
-        65856
-    ],
-    "Entrepreneurial Finance": [
-        68745,
-        68747
-    ],
-    "Business Ug Internship": [
-        69402
-    ],
-    "Org Behavior In High Perf Org": [
-        65054
-    ],
-    "Human Resources In High Performance Organizations": [
-        65055,
-        65056
-    ],
-    "Strategy And Policy": [
-        67097,
-        65057
-    ],
-    "Engineering, Science & Mgmt": [
-        67841,
-        69472
-    ],
-    "Intro To Sport Management": [
-        68653
-    ],
-    "Financial Management I": [
-        66471
-    ],
-    "Talent Management": [
-        65855
-    ],
-    "Business Impl. Of Emerg. Tech": [
-        65450
-    ],
-    "Networks, Innovation And Value Creation I": [
-        67631
-    ],
-    "Foundations Of Data Science": [
-        67069
-    ],
-    "Manage Digitization & Transfrm": [
-        68746
-    ],
-    "Introduction To Accounting And Financial Management": [
-        67072
-    ],
-    "Financl Trading And Investing": [
-        66293
-    ],
-    "Supply Chain Analytics": [
-        68612
-    ],
-    "Advanced Options, Futures And Derivatives Markets": [
-        66924
-    ],
-    "Advanced Corporate Finance": [
-        68654
-    ],
-    "Modeling And Optimization": [
-        68294
-    ],
-    "Comp Advant & Operations Strat": [
-        67070
-    ],
-    "Financial Model & Optimization": [
-        67071
-    ],
-    "Introduction To Machine Learning Applications": [
-        68287,
-        67719
-    ],
-    "Adv Data Resource Management": [
-        68274,
-        67720
-    ],
-    "Consumer Behavio/ Prod Design": [
-        67718
-    ],
-    "Practicum In Management": [
-        67635
-    ],
-    "Econ / Strategic Mgmt Dgtl Age": [
-        68269
-    ],
-    "Professional Development Workshop I": [
-        65822
-    ],
-    "Economics And Institutions": [
-        65861
-    ],
-    "Accounting For Reporting And Control": [
-        65862
-    ],
-    "Professional Development Workshop I - Ms": [
-        67716,
-        67717
-    ],
-    "Intro To Materials Engineering": [
-        66981
-    ],
-    "Structure Of Materials": [
-        67833
-    ],
-    "Introduction To Polymers": [
-        65239,
-        68397
-    ],
-    "Kinetics In Materials Systems": [
-        68245
-    ],
-    "Computational Materials Design": [
-        68246
-    ],
-    "Material Informatics & Data": [
-        69699
-    ],
-    "Advanced Thermodynamics": [
-        66050
-    ],
-    "Advanced Mechanical Properties": [
-        66297
-    ],
-    "Advanced Structure & Bonding": [
-        66932
-    ],
-    "Material Informatics And Data": [
-        69700
-    ],
-    "Graduate Seminar": [
-        65145,
-        65366
-    ],
-    "Prob Theory & Applications": [
-        65107
-    ],
-    "Math Models Of Operations": [
-        65108
-    ],
-    "Data Analytics Research": [
-        68545,
-        69442
-    ],
-    "Calculus I": [
-        67061,
-        67062,
-        67063,
-        67064,
-        67065,
-        67066,
-        67067,
-        67068,
-        65242,
-        65243,
-        65244,
-        65188,
-        65258,
-        65259,
-        65260,
-        65261,
-        65129,
-        65853,
-        65245,
-        65480,
-        65850,
-        65400,
-        65401,
-        65402,
-        66927,
-        66928,
-        66929,
-        66930,
-        69521,
-        69522,
-        69523,
-        69525
+    "Mechanical Properties Of Materials": [
+        19774
     ],
     "Calculus II": [
-        65077,
-        65078,
-        65079,
-        65080,
-        65081,
-        65082,
-        65083,
-        65084,
-        65185,
-        65186,
-        65246,
-        65189
-    ],
-    "Calc I For Arch, Mgmt &  Hass": [
-        65085
-    ],
-    "Calc I For Arch, Mgmt & Hass": [
-        65086,
-        65852,
-        65149
-    ],
-    "Art & Science Of Math": [
-        68666
-    ],
-    "Multivar Calc & Matrix Algebra": [
-        65087,
-        65088,
-        65089,
-        65090,
-        65303,
-        65301,
-        66653,
-        65302,
-        66444,
-        66445,
-        66446,
-        66447,
-        66680,
-        66681,
-        66778,
-        66779,
-        69227,
-        69228,
-        69229,
-        69230,
-        69231,
-        69232,
-        69233,
-        69234
-    ],
-    "Intro Differential Equations": [
-        65431,
-        65091,
-        65092,
-        65093,
-        65094,
-        65095,
-        65224,
-        65096,
-        65097,
-        65098,
-        65099,
-        65100,
-        65247,
-        65248,
-        65432,
-        65851,
-        65326,
-        65327,
-        65328,
-        65329
-    ],
-    "Intro To Topology": [
-        69515
+        20015
     ],
     "Foundations Of Analysis": [
-        66054
+        19782
     ],
     "Linear Algebra": [
-        65101,
-        68539
+        19783
     ],
-    "Mathematical Analysis I": [
-        65102
-    ],
-    "Ordinary Diffeq And Dynamical": [
-        65110
+    "Intro To Complex Variables": [
+        19784
     ],
     "Advanced Calculus": [
-        65103
-    ],
-    "Foundations Of Applied Math": [
-        65111
-    ],
-    "Partial Differential Equations": [
-        65105
-    ],
-    "Methods Of Applied Mathematics": [
-        65106
-    ],
-    "Topics In Applied Math": [
-        69517
-    ],
-    "Computational Lin Algebra": [
-        65434
-    ],
-    "Numerical Sol Of Odes": [
-        69518
-    ],
-    "Teaching Seminar For Ta's": [
-        65148
-    ],
-    "Numerical Methods And Programming For Engineers": [
-        68231,
-        68234,
-        68550,
-        69764
+        19785
     ],
     "Inventor's Studio 1": [
-        67834
-    ],
-    "Thermodynamics": [
-        68232,
-        68233
+        19720
     ],
     "Fluid Mechanics": [
-        68235,
-        67649
-    ],
-    "Nuclear Phenomena For Engineering Applications": [
-        68048
-    ],
-    "Mechanics 2": [
-        69182
+        19595,
+        19719
     ],
     "Elements Of Mech Design": [
-        65358,
-        68830
+        19531,
+        19852
     ],
-    "Mechanical Systems Lab": [
-        65842,
-        65843,
-        65844,
-        65841,
-        66819,
-        67078
-    ],
-    "Aerospace Struct & Materials": [
-        67043
+    "Aerospace Struc & Materials": [
+        19853,
+        20023
     ],
     "Aerodynamics": [
-        67812
+        19526,
+        19728
     ],
     "Propulsion Systems": [
-        67818
+        19617
     ],
-    "Flight Mechanics": [
-        65359
+    "Intro To Finite Elements": [
+        19596
     ],
-    "Heli Aerodynamic & Performance": [
-        69703,
-        69704
-    ],
-    "Intro Computat Fluid Dynamics": [
-        69312,
-        69313
-    ],
-    "Vibrations": [
-        68258
-    ],
-    "Inventors Studio 2": [
-        65440,
-        68551
-    ],
-    "Finite Elements Method": [
-        68584
-    ],
-    "Space Vehicle Design": [
-        68603,
-        68604
-    ],
-    "Numerical Design Optimization": [
-        67665,
-        68238
-    ],
-    "Radiation Transport Methods": [
-        69164,
-        69165
-    ],
-    "Nuclear Engineering Lab": [
-        65367
-    ],
-    "Nuclear Eng Senior Dsgn Proj I": [
-        65368
-    ],
-    "Nuclear Power Syst Engr": [
-        68239
-    ],
-    "Radiological Engineering": [
-        68240
-    ],
-    "Physics Of Nuclear Reactors": [
-        68241
-    ],
-    "Modeling & Control Of Dyn Sys": [
-        68253,
-        68966
-    ],
-    "Control Systems Lab": [
-        68555,
-        68556,
-        68557,
-        68558,
-        68559,
-        68560
-    ],
-    "Control System Engineering": [
-        68242
-    ],
-    "Manufacturing Proc & Sys Lab": [
-        69187,
-        69188
-    ],
-    "Mech Behavior Of Materials": [
-        65363
+    "Modeling And Contrl Of Dyn Sys": [
+        19621,
+        19727
     ],
     "Heat Transfer": [
-        68252,
-        68561
-    ],
-    "Thermal and Fluids Engineering Laboratory": [
-        68614,
-        68615,
-        68616,
-        68617,
-        68618,
-        68619,
-        68620,
-        68621
-    ],
-    "Heating, Ventilation, & Ac": [
-        66663
-    ],
-    "Wind Energy Engineering": [
-        69712
-    ],
-    "Advanced Heat Transfer": [
-        69709,
-        69710,
-        68951
+        19622
     ],
     "Mane Laboratory Safety Program": [
-        67842
+        19854
     ],
-    "Aeroelasticity & Struct Vibes": [
-        67813
+    "Mechanics Of Solids": [
+        19739
     ],
-    "Fluid Dynamics Lab": [
-        65364,
-        65485,
-        65486,
-        65487,
-        68071,
-        68072
+    "Adv Computnl Fluid Dynamics": [
+        19731
     ],
-    "Aerospace Structures And Control Laboratory": [
-        67814,
-        68243
+    "Master's Professional Project": [
+        19516,
+        19538
     ],
-    "Quantum Comput Applic For Eng": [
-        69725
+    "Introduction To Logic": [
+        19235
     ],
-    "Computational Reactor Design": [
-        69715,
-        69716
-    ],
-    "Aerospace Propulsion Lab": [
-        69717,
-        69718
-    ],
-    "Engr Biz & Tech Translation": [
-        69722
-    ],
-    "Advanced Engr Mathematics I": [
-        67843,
-        67669
-    ],
-    "Tribology": [
-        69708
-    ],
-    "Adjoints For Engineers": [
-        69713
-    ],
-    "Advanced Spaceflight Mech": [
-        69714
-    ],
-    "Nano Micro Scale Heat Conduct": [
-        69183
-    ],
-    "Multidiscip Design Optimizatn": [
-        69724
-    ],
-    "Composites Manufacturing": [
-        69741
-    ],
-    "Neutron Scatter For Soft Mat": [
-        69795
-    ],
-    "Funamentals Of Military Science Lab I": [
-        66494
-    ],
-    "Applied Leadership Lab I": [
-        66495
-    ],
-    "Appl Military Leadership Lab I": [
-        66496
-    ],
-    "Advanced Military Management And Leadership Lab I": [
-        66497
-    ],
-    "Fund Of Military Sci I": [
-        65135
-    ],
-    "Applied Leadership I": [
-        65136
-    ],
-    "Applied Mil Leadership I": [
-        65137
-    ],
-    "Adv Military Mgmt & Leader I": [
-        65138,
-        68275
-    ],
-    "Drill/laboratory": [
-        68271
-    ],
-    "Introduction To Naval Science": [
-        65139
-    ],
-    "Naval Leadership & Mgmt I": [
-        65140
-    ],
-    "Naval Ships Systems I": [
-        68847
-    ],
-    "Naval Operations": [
-        68848
-    ],
-    "Intro To Philosophy": [
-        65291,
-        68563
-    ],
-    "Introduction To Formal Logic": [
-        66304
-    ],
-    "Philosophy Of Biology": [
-        68217
-    ],
-    "Ethics": [
-        68032
-    ],
-    "Metaphysics And Consciousness": [
-        67840,
-        68031
+    "Philosophy Of Science": [
+        19835,
+        19836
     ],
     "Bioethics": [
-        68218,
-        69352,
-        68776,
-        69351
+        19729,
+        19873
     ],
-    "Non-classical Logic": [
-        69401,
-        69502
-    ],
-    "Capstone Exper In Philosophy": [
-        66164,
-        68094,
-        69024,
-        69439
-    ],
-    "A Passion For Physics": [
-        65035
-    ],
-    "Physics I (m)": [
-        65036,
-        65037,
-        65038,
-        66298,
-        65039,
-        65040,
-        65187,
-        65190,
-        65863,
-        65864,
-        66299,
-        66343,
-        67463,
-        67667,
-        67711
-    ],
-    "Physics Mentoring: First Year": [
-        69588,
-        69613,
-        69615,
-        69616,
-        69618,
-        69621,
-        69624,
-        69626,
-        69629,
-        69632,
-        69634,
-        69637,
-        69639,
-        69641,
-        69642,
-        69643,
-        69644,
-        69646,
-        69647,
-        69648,
-        69649,
-        69650,
-        69651,
-        69653,
-        69654,
-        69655,
-        69656,
-        69657,
-        69658,
-        69659,
-        69660,
-        69661,
-        69662,
-        69663,
-        69664,
-        69665
-    ],
-    "Physics I (s)": [
-        69585,
-        69611,
-        69614,
-        69617,
-        69619,
-        69620,
-        69622,
-        69623,
-        69625,
-        69627,
-        69628,
-        69630,
-        69631,
-        69633,
-        69635
-    ],
-    "Introductory Modern Physics": [
-        69022
+    "Physics I": [
+        19365
     ],
     "Physics II": [
-        65041,
-        65300,
-        65042,
-        65043,
-        65046,
-        67710,
-        65044,
-        66785,
-        65045,
-        67860
-    ],
-    "Intro Electromag Theory": [
-        69274,
-        69275,
-        69276
-    ],
-    "Prof. Development - Physicists": [
-        68042
-    ],
-    "Modern Phys Mentoring Freshman": [
-        69395,
-        69396,
-        69397,
-        69398
-    ],
-    "Quantum Physics I": [
-        67046
+        19366
     ],
     "Experimental Physics": [
-        67081,
-        67856
+        19778,
+        19779
     ],
-    "Practicum In College Teaching": [
-        66522
+    "Intro Physics Teach Practicum": [
+        19760
     ],
-    "Thesis": [
-        65389
+    "Computing For Physicists": [
+        19608
     ],
-    "Introductory Quantum Mechanics": [
-        68665
+    "Phys Teaching Practicum": [
+        19948
     ],
-    "Electromagnetic Theory": [
-        68040
-    ],
-    "Solid-state Physics": [
-        69739
-    ],
-    "Quantum Computing & Informtn": [
-        69266
-    ],
-    "Physics Teaching Seminar": [
-        67270
-    ],
-    "Physics I Mentoring": [
-        67453
-    ],
-    "Honors Physic I Mentoring": [
-        67455
-    ],
-    "Quantum Field Theory": [
-        69763
-    ],
-    "Quantum Mechanics I": [
-        66052
-    ],
-    "Quantum Mechanics III": [
-        69556
-    ],
-    "Statistical Mechanics": [
-        66051
-    ],
-    "Colloquium": [
-        65370
-    ],
-    "Intro To Psychological Science": [
-        65393,
-        68958
+    "Group Theory For Physicists": [
+        19791
     ],
     "Research Methods And Statistics I": [
-        68219,
-        68220
+        20001
     ],
-    "Social Psychology": [
-        65074
-    ],
-    "Motivation & Performance": [
-        65322,
-        68565
-    ],
-    "Research Methods And Statistics II": [
-        68039
-    ],
-    "Introduction To Cognitive Neuroscience": [
-        68669,
-        68670,
-        69822
-    ],
-    "Cognitive Psychology": [
-        65840,
-        68971
+    "Well-being:creating A Toolbox": [
+        19877
     ],
     "Psychology Of Mindfulness": [
-        68566,
-        68567
-    ],
-    "Learning": [
-        69059
+        19929
     ],
     "Positive Psychology": [
-        67811,
-        68041
+        19930
     ],
-    "Design & Innovation Studio 3": [
-        68996
+    "Graph Perception & Data Visual": [
+        20004
     ],
-    "Investigating Society": [
-        68791
+    "Physics Meets Social Sciences": [
+        20048
     ],
     "Environment And Society": [
-        68792
-    ],
-    "American History": [
-        68773
+        19984
     ],
     "Sociology": [
-        68952
+        19942
     ],
     "Pd - Tech Issues & Solutions": [
-        68795,
-        68796,
-        68797,
-        68798,
-        68800,
-        68801,
-        68803,
-        68804,
-        68805,
-        68806,
-        68807,
-        68809,
-        68810
+        19839,
+        19840,
+        19841,
+        19842,
+        19843,
+        20030
     ],
     "Food, Farms, And Famine": [
-        69489
+        19985
     ],
-    "Politics Of Design": [
-        68811
+    "Design & Innovation Studio A": [
+        19868
     ],
-    "Medicine, Culture & Society": [
-        69490
-    ],
-    "Design And Innovation Studio B": [
-        68953
-    ],
-    "History Race, Science, Medc": [
-        69375
-    ],
-    "Community Engagement": [
-        69652
-    ],
-    "Local History": [
-        69406
-    ],
-    "Critical Global&public Health": [
-        69491
-    ],
-    "Research Design": [
-        68812
-    ],
-    "Concepts In Sts": [
-        69492
-    ],
-    "Race And Sts": [
-        69493
-    ],
-    "Masters Internship": [
-        68814
+    "The Metaverse": [
+        19998
     ],
     "Intro To Creativewriting": [
-        69766
-    ],
-    "Creative Writing: The Short Story": [
-        67105,
-        68227
+        20024
     ],
     "Speech Communication": [
-        67810,
-        69820
-    ],
-    "Proposing & Persuading": [
-        69294,
-        69315
+        20020
     ]
 }
