@@ -104,27 +104,27 @@
         },
         "4112": {
             "1:1030-1:1220": [
-                "Organic Chemistry I",
-                30,
+                "Organic Chemistry II",
+                40,
                 []
             ],
             "2:1030-2:1220": [
-                "Organic Chemistry I",
-                30,
+                "Organic Chemistry II",
+                40,
                 []
             ],
             "4:1030-4:1220": [
-                "Organic Chemistry I",
-                30,
+                "Organic Chemistry II",
+                40,
                 []
             ],
             "5:1030-5:1220": [
-                "Organic Chemistry I",
-                30,
+                "Organic Chemistry II",
+                40,
                 []
             ],
             "meta": {
-                "max": 30
+                "max": 40
             }
         },
         "4711": {
@@ -451,7 +451,7 @@
             }
         },
         "meta": {
-            "max": 293,
+            "max": 303,
             "access": [
                 "0700-2400",
                 "0700-2400",
@@ -625,6 +625,34 @@
                 200,
                 []
             ],
+            "2:1030-2:1250": [
+                "Heat Transfer",
+                55,
+                []
+            ],
+            "4:0800-4:1005": [
+                "Money & Banking",
+                200,
+                []
+            ],
+            "4:1610-4:1815": [
+                "Principles Of Software",
+                200,
+                [
+                    "01",
+                    "02"
+                ]
+            ],
+            "5:1030-5:1250": [
+                "Heat Transfer",
+                55,
+                []
+            ],
+            "meta": {
+                "max": 200
+            }
+        },
+        "308": {
             "1:1030-1:1235": [
                 "Operating Systems",
                 150,
@@ -640,16 +668,6 @@
                     "03",
                     "04"
                 ]
-            ],
-            "2:1030-2:1250": [
-                "Heat Transfer",
-                55,
-                []
-            ],
-            "4:0800-4:1005": [
-                "Money & Banking",
-                200,
-                []
             ],
             "4:1030-4:1235": [
                 "Operating Systems",
@@ -667,21 +685,8 @@
                     "04"
                 ]
             ],
-            "4:1610-4:1815": [
-                "Principles Of Software",
-                200,
-                [
-                    "01",
-                    "02"
-                ]
-            ],
-            "5:1030-5:1250": [
-                "Heat Transfer",
-                55,
-                []
-            ],
             "meta": {
-                "max": 200
+                "max": 150
             }
         },
         "337": {
@@ -890,7 +895,7 @@
             }
         },
         "meta": {
-            "max": 516,
+            "max": 666,
             "access": [
                 "0700-2100",
                 "0700-2100",
@@ -1422,8 +1427,8 @@
             ]
         }
     },
-    "Carnegie": {
-        "106": {
+    "JEC": {
+        "5119": {
             "1:1030-1:1235": [
                 "Group Theory For Physicists",
                 35,
@@ -1432,94 +1437,79 @@
             "1:1330-1:1535": [
                 "Cosmology: Our Universe",
                 40,
-                []
-            ],
-            "4:1030-4:1235": [
-                "Group Theory For Physicists",
-                35,
-                []
-            ],
-            "4:1330-4:1535": [
-                "Cosmology: Our Universe",
-                40,
-                []
-            ],
-            "meta": {
-                "max": 40
-            }
-        },
-        "113": {
-            "1:0800-1:1005": [
-                "Aerodynamics",
-                65,
-                [
-                    "01"
-                ]
-            ],
-            "1:1030-1:1235": [
-                "Aerodynamics",
-                50,
-                [
-                    "02"
-                ]
-            ],
-            "1:1330-1:1535": [
-                "Linear Algebra",
-                80,
                 []
             ],
             "2:0800-2:1005": [
-                "Application Design Using Java",
+                "Aerospace Struc & Materials",
                 50,
-                []
-            ],
-            "2:1030-2:1235": [
-                "Comp Architecture & Networks",
-                90,
-                []
-            ],
-            "2:1330-2:1535": [
-                "Rcos",
-                224,
-                [
-                    "01",
-                    "02",
-                    "03",
-                    "04"
-                ]
-            ],
-            "4:0800-4:1005": [
-                "Aerodynamics",
-                65,
                 [
                     "01"
                 ]
             ],
-            "4:1030-4:1235": [
-                "Aerodynamics",
+            "2:1030-2:1235": [
+                "Aerospace Struc & Materials",
                 50,
                 [
                     "02"
                 ]
             ],
-            "4:1330-4:1535": [
-                "Linear Algebra",
-                80,
-                []
-            ],
-            "5:0800-5:1005": [
-                "Application Design Using Java",
+            "2:1330-2:1520": [
+                "Computer Info Systems",
                 50,
                 []
             ],
-            "5:1030-5:1235": [
-                "Comp Architecture & Networks",
-                90,
+            "4:1030-4:1235": [
+                "Group Theory For Physicists",
+                35,
                 []
             ],
-            "5:1330-5:1535": [
-                "Rcos",
-                224,
+            "4:1330-4:1535": [
+                "Cosmology: Our Universe",
+                40,
+                []
+            ],
+            "5:0800-5:1005": [
+                "Aerospace Struc & Materials",
+                50,
+                [
+                    "01"
+                ]
+            ],
+            "5:1030-5:1235": [
+                "Aerospace Struc & Materials",
+                50,
+                [
+                    "02"
+                ]
+            ],
+            "5:1330-5:1520": [
+                "Computer Info Systems",
+                50,
+                []
+            ],
+            "meta": {
+                "max": 50
+            }
+        },
+        "4309": {
+            "1:0800-1:1005": [
+                "Macroscopic Physical Chemistry",
+                35,
+                []
+            ],
+            "1:1330-1:1535": [
+                "Social Media: East & West",
+                19,
+                []
+            ],
+            "1:1600-1:1805": [
+                "Chinese Calligraphy",
+                19,
+                []
+            ],
+            "2:0800-2:1005": [
+                "Applied Hydrology & Design",
+                64,
                 [
                     "01",
                     "02",
@@ -1527,22 +1517,396 @@
                     "04"
                 ]
             ],
+            "2:1030-2:1235": [
+                "Biostatistics",
+                25,
+                []
+            ],
+            "2:1330-2:1535": [
+                "Social Media: East & West",
+                19,
+                []
+            ],
+            "2:1600-2:1805": [
+                "Chinese Calligraphy",
+                19,
+                []
+            ],
+            "4:0800-4:1005": [
+                "Macroscopic Physical Chemistry",
+                35,
+                []
+            ],
+            "4:1330-4:1535": [
+                "Social Media: East & West",
+                19,
+                []
+            ],
+            "4:1600-4:1805": [
+                "Chinese Calligraphy",
+                19,
+                []
+            ],
+            "5:0800-5:1005": [
+                "Applied Hydrology & Design",
+                64,
+                [
+                    "01",
+                    "02",
+                    "03",
+                    "04"
+                ]
+            ],
+            "5:1030-5:1235": [
+                "Biostatistics",
+                25,
+                []
+            ],
+            "5:1330-5:1535": [
+                "Social Media: East & West",
+                19,
+                []
+            ],
+            "5:1600-5:1805": [
+                "Chinese Calligraphy",
+                19,
+                []
+            ],
             "meta": {
-                "max": 224
+                "max": 64
+            }
+        },
+        "3207": {
+            "1:0800-1:1005": [
+                "Strength Of Materials",
+                30,
+                [
+                    "01"
+                ]
+            ],
+            "1:1030-1:1235": [
+                "Programming For Biomed Engr",
+                12,
+                []
+            ],
+            "1:1330-1:1535": [
+                "Biomechanics",
+                29,
+                []
+            ],
+            "2:0800-2:1005": [
+                "Strength Of Materials",
+                30,
+                [
+                    "02"
+                ]
+            ],
+            "2:1030-2:1235": [
+                "Intro Engineering Design",
+                28,
+                [
+                    "04"
+                ]
+            ],
+            "2:1330-2:1535": [
+                "Bioimaging/ Bioinstrumentation",
+                20,
+                []
+            ],
+            "4:0800-4:1005": [
+                "Strength Of Materials",
+                30,
+                [
+                    "01"
+                ]
+            ],
+            "4:1030-4:1235": [
+                "Programming For Biomed Engr",
+                12,
+                []
+            ],
+            "4:1330-4:1535": [
+                "Biomechanics",
+                29,
+                []
+            ],
+            "5:0800-5:1005": [
+                "Strength Of Materials",
+                30,
+                [
+                    "02"
+                ]
+            ],
+            "5:1030-5:1235": [
+                "Intro Engineering Design",
+                28,
+                [
+                    "04"
+                ]
+            ],
+            "5:1330-5:1535": [
+                "Bioimaging/ Bioinstrumentation",
+                20,
+                []
+            ],
+            "meta": {
+                "max": 30,
+                "printers": [
+                    [
+                        "ec3207lw",
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
+                    ]
+                ]
+            }
+        },
+        "5213": {
+            "2:1300-2:1550": [
+                "Biomedical Engineering Lab",
+                12,
+                [
+                    "01"
+                ]
+            ],
+            "4:1300-4:1550": [
+                "Biomedical Engineering Lab",
+                12,
+                [
+                    "02"
+                ]
+            ],
+            "meta": {
+                "max": 12
+            }
+        },
+        "1010": {
+            "2:1300-2:1620": [
+                "Engineeriing Processes",
+                12,
+                []
+            ],
+            "4:1300-4:1620": [
+                "Engineeriing Processes",
+                12,
+                []
+            ],
+            "meta": {
+                "max": 12
+            }
+        },
+        "4304": {
+            "1:0800-1:1005": [
+                "Intro Engineering Design-pilot",
+                30,
+                [
+                    "05"
+                ]
+            ],
+            "1:1030-1:1235": [
+                "Intro Engineering Design-pilot",
+                28,
+                [
+                    "06"
+                ]
+            ],
+            "2:0800-2:1005": [
+                "Intro Engineering Design",
+                30,
+                [
+                    "02"
+                ]
+            ],
+            "2:1030-2:1235": [
+                "Intro Engineering Design",
+                30,
+                [
+                    "03"
+                ]
+            ],
+            "4:0800-4:1005": [
+                "Intro Engineering Design-pilot",
+                30,
+                [
+                    "05"
+                ]
+            ],
+            "4:1030-4:1235": [
+                "Intro Engineering Design-pilot",
+                28,
+                [
+                    "06"
+                ]
+            ],
+            "5:0800-5:1005": [
+                "Intro Engineering Design",
+                30,
+                [
+                    "02"
+                ]
+            ],
+            "5:1030-5:1235": [
+                "Intro Engineering Design",
+                30,
+                [
+                    "03"
+                ]
+            ],
+            "meta": {
+                "max": 30
+            }
+        },
+        "4201": {
+            "1:1030-1:1235": [
+                "Electronic Instrumentation",
+                55,
+                []
+            ],
+            "1:1330-1:1535": [
+                "Electronic Instrumentation",
+                55,
+                []
+            ],
+            "2:1600-2:1825": [
+                "Electric Circuits",
+                50,
+                []
+            ],
+            "4:1030-4:1235": [
+                "Electronic Instrumentation",
+                55,
+                []
+            ],
+            "meta": {
+                "max": 55,
+                "printers": [
+                    [
+                        "ec4201l1",
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
+                    ],
+                    [
+                        "ec4201l2",
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
+                    ],
+                    [
+                        "ec4201l3",
+                        "8.5x11",
+                        "600",
+                        false,
+                        false
+                    ]
+                ]
+            }
+        },
+        "3210": {
+            "1:1030-1:1235": [
+                "Mod & Analysis Uncertainty",
+                50,
+                [
+                    "01"
+                ]
+            ],
+            "1:1330-1:1535": [
+                "Mod & Analysis Uncertainty",
+                50,
+                [
+                    "03"
+                ]
+            ],
+            "2:1030-2:1235": [
+                "Mod & Analysis Uncertainty",
+                50,
+                [
+                    "02"
+                ]
+            ],
+            "2:1330-2:1535": [
+                "Computing For Physicists",
+                40,
+                []
+            ],
+            "4:1030-4:1235": [
+                "Mod & Analysis Uncertainty",
+                50,
+                [
+                    "01"
+                ]
+            ],
+            "4:1330-4:1535": [
+                "Mod & Analysis Uncertainty",
+                50,
+                [
+                    "03"
+                ]
+            ],
+            "5:1030-5:1235": [
+                "Mod & Analysis Uncertainty",
+                50,
+                [
+                    "02"
+                ]
+            ],
+            "5:1330-5:1535": [
+                "Computing For Physicists",
+                40,
+                []
+            ],
+            "meta": {
+                "max": 50
+            }
+        },
+        "1034": {
+            "1:1545-1:1735": [
+                "Applied Hydrology & Design",
+                16,
+                [
+                    "01"
+                ]
+            ],
+            "2:1545-2:1735": [
+                "Applied Hydrology & Design",
+                16,
+                [
+                    "02"
+                ]
+            ],
+            "4:1545-4:1735": [
+                "Applied Hydrology & Design",
+                16,
+                [
+                    "03"
+                ]
+            ],
+            "5:1545-5:1735": [
+                "Applied Hydrology & Design",
+                16,
+                [
+                    "04"
+                ]
+            ],
+            "meta": {
+                "max": 16
             }
         },
         "meta": {
-            "max": 264,
+            "max": 319,
             "access": [
-                "0700-2100",
-                "0700-2100",
+                "0600-2200",
+                "0600-2200",
                 "",
                 ""
             ],
-            "name": "Carnegie Building",
+            "name": "Jonsson Engineering Center",
             "hist": "",
             "floors": [
-                3,
+                7,
                 1
             ]
         }
@@ -2369,470 +2733,6 @@
             ]
         }
     },
-    "JEC": {
-        "4309": {
-            "1:0800-1:1005": [
-                "Macroscopic Physical Chemistry",
-                35,
-                []
-            ],
-            "1:1330-1:1535": [
-                "Social Media: East & West",
-                19,
-                []
-            ],
-            "1:1600-1:1805": [
-                "Chinese Calligraphy",
-                19,
-                []
-            ],
-            "2:0800-2:1005": [
-                "Applied Hydrology & Design",
-                64,
-                [
-                    "01",
-                    "02",
-                    "03",
-                    "04"
-                ]
-            ],
-            "2:1030-2:1235": [
-                "Biostatistics",
-                25,
-                []
-            ],
-            "2:1330-2:1535": [
-                "Social Media: East & West",
-                19,
-                []
-            ],
-            "2:1600-2:1805": [
-                "Chinese Calligraphy",
-                19,
-                []
-            ],
-            "4:0800-4:1005": [
-                "Macroscopic Physical Chemistry",
-                35,
-                []
-            ],
-            "4:1330-4:1535": [
-                "Social Media: East & West",
-                19,
-                []
-            ],
-            "4:1600-4:1805": [
-                "Chinese Calligraphy",
-                19,
-                []
-            ],
-            "5:0800-5:1005": [
-                "Applied Hydrology & Design",
-                64,
-                [
-                    "01",
-                    "02",
-                    "03",
-                    "04"
-                ]
-            ],
-            "5:1030-5:1235": [
-                "Biostatistics",
-                25,
-                []
-            ],
-            "5:1330-5:1535": [
-                "Social Media: East & West",
-                19,
-                []
-            ],
-            "5:1600-5:1805": [
-                "Chinese Calligraphy",
-                19,
-                []
-            ],
-            "meta": {
-                "max": 64
-            }
-        },
-        "3207": {
-            "1:0800-1:1005": [
-                "Strength Of Materials",
-                30,
-                [
-                    "01"
-                ]
-            ],
-            "1:1030-1:1235": [
-                "Programming For Biomed Engr",
-                12,
-                []
-            ],
-            "1:1330-1:1535": [
-                "Biomechanics",
-                29,
-                []
-            ],
-            "2:0800-2:1005": [
-                "Strength Of Materials",
-                30,
-                [
-                    "02"
-                ]
-            ],
-            "2:1030-2:1235": [
-                "Intro Engineering Design",
-                28,
-                [
-                    "04"
-                ]
-            ],
-            "2:1330-2:1535": [
-                "Bioimaging/ Bioinstrumentation",
-                20,
-                []
-            ],
-            "4:0800-4:1005": [
-                "Strength Of Materials",
-                30,
-                [
-                    "01"
-                ]
-            ],
-            "4:1030-4:1235": [
-                "Programming For Biomed Engr",
-                12,
-                []
-            ],
-            "4:1330-4:1535": [
-                "Biomechanics",
-                29,
-                []
-            ],
-            "5:0800-5:1005": [
-                "Strength Of Materials",
-                30,
-                [
-                    "02"
-                ]
-            ],
-            "5:1030-5:1235": [
-                "Intro Engineering Design",
-                28,
-                [
-                    "04"
-                ]
-            ],
-            "5:1330-5:1535": [
-                "Bioimaging/ Bioinstrumentation",
-                20,
-                []
-            ],
-            "meta": {
-                "max": 30,
-                "printers": [
-                    [
-                        "ec3207lw",
-                        "8.5x11",
-                        "600",
-                        false,
-                        false
-                    ]
-                ]
-            }
-        },
-        "5213": {
-            "2:1300-2:1550": [
-                "Biomedical Engineering Lab",
-                12,
-                [
-                    "01"
-                ]
-            ],
-            "4:1300-4:1550": [
-                "Biomedical Engineering Lab",
-                12,
-                [
-                    "02"
-                ]
-            ],
-            "meta": {
-                "max": 12
-            }
-        },
-        "1010": {
-            "2:1300-2:1620": [
-                "Engineeriing Processes",
-                12,
-                []
-            ],
-            "4:1300-4:1620": [
-                "Engineeriing Processes",
-                12,
-                []
-            ],
-            "meta": {
-                "max": 12
-            }
-        },
-        "4304": {
-            "1:0800-1:1005": [
-                "Intro Engineering Design-pilot",
-                30,
-                [
-                    "05"
-                ]
-            ],
-            "1:1030-1:1235": [
-                "Intro Engineering Design-pilot",
-                28,
-                [
-                    "06"
-                ]
-            ],
-            "2:0800-2:1005": [
-                "Intro Engineering Design",
-                30,
-                [
-                    "02"
-                ]
-            ],
-            "2:1030-2:1235": [
-                "Intro Engineering Design",
-                30,
-                [
-                    "03"
-                ]
-            ],
-            "4:0800-4:1005": [
-                "Intro Engineering Design-pilot",
-                30,
-                [
-                    "05"
-                ]
-            ],
-            "4:1030-4:1235": [
-                "Intro Engineering Design-pilot",
-                28,
-                [
-                    "06"
-                ]
-            ],
-            "5:0800-5:1005": [
-                "Intro Engineering Design",
-                30,
-                [
-                    "02"
-                ]
-            ],
-            "5:1030-5:1235": [
-                "Intro Engineering Design",
-                30,
-                [
-                    "03"
-                ]
-            ],
-            "meta": {
-                "max": 30
-            }
-        },
-        "4201": {
-            "1:1030-1:1235": [
-                "Electronic Instrumentation",
-                55,
-                []
-            ],
-            "1:1330-1:1535": [
-                "Electronic Instrumentation",
-                55,
-                []
-            ],
-            "2:1600-2:1825": [
-                "Electric Circuits",
-                50,
-                []
-            ],
-            "4:1030-4:1235": [
-                "Electronic Instrumentation",
-                55,
-                []
-            ],
-            "meta": {
-                "max": 55,
-                "printers": [
-                    [
-                        "ec4201l1",
-                        "8.5x11",
-                        "600",
-                        false,
-                        false
-                    ],
-                    [
-                        "ec4201l2",
-                        "8.5x11",
-                        "600",
-                        false,
-                        false
-                    ],
-                    [
-                        "ec4201l3",
-                        "8.5x11",
-                        "600",
-                        false,
-                        false
-                    ]
-                ]
-            }
-        },
-        "3210": {
-            "1:1030-1:1235": [
-                "Mod & Analysis Uncertainty",
-                50,
-                [
-                    "01"
-                ]
-            ],
-            "1:1330-1:1535": [
-                "Mod & Analysis Uncertainty",
-                50,
-                [
-                    "03"
-                ]
-            ],
-            "2:1030-2:1235": [
-                "Mod & Analysis Uncertainty",
-                50,
-                [
-                    "02"
-                ]
-            ],
-            "2:1330-2:1535": [
-                "Computing For Physicists",
-                40,
-                []
-            ],
-            "4:1030-4:1235": [
-                "Mod & Analysis Uncertainty",
-                50,
-                [
-                    "01"
-                ]
-            ],
-            "4:1330-4:1535": [
-                "Mod & Analysis Uncertainty",
-                50,
-                [
-                    "03"
-                ]
-            ],
-            "5:1030-5:1235": [
-                "Mod & Analysis Uncertainty",
-                50,
-                [
-                    "02"
-                ]
-            ],
-            "5:1330-5:1535": [
-                "Computing For Physicists",
-                40,
-                []
-            ],
-            "meta": {
-                "max": 50
-            }
-        },
-        "1034": {
-            "1:1545-1:1735": [
-                "Applied Hydrology & Design",
-                16,
-                [
-                    "01"
-                ]
-            ],
-            "2:1545-2:1735": [
-                "Applied Hydrology & Design",
-                16,
-                [
-                    "02"
-                ]
-            ],
-            "4:1545-4:1735": [
-                "Applied Hydrology & Design",
-                16,
-                [
-                    "03"
-                ]
-            ],
-            "5:1545-5:1735": [
-                "Applied Hydrology & Design",
-                16,
-                [
-                    "04"
-                ]
-            ],
-            "meta": {
-                "max": 16
-            }
-        },
-        "5119": {
-            "2:0800-2:1005": [
-                "Aerospace Struc & Materials",
-                50,
-                [
-                    "01"
-                ]
-            ],
-            "2:1030-2:1235": [
-                "Aerospace Struc & Materials",
-                50,
-                [
-                    "02"
-                ]
-            ],
-            "2:1330-2:1520": [
-                "Computer Info Systems",
-                50,
-                []
-            ],
-            "5:0800-5:1005": [
-                "Aerospace Struc & Materials",
-                50,
-                [
-                    "01"
-                ]
-            ],
-            "5:1030-5:1235": [
-                "Aerospace Struc & Materials",
-                50,
-                [
-                    "02"
-                ]
-            ],
-            "5:1330-5:1520": [
-                "Computer Info Systems",
-                50,
-                []
-            ],
-            "meta": {
-                "max": 50
-            }
-        },
-        "meta": {
-            "max": 319,
-            "access": [
-                "0600-2200",
-                "0600-2200",
-                "",
-                ""
-            ],
-            "name": "Jonsson Engineering Center",
-            "hist": "",
-            "floors": [
-                7,
-                1
-            ]
-        }
-    },
     "Folsom": {
         "107": {
             "1:1030-1:1235": [
@@ -3065,6 +2965,31 @@
         }
     },
     "Pittsburgh": {
+        "5216": {
+            "1:1030-1:1220": [
+                "Organic Chemistry I",
+                30,
+                []
+            ],
+            "2:1030-2:1220": [
+                "Organic Chemistry I",
+                30,
+                []
+            ],
+            "4:1030-4:1220": [
+                "Organic Chemistry I",
+                30,
+                []
+            ],
+            "5:1030-5:1220": [
+                "Organic Chemistry I",
+                30,
+                []
+            ],
+            "meta": {
+                "max": 30
+            }
+        },
         "4206": {
             "1:1030-1:1235": [
                 "Numerical Computing",
@@ -3118,7 +3043,7 @@
             }
         },
         "meta": {
-            "max": 120,
+            "max": 150,
             "access": [
                 "0700-2100",
                 "0700-2100",
@@ -3130,6 +3055,106 @@
             "floors": [
                 5,
                 3
+            ]
+        }
+    },
+    "Carnegie": {
+        "113": {
+            "1:0800-1:1005": [
+                "Aerodynamics",
+                65,
+                [
+                    "01"
+                ]
+            ],
+            "1:1030-1:1235": [
+                "Aerodynamics",
+                50,
+                [
+                    "02"
+                ]
+            ],
+            "1:1330-1:1535": [
+                "Linear Algebra",
+                80,
+                []
+            ],
+            "2:0800-2:1005": [
+                "Application Design Using Java",
+                50,
+                []
+            ],
+            "2:1030-2:1235": [
+                "Comp Architecture & Networks",
+                90,
+                []
+            ],
+            "2:1330-2:1535": [
+                "Rcos",
+                224,
+                [
+                    "01",
+                    "02",
+                    "03",
+                    "04"
+                ]
+            ],
+            "4:0800-4:1005": [
+                "Aerodynamics",
+                65,
+                [
+                    "01"
+                ]
+            ],
+            "4:1030-4:1235": [
+                "Aerodynamics",
+                50,
+                [
+                    "02"
+                ]
+            ],
+            "4:1330-4:1535": [
+                "Linear Algebra",
+                80,
+                []
+            ],
+            "5:0800-5:1005": [
+                "Application Design Using Java",
+                50,
+                []
+            ],
+            "5:1030-5:1235": [
+                "Comp Architecture & Networks",
+                90,
+                []
+            ],
+            "5:1330-5:1535": [
+                "Rcos",
+                224,
+                [
+                    "01",
+                    "02",
+                    "03",
+                    "04"
+                ]
+            ],
+            "meta": {
+                "max": 224
+            }
+        },
+        "meta": {
+            "max": 224,
+            "access": [
+                "0700-2100",
+                "0700-2100",
+                "",
+                ""
+            ],
+            "name": "Carnegie Building",
+            "hist": "",
+            "floors": [
+                3,
+                1
             ]
         }
     },
