@@ -347,34 +347,6 @@
                 "max": 60
             }
         },
-        "3101": {
-            "1:1030-1:1235": [
-                "Intro Engineering Design",
-                30,
-                [
-                    "01"
-                ]
-            ],
-            "4:1030-4:1235": [
-                "Intro Engineering Design",
-                30,
-                [
-                    "01"
-                ]
-            ],
-            "meta": {
-                "max": 30,
-                "printers": [
-                    [
-                        "sa3101lw",
-                        "8.5x11",
-                        "600",
-                        false,
-                        false
-                    ]
-                ]
-            }
-        },
         "5510": {
             "1:1030-1:1235": [
                 "Intermediate Macroeconomic Theory",
@@ -441,7 +413,7 @@
             }
         },
         "meta": {
-            "max": 303,
+            "max": 273,
             "access": [
                 "0700-2400",
                 "0700-2400",
@@ -2699,7 +2671,7 @@
             ],
             "1:1600-1:1805": [
                 "Philosophy Of Science",
-                23,
+                24,
                 [
                     "02"
                 ]
@@ -2721,7 +2693,7 @@
             ],
             "2:1600-2:1805": [
                 "Philosophy Of Science",
-                23,
+                24,
                 [
                     "02"
                 ]
@@ -2740,7 +2712,7 @@
             ],
             "4:1600-4:1805": [
                 "Philosophy Of Science",
-                23,
+                24,
                 [
                     "02"
                 ]
@@ -2754,7 +2726,7 @@
             ],
             "5:1600-5:1805": [
                 "Philosophy Of Science",
-                23,
+                24,
                 [
                     "02"
                 ]
@@ -2921,6 +2893,13 @@
                 30,
                 []
             ],
+            "1:1030-1:1235": [
+                "Intro Engineering Design",
+                30,
+                [
+                    "01"
+                ]
+            ],
             "2:1030-2:1220": [
                 "Organic Chemistry I",
                 30,
@@ -2930,6 +2909,13 @@
                 "Organic Chemistry I",
                 30,
                 []
+            ],
+            "4:1030-4:1235": [
+                "Intro Engineering Design",
+                30,
+                [
+                    "01"
+                ]
             ],
             "5:1030-5:1220": [
                 "Organic Chemistry I",
