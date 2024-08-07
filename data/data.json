@@ -3567,8 +3567,8 @@
                     "0:11:00-0:18:00": "Summer Hours",
                     "url": "mcneil-room"
                 },
-                "Thunder Mountain Curry": {
-                    "url": "TMC"
+                "Bird 'n' Brine": {
+                    "url": "bird-n-brine"
                 },
                 "Wild Blue Sushi": {
                     "url": "wild_blue_sushi"
@@ -3579,8 +3579,8 @@
                 "Halal Shack": {
                     "url": "Halal_shack"
                 },
-                "MrBeast Burger": {
-                    "url": "MrBeast-Burger"
+                "Jimmy John's": {
+                    "url": "jimmy-johns"
                 }
             }
         }
