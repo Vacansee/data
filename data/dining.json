@@ -1,23 +1,21 @@
 {
     "Student Union": {
         "Father's Marketplace": {
-            "1:08:00-1:20:00": "Summer Hours",
-            "2:08:00-2:20:00": "Summer Hours",
-            "3:08:00-3:20:00": "Summer Hours",
-            "4:08:00-4:20:00": "Summer Hours",
-            "5:08:00-5:20:00": "Summer Hours",
-            "6:10:00-6:18:00": "Summer Hours",
-            "0:10:00-0:18:00": "Summer Hours",
+            "1:09:00-1:18:00": "Summer Hours",
+            "2:09:00-2:18:00": "Summer Hours",
+            "3:09:00-3:18:00": "Summer Hours",
+            "4:09:00-4:18:00": "Summer Hours",
+            "5:09:00-5:18:00": "Summer Hours",
+            "6:09:30-6:16:00": "Summer Hours",
+            "0:09:30-0:16:00": "Summer Hours",
             "url": "fathers-marketplace"
         },
         "Panera Bread": {
-            "1:08:00-1:20:00": "Summer Hours",
-            "2:08:00-2:20:00": "Summer Hours",
-            "3:08:00-3:20:00": "Summer Hours",
-            "4:08:00-4:20:00": "Summer Hours",
-            "5:08:00-5:20:00": "Summer Hours",
-            "6:11:00-6:18:00": "Summer Hours",
-            "0:11:00-0:18:00": "Summer Hours",
+            "1:11:00-1:18:00": "",
+            "2:08:00-2:18:00": "",
+            "3:09:00-3:18:00": "",
+            "4:09:00-4:18:00": "",
+            "5:09:00-5:20:00": "",
             "url": "mcneil-room"
         },
         "Bird 'n' Brine": {
@@ -35,11 +33,6 @@
     },
     "Darrin Communications Center": {
         "DCC Cafe": {
-            "1:07:30-1:16:00": "Summer Hours",
-            "2:07:30-2:16:00": "Summer Hours",
-            "3:07:30-3:16:00": "Summer Hours",
-            "4:07:30-4:16:00": "Summer Hours",
-            "5:07:30-5:16:00": "Summer Hours",
             "url": "dcc-cafe"
         }
     },
@@ -50,11 +43,6 @@
     },
     "Folsom Library": {
         "Argo Tea": {
-            "1:09:00-1:14:00": "Summer Hours",
-            "2:09:00-2:14:00": "Summer Hours",
-            "3:09:00-3:14:00": "Summer Hours",
-            "4:09:00-4:14:00": "Summer Hours",
-            "5:09:00-5:14:00": "Summer Hours",
             "url": "library-cafe"
         }
     },
@@ -71,58 +59,31 @@
         "url": "barh-dining-hall"
     },
     "Russell Sage Dining Hall": {
-        "1:07:00-1:10:00": "Summer - Breakfast",
-        "2:07:00-2:10:00": "Summer - Breakfast",
-        "3:07:00-3:10:00": "Summer - Breakfast",
-        "4:07:00-4:10:00": "Summer - Breakfast",
-        "5:07:00-5:10:00": "Summer - Breakfast",
-        "1:10:00-1:11:00": "Summer - Continental Breakfast",
-        "2:10:00-2:11:00": "Summer - Continental Breakfast",
-        "3:10:00-3:11:00": "Summer - Continental Breakfast",
-        "4:10:00-4:11:00": "Summer - Continental Breakfast",
-        "5:10:00-5:11:00": "Summer - Continental Breakfast",
-        "1:11:00-1:15:00": "Summer - Lunch",
-        "2:11:00-2:15:00": "Summer - Lunch",
-        "3:11:00-3:15:00": "Summer - Lunch",
-        "4:11:00-4:15:00": "Summer - Lunch",
-        "5:11:00-5:15:00": "Summer - Lunch",
         "url": "russell-sage"
     },
     "Simply to Go": {
-        "1:08:00-1:14:00": "Summer Hours",
-        "2:08:00-2:14:00": "Summer Hours",
-        "3:08:00-3:14:00": "Summer Hours",
-        "4:08:00-4:14:00": "Summer Hours",
-        "5:08:00-5:14:00": "Summer Hours",
         "url": "simply-to-go"
     },
     "Commons Dining Hall": {
-        "1:07:00-1:10:00": "Summer - Breakfast",
-        "2:07:00-2:10:00": "Summer - Breakfast",
-        "3:07:00-3:10:00": "Summer - Breakfast",
-        "4:07:00-4:10:00": "Summer - Breakfast",
-        "5:07:00-5:10:00": "Summer - Breakfast",
-        "1:10:00-1:11:00": "Summer - Continental Breakfast",
-        "2:10:00-2:11:00": "Summer - Continental Breakfast",
-        "3:10:00-3:11:00": "Summer - Continental Breakfast",
-        "4:10:00-4:11:00": "Summer - Continental Breakfast",
-        "5:10:00-5:11:00": "Summer - Continental Breakfast",
-        "1:11:00-1:15:30": "Summer - Lunch",
-        "2:11:00-2:15:30": "Summer - Lunch",
-        "3:11:00-3:15:30": "Summer - Lunch",
-        "4:11:00-4:15:30": "Summer - Lunch",
-        "5:11:00-5:15:30": "Summer - Lunch",
-        "1:16:30-1:21:00": "Summer - Dinner",
-        "2:16:30-2:21:00": "Summer - Dinner",
-        "3:16:30-3:21:00": "Summer - Dinner",
-        "4:16:30-4:21:00": "Summer - Dinner",
-        "6:09:00-6:14:00": "Summer - Brunch",
-        "0:09:00-0:14:00": "Summer - Brunch",
-        "6:14:00-6:16:30": "Summer - Late Lunch",
-        "0:14:00-0:16:30": "Summer - Late Lunch",
-        "5:16:30-5:20:00": "Summer - Dinner",
-        "6:16:30-6:20:00": "Summer - Dinner",
-        "0:16:30-0:20:00": "Summer - Dinner",
+        "1:07:00-1:09:00": "Breakfast",
+        "2:07:00-2:09:00": "Breakfast",
+        "3:07:00-3:09:00": "Breakfast",
+        "4:07:00-4:09:00": "Breakfast",
+        "5:07:00-5:09:00": "Breakfast",
+        "1:11:00-1:14:00": "Lunch",
+        "2:11:00-2:14:00": "Lunch",
+        "3:11:00-3:14:00": "Lunch",
+        "4:11:00-4:14:00": "Lunch",
+        "5:11:00-5:14:00": "Lunch",
+        "1:17:00-1:20:00": "Dinner",
+        "2:17:00-2:20:00": "Dinner",
+        "3:17:00-3:20:00": "Dinner",
+        "4:17:00-4:20:00": "Dinner",
+        "6:09:00-6:14:00": "Brunch",
+        "0:09:00-0:14:00": "Brunch",
+        "5:17:00-5:20:00": "Dinner",
+        "6:17:00-6:20:00": "Dinner",
+        "0:17:00-0:20:00": "Dinner",
         "url": "commons-dining-hall"
     }
 }
